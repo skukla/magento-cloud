@@ -54,3 +54,4 @@ atlassian*
 /dev/tests
 /generated/*
 !/generated/.htaccess
+auth.json
