@@ -9,3 +9,15 @@ mysql:
 redis:
     type: redis:3.0
 
+elasticsearch:
+   type: elasticsearch:2.4
+   disk: 1024
+   configuration:
+    plugins:
+      - analysis-icu
+      - analysis-phonetic
+      - lang-python
+
+rabbitmq:
+    type: rabbitmq
+    disk: 1024

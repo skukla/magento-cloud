@@ -2,6 +2,6 @@
 #
 # Each route describes how an incoming URL is going to be processed.
 
-"http://{default}/":
+"https://{default}/":
     type: upstream
     upstream: "mymagento:php"
