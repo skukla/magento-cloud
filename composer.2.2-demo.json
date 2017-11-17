@@ -1,0 +1,371 @@
+{
+    "name": "magento/project-enterprise-edition",
+    "description": "eCommerce Platform for Growth (Enterprise Edition)",
+    "type": "project",
+    "version": "2.2.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-autofill.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-autofill-sample-data.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-customer-sample-data.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-instorepickup.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-instorepickup-sample-data.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-productbadge.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-productbadge-sample-data.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-product-sample-data-update.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/bluefoot.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/easysocialshop_magento2.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/magento-scripts.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/ece-tools.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/ece-patches.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-demo-admin-configurations.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/amasty-module-base.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/amasty-module-blog-pro.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/amasty-module-duplicate-categories.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/amasty-module-free-gift.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/amasty-module-geoip.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/amasty-module-groupcat.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/amasty-module-product-attachments.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/amasty-module-search-autocomplete.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/amasty-module-special-promotions.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/amasty-module-special-promotions-pro.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/amasty-module-store-locator.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-sales-sample-data.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-demo-sample-order-data.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/magento2-extension.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/paradoxlabs-tokenbase.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/paradoxlabs-subscriptions.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-luma-de-products.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-luma-de-setup.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-luma-de-cms.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-luma-de-widget.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-luma-de-attributes.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-luma-de-categories.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/theme-frontend-venia.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-venia-setup.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-venia-catalog-sample-data.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-venia-cms-sample-data.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/module-switcherlogos.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/module-megamenu.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/module-lookbook.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/module-venia-media-sample-data.git"
+        },
+        {
+            "type": "composer",
+            "url": "https://mcom-connector.bcn.magento.com/"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-productimageswitcher.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-vimeo.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-productimageswitcher.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-venia-video-sample-data.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-elasticsearch-config.git"
+        },
+        {
+            "type": "git",
+            "url": "git@gitlab.the1umastory.com:md/module-shipping-m2-eap.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-post-install.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/module-installation-overrides.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/dock-mage.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:PMET-public/nfs4d4m.git"
+        }
+    ],
+    "scripts": {
+        "pre-autoload-dump" : [
+            "vendor/magentoese/magento-scripts/composer-setup.sh demo"
+        ],
+        "post-autoload-dump" : [
+        ]
+    },
+    "require": {
+        "amasty/base": "dev-master",
+        // had error with posting class name
+        "amasty/blog": "dev-master",
+        "amasty/geoip": "dev-master",
+        "amasty/groupcat": "dev-master",
+        "amasty/duplicatecategories": "dev-master",
+        "amasty/product-attachment": "dev-master",
+        // autocomplete breaking with Asymmetric transaction rollback error on install but not upgrade.
+        // however still causing errors when reindexing
+        // "amasty/module-search-autocomplete": "dev-master",
+        // special promo causes issue with attribute code automatic_sorting
+        // "amasty/module-special-promo": "dev-master",
+        // "amasty/module-special-promo-pro": "dev-master",
+        "amasty/module-store-locator": "dev-master",
+        // "amasty/promo": "dev-master",
+        "classyllama/module-owlcarousel":"dev-master",
+        "fastly/magento2": "^1.2",
+        "firegento/fastsimpleimport2": "dev-updated",
+        "gene/bluefoot": "dev-develop-no-branding",
+        "m2epro/magento2-extension": "dev-master",
+        "magento/magento-cloud-metapackage": "2.2.1",
+        "magento/module-bundle-sample-data": "100.2.*",
+        "magento/module-widget-sample-data": "100.2.*",
+        "magento/module-catalog-sample-data": "100.2.*",
+        "magento/module-customer-sample-data": "100.2.*",
+        "magento/module-theme-sample-data": "100.2.*",
+        "magento/module-cms-sample-data": "100.2.*",
+        "magento/module-review-sample-data": "100.2.*",
+        "magento/module-catalog-rule-sample-data": "100.2.*",
+        "magento/module-sales-rule-sample-data": "100.2.*",
+        "magento/module-sales-sample-data": "100.2.*",
+        "magento/module-tax-sample-data": "100.2.*",
+        "magento/module-downloadable-sample-data": "100.2.*",
+        "magento/module-grouped-product-sample-data": "100.2.*",
+        "magento/module-msrp-sample-data": "100.2.*",
+        "magento/module-gift-card-sample-data": "100.2.*",
+        "magento/module-product-links-sample-data": "100.2.*",
+        "magento/module-wishlist-sample-data": "100.2.*",
+        "magento/module-configurable-sample-data": "100.2.*",
+        "magento/module-customer-balance-sample-data": "100.2.*",
+        "magento/module-target-rule-sample-data": "100.2.*",
+        "magento/module-gift-registry-sample-data": "100.2.*",
+        "magento/module-multiple-wishlist-sample-data": "100.2.*",
+        "magento/module-swatches-sample-data": "100.2.*",
+        "magento/sample-data-media": "100.2.*",
+        "magento/module-offline-shipping-sample-data": "100.2.*",
+        // "magento/mcom-connector" : "*",
+        "magentoese/dock-mage": "dev-master",
+        "magentoese/ece-tools": "dev-develop",
+        "magentoese/ece-patches": "dev-develop",
+        "magentoese/facebook-module": "dev-master",
+        "magentoese/magento-scripts": "dev-2.2-ga",
+        "magentoese/module-admin-configurations": "dev-master",
+        "magentoese/module-autofill": "dev-master",
+        "magentoese/module-autofill-sample-data": "dev-demo",
+        "magentoese/module-customer-sample-data": "dev-master",
+        "magentoese/module-demo-admin-configurations": "dev-master",
+        "magentoese/module-demo-order-data": "dev-master",
+        // "magentoese/module-elasticsearch-config": "dev-master",
+        "magentoese/module-installation-overrides": "dev-develop",
+        "magentoese/module-instorepickup": "dev-master",
+        "magentoese/module-instorepickup-sample-data": "dev-master",
+        "magentoese/module-lookbook": "dev-develop",
+        "magentoese/module-luma-de-attributes": "dev-master",
+        "magentoese/module-luma-de-categories": "dev-master",
+        "magentoese/module-luma-de-cms": "dev-develop",
+        "magentoese/module-luma-de-products": "dev-master",
+        "magentoese/module-luma-de-setup": "dev-master",
+        "magentoese/module-luma-de-widget": "dev-master",
+        "magentoese/module-megamenu": "dev-master",
+        "magentoese/module-post-install": "dev-master",
+        "magentoese/module-product-sample-data-update": "dev-master",
+        "magentoese/module-product-image-switcher": "dev-master",
+        "magentoese/module-productbadge": "dev-master",
+        "magentoese/module-productbadge-sample-data": "dev-master",
+        "magentoese/module-sales-sample-data": "dev-master",
+        "magentoese/module-switcherlogos": "dev-develop",
+        "magentoese/module-venia-setup": "dev-develop",
+        "magentoese/module-venia-catalog-sample-data": "dev-develop",
+        "magentoese/module-venia-cms-sample-data": "dev-develop",
+        "magentoese/module-venia-media-sample-data": "dev-master",
+        "magentoese/module-venia-video-sample-data": "dev-master",
+        "magentoese/module-vimeo": "2.2.x-dev",
+        "magentoese/nfs4d4m": "dev-master",
+        "magentoese/theme-frontend-venia": "dev-develop",
+        "paradoxlabs/tokenbase":"dev-master",
+        "paradoxlabs/subscriptions": "dev-master"
+        //"smile/elasticsuite": "~2.3.6",
+    },
+    "config": {
+        "use-include-path": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Magento\\Framework\\": "lib/internal/Magento/Framework/",
+            "Magento\\Setup\\": "setup/src/Magento/Setup/",
+            "Magento\\": "app/code/Magento/"
+        },
+        "psr-0": {
+            "": "app/code/"
+        },
+        "files": [
+            "app/etc/NonComposerComponentRegistration.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Magento\\Sniffs\\": "dev/tests/static/framework/Magento/Sniffs/",
+            "Magento\\Tools\\": "dev/tools/Magento/Tools/",
+            "Magento\\Tools\\Sanity\\": "dev/build/publication/sanity/Magento/Tools/Sanity/",
+            "Magento\\TestFramework\\Inspection\\": "dev/tests/static/framework/Magento/TestFramework/Inspection/",
+            "Magento\\TestFramework\\Utility\\": "dev/tests/static/framework/Magento/TestFramework/Utility/"
+        }
+    },
+    "minimum-stability": "alpha",
+    "prefer-stable": true,
+    "extra": {
+        "magento-force": "override"
+    }
+}
