@@ -10083,7 +10083,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/ece-tools.git",
-                "reference": "380809c7a57d9c2f477471ca0a173a974c0775dc"
+                "reference": "6fb5e3e49d35e63499400a462190c4f15ebad584"
             },
             "require": {
                 "composer/composer": "@stable",
@@ -10133,7 +10133,7 @@
                 "AFL-3.0"
             ],
             "description": "Provides tools to build and deploy Magento 2 Enterprise Edition",
-            "time": "2017-11-01 03:14:59"
+            "time": "2017-11-17 16:52:23"
         },
         {
             "name": "magentoese/facebook-module",
@@ -11180,16 +11180,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.30",
+            "version": "v2.8.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "3eeaec6a5d9a253925139cd19eda07d882635d87"
+                "reference": "7cad097cf081c0ab3d0322cc38d34ee80484d86f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/3eeaec6a5d9a253925139cd19eda07d882635d87",
-                "reference": "3eeaec6a5d9a253925139cd19eda07d882635d87",
+                "url": "https://api.github.com/repos/symfony/console/zipball/7cad097cf081c0ab3d0322cc38d34ee80484d86f",
+                "reference": "7cad097cf081c0ab3d0322cc38d34ee80484d86f",
                 "shasum": ""
             },
             "require": {
@@ -11237,7 +11237,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-11-12T16:36:54+00:00"
+            "time": "2017-11-16T15:20:19+00:00"
         },
         {
             "name": "symfony/debug",
@@ -11298,7 +11298,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.8.30",
+            "version": "v2.8.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -11358,7 +11358,7 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v3.3.12",
+            "version": "v3.3.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -11407,7 +11407,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v3.3.12",
+            "version": "v3.3.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -11515,7 +11515,7 @@
         },
         {
             "name": "symfony/process",
-            "version": "v2.8.30",
+            "version": "v2.8.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
