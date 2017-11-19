@@ -266,7 +266,7 @@
         // "amasty/promo": "dev-master",
         "classyllama/module-owlcarousel":"dev-master",
         "fastly/magento2": "^1.2",
-        "firegento/fastsimpleimport2": "dev-updated",
+        "firegento/fastsimpleimport": "dev-updated",
         "gene/bluefoot": "dev-develop-no-branding",
         "m2epro/magento2-extension": "dev-master",
         "magento/magento-cloud-metapackage": "2.2.1",
@@ -333,9 +333,9 @@
         "magentoese/module-venia-video-sample-data": "dev-master",
         "magentoese/module-vimeo": "2.2.x-dev",
         "magentoese/nfs4d4m": "dev-master",
-        "magentoese/theme-frontend-venia": "dev-develop",
-        "paradoxlabs/tokenbase":"dev-master",
-        "paradoxlabs/subscriptions": "dev-master"
+        "magentoese/theme-frontend-venia": "dev-develop"
+        //"paradoxlabs/tokenbase":"dev-master"
+        //"paradoxlabs/subscriptions": "dev-master"
         //"smile/elasticsuite": "~2.3.6",
     },
     "config": {
