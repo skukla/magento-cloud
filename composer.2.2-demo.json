@@ -165,10 +165,10 @@
         "magentoese/nfs4d4m": "dev-master",
         "magentoese/theme-frontend-venia": "dev-develop",
         "paradoxlabs/authnetcim": "dev-master",
-        "paradoxlabs/tokenbase": "paradoxlabs/tokenbase",
+        "paradoxlabs/firstdata": "dev-master",
         "paradoxlabs/stripe": "dev-master",
         "paradoxlabs/subscriptions": "dev-master",
-        "paradoxlabs/tokenbase":"dev-master"
+        "paradoxlabs/tokenbase": "4.0.1"
         //"smile/elasticsuite": "~2.3.6",
     },
     "config": {

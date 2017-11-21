@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d51d741869c17694aefe592f716fc6f3",
+    "content-hash": "a02bfbf3e4088aab97365c6d9b07ad34",
     "packages": [
         {
             "name": "amasty/base",
@@ -12,10 +12,10 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-base.git",
-                "reference": "0623c396f16406ab6330617a869f2e27fbb70548"
+                "reference": "f7c9776ff8ccfc4181ca5d0c8535bbe5389e6b03"
             },
             "require": {
-                "php": "~5.5.0|~5.6.0|~7.0.0"
+                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -30,7 +30,7 @@
                 "Commercial"
             ],
             "description": "Amasty Base",
-            "time": "2016-10-17 19:12:02"
+            "time": "2017-11-20 19:01:06"
         },
         {
             "name": "amasty/blog",
@@ -38,11 +38,11 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-blog-pro.git",
-                "reference": "95b09fb4ba8265d1416788507dcbf0a9459ac45d"
+                "reference": "93995384d18e5141f7281619d7ac17d9f3c4cfad"
             },
             "require": {
                 "amasty/base": "*",
-                "php": "~5.5.0|~5.6.0|~7.0.0"
+                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -57,7 +57,7 @@
                 "Commercial"
             ],
             "description": "Amasty Blog Pro",
-            "time": "2016-11-16 18:43:26"
+            "time": "2017-11-20 19:01:07"
         },
         {
             "name": "amasty/duplicatecategories",
@@ -65,11 +65,11 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-duplicate-categories.git",
-                "reference": "9facfc9c319c31adc86d4b023a732d093447afd3"
+                "reference": "59e725d472d462ba9aca855d35c73999e1f95abf"
             },
             "require": {
                 "amasty/base": "*",
-                "php": "~5.5.0|~5.6.0|~7.0.0"
+                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -84,7 +84,7 @@
                 "Commercial"
             ],
             "description": "Duplicate Categories by Amasty",
-            "time": "2016-10-31 00:09:36"
+            "time": "2017-11-20 19:01:07"
         },
         {
             "name": "amasty/geoip",
@@ -92,11 +92,11 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-geoip.git",
-                "reference": "b9c5b3baa571a3117743a0628bdbec7a3ab05d8e"
+                "reference": "db3aa5c516cff33cf6e504d1e5bb05d8c9b12165"
             },
             "require": {
                 "amasty/base": "*",
-                "php": "~5.5.0|~5.6.0|~7.0.0"
+                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -111,7 +111,7 @@
                 "Commercial"
             ],
             "description": "Amasty Geoip Data",
-            "time": "2016-10-31 01:06:04"
+            "time": "2017-11-20 19:01:07"
         },
         {
             "name": "amasty/groupcat",
@@ -119,11 +119,11 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-groupcat.git",
-                "reference": "45812e11d2099b8717d3b15739780d22cf5b0ede"
+                "reference": "010cb5f3322e25eba72fa6bcc7d4b1ee1e0166b2"
             },
             "require": {
                 "amasty/base": "*",
-                "php": "~5.5.0|~5.6.0|~7.0.0"
+                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -138,7 +138,62 @@
                 "Commercial"
             ],
             "description": "Amasty Customer Group Catalog",
-            "time": "2016-11-03 16:19:06"
+            "time": "2017-11-20 19:01:07"
+        },
+        {
+            "name": "amasty/module-special-promo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.the1umastory.com:md/amasty-module-special-promotions.git",
+                "reference": "bc7f3a7741f0e251de48750164175d2fbff81649"
+            },
+            "require": {
+                "amasty/base": ">=1.0.6",
+                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Rules\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Special Promotions by Amasty",
+            "time": "2017-11-20 19:01:07"
+        },
+        {
+            "name": "amasty/module-special-promo-pro",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.the1umastory.com:md/amasty-module-special-promotions-pro.git",
+                "reference": "4e752555c6a5e115ba327ac4c79a948e4df83c6e"
+            },
+            "require": {
+                "amasty/base": ">=1.0.6",
+                "amasty/module-special-promo": "*",
+                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\RulesPro\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Special Promotions Pro by Amasty",
+            "time": "2017-11-20 19:01:08"
         },
         {
             "name": "amasty/module-store-locator",
@@ -146,11 +201,12 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-store-locator.git",
-                "reference": "0daf07e930e355a460bcc353b38a0f5f8dff4ede"
+                "reference": "f2a0002f1e466e5fc7c018454b20a7c54f8356bc"
             },
             "require": {
-                "amasty/base": "*",
-                "php": "~5.5.0|~5.6.0|~7.0.0"
+                "amasty/base": ">=1.0.6",
+                "amasty/geoip": "*",
+                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -165,7 +221,7 @@
                 "Commercial"
             ],
             "description": "Store Locator by Amasty",
-            "time": "2016-10-31 01:31:17"
+            "time": "2017-11-20 19:01:08"
         },
         {
             "name": "amasty/product-attachment",
@@ -173,11 +229,11 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-product-attachments.git",
-                "reference": "9311844021f1fb45ac0d79d13f83be0c052828e5"
+                "reference": "07000cb0813da190821a457aeb40ec427e7ea2b0"
             },
             "require": {
                 "amasty/base": "*",
-                "php": "~5.5.0|~5.6.0|~7.0.0"
+                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -192,7 +248,88 @@
                 "Commercial"
             ],
             "description": "Product Attachments by Amasty",
-            "time": "2016-10-31 00:42:24"
+            "time": "2017-11-20 19:01:07"
+        },
+        {
+            "name": "amasty/promo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.the1umastory.com:md/amasty-module-free-gift.git",
+                "reference": "a9fd51d121adab0158d54be97cb5f543084d9bec"
+            },
+            "require": {
+                "amasty/base": ">=1.0.6",
+                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Promo\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Free Gift by Amasty",
+            "time": "2017-11-20 19:01:07"
+        },
+        {
+            "name": "amasty/rgrid",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.the1umastory.com:md/amasty-module-rules-grid.git",
+                "reference": "77d67f1e7caa7b280d2aa5b259f08bb386ad8efa"
+            },
+            "require": {
+                "amasty/base": "*",
+                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Rgrid\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Extended Rules Grid by Amasty",
+            "time": "2017-11-20 18:41:02"
+        },
+        {
+            "name": "amasty/xsearch",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.the1umastory.com:md/amasty-module-search-autocomplete.git",
+                "reference": "791a3a05a2cd62f0cf57c6baff5d08e168789a2e"
+            },
+            "require": {
+                "amasty/base": "*",
+                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Xsearch\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Search Autocomplete by Amasty",
+            "time": "2017-11-20 19:01:08"
         },
         {
             "name": "braintree/braintree_php",
@@ -769,16 +906,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.34",
+            "version": "1.2.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "bca68634934f210121e039971891ff56fd8f936a"
+                "reference": "9624f8f5dcd51dea7287858824925821a7c3f304"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/bca68634934f210121e039971891ff56fd8f936a",
-                "reference": "bca68634934f210121e039971891ff56fd8f936a",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/9624f8f5dcd51dea7287858824925821a7c3f304",
+                "reference": "9624f8f5dcd51dea7287858824925821a7c3f304",
                 "shasum": ""
             },
             "require": {
@@ -803,7 +940,7 @@
                 "BSD"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2017-11-15T13:55:31+00:00"
+            "time": "2017-11-20T14:57:14+00:00"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -1182,32 +1319,17 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:PMET-public/magento2-extension.git",
-                "reference": "16acd098ce270100a7c613a2ede92d39b805f94c"
+                "url": "https://github.com/m2epro/magento2-extension.git",
+                "reference": "f6388fec6f629d6d142ec86d3b9660941a488e13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/m2epro/magento2-extension/zipball/f6388fec6f629d6d142ec86d3b9660941a488e13",
+                "reference": "f6388fec6f629d6d142ec86d3b9660941a488e13",
+                "shasum": ""
             },
             "require": {
-                "magento/framework": "*",
-                "magento/module-backend": "*",
-                "magento/module-catalog": "*",
-                "magento/module-catalog-inventory": "*",
-                "magento/module-config": "*",
-                "magento/module-customer": "*",
-                "magento/module-eav": "*",
-                "magento/module-payment": "*",
-                "magento/module-quote": "*",
-                "magento/module-require-js": "*",
-                "magento/module-sales": "*",
-                "magento/module-sales-sequence": "*",
-                "magento/module-shipping": "*",
-                "magento/module-store": "*",
-                "magento/module-tax": "*",
-                "php": "~5.5.0|~5.6.0|~7.0.0"
-            },
-            "suggest": {
-                "magento/module-bundle": "Allows using bundle products in listings and orders",
-                "magento/module-configurable-product": "Allows using configurable products in listings and orders",
-                "magento/module-cron": "Allows execute scheduled tasks even if site not available from M2E Pro Cron Service",
-                "magento/module-grouped-product": "Allows using grouped products in listings and orders"
+                "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -1218,6 +1340,10 @@
                     "Ess\\M2ePro\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Refer to Terms and Conditions on m2epro.com"
+            ],
             "description": "M2E Pro is a Magento trusted (TM), award-winning extension, which allows merchants of all sizes to fully integrate Magento based system(s) into eBay/Amazon/Rakuten.com platforms.",
             "homepage": "http://www.m2epro.com/",
             "keywords": [
@@ -1226,7 +1352,7 @@
                 "magento",
                 "rakuten"
             ],
-            "time": "2017-09-22 18:10:29"
+            "time": "2017-10-25 13:12:44"
         },
         {
             "name": "magento/composer",
@@ -10822,28 +10948,6 @@
             "time": "2017-03-22 19:16:49"
         },
         {
-            "name": "magentoese/module-post-install",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:PMET-public/module-post-install.git",
-                "reference": "d8e78e337f0300068a1391fdfa07691a1212562a"
-            },
-            "require": {
-                "php": "~5.6.0|7.0.2|~7.0.6"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MagentoEse\\PostInstall\\": ""
-                }
-            },
-            "time": "2017-10-18 13:59:45"
-        },
-        {
             "name": "magentoese/module-product-image-switcher",
             "version": "dev-master",
             "source": {
@@ -11274,6 +11378,182 @@
                 "stylesheet"
             ],
             "time": "2017-03-28T22:19:25+00:00"
+        },
+        {
+            "name": "paradoxlabs/authnetcim",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.the1umastory.com:md/paradoxlabs-authnetcim.git",
+                "reference": "14aaff4f371a65be4e556878f218d869e0f57339"
+            },
+            "require": {
+                "paradoxlabs/tokenbase": "~4.0.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "ParadoxLabs\\Authnetcim\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Authorize.Net CIM payment method for Magento 2.x by Paradox Labs",
+            "keywords": [
+                "authorize.net",
+                "payment",
+                "tokenization"
+            ],
+            "time": "2017-11-20 19:40:32"
+        },
+        {
+            "name": "paradoxlabs/firstdata",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.the1umastory.com:md/paradoxlabs-firstdata.git",
+                "reference": "8e435193476fc3ee45f34bd71c81e46aea466a94"
+            },
+            "require": {
+                "paradoxlabs/tokenbase": "~4.0.1"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "ParadoxLabs\\FirstData\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "First Data payment method for Magento 2.x by Paradox Labs",
+            "keywords": [
+                "data",
+                "first",
+                "firstdata",
+                "payeezy",
+                "payment",
+                "tokenization"
+            ],
+            "time": "2017-11-20 19:32:59"
+        },
+        {
+            "name": "paradoxlabs/stripe",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.the1umastory.com:md/paradoxlabs-stripe.git",
+                "reference": "c358d4e3962a3ef1893ef3065efd732558a459a4"
+            },
+            "require": {
+                "paradoxlabs/tokenbase": "~4.0.0",
+                "stripe/stripe-php": "^4.8.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "ParadoxLabs\\Stripe\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Stripe payment method for Magento 2.x by ParadoxLabs",
+            "keywords": [
+                "payment",
+                "stripe",
+                "tokenization"
+            ],
+            "time": "2017-11-20 19:35:02"
+        },
+        {
+            "name": "paradoxlabs/subscriptions",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.the1umastory.com:md/paradoxlabs-subscriptions.git",
+                "reference": "264cf68fca72175c85b02e46d797ab7713144931"
+            },
+            "require": {
+                "magento/framework": "^100.0||^101.0",
+                "magento/module-admin-notification": "^100.0",
+                "magento/module-backend": "^100.0",
+                "magento/module-catalog": "^100.0||^101.0||^102.0",
+                "magento/module-checkout": "^100.0",
+                "magento/module-customer": "^100.0||^101.0",
+                "magento/module-directory": "^100.0",
+                "magento/module-eav": "^100.0||^101.0",
+                "magento/module-payment": "^100.0",
+                "magento/module-quote": "^100.0||^101.0",
+                "magento/module-sales": "^100.0||^101.0",
+                "magento/module-store": "^100.0",
+                "magento/module-theme": "^100.0",
+                "magento/module-ui": "^100.0||^101.0",
+                "magento/module-user": "^100.0||^101.0",
+                "monolog/monolog": "^1.11",
+                "paradoxlabs/tokenbase": "~4.0.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "ParadoxLabs\\Subscriptions\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Adaptive Subscriptions: Subscriptions, auto-shipments, and recurring payments by ParadoxLabs.",
+            "time": "2017-11-20 19:39:46"
+        },
+        {
+            "name": "paradoxlabs/tokenbase",
+            "version": "4.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.the1umastory.com:md/paradoxlabs-tokenbase.git",
+                "reference": "bbfae4fc57ab48db2cfe114eeeeccdf3453a4131"
+            },
+            "require": {
+                "magento/framework": "^100.0||^101.0",
+                "magento/module-admin-notification": "^100.0",
+                "magento/module-backend": "^100.0",
+                "magento/module-checkout": "^100.0",
+                "magento/module-config": "^100.0||^101.0",
+                "magento/module-customer": "^100.0||^101.0",
+                "magento/module-directory": "^100.0",
+                "magento/module-payment": "^100.0",
+                "magento/module-quote": "^100.0||^101.0",
+                "magento/module-sales": "^100.0||^101.0",
+                "magento/module-store": "^100.0",
+                "monolog/monolog": "^1.11"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "ParadoxLabs\\TokenBase\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Base module for ParadoxLabs tokenization payment methods.",
+            "time": "2017-09-20T00:00:00+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -12078,6 +12358,61 @@
             ],
             "description": "German (Germany) language",
             "time": "2017-10-17T12:11:54+00:00"
+        },
+        {
+            "name": "stripe/stripe-php",
+            "version": "v4.13.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stripe/stripe-php.git",
+                "reference": "834681b9cdfa68d88a27e36ec9e356b598a5f0e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/834681b9cdfa68d88a27e36ec9e356b598a5f0e6",
+                "reference": "834681b9cdfa68d88a27e36ec9e356b598a5f0e6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "satooshi/php-coveralls": "~0.6.1",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Stripe\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stripe and contributors",
+                    "homepage": "https://github.com/stripe/stripe-php/contributors"
+                }
+            ],
+            "description": "Stripe PHP Library",
+            "homepage": "https://stripe.com/",
+            "keywords": [
+                "api",
+                "payment processing",
+                "stripe"
+            ],
+            "time": "2017-06-20T01:39:06+00:00"
         },
         {
             "name": "symfony/console",
@@ -13762,16 +14097,16 @@
         },
         {
             "name": "zendframework/zend-serializer",
-            "version": "2.8.0",
+            "version": "2.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-serializer.git",
-                "reference": "ff74ea020f5f90866eb28365327e9bc765a61a6e"
+                "reference": "7ac42b9a47e9cb23895173a3096bc3b3fb7ac580"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-serializer/zipball/ff74ea020f5f90866eb28365327e9bc765a61a6e",
-                "reference": "ff74ea020f5f90866eb28365327e9bc765a61a6e",
+                "url": "https://api.github.com/repos/zendframework/zend-serializer/zipball/7ac42b9a47e9cb23895173a3096bc3b3fb7ac580",
+                "reference": "7ac42b9a47e9cb23895173a3096bc3b3fb7ac580",
                 "shasum": ""
             },
             "require": {
@@ -13780,8 +14115,9 @@
                 "zendframework/zend-stdlib": "^2.7 || ^3.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.5",
-                "squizlabs/php_codesniffer": "^2.3.1",
+                "doctrine/instantiator": "1.0.*",
+                "phpunit/phpunit": "^5.5",
+                "zendframework/zend-coding-standard": "~1.0.0",
                 "zendframework/zend-math": "^2.6",
                 "zendframework/zend-servicemanager": "^2.7.5 || ^3.0.3"
             },
@@ -13815,7 +14151,7 @@
                 "serializer",
                 "zf2"
             ],
-            "time": "2016-06-21T17:01:55+00:00"
+            "time": "2017-11-20T22:21:04+00:00"
         },
         {
             "name": "zendframework/zend-server",
@@ -14351,11 +14687,16 @@
     "stability-flags": {
         "amasty/base": 20,
         "amasty/blog": 20,
+        "amasty/duplicatecategories": 20,
         "amasty/geoip": 20,
         "amasty/groupcat": 20,
-        "amasty/duplicatecategories": 20,
         "amasty/product-attachment": 20,
+        "amasty/promo": 20,
+        "amasty/module-special-promo": 20,
+        "amasty/module-special-promo-pro": 20,
         "amasty/module-store-locator": 20,
+        "amasty/rgrid": 20,
+        "amasty/xsearch": 20,
         "classyllama/module-owlcarousel": 20,
         "firegento/fastsimpleimport": 20,
         "gene/bluefoot": 20,
@@ -14382,7 +14723,6 @@
         "magentoese/module-luma-de-setup": 20,
         "magentoese/module-luma-de-widget": 20,
         "magentoese/module-megamenu": 20,
-        "magentoese/module-post-install": 20,
         "magentoese/module-product-sample-data-update": 20,
         "magentoese/module-product-image-switcher": 20,
         "magentoese/module-productbadge": 20,
@@ -14396,7 +14736,11 @@
         "magentoese/module-venia-video-sample-data": 20,
         "magentoese/module-vimeo": 20,
         "magentoese/nfs4d4m": 20,
-        "magentoese/theme-frontend-venia": 20
+        "magentoese/theme-frontend-venia": 20,
+        "paradoxlabs/authnetcim": 20,
+        "paradoxlabs/firstdata": 20,
+        "paradoxlabs/stripe": 20,
+        "paradoxlabs/subscriptions": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
