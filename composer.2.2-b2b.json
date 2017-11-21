@@ -8,106 +8,31 @@
         "AFL-3.0"
     ],
     "repositories": [
-        {
-            "type": "composer",
-            "url": "https://repo.magento.com/"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/bluefoot.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/easysocialshop_magento2.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/magento-scripts.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-autofill.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-autofill-sample-data.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/module-b2b-media-sample-data.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/module-b2b-catalog-sample-data.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/ece-tools.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/ece-patches.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-cms-sample-data.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-my-account-widget.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-sales-sample-data.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/theme-brentmill.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-productbadge.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-admin-configurations.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-post-install.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-order-approval.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-company-sample-data.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-order-sample-data.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-shared-catalog-sample-data.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-installation-overrides.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-b2c-sample-data.git"
-        }
+        {"type": "composer", "url": "https://repo.magento.com/"},
+        {"type": "git", "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-autofill-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-autofill.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-admin-configurations.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-b2c-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-cms-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-company-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-order-approval.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-order-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-shared-catalog-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-installation-overrides.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-my-account-widget.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-post-install.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-productbadge.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-sales-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/theme-brentmill.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/bluefoot.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/easysocialshop_magento2.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/ece-patches.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/ece-tools.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-b2b-catalog-sample-data.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-b2b-media-sample-data.git"}
     ],
     "scripts": {
         "pre-autoload-dump" : [
@@ -120,7 +45,7 @@
         "fastly/magento2": "^1.2",
         "firegento/fastsimpleimport": "dev-updated",
         "gene/bluefoot": "dev-1.0.32-develop",
-        "magento/magento-cloud-metapackage": "2.2.0",
+        "magento/magento-cloud-metapackage": "2.2.1",
         "magento/extension-b2b": "*",
         "magentoese/ece-tools": "dev-develop",
         "magentoese/ece-patches": "dev-develop",
