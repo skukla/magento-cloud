@@ -8,238 +8,67 @@
         "AFL-3.0"
     ],
     "repositories": [
-        {
-            "type": "composer",
-            "url": "https://repo.magento.com/"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-autofill.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-autofill-sample-data.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-customer-sample-data.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-instorepickup.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-instorepickup-sample-data.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-productbadge.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-productbadge-sample-data.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-product-sample-data-update.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/bluefoot.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/easysocialshop_magento2.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/magento-scripts.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/ece-tools.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/ece-patches.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-demo-admin-configurations.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/amasty-module-base.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/amasty-module-blog-pro.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/amasty-module-duplicate-categories.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/amasty-module-free-gift.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/amasty-module-geoip.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/amasty-module-groupcat.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/amasty-module-product-attachments.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/amasty-module-search-autocomplete.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/amasty-module-special-promotions.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/amasty-module-special-promotions-pro.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/amasty-module-store-locator.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-sales-sample-data.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-demo-sample-order-data.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/magento2-extension.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/paradoxlabs-tokenbase.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/paradoxlabs-subscriptions.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-luma-de-products.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-luma-de-setup.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-luma-de-cms.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-luma-de-widget.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-luma-de-attributes.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-luma-de-categories.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/theme-frontend-venia.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-venia-setup.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-venia-catalog-sample-data.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-venia-cms-sample-data.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/module-switcherlogos.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/module-megamenu.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/module-lookbook.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/module-venia-media-sample-data.git"
-        },
-        {
-            "type": "composer",
-            "url": "https://mcom-connector.bcn.magento.com/"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-productimageswitcher.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-vimeo.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-productimageswitcher.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-venia-video-sample-data.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-elasticsearch-config.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/module-shipping-m2-eap.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-post-install.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-installation-overrides.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/dock-mage.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/nfs4d4m.git"
-        }
+        {"type": "composer", "url": "https://repo.magento.com/"},
+        {"type": "composer", "url": "https://mcom-connector.bcn.magento.com/"},
+        {"type": "git", "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-m2epro.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-autofill-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-autofill.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-customer-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-demo-admin-configurations.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-demo-sample-order-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-elasticsearch-config.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-installation-overrides.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-instorepickup-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-instorepickup.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-luma-de-attributes.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-luma-de-categories.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-luma-de-cms.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-luma-de-products.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-luma-de-setup.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-luma-de-widget.git"},
+        // {"type": "git", "url": "git@github.com:PMET-public/module-post-install.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-product-sample-data-update.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-productbadge-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-productbadge.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-productimageswitcher.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-sales-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-venia-catalog-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-venia-cms-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-venia-setup.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-venia-video-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-vimeo.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/nfs4d4m.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-venia.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-base.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-blog-pro.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-duplicate-categories.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-free-gift.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-geoip.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-groupcat.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-product-attachments.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-rules-grid.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-search-autocomplete.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-special-promotions-pro.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-special-promotions.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-store-locator.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/bluefoot.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/easysocialshop_magento2.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/ece-patches.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/ece-tools.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-lookbook.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-megamenu.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-shipping-m2-eap.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-switcherlogos.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-venia-media-sample-data.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/paradoxlabs-authnetcim.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/paradoxlabs-firstdata.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/paradoxlabs-stripe.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/paradoxlabs-subscriptions.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/paradoxlabs-tokenbase.git"}
     ],
     "scripts": {
         "pre-autoload-dump" : [
