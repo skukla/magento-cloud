@@ -2,60 +2,24 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
     ],
     "repositories": [
-        {
-            "type": "composer",
-            "url": "https://repo.magento.com/"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/bluefoot.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/easysocialshop_magento2.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/magento-scripts.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/ece-tools.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/ece-patches.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"
-        },
-        {
-            "type": "git",
-            "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-post-install.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-installation-overrides.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/dock-mage.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:PMET-public/nfs4d4m.git"
-        }
+        {"type": "composer", "url": "https://repo.magento.com/"},
+        {"type": "git", "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-installation-overrides.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-post-install.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/nfs4d4m.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/bluefoot.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/easysocialshop_magento2.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/ece-patches.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/ece-tools.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"}
     ],
     "scripts": {
         "pre-autoload-dump" : [
