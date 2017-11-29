@@ -29,7 +29,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-luma-de-products.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-luma-de-setup.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-luma-de-widget.git"},
-        
+        {"type": "git", "url": "git@github.com:PMET-public/module-post-install.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-product-sample-data-update.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-productbadge-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-productbadge.git"},
@@ -149,7 +149,7 @@
         "magentoese/module-luma-de-setup": "dev-master",
         "magentoese/module-luma-de-widget": "dev-master",
         "magentoese/module-megamenu": "dev-master",
-        
+        "magentoese/module-post-install": "dev-master",
         "magentoese/module-product-sample-data-update": "dev-master",
         "magentoese/module-product-image-switcher": "dev-master",
         "magentoese/module-productbadge": "dev-master",
