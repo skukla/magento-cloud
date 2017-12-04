@@ -12,8 +12,6 @@
         {"type": "git", "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"},
         {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-installation-overrides.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-post-install.git"},
         {"type": "git", "url": "git@github.com:PMET-public/nfs4d4m.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/bluefoot.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/easysocialshop_magento2.git"},
@@ -64,8 +62,6 @@
         "magentoese/facebook-module": "dev-master",
         "magentoese/magento-scripts": "dev-2.2-ga",
         "magentoese/module-admin-configurations": "dev-master",
-        "magentoese/module-installation-overrides": "dev-master",
-        "magentoese/module-post-install": "dev-master",
         "magentoese/nfs4d4m": "dev-master"
     },
     "config": {
