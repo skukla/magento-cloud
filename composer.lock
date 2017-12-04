@@ -903,16 +903,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.36",
+            "version": "1.2.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "9624f8f5dcd51dea7287858824925821a7c3f304"
+                "reference": "3f52a2c3cd44cf3bdf0ad2461f338eb7ca3178ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/9624f8f5dcd51dea7287858824925821a7c3f304",
-                "reference": "9624f8f5dcd51dea7287858824925821a7c3f304",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/3f52a2c3cd44cf3bdf0ad2461f338eb7ca3178ac",
+                "reference": "3f52a2c3cd44cf3bdf0ad2461f338eb7ca3178ac",
                 "shasum": ""
             },
             "require": {
@@ -937,7 +937,7 @@
                 "BSD"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2017-11-20T14:57:14+00:00"
+            "time": "2017-12-04T16:07:53+00:00"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -10426,7 +10426,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/dock-mage.git",
-                "reference": "7595b031402b824fb5c99bf9e4b35f2b0eb8544b"
+                "reference": "f94debe74f84f94575a7de9381abed6deff60067"
             },
             "type": "library",
             "authors": [
@@ -10436,7 +10436,7 @@
                 }
             ],
             "description": "Launch Magento infrastructure using docker-compose",
-            "time": "2017-11-28 23:47:57"
+            "time": "2017-11-29 23:06:05"
         },
         {
             "name": "magentoese/ece-patches",
@@ -10444,7 +10444,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/ece-patches.git",
-                "reference": "7b846ad1625a73913f7cea3fda7ee7cd1ccf992b"
+                "reference": "1daf8284d7a305549b266a3e072ba016d69cc88e"
             },
             "require": {
                 "composer/composer": "@stable",
@@ -10470,7 +10470,7 @@
                 "AFL-3.0"
             ],
             "description": "Provide patches for M2 on MECE instances",
-            "time": "2017-11-16 03:29:11"
+            "time": "2017-12-04 19:17:11"
         },
         {
             "name": "magentoese/ece-tools",
@@ -10563,7 +10563,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "56ec8a53dd76aab26c2ccfdd56ed20520cf94878"
+                "reference": "3ab1063a87ec58c8004e4df2e7760300d7400ad3"
             },
             "type": "project",
             "authors": [
@@ -10573,7 +10573,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2017-11-01 03:42:25"
+            "time": "2017-12-04 17:36:38"
         },
         {
             "name": "magentoese/module-admin-configurations",
@@ -10692,7 +10692,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-demo-sample-order-data.git",
-                "reference": "72205430a78da05e7980d710bea2c9c7c350f4ed"
+                "reference": "4161c85188d724b0d06878b039fcb747587365df"
             },
             "require": {
                 "magento/framework": "*"
@@ -10706,7 +10706,7 @@
                     "MagentoEse\\DemoSampleOrderData\\": ""
                 }
             },
-            "time": "2017-11-19 23:53:55"
+            "time": "2017-12-04 19:30:15"
         },
         {
             "name": "magentoese/module-installation-overrides",
@@ -10758,7 +10758,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-instorepickup-sample-data.git",
-                "reference": "bc2138fa47c056d7764b607d6bb8efba0e3e2b2b"
+                "reference": "d2b1cf09d70e11ff3be2285a784cf8c239dc08f1"
             },
             "require": {
                 "firegento/fastsimpleimport": "dev-updated",
@@ -10773,7 +10773,7 @@
                     "MagentoEse\\InStorePickupSampleData\\": ""
                 }
             },
-            "time": "2017-11-19 20:41:50"
+            "time": "2017-12-04 19:30:19"
         },
         {
             "name": "magentoese/module-lookbook",
@@ -10804,7 +10804,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-luma-de-attributes.git",
-                "reference": "da101d22f608ed1dcf624b752235e88ada95223f"
+                "reference": "2b95625f6ec8baa834d2992a97ff7ddf4f0b5585"
             },
             "require": {
                 "magento/framework": "*"
@@ -10818,7 +10818,7 @@
                     "MagentoEse\\LumaDEAttributes\\": ""
                 }
             },
-            "time": "2017-11-19 20:41:55"
+            "time": "2017-12-04 19:30:22"
         },
         {
             "name": "magentoese/module-luma-de-categories",
@@ -10826,7 +10826,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-luma-de-categories.git",
-                "reference": "91ddd383171ff998a8af2d8e356e3ecb6c9860bd"
+                "reference": "5bc44aa5c271889c9857b960dc0cb5f3975fef49"
             },
             "require": {
                 "magento/framework": "*"
@@ -10840,7 +10840,7 @@
                     "MagentoEse\\LumaDECategories\\": ""
                 }
             },
-            "time": "2017-11-19 20:41:57"
+            "time": "2017-12-04 19:30:25"
         },
         {
             "name": "magentoese/module-luma-de-cms",
@@ -10848,7 +10848,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-luma-de-cms.git",
-                "reference": "77dce68b6076b3334748f0cdda80b5062884b42d"
+                "reference": "c1580208dd69647c4df33c226b1e758afcb213bc"
             },
             "type": "magento2-module",
             "autoload": {
@@ -10859,7 +10859,7 @@
                     "MagentoEse\\LumaDECms\\": ""
                 }
             },
-            "time": "2017-08-04 16:59:50"
+            "time": "2017-12-04 19:30:27"
         },
         {
             "name": "magentoese/module-luma-de-products",
@@ -10867,7 +10867,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-luma-de-products.git",
-                "reference": "5ecd586acb150393f59b388767e896bedce2cc93"
+                "reference": "7853323eb4c0b27ec0898c5afae694c3575c2d61"
             },
             "type": "magento2-module",
             "autoload": {
@@ -10878,7 +10878,7 @@
                     "MagentoEse\\LumaDEProducts\\": ""
                 }
             },
-            "time": "2017-11-19 20:42:00"
+            "time": "2017-12-04 19:30:29"
         },
         {
             "name": "magentoese/module-luma-de-setup",
@@ -10886,7 +10886,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-luma-de-setup.git",
-                "reference": "7832bb0bab509f6d0b0aad0e42d5672d19d3c8d0"
+                "reference": "9c005c770d6e8f1785a58aeab2f43d704996243f"
             },
             "require": {
                 "magento/framework": "*",
@@ -10901,7 +10901,7 @@
                     "MagentoEse\\LumaDESetup\\": ""
                 }
             },
-            "time": "2017-11-27 22:30:06"
+            "time": "2017-12-04 19:30:31"
         },
         {
             "name": "magentoese/module-luma-de-widget",
@@ -10950,7 +10950,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-post-install.git",
-                "reference": "d8e78e337f0300068a1391fdfa07691a1212562a"
+                "reference": "c5ab244ff9f2ecf90b7e8434b3bdc24341594ed7"
             },
             "require": {
                 "php": "~5.6.0|7.0.2|~7.0.6"
@@ -10964,7 +10964,7 @@
                     "MagentoEse\\PostInstall\\": ""
                 }
             },
-            "time": "2017-10-18 13:59:45"
+            "time": "2017-11-29 17:41:58"
         },
         {
             "name": "magentoese/module-product-image-switcher",
@@ -10994,7 +10994,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-product-sample-data-update.git",
-                "reference": "fff43d8f24274779ade03ad1c4191284a4b67e20"
+                "reference": "584901780c45d0390181d55cdf5bf5c2828229ce"
             },
             "require": {
                 "firegento/fastsimpleimport": "dev-updated"
@@ -11008,7 +11008,7 @@
                     "MagentoEse\\ProductSampleDataUpdate\\": ""
                 }
             },
-            "time": "2017-11-19 20:42:10"
+            "time": "2017-12-04 19:30:37"
         },
         {
             "name": "magentoese/module-productbadge",
@@ -11038,7 +11038,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-productbadge-sample-data.git",
-                "reference": "a20827c72c4b576007601ad0e5c29209734577ba"
+                "reference": "0d4e7b806d14422ba6d09d6355af3bf9ae6a44ee"
             },
             "require": {
                 "magento/framework": "*"
@@ -11052,7 +11052,7 @@
                     "MagentoEse\\ProductBadgeSampleData\\": ""
                 }
             },
-            "time": "2017-11-19 21:09:46"
+            "time": "2017-12-04 19:30:40"
         },
         {
             "name": "magentoese/module-sales-sample-data",
@@ -11158,7 +11158,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-venia-setup.git",
-                "reference": "cd2e046e37242da4e3060b7ec3b5f1ea50f8ec96"
+                "reference": "b476967c522a33db0a3c53a7930c3b4f718499fe"
             },
             "require": {
                 "magento/framework": "*"
@@ -11172,7 +11172,7 @@
                     "MagentoEse\\VeniaSetup\\": ""
                 }
             },
-            "time": "2017-11-19 20:42:22"
+            "time": "2017-12-04 19:30:47"
         },
         {
             "name": "magentoese/module-venia-video-sample-data",
@@ -12146,16 +12146,16 @@
         },
         {
             "name": "seld/jsonlint",
-            "version": "1.6.1",
+            "version": "1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/jsonlint.git",
-                "reference": "50d63f2858d87c4738d5b76a7dcbb99fa8cf7c77"
+                "reference": "7a30649c67ee0d19faacfd9fa2cfb6cc032d9b19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/50d63f2858d87c4738d5b76a7dcbb99fa8cf7c77",
-                "reference": "50d63f2858d87c4738d5b76a7dcbb99fa8cf7c77",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/7a30649c67ee0d19faacfd9fa2cfb6cc032d9b19",
+                "reference": "7a30649c67ee0d19faacfd9fa2cfb6cc032d9b19",
                 "shasum": ""
             },
             "require": {
@@ -12191,7 +12191,7 @@
                 "parser",
                 "validator"
             ],
-            "time": "2017-06-18T15:11:04+00:00"
+            "time": "2017-11-30T15:34:22+00:00"
         },
         {
             "name": "seld/phar-utils",
@@ -12614,16 +12614,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v3.3.13",
+            "version": "v3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "77db266766b54db3ee982fe51868328b887ce15c"
+                "reference": "de56eee71e0a128d8c54ccc1909cdefd574bad0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/77db266766b54db3ee982fe51868328b887ce15c",
-                "reference": "77db266766b54db3ee982fe51868328b887ce15c",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/de56eee71e0a128d8c54ccc1909cdefd574bad0f",
+                "reference": "de56eee71e0a128d8c54ccc1909cdefd574bad0f",
                 "shasum": ""
             },
             "require": {
@@ -12632,7 +12632,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -12659,20 +12659,20 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2017-11-07T14:12:55+00:00"
+            "time": "2017-11-19T18:59:05+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v3.3.13",
+            "version": "v3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "138af5ec075d4b1d1bd19de08c38a34bb2d7d880"
+                "reference": "dac8d7db537bac7ad8143eb11360a8c2231f251a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/138af5ec075d4b1d1bd19de08c38a34bb2d7d880",
-                "reference": "138af5ec075d4b1d1bd19de08c38a34bb2d7d880",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/dac8d7db537bac7ad8143eb11360a8c2231f251a",
+                "reference": "dac8d7db537bac7ad8143eb11360a8c2231f251a",
                 "shasum": ""
             },
             "require": {
@@ -12681,7 +12681,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -12708,7 +12708,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2017-11-05T15:47:03+00:00"
+            "time": "2017-11-05T16:10:10+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -13972,23 +13972,23 @@
         },
         {
             "name": "zendframework/zend-modulemanager",
-            "version": "2.8.1",
+            "version": "2.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-modulemanager.git",
-                "reference": "710c13353b1ff0975777dbeb39bbf1c85e3353a3"
+                "reference": "394df6e12248ac430a312d4693f793ee7120baa6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-modulemanager/zipball/710c13353b1ff0975777dbeb39bbf1c85e3353a3",
-                "reference": "710c13353b1ff0975777dbeb39bbf1c85e3353a3",
+                "url": "https://api.github.com/repos/zendframework/zend-modulemanager/zipball/394df6e12248ac430a312d4693f793ee7120baa6",
+                "reference": "394df6e12248ac430a312d4693f793ee7120baa6",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.6 || ^7.0",
                 "zendframework/zend-config": "^3.1 || ^2.6",
                 "zendframework/zend-eventmanager": "^3.2 || ^2.6.3",
-                "zendframework/zend-stdlib": "^3.0 || ^2.7"
+                "zendframework/zend-stdlib": "^3.1 || ^2.7"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.0.8 || ^5.7.15",
@@ -13996,7 +13996,7 @@
                 "zendframework/zend-console": "^2.6",
                 "zendframework/zend-di": "^2.6",
                 "zendframework/zend-loader": "^2.5",
-                "zendframework/zend-mvc": "^2.7",
+                "zendframework/zend-mvc": "^3.0 || ^2.7",
                 "zendframework/zend-servicemanager": "^3.0.3 || ^2.7.5"
             },
             "suggest": {
@@ -14008,8 +14008,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev",
-                    "dev-develop": "2.9-dev"
+                    "dev-master": "2.7-dev",
+                    "dev-develop": "2.8-dev"
                 }
             },
             "autoload": {
@@ -14021,12 +14021,14 @@
             "license": [
                 "BSD-3-Clause"
             ],
+            "description": "Modular application system for zend-mvc applications",
             "homepage": "https://github.com/zendframework/zend-modulemanager",
             "keywords": [
+                "ZendFramework",
                 "modulemanager",
-                "zf2"
+                "zf"
             ],
-            "time": "2017-11-01T18:30:41+00:00"
+            "time": "2017-12-02T06:11:18+00:00"
         },
         {
             "name": "zendframework/zend-mvc",
@@ -14273,16 +14275,16 @@
         },
         {
             "name": "zendframework/zend-session",
-            "version": "2.8.1",
+            "version": "2.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-session.git",
-                "reference": "99e46960126cff4054916b6d339f562363e12367"
+                "reference": "c14be63df39b0caee784e53cd57c43eb48efefea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-session/zipball/99e46960126cff4054916b6d339f562363e12367",
-                "reference": "99e46960126cff4054916b6d339f562363e12367",
+                "url": "https://api.github.com/repos/zendframework/zend-session/zipball/c14be63df39b0caee784e53cd57c43eb48efefea",
+                "reference": "c14be63df39b0caee784e53cd57c43eb48efefea",
                 "shasum": ""
             },
             "require": {
@@ -14290,10 +14292,14 @@
                 "zendframework/zend-eventmanager": "^2.6.2 || ^3.0",
                 "zendframework/zend-stdlib": "^2.7 || ^3.0"
             },
+            "conflict": {
+                "phpunit/phpunit": ">=6.5.0"
+            },
             "require-dev": {
                 "container-interop/container-interop": "^1.1",
                 "mongodb/mongodb": "^1.0.1",
-                "phpunit/phpunit": "^5.7.15 || ^6.0.8",
+                "php-mock/php-mock-phpunit": "^1.1.2 || ^2.0",
+                "phpunit/phpunit": "^5.7.5 || ^6.0.13",
                 "zendframework/zend-cache": "^2.6.1",
                 "zendframework/zend-coding-standard": "~1.0.0",
                 "zendframework/zend-db": "^2.7",
@@ -14335,7 +14341,7 @@
                 "session",
                 "zf"
             ],
-            "time": "2017-11-28T19:55:23+00:00"
+            "time": "2017-12-01T17:35:04+00:00"
         },
         {
             "name": "zendframework/zend-soap",
