@@ -6,37 +6,35 @@ return array (
     'Magento_CatalogImportExport' => 1,
     'Magento_AdminNotification' => 1,
     'Magento_Directory' => 1,
-    'MagentoEse_InstallationOverrides' => 1,
-    'Magento_Theme' => 1,
     'Magento_Backend' => 1,
     'Magento_Eav' => 1,
+    'Magento_Theme' => 1,
     'Magento_Customer' => 1,
-    'Magento_Indexer' => 1,
     'Magento_AdvancedPricingImportExport' => 1,
     'Magento_Rule' => 1,
-    'Magento_Cms' => 1,
+    'Magento_Indexer' => 1,
     'Magento_Search' => 1,
     'Magento_Amqp' => 1,
     'Magento_User' => 1,
     'Magento_Authorization' => 1,
+    'Magento_Cms' => 1,
     'Magento_Catalog' => 1,
-    'Magento_Payment' => 1,
     'Magento_Backup' => 1,
     'Magento_CatalogRule' => 1,
     'Magento_Quote' => 1,
-    'Magento_SalesSequence' => 1,
+    'Magento_CatalogInventory' => 1,
     'Magento_Bundle' => 1,
     'Magento_BundleImportExport' => 1,
     'Magento_BundleImportExportStaging' => 1,
     'Magento_CatalogSearch' => 1,
     'Magento_CatalogUrlRewrite' => 1,
     'Magento_PageCache' => 1,
-    'Magento_Sales' => 1,
-    'Gene_BlueFoot' => 1,
+    'Magento_SalesSequence' => 1,
+    'Magento_Payment' => 1,
     'Magento_MediaStorage' => 1,
     'FireGento_FastSimpleImport' => 1,
     'Magento_CatalogImportExportStaging' => 1,
-    'Magento_CatalogInventory' => 1,
+    'Magento_Sales' => 1,
     'Magento_Ui' => 1,
     'Magento_Checkout' => 1,
     'Magento_CustomerCustomAttributes' => 1,
@@ -79,14 +77,14 @@ return array (
     'Magento_Deploy' => 1,
     'Magento_Developer' => 1,
     'Magento_Dhl' => 1,
-    'MagentoEse_AdminConfigurations' => 1,
+    'Magento_AdvancedCheckout' => 1,
     'Magento_ProductAlert' => 1,
     'Magento_ImportExport' => 1,
     'Magento_Tax' => 1,
     'Magento_Reports' => 1,
-    'Magento_AdvancedCheckout' => 1,
+    'Magento_AdvancedRule' => 1,
     'Magento_AdvancedSearch' => 1,
-    'MagentoEse_PostInstall' => 0,
+    'MagentoEse_AdminConfigurations' => 1,
     'Magento_EncryptionKey' => 1,
     'Magento_Enterprise' => 1,
     'Magento_Eway' => 1,
@@ -112,7 +110,7 @@ return array (
     'Magento_GroupedProductStaging' => 1,
     'Magento_BundleSampleData' => 1,
     'Magento_DownloadableImportExport' => 1,
-    'Magento_AdvancedRule' => 1,
+    'Magento_Captcha' => 1,
     'Magento_Security' => 1,
     'Magento_WebsiteRestriction' => 1,
     'Magento_LayeredNavigation' => 1,
@@ -161,14 +159,14 @@ return array (
     'Magento_Robots' => 1,
     'Magento_Rss' => 1,
     'Magento_AdvancedSalesRule' => 1,
-    'Magento_Captcha' => 1,
+    'Magento_Authorizenet' => 1,
     'Magento_Signifyd' => 1,
     'Magento_SalesInventory' => 1,
     'Magento_CustomerSampleData' => 1,
     'Magento_CatalogRuleSampleData' => 1,
     'Magento_SalesRuleStaging' => 1,
     'Magento_SalesSampleData' => 1,
-    'Magento_Authorizenet' => 1,
+    'Gene_BlueFoot' => 1,
     'Magento_CmsSampleData' => 1,
     'Magento_ScalableCheckout' => 1,
     'Magento_ScalableInventory' => 1,
@@ -218,5 +216,167 @@ return array (
     'Magento_MultipleWishlistSampleData' => 1,
     'Magento_Worldpay' => 1,
     'Shopial_Facebook' => 1,
+  ),
+  'scopes' => 
+  array (
+    'websites' => 
+    array (
+      'admin' => 
+      array (
+        'website_id' => '0',
+        'code' => 'admin',
+        'name' => 'Admin',
+        'sort_order' => '0',
+        'default_group_id' => '0',
+        'is_default' => '0',
+      ),
+      'base' => 
+      array (
+        'website_id' => '1',
+        'code' => 'base',
+        'name' => 'Main Website',
+        'sort_order' => '0',
+        'default_group_id' => '1',
+        'is_default' => '1',
+      ),
+    ),
+    'groups' => 
+    array (
+      0 => 
+      array (
+        'group_id' => '0',
+        'website_id' => '0',
+        'code' => 'default',
+        'name' => 'Default',
+        'root_category_id' => '0',
+        'default_store_id' => '0',
+      ),
+      1 => 
+      array (
+        'group_id' => '1',
+        'website_id' => '1',
+        'code' => 'main_website_store',
+        'name' => 'Main Website Store',
+        'root_category_id' => '2',
+        'default_store_id' => '1',
+      ),
+    ),
+    'stores' => 
+    array (
+      'admin' => 
+      array (
+        'store_id' => '0',
+        'code' => 'admin',
+        'website_id' => '0',
+        'group_id' => '0',
+        'name' => 'Admin',
+        'sort_order' => '0',
+        'is_active' => '1',
+      ),
+      'default' => 
+      array (
+        'store_id' => '1',
+        'code' => 'default',
+        'website_id' => '1',
+        'group_id' => '1',
+        'name' => 'Default Store View',
+        'sort_order' => '0',
+        'is_active' => '1',
+      ),
+    ),
+  ),
+  'system' => 
+  array (
+    'default' => 
+    array (
+      'general' => 
+      array (
+        'locale' => 
+        array (
+          'code' => 'en_US',
+        ),
+      ),
+      'dev' => 
+      array (
+        'static' => 
+        array (
+          'sign' => '0',
+        ),
+        'front_end_development_workflow' => 
+        array (
+          'type' => 'server_side_compilation',
+        ),
+        'template' => 
+        array (
+          'minify_html' => '0',
+        ),
+        'js' => 
+        array (
+          'merge_files' => '0',
+          'minify_files' => '0',
+          'minify_exclude' => '
+                        /tiny_mce/
+                    ',
+          'session_storage_logging' => '0',
+          'translate_strategy' => 'dictionary',
+          'enable_js_bundling' => '0',
+        ),
+        'css' => 
+        array (
+          'minify_files' => '0',
+          'minify_exclude' => '
+                        /tiny_mce/
+                    ',
+          'merge_css_files' => '0',
+        ),
+      ),
+    ),
+    'stores' => 
+    array (
+      'admin' => 
+      array (
+        'design' => 
+        array (
+          'package' => 
+          array (
+            'name' => 'default',
+          ),
+          'theme' => 
+          array (
+            'default' => 'default',
+          ),
+        ),
+      ),
+    ),
+    'websites' => 
+    array (
+      'admin' => 
+      array (
+        'web' => 
+        array (
+          'routers' => 
+          array (
+            'frontend' => 
+            array (
+              'disabled' => 'true',
+            ),
+          ),
+          'default' => 
+          array (
+            'no_route' => 'admin/noroute/index',
+          ),
+        ),
+      ),
+    ),
+  ),
+  'admin_user' => 
+  array (
+    'locale' => 
+    array (
+      'code' => 
+      array (
+        0 => 'en_US',
+      ),
+    ),
   ),
 );
