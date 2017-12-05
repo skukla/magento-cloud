@@ -106,9 +106,9 @@ return array (
     'Magento_GoogleOptimizerStaging' => 1,
     'Magento_GroupedProduct' => 1,
     'Magento_GroupedImportExport' => 1,
-    'Magento_GroupedSampleData' => 1,
-    'Magento_GroupedProductStaging' => 1,
+    'Magento_GroupedProductSampleData' => 1,
     'Magento_BundleSampleData' => 1,
+    'Magento_GroupedProductStaging' => 1,
     'Magento_DownloadableImportExport' => 1,
     'Magento_Captcha' => 1,
     'Magento_Security' => 1,
@@ -315,8 +315,8 @@ return array (
           'merge_files' => '0',
           'minify_files' => '0',
           'minify_exclude' => '
-                        /tiny_mce/
-                    ',
+                      /tiny_mce/
+                  ',
           'session_storage_logging' => '0',
           'translate_strategy' => 'dictionary',
           'enable_js_bundling' => '0',
@@ -325,8 +325,8 @@ return array (
         array (
           'minify_files' => '0',
           'minify_exclude' => '
-                        /tiny_mce/
-                    ',
+                      /tiny_mce/
+                  ',
           'merge_css_files' => '0',
         ),
       ),
