@@ -446,7 +446,7 @@ class Installer
         }
         $this->progress->setNext();
         $this->log->logMeta(
-            sprintf(self::PROGRESS_LOG_RENDER, $this->progress->getCurrent(), $this->progress->getTotal())
+            sprintf(date("H:i:s").self::PROGRESS_LOG_RENDER, $this->progress->getCurrent(), $this->progress->getTotal())
         );
     }
 
