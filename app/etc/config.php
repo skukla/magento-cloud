@@ -234,6 +234,7 @@ return array (
     'Magento_TaxImportExport' => 1,
     'MagentoEse_LumaDECategories' => 1,
     'MagentoEse_LumaDEProducts' => 1,
+    'MagentoEse_LumaDECms' => 1,
     'Magento_Translation' => 1,
     'Ess_M2ePro' => 1,
     'Magento_Ups' => 1,

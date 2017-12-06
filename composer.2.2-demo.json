@@ -142,7 +142,7 @@
         "magentoese/module-lookbook": "dev-develop",
         "magentoese/module-luma-de-attributes": "dev-master",
         "magentoese/module-luma-de-categories": "dev-master",
-        // "magentoese/module-luma-de-cms": "dev-develop",
+        "magentoese/module-luma-de-cms": "dev-develop",
         "magentoese/module-luma-de-products": "dev-master",
         "magentoese/module-luma-de-setup": "dev-master",
         "magentoese/module-luma-de-widget": "dev-master",
