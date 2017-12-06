@@ -876,16 +876,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.37",
+            "version": "1.2.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "3f52a2c3cd44cf3bdf0ad2461f338eb7ca3178ac"
+                "reference": "5ab99a1fc6354302422684193da0585c2b2b2742"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/3f52a2c3cd44cf3bdf0ad2461f338eb7ca3178ac",
-                "reference": "3f52a2c3cd44cf3bdf0ad2461f338eb7ca3178ac",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/5ab99a1fc6354302422684193da0585c2b2b2742",
+                "reference": "5ab99a1fc6354302422684193da0585c2b2b2742",
                 "shasum": ""
             },
             "require": {
@@ -910,7 +910,7 @@
                 "BSD"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2017-12-04T16:07:53+00:00"
+            "time": "2017-12-06T20:11:03+00:00"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -10399,7 +10399,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/dock-mage.git",
-                "reference": "f94debe74f84f94575a7de9381abed6deff60067"
+                "reference": "d81a3bb0b5dda7a933ce77e2a0480585c8d00665"
             },
             "type": "library",
             "authors": [
@@ -10409,7 +10409,7 @@
                 }
             ],
             "description": "Launch Magento infrastructure using docker-compose",
-            "time": "2017-11-29 23:06:05"
+            "time": "2017-12-06 19:48:21"
         },
         {
             "name": "magentoese/ece-patches",
@@ -10536,7 +10536,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "3ab1063a87ec58c8004e4df2e7760300d7400ad3"
+                "reference": "c4df746fd5bc6eda09a1fd674675381ef1b5d122"
             },
             "type": "project",
             "authors": [
@@ -10546,7 +10546,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2017-12-04 17:36:38"
+            "time": "2017-12-06 20:40:55"
         },
         {
             "name": "magentoese/module-admin-configurations",
@@ -10923,7 +10923,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-post-install.git",
-                "reference": "c5ab244ff9f2ecf90b7e8434b3bdc24341594ed7"
+                "reference": "ac83e0ab8e095086ddc38f7e48a2542c26620621"
             },
             "require": {
                 "php": "~5.6.0|7.0.2|~7.0.6"
@@ -10937,7 +10937,7 @@
                     "MagentoEse\\PostInstall\\": ""
                 }
             },
-            "time": "2017-11-29 17:41:58"
+            "time": "2017-12-06 20:06:20"
         },
         {
             "name": "magentoese/module-product-image-switcher",
