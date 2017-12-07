@@ -10,6 +10,7 @@
     "repositories": [
         {"type": "composer", "url": "https://repo.magento.com/"},
         {"type": "git", "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-autofill-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-autofill.git"},
@@ -47,6 +48,7 @@
         "gene/bluefoot": "dev-1.0.32-develop",
         "magento/magento-cloud-metapackage": "2.2.1",
         "magento/extension-b2b": "*",
+        "magentoese/dock-mage": "dev-master",
         "magentoese/ece-tools": "dev-develop",
         "magentoese/ece-patches": "dev-develop",
         "magentoese/magento-scripts": "dev-2.2-ga",

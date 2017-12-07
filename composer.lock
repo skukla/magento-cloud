@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf795bda66c34bf9a255d783ec724698",
+    "content-hash": "be10d9bd5939addcb30c6b794d255841",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -545,16 +545,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.37",
+            "version": "1.2.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "3f52a2c3cd44cf3bdf0ad2461f338eb7ca3178ac"
+                "reference": "5ab99a1fc6354302422684193da0585c2b2b2742"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/3f52a2c3cd44cf3bdf0ad2461f338eb7ca3178ac",
-                "reference": "3f52a2c3cd44cf3bdf0ad2461f338eb7ca3178ac",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/5ab99a1fc6354302422684193da0585c2b2b2742",
+                "reference": "5ab99a1fc6354302422684193da0585c2b2b2742",
                 "shasum": ""
             },
             "require": {
@@ -579,7 +579,7 @@
                 "BSD"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2017-12-04T16:07:53+00:00"
+            "time": "2017-12-06T20:11:03+00:00"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -10116,6 +10116,24 @@
             "time": "2017-06-21T14:56:23+00:00"
         },
         {
+            "name": "magentoese/dock-mage",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/dock-mage.git",
+                "reference": "d81a3bb0b5dda7a933ce77e2a0480585c8d00665"
+            },
+            "type": "library",
+            "authors": [
+                {
+                    "name": "Keith Bentrup",
+                    "email": "kbentrup@magento.com"
+                }
+            ],
+            "description": "Launch Magento infrastructure using docker-compose",
+            "time": "2017-12-06 19:48:21"
+        },
+        {
             "name": "magentoese/ece-patches",
             "version": "dev-develop",
             "source": {
@@ -10213,7 +10231,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "3ab1063a87ec58c8004e4df2e7760300d7400ad3"
+                "reference": "c4df746fd5bc6eda09a1fd674675381ef1b5d122"
             },
             "type": "project",
             "authors": [
@@ -10223,7 +10241,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2017-12-04 17:36:38"
+            "time": "2017-12-06 20:40:55"
         },
         {
             "name": "magentoese/module-admin-configurations",
@@ -10529,7 +10547,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-post-install.git",
-                "reference": "c5ab244ff9f2ecf90b7e8434b3bdc24341594ed7"
+                "reference": "ac83e0ab8e095086ddc38f7e48a2542c26620621"
             },
             "require": {
                 "php": "~5.6.0|7.0.2|~7.0.6"
@@ -10543,7 +10561,7 @@
                     "MagentoEse\\PostInstall\\": ""
                 }
             },
-            "time": "2017-11-29 17:41:58"
+            "time": "2017-12-06 20:06:20"
         },
         {
             "name": "magentoese/module-productbadge",
@@ -12556,27 +12574,27 @@
         },
         {
             "name": "zendframework/zend-form",
-            "version": "2.10.2",
+            "version": "2.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-form.git",
-                "reference": "252db729887844025772bb8045f8df605850ed9c"
+                "reference": "b68a9f07d93381613b68817091d0505ca94d3363"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-form/zipball/252db729887844025772bb8045f8df605850ed9c",
-                "reference": "252db729887844025772bb8045f8df605850ed9c",
+                "url": "https://api.github.com/repos/zendframework/zend-form/zipball/b68a9f07d93381613b68817091d0505ca94d3363",
+                "reference": "b68a9f07d93381613b68817091d0505ca94d3363",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0 || ^5.6",
+                "php": "^5.6 || ^7.0",
                 "zendframework/zend-hydrator": "^1.1 || ^2.1",
-                "zendframework/zend-inputfilter": "^2.6",
+                "zendframework/zend-inputfilter": "^2.8",
                 "zendframework/zend-stdlib": "^2.7 || ^3.0"
             },
             "require-dev": {
                 "doctrine/annotations": "~1.0",
-                "phpunit/phpunit": "^6.0.8 || ^5.7.15",
+                "phpunit/phpunit": "^5.7.23 || ^6.5.3",
                 "zendframework/zend-cache": "^2.6.1",
                 "zendframework/zend-captcha": "^2.7.1",
                 "zendframework/zend-code": "^2.6 || ^3.0",
@@ -12586,7 +12604,7 @@
                 "zendframework/zend-filter": "^2.6",
                 "zendframework/zend-i18n": "^2.6",
                 "zendframework/zend-servicemanager": "^2.7.5 || ^3.0.3",
-                "zendframework/zend-session": "^2.6.2",
+                "zendframework/zend-session": "^2.8.1",
                 "zendframework/zend-text": "^2.6",
                 "zendframework/zend-validator": "^2.6",
                 "zendframework/zend-view": "^2.6.2",
@@ -12604,8 +12622,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.10-dev",
-                    "dev-develop": "2.11-dev"
+                    "dev-master": "2.11.x-dev",
+                    "dev-develop": "2.12.x-dev"
                 },
                 "zf": {
                     "component": "Zend\\Form",
@@ -12624,12 +12642,13 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "homepage": "https://github.com/zendframework/zend-form",
+            "description": "Validate and display simple and complex forms, casting forms to business objects and vice versa",
             "keywords": [
+                "ZendFramework",
                 "form",
-                "zf2"
+                "zf"
             ],
-            "time": "2017-05-18T14:59:53+00:00"
+            "time": "2017-12-06T21:09:08+00:00"
         },
         {
             "name": "zendframework/zend-http",
@@ -13828,6 +13847,7 @@
     "stability-flags": {
         "firegento/fastsimpleimport": 20,
         "gene/bluefoot": 20,
+        "magentoese/dock-mage": 20,
         "magentoese/ece-tools": 20,
         "magentoese/ece-patches": 20,
         "magentoese/magento-scripts": 20,
