@@ -57,7 +57,7 @@
         "magento/sample-data-media": "100.2.*",
         "magento/module-offline-shipping-sample-data": "100.2.*",
         "magentoese/dock-mage": "dev-master",
-        "magentoese/ece-tools": "dev-develop",
+        "magentoese/ece-tools": "dev-develop-with-just-url-update-for-branching",
         "magentoese/ece-patches": "dev-develop",
         "magentoese/facebook-module": "dev-master",
         "magentoese/magento-scripts": "dev-2.2-ga",
