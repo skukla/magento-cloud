@@ -10536,7 +10536,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "23a403da1d8499956142154f056452563f1ac6b2"
+                "reference": "cc0c6308411a3b04bcf14ba3f626da660808dc56"
             },
             "type": "project",
             "authors": [
@@ -10546,7 +10546,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2017-12-13 21:45:43"
+            "time": "2017-12-13 22:33:19"
         },
         {
             "name": "magentoese/module-admin-configurations",
