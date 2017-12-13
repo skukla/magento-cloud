@@ -10417,7 +10417,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/ece-patches.git",
-                "reference": "fc81ef799f3772870bb2ab00f51f27384d55049f"
+                "reference": "f4de7d9e37ed49dbc25143f353df409f9edb371f"
             },
             "require": {
                 "composer/composer": "@stable",
@@ -10443,7 +10443,7 @@
                 "AFL-3.0"
             ],
             "description": "Provide patches for M2 on MECE instances",
-            "time": "2017-12-05 14:27:39"
+            "time": "2017-12-13 23:42:22"
         },
         {
             "name": "magentoese/ece-tools",
