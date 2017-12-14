@@ -17,6 +17,7 @@
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/easysocialshop_magento2.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/ece-patches.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/ece-tools.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/magento2-sample-data-ee.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"}
     ],
     "scripts": {
@@ -31,6 +32,7 @@
         "firegento/fastsimpleimport": "dev-updated",
         "gene/bluefoot": "dev-develop-no-branding",
         "magento/magento-cloud-metapackage": "2.2.1",
+        "magento/magento2-sample-data-ee": "2.2.x-dev",
         "magento/module-bundle-sample-data": "100.2.*",
         "magento/module-widget-sample-data": "100.2.*",
         "magento/module-catalog-sample-data": "100.2.*",
