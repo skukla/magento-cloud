@@ -10451,7 +10451,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/ece-tools.git",
-                "reference": "b97bb5da5e94a5e6a6767befb3028e8fea86111f"
+                "reference": "395c185dfc0e36a99e42269cdb72357ea735a48b"
             },
             "require": {
                 "composer/composer": "@stable",
@@ -10501,7 +10501,7 @@
                 "AFL-3.0"
             ],
             "description": "Provides tools to build and deploy Magento 2 Enterprise Edition",
-            "time": "2017-12-13 21:34:10"
+            "time": "2017-12-14 04:35:07"
         },
         {
             "name": "magentoese/facebook-module",
