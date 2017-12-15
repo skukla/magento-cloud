@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9ad74d16b05830c184e7f92bb9520815",
+    "content-hash": "103786c915cba4d724a1850182a67f23",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -2142,27 +2142,6 @@
                 "proprietary"
             ],
             "description": "Magento 2 Base (Enterprise Edition)"
-        },
-        {
-            "name": "magento/magento2-sample-data-ee",
-            "version": "2.2.x-dev",
-            "source": {
-                "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/magento2-sample-data-ee.git",
-                "reference": "21b79cf265ddc63307cce3a140edf905a56e34f0"
-            },
-            "type": "library",
-            "license": [
-                "OSL-3.0, AFL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Bentrup, Keith",
-                    "email": "kbentrup@magento.com"
-                }
-            ],
-            "description": "Clone of sample data with composer file",
-            "time": "2017-09-11 18:57:04"
         },
         {
             "name": "magento/module-admin-gws",
@@ -10186,7 +10165,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "cb397161b212227e5bf68985c9b6ee8518f16c83"
+                "reference": "4e531ecb7be645e132e48f49b95d5d3901a4d4c2"
             },
             "type": "project",
             "authors": [
@@ -10196,7 +10175,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2017-12-15 00:04:44"
+            "time": "2017-12-15 01:38:19"
         },
         {
             "name": "magentoese/module-admin-configurations",
@@ -13435,7 +13414,6 @@
     "stability-flags": {
         "firegento/fastsimpleimport": 20,
         "gene/bluefoot": 20,
-        "magento/magento2-sample-data-ee": 20,
         "magentoese/dock-mage": 20,
         "magentoese/ece-tools": 20,
         "magentoese/ece-patches": 20,
