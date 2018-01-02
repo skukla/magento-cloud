@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c90df0206bf3943dd51eab3d537c8a2",
+    "content-hash": "55651a6fbb47fb0a00b210736f918e2c",
     "packages": [
         {
             "name": "amasty/base",
@@ -2513,6 +2513,27 @@
                 "proprietary"
             ],
             "description": "Magento 2 Base (Enterprise Edition)"
+        },
+        {
+            "name": "magento/magento2-sample-data-ee",
+            "version": "2.2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.the1umastory.com:md/magento2-sample-data-ee.git",
+                "reference": "21b79cf265ddc63307cce3a140edf905a56e34f0"
+            },
+            "type": "library",
+            "license": [
+                "OSL-3.0, AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Bentrup, Keith",
+                    "email": "kbentrup@magento.com"
+                }
+            ],
+            "description": "Clone of sample data with composer file",
+            "time": "2017-09-11 18:57:04"
         },
         {
             "name": "magento/module-admin-gws",
@@ -10536,7 +10557,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "cc0c6308411a3b04bcf14ba3f626da660808dc56"
+                "reference": "6bcc215d3a7c02458eb0f2be3be894ea5877e44d"
             },
             "type": "project",
             "authors": [
@@ -10546,7 +10567,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2017-12-13 22:33:19"
+            "time": "2017-12-14 21:13:26"
         },
         {
             "name": "magentoese/module-admin-configurations",
@@ -12324,16 +12345,16 @@
         },
         {
             "name": "splendidinternet/mage2-locale-de-de",
-            "version": "1.35.1",
+            "version": "1.37.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/splendidinternet/Magento2_German_LocalePack_de_DE.git",
-                "reference": "e295e17d1573edea95693debf2e7e2bee7963144"
+                "reference": "1313548e0d0741b0b724fe02061492f76210fc7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/splendidinternet/Magento2_German_LocalePack_de_DE/zipball/e295e17d1573edea95693debf2e7e2bee7963144",
-                "reference": "e295e17d1573edea95693debf2e7e2bee7963144",
+                "url": "https://api.github.com/repos/splendidinternet/Magento2_German_LocalePack_de_DE/zipball/1313548e0d0741b0b724fe02061492f76210fc7b",
+                "reference": "1313548e0d0741b0b724fe02061492f76210fc7b",
                 "shasum": ""
             },
             "require": {
@@ -12350,7 +12371,7 @@
                 "OSL-3.0"
             ],
             "description": "German (Germany) language",
-            "time": "2017-11-27T15:55:42+00:00"
+            "time": "2017-12-14T13:38:51+00:00"
         },
         {
             "name": "stripe/stripe-php",
@@ -14702,6 +14723,7 @@
         "firegento/fastsimpleimport": 20,
         "gene/bluefoot": 20,
         "m2epro/magento2-extension": 20,
+        "magento/magento2-sample-data-ee": 20,
         "magentoese/dock-mage": 20,
         "magentoese/ece-tools": 20,
         "magentoese/ece-patches": 20,
