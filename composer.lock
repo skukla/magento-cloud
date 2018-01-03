@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "55651a6fbb47fb0a00b210736f918e2c",
+    "content-hash": "3c90df0206bf3943dd51eab3d537c8a2",
     "packages": [
         {
             "name": "amasty/base",
@@ -1083,7 +1083,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.5.17",
+            "version": "v5.5.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -1127,16 +1127,16 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.5.17",
+            "version": "v5.5.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "d9e269284eba43bd2e9e8d1f1ba12362b00ec096"
+                "reference": "03e9014d2091a30b025c895aa6d39c2755576ea5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/d9e269284eba43bd2e9e8d1f1ba12362b00ec096",
-                "reference": "d9e269284eba43bd2e9e8d1f1ba12362b00ec096",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/03e9014d2091a30b025c895aa6d39c2755576ea5",
+                "reference": "03e9014d2091a30b025c895aa6d39c2755576ea5",
                 "shasum": ""
             },
             "require": {
@@ -1167,7 +1167,7 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "https://laravel.com",
-            "time": "2017-09-19T13:09:37+00:00"
+            "time": "2017-11-22T19:01:14+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -1713,16 +1713,16 @@
         },
         {
             "name": "magento/magento-composer-installer",
-            "version": "0.1.12",
+            "version": "0.1.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/magento-composer-installer.git",
-                "reference": "10c600e88ad34fec71bb6b435ea8415ce92d51de"
+                "reference": "8b6c32f53b4944a5d6656e86344cd0f9784709a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/magento-composer-installer/zipball/10c600e88ad34fec71bb6b435ea8415ce92d51de",
-                "reference": "10c600e88ad34fec71bb6b435ea8415ce92d51de",
+                "url": "https://api.github.com/repos/magento/magento-composer-installer/zipball/8b6c32f53b4944a5d6656e86344cd0f9784709a1",
+                "reference": "8b6c32f53b4944a5d6656e86344cd0f9784709a1",
                 "shasum": ""
             },
             "require": {
@@ -1788,7 +1788,7 @@
                 "composer-installer",
                 "magento"
             ],
-            "time": "2016-10-06T16:05:07+00:00"
+            "time": "2017-12-29T16:45:24+00:00"
         },
         {
             "name": "magento/magento2-base",
@@ -2513,27 +2513,6 @@
                 "proprietary"
             ],
             "description": "Magento 2 Base (Enterprise Edition)"
-        },
-        {
-            "name": "magento/magento2-sample-data-ee",
-            "version": "2.2.x-dev",
-            "source": {
-                "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/magento2-sample-data-ee.git",
-                "reference": "21b79cf265ddc63307cce3a140edf905a56e34f0"
-            },
-            "type": "library",
-            "license": [
-                "OSL-3.0, AFL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Bentrup, Keith",
-                    "email": "kbentrup@magento.com"
-                }
-            ],
-            "description": "Clone of sample data with composer file",
-            "time": "2017-09-11 18:57:04"
         },
         {
             "name": "magento/module-admin-gws",
@@ -10472,7 +10451,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/ece-tools.git",
-                "reference": "395c185dfc0e36a99e42269cdb72357ea735a48b"
+                "reference": "7f30ce365b6311893c90006d47bc3634b2b6bc0e"
             },
             "require": {
                 "composer/composer": "@stable",
@@ -10496,6 +10475,7 @@
                 "squizlabs/php_codesniffer": " ^3.0"
             },
             "bin": [
+                "m2-ece-branch",
                 "m2-ece-build",
                 "m2-ece-deploy",
                 "m2-ece-scd-dump",
@@ -10522,7 +10502,7 @@
                 "AFL-3.0"
             ],
             "description": "Provides tools to build and deploy Magento 2 Enterprise Edition",
-            "time": "2017-12-14 04:35:07"
+            "time": "2017-12-15 02:13:54"
         },
         {
             "name": "magentoese/facebook-module",
@@ -10557,7 +10537,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "6bcc215d3a7c02458eb0f2be3be894ea5877e44d"
+                "reference": "8cfeca85b3decf4bbd7b327f092fa850b9b03c76"
             },
             "type": "project",
             "authors": [
@@ -10567,7 +10547,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2017-12-14 21:13:26"
+            "time": "2017-12-15 01:38:19"
         },
         {
             "name": "magentoese/module-admin-configurations",
@@ -12345,16 +12325,16 @@
         },
         {
             "name": "splendidinternet/mage2-locale-de-de",
-            "version": "1.37.0",
+            "version": "1.38.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/splendidinternet/Magento2_German_LocalePack_de_DE.git",
-                "reference": "1313548e0d0741b0b724fe02061492f76210fc7b"
+                "reference": "c4b04c2426adf396913e436992bb7db0421e80b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/splendidinternet/Magento2_German_LocalePack_de_DE/zipball/1313548e0d0741b0b724fe02061492f76210fc7b",
-                "reference": "1313548e0d0741b0b724fe02061492f76210fc7b",
+                "url": "https://api.github.com/repos/splendidinternet/Magento2_German_LocalePack_de_DE/zipball/c4b04c2426adf396913e436992bb7db0421e80b7",
+                "reference": "c4b04c2426adf396913e436992bb7db0421e80b7",
                 "shasum": ""
             },
             "require": {
@@ -12371,7 +12351,7 @@
                 "OSL-3.0"
             ],
             "description": "German (Germany) language",
-            "time": "2017-12-14T13:38:51+00:00"
+            "time": "2017-12-18T09:03:24+00:00"
         },
         {
             "name": "stripe/stripe-php",
@@ -12608,16 +12588,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v3.4.1",
+            "version": "v3.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "de56eee71e0a128d8c54ccc1909cdefd574bad0f"
+                "reference": "25b135bea251829e3db6a77d773643408b575ed4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/de56eee71e0a128d8c54ccc1909cdefd574bad0f",
-                "reference": "de56eee71e0a128d8c54ccc1909cdefd574bad0f",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/25b135bea251829e3db6a77d773643408b575ed4",
+                "reference": "25b135bea251829e3db6a77d773643408b575ed4",
                 "shasum": ""
             },
             "require": {
@@ -12653,11 +12633,11 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2017-11-19T18:59:05+00:00"
+            "time": "2017-12-14T19:40:10+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v3.4.1",
+            "version": "v3.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -14723,7 +14703,6 @@
         "firegento/fastsimpleimport": 20,
         "gene/bluefoot": 20,
         "m2epro/magento2-extension": 20,
-        "magento/magento2-sample-data-ee": 20,
         "magentoese/dock-mage": 20,
         "magentoese/ece-tools": 20,
         "magentoese/ece-patches": 20,
