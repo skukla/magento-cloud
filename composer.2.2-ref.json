@@ -30,7 +30,7 @@
         "fastly/magento2": "^1.2",
         "firegento/fastsimpleimport": "dev-updated",
         "gene/bluefoot": "dev-develop-no-branding",
-        "magento/magento-cloud-metapackage": "2.2.1",
+        "magento/magento-cloud-metapackage": "2.2.2",
         "magento/module-bundle-sample-data": "100.2.*",
         "magento/module-widget-sample-data": "100.2.*",
         "magento/module-catalog-sample-data": "100.2.*",
