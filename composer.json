@@ -2,7 +2,7 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.2.0",
+    "version": "2.2.2",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -46,7 +46,7 @@
         "fastly/magento2": "^1.2",
         "firegento/fastsimpleimport": "dev-updated",
         "gene/bluefoot": "dev-1.0.32-develop",
-        "magento/magento-cloud-metapackage": "2.2.1",
+        "magento/magento-cloud-metapackage": "2.2.2",
         "magento/extension-b2b": "*",
         "magentoese/dock-mage": "dev-master",
         "magentoese/ece-tools": "dev-develop",
@@ -66,7 +66,7 @@
         "magentoese/module-b2b-shared-catalog-sample-data": "dev-develop",
         "magentoese/module-installation-overrides": "dev-master",
         "magentoese/module-my-account-widget": "dev-develop",
-        "magentoese/module-post-install": "dev-master",
+        
         "magentoese/module-productbadge": "dev-master",
         "magentoese/module-sales-sample-data": "dev-master",
         "magentoese/theme-brentmill": "dev-develop"
