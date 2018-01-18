@@ -11021,7 +11021,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-demo-sample-order-data.git",
-                "reference": "4161c85188d724b0d06878b039fcb747587365df"
+                "reference": "04277f3224abe1340cb35bcadfcb1c2948fdfc8e"
             },
             "require": {
                 "magento/framework": "*"
@@ -11035,7 +11035,7 @@
                     "MagentoEse\\DemoSampleOrderData\\": ""
                 }
             },
-            "time": "2017-12-04 19:30:15"
+            "time": "2018-01-18 19:19:17"
         },
         {
             "name": "magentoese/module-installation-overrides",
@@ -11389,7 +11389,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-sales-sample-data.git",
-                "reference": "f041e3465d76e811764f4a7acd405311be5ffb55"
+                "reference": "0870feebbcda5a886213f586bc2dd127f286154c"
             },
             "require": {
                 "magento/framework": "*"
@@ -11403,7 +11403,7 @@
                     "MagentoEse\\SalesSampleData\\": ""
                 }
             },
-            "time": "2018-01-16 19:03:41"
+            "time": "2018-01-18 14:04:59"
         },
         {
             "name": "magentoese/module-switcherlogos",
