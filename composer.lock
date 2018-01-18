@@ -945,16 +945,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.38",
+            "version": "1.2.40",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "5ab99a1fc6354302422684193da0585c2b2b2742"
+                "reference": "29b4d2394e9c5fa12f89e0d59ce9901358d5a301"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/5ab99a1fc6354302422684193da0585c2b2b2742",
-                "reference": "5ab99a1fc6354302422684193da0585c2b2b2742",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/29b4d2394e9c5fa12f89e0d59ce9901358d5a301",
+                "reference": "29b4d2394e9c5fa12f89e0d59ce9901358d5a301",
                 "shasum": ""
             },
             "require": {
@@ -979,7 +979,7 @@
                 "BSD"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2017-12-06T20:11:03+00:00"
+            "time": "2018-01-17T21:20:06+00:00"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -1020,7 +1020,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/bluefoot.git",
-                "reference": "62d4b7f507125924041a93cd991bf69eeac5a8f8"
+                "reference": "4536648e84546fe3d03f210d30c43b3814ed7f24"
             },
             "type": "magento2-module",
             "autoload": {
@@ -1047,7 +1047,7 @@
                 }
             ],
             "description": "BlueFoot CMS & PageBuilder for Magento 2",
-            "time": "2017-11-27 18:31:00"
+            "time": "2018-01-17 20:56:14"
         },
         {
             "name": "guzzlehttp/ringphp",
@@ -10772,7 +10772,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/ece-patches.git",
-                "reference": "f37f4fb48357734964e1a2363ef5e4fe2672186d"
+                "reference": "ab5fd77feb6509da5efc393ae234addd3b57f352"
             },
             "require": {
                 "composer/composer": "@stable",
@@ -10798,7 +10798,7 @@
                 "AFL-3.0"
             ],
             "description": "Provide patches for M2 on MECE instances",
-            "time": "2018-01-10 15:37:29"
+            "time": "2018-01-12 05:10:46"
         },
         {
             "name": "magentoese/ece-tools",
@@ -11389,7 +11389,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-sales-sample-data.git",
-                "reference": "07af588381b1e904da05256e7a486a1b6616a52d"
+                "reference": "f041e3465d76e811764f4a7acd405311be5ffb55"
             },
             "require": {
                 "magento/framework": "*"
@@ -11403,7 +11403,7 @@
                     "MagentoEse\\SalesSampleData\\": ""
                 }
             },
-            "time": "2017-10-17 12:43:52"
+            "time": "2018-01-16 19:03:41"
         },
         {
             "name": "magentoese/module-switcherlogos",
@@ -15162,16 +15162,16 @@
         },
         {
             "name": "zendframework/zend-view",
-            "version": "2.9.0",
+            "version": "2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-view.git",
-                "reference": "3b6342c381c4437a03fc81d0064c0bb8924914d3"
+                "reference": "4478cc5dd960e2339d88b363ef99fa278700e80e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-view/zipball/3b6342c381c4437a03fc81d0064c0bb8924914d3",
-                "reference": "3b6342c381c4437a03fc81d0064c0bb8924914d3",
+                "url": "https://api.github.com/repos/zendframework/zend-view/zipball/4478cc5dd960e2339d88b363ef99fa278700e80e",
+                "reference": "4478cc5dd960e2339d88b363ef99fa278700e80e",
                 "shasum": ""
             },
             "require": {
@@ -15202,7 +15202,7 @@
                 "zendframework/zend-router": "^3.0.1",
                 "zendframework/zend-serializer": "^2.6.1",
                 "zendframework/zend-servicemanager": "^2.7.5 || ^3.0.3",
-                "zendframework/zend-session": "^2.6.2",
+                "zendframework/zend-session": "^2.8.1",
                 "zendframework/zend-uri": "^2.5"
             },
             "suggest": {
@@ -15226,8 +15226,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.9-dev",
-                    "dev-develop": "3.0-dev"
+                    "dev-master": "2.10.x-dev",
+                    "dev-develop": "2.11.x-dev"
                 }
             },
             "autoload": {
@@ -15245,7 +15245,7 @@
                 "view",
                 "zf2"
             ],
-            "time": "2017-03-21T15:05:56+00:00"
+            "time": "2018-01-17T22:21:50+00:00"
         }
     ],
     "packages-dev": [],
