@@ -45,7 +45,7 @@
     "require": {
         "fastly/magento2": "^1.2",
         "firegento/fastsimpleimport": "dev-updated",
-        "gene/bluefoot": "dev-1.0.32-develop",
+        "gene/bluefoot": "dev-develop-no-branding",
         "magento/magento-cloud-metapackage": "2.2.2",
         "magento/extension-b2b": "*",
         "magentoese/dock-mage": "dev-master",
