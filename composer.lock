@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f994f93b795b90d76a5124b237e56e71",
+    "content-hash": "1eb39366e33833c1f5e28d12e8e057e4",
     "packages": [
         {
             "name": "amasty/base",
@@ -11274,28 +11274,6 @@
             "time": "2017-03-22 19:16:49"
         },
         {
-            "name": "magentoese/module-post-install",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:PMET-public/module-post-install.git",
-                "reference": "ac83e0ab8e095086ddc38f7e48a2542c26620621"
-            },
-            "require": {
-                "php": "~5.6.0|7.0.2|~7.0.6"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MagentoEse\\PostInstall\\": ""
-                }
-            },
-            "time": "2017-12-06 20:06:20"
-        },
-        {
             "name": "magentoese/module-product-image-switcher",
             "version": "dev-master",
             "source": {
@@ -15288,7 +15266,6 @@
         "magentoese/module-luma-de-setup": 20,
         "magentoese/module-luma-de-widget": 20,
         "magentoese/module-megamenu": 20,
-        "magentoese/module-post-install": 20,
         "magentoese/module-product-sample-data-update": 20,
         "magentoese/module-product-image-switcher": 20,
         "magentoese/module-productbadge": 20,
