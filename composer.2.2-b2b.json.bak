@@ -26,7 +26,6 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-post-install.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-productbadge.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-sales-sample-data.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/nfs4d4m.git"},
         {"type": "git", "url": "git@github.com:PMET-public/theme-brentmill.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/bluefoot.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/easysocialshop_magento2.git"},
@@ -70,7 +69,6 @@
         // "magentoese/module-post-install": "dev-master",
         "magentoese/module-productbadge": "dev-master",
         "magentoese/module-sales-sample-data": "dev-master",
-        "magentoese/nfs4d4m": "dev-master",
         "magentoese/theme-brentmill": "dev-develop"
     },
     "config": {
