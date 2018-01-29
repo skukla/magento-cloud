@@ -2,7 +2,7 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.2.2",
+    "version": "2.2.1",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -147,7 +147,7 @@
         "magentoese/module-luma-de-setup": "dev-master",
         "magentoese/module-luma-de-widget": "dev-master",
         "magentoese/module-megamenu": "dev-master",
-        //"magentoese/module-post-install": "dev-master",
+        "magentoese/module-post-install": "dev-master",
         "magentoese/module-product-sample-data-update": "dev-master",
         "magentoese/module-product-image-switcher": "dev-master",
         "magentoese/module-productbadge": "dev-master",
