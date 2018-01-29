@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "be17d95cff84af298255b9e7390ce259",
+    "content-hash": "d97094b108dd5fd615bb9655e6fd3a0e",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -10942,6 +10942,24 @@
             "time": "2018-01-18 14:04:59"
         },
         {
+            "name": "magentoese/nfs4d4m",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/nfs4d4m.git",
+                "reference": "32c3a0e8b7456934471c85fdb2f07f42574091b8"
+            },
+            "type": "library",
+            "authors": [
+                {
+                    "name": "Keith Bentrup",
+                    "email": "kbentrup@magento.com"
+                }
+            ],
+            "description": "Faster file sharing for Docker for Mac using NFS",
+            "time": "2017-11-13 11:45:29"
+        },
+        {
             "name": "magentoese/theme-brentmill",
             "version": "dev-develop",
             "source": {
@@ -14409,6 +14427,7 @@
         "magentoese/module-my-account-widget": 20,
         "magentoese/module-productbadge": 20,
         "magentoese/module-sales-sample-data": 20,
+        "magentoese/nfs4d4m": 20,
         "magentoese/theme-brentmill": 20
     },
     "prefer-stable": true,
