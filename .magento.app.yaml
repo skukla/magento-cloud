@@ -86,9 +86,7 @@ hooks:
         php ./vendor/bin/m2-ece-build
     # We run deploy hook after your application has been deployed and started.
     deploy: |
-        ./vendor/magentoese/magento-scripts/pre-deploy.sh
-        php ./vendor/bin/m2-ece-deploy
-        ./vendor/magentoese/magento-scripts/post-deploy.sh
+        ./vendor/magentoese/magento-scripts/deploy.sh
 
 # Default Magento 2 cron jobs
 crons:
