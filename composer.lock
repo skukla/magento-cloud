@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "39c8af4f069f1b486e85e28b21d2bdde",
     "content-hash": "a555cb6a59e68351e7445954eb83f896",
     "packages": [
         {
@@ -31,7 +30,7 @@
                 "Commercial"
             ],
             "description": "Amasty Base",
-            "time": "2018-04-09 17:58:35"
+            "time": "2018-04-09T17:58:35+00:00"
         },
         {
             "name": "amasty/blog",
@@ -58,7 +57,7 @@
                 "Commercial"
             ],
             "description": "Amasty Blog Pro",
-            "time": "2018-04-09 17:59:00"
+            "time": "2018-04-09T17:59:00+00:00"
         },
         {
             "name": "amasty/duplicatecategories",
@@ -85,7 +84,7 @@
                 "Commercial"
             ],
             "description": "Duplicate Categories by Amasty",
-            "time": "2018-04-09 17:59:01"
+            "time": "2018-04-09T17:59:01+00:00"
         },
         {
             "name": "amasty/geoip",
@@ -112,7 +111,7 @@
                 "Commercial"
             ],
             "description": "Amasty Geoip Data",
-            "time": "2018-04-09 17:59:01"
+            "time": "2018-04-09T17:59:01+00:00"
         },
         {
             "name": "amasty/groupcat",
@@ -139,7 +138,7 @@
                 "Commercial"
             ],
             "description": "Amasty Customer Group Catalog",
-            "time": "2018-04-09 17:59:01"
+            "time": "2018-04-09T17:59:01+00:00"
         },
         {
             "name": "amasty/module-special-promo",
@@ -166,7 +165,7 @@
                 "Commercial"
             ],
             "description": "Special Promotions by Amasty",
-            "time": "2018-04-12 18:52:21"
+            "time": "2018-04-12T18:52:21+00:00"
         },
         {
             "name": "amasty/module-special-promo-pro",
@@ -194,7 +193,7 @@
                 "Commercial"
             ],
             "description": "Special Promotions Pro by Amasty",
-            "time": "2018-04-09 17:59:01"
+            "time": "2018-04-09T17:59:01+00:00"
         },
         {
             "name": "amasty/module-store-locator",
@@ -222,7 +221,7 @@
                 "Commercial"
             ],
             "description": "Store Locator by Amasty",
-            "time": "2018-04-09 17:59:01"
+            "time": "2018-04-09T17:59:01+00:00"
         },
         {
             "name": "amasty/product-attachment",
@@ -249,7 +248,7 @@
                 "Commercial"
             ],
             "description": "Product Attachments by Amasty",
-            "time": "2018-04-09 17:59:01"
+            "time": "2018-04-09T17:59:01+00:00"
         },
         {
             "name": "amasty/rgrid",
@@ -276,7 +275,7 @@
                 "Commercial"
             ],
             "description": "Extended Rules Grid by Amasty",
-            "time": "2018-04-09 17:59:02"
+            "time": "2018-04-09T17:59:02+00:00"
         },
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -377,7 +376,7 @@
                 "payment",
                 "payments"
             ],
-            "time": "2017-11-28 23:40:51"
+            "time": "2017-11-28T23:40:51+00:00"
         },
         {
             "name": "braintree/braintree_php",
@@ -424,7 +423,7 @@
                 }
             ],
             "description": "Braintree PHP Client Library",
-            "time": "2018-02-08 23:03:34"
+            "time": "2018-02-08T23:03:34+00:00"
         },
         {
             "name": "classyllama/module-owlcarousel",
@@ -457,7 +456,7 @@
                 "MIT"
             ],
             "description": "OwlCarousel JS package for Magento 2",
-            "time": "2016-12-29 22:43:53"
+            "time": "2016-12-29T22:43:53+00:00"
         },
         {
             "name": "colinmollenhour/cache-backend-file",
@@ -493,7 +492,7 @@
             ],
             "description": "The stock Zend_Cache_Backend_File backend has extremely poor performance for cleaning by tags making it become unusable as the number of cached items increases. This backend makes many changes resulting in a huge performance boost, especially for tag cleaning.",
             "homepage": "https://github.com/colinmollenhour/Cm_Cache_Backend_File",
-            "time": "2016-05-02 16:24:47"
+            "time": "2016-05-02T16:24:47+00:00"
         },
         {
             "name": "colinmollenhour/cache-backend-redis",
@@ -529,7 +528,7 @@
             ],
             "description": "Zend_Cache backend using Redis with full support for tags.",
             "homepage": "https://github.com/colinmollenhour/Cm_Cache_Backend_Redis",
-            "time": "2017-10-05 20:50:44"
+            "time": "2017-10-05T20:50:44+00:00"
         },
         {
             "name": "colinmollenhour/credis",
@@ -569,7 +568,7 @@
             ],
             "description": "Credis is a lightweight interface to the Redis key-value store which wraps the phpredis library when available for better performance.",
             "homepage": "https://github.com/colinmollenhour/credis",
-            "time": "2017-07-05 15:32:38"
+            "time": "2017-07-05T15:32:38+00:00"
         },
         {
             "name": "colinmollenhour/php-redis-session-abstract",
@@ -606,7 +605,7 @@
             ],
             "description": "A Redis-based session handler with optimistic locking",
             "homepage": "https://github.com/colinmollenhour/php-redis-session-abstract",
-            "time": "2017-03-22 16:13:03"
+            "time": "2017-03-22T16:13:03+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -662,7 +661,7 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2018-03-29 19:57:20"
+            "time": "2018-03-29T19:57:20+00:00"
         },
         {
             "name": "composer/composer",
@@ -739,7 +738,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2017-03-10 08:29:45"
+            "time": "2017-03-10T08:29:45+00:00"
         },
         {
             "name": "composer/semver",
@@ -801,7 +800,7 @@
                 "validation",
                 "versioning"
             ],
-            "time": "2016-08-30 16:08:34"
+            "time": "2016-08-30T16:08:34+00:00"
         },
         {
             "name": "composer/spdx-licenses",
@@ -862,7 +861,7 @@
                 "spdx",
                 "validator"
             ],
-            "time": "2018-01-31 13:17:27"
+            "time": "2018-01-31T13:17:27+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -893,7 +892,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
-            "time": "2017-02-14 19:40:03"
+            "time": "2017-02-14T19:40:03+00:00"
         },
         {
             "name": "dotmailer/dotmailer-magento2-extension",
@@ -1020,7 +1019,7 @@
                 "elasticsearch",
                 "search"
             ],
-            "time": "2017-11-08 17:04:47"
+            "time": "2017-11-08T17:04:47+00:00"
         },
         {
             "name": "fastly/magento2",
@@ -1058,7 +1057,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2018-04-18 00:40:23"
+            "time": "2018-04-18T00:40:23+00:00"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -1091,7 +1090,7 @@
             ],
             "description": "Wrapper for Magento2 ImportExport functionality, which imports products and customers from arrays",
             "homepage": "https://github.com/firegento/FireGento_FastSimpleImport2",
-            "time": "2017-09-12 13:19:06"
+            "time": "2017-09-12T13:19:06+00:00"
         },
         {
             "name": "gene/bluefoot",
@@ -1126,7 +1125,7 @@
                 }
             ],
             "description": "BlueFoot CMS & PageBuilder for Magento 2",
-            "time": "2018-01-17 20:56:14"
+            "time": "2018-01-17T20:56:14+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1191,7 +1190,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2018-04-22 15:46:56"
+            "time": "2018-04-22T15:46:56+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -1242,7 +1241,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-12-20 10:07:11"
+            "time": "2016-12-20T10:07:11+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -1307,7 +1306,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-03-20 17:10:46"
+            "time": "2017-03-20T17:10:46+00:00"
         },
         {
             "name": "guzzlehttp/ringphp",
@@ -1358,7 +1357,7 @@
                 }
             ],
             "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
-            "time": "2015-05-20 03:37:09"
+            "time": "2015-05-20T03:37:09+00:00"
         },
         {
             "name": "guzzlehttp/streams",
@@ -1408,7 +1407,7 @@
                 "Guzzle",
                 "stream"
             ],
-            "time": "2014-10-12 19:18:40"
+            "time": "2014-10-12T19:18:40+00:00"
         },
         {
             "name": "illuminate/container",
@@ -1452,7 +1451,7 @@
             ],
             "description": "The Illuminate Container package.",
             "homepage": "https://laravel.com",
-            "time": "2018-01-19 17:58:33"
+            "time": "2018-01-19T17:58:33+00:00"
         },
         {
             "name": "illuminate/contracts",
@@ -1496,7 +1495,7 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "https://laravel.com",
-            "time": "2018-03-20 15:34:35"
+            "time": "2018-03-20T15:34:35+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -1562,7 +1561,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2018-02-14 22:26:30"
+            "time": "2018-02-14T22:26:30+00:00"
         },
         {
             "name": "klarna/module-core",
@@ -1812,7 +1811,7 @@
                 "php",
                 "terminal"
             ],
-            "time": "2015-01-18 14:31:58"
+            "time": "2015-01-18T14:31:58+00:00"
         },
         {
             "name": "m2epro/magento2-extension",
@@ -1852,7 +1851,7 @@
                 "magento",
                 "rakuten"
             ],
-            "time": "2018-03-21 09:31:59"
+            "time": "2018-03-21T09:31:59+00:00"
         },
         {
             "name": "magento/composer",
@@ -2298,7 +2297,7 @@
                 "composer-installer",
                 "magento"
             ],
-            "time": "2017-12-29 16:45:24"
+            "time": "2017-12-29T16:45:24+00:00"
         },
         {
             "name": "magento/magento2-base",
@@ -11143,7 +11142,7 @@
                 "ZF1",
                 "framework"
             ],
-            "time": "2017-06-21 14:56:23"
+            "time": "2017-06-21T14:56:23+00:00"
         },
         {
             "name": "magentoese/dock-mage",
@@ -11161,7 +11160,7 @@
                 }
             ],
             "description": "Launch Magento infrastructure using docker-compose",
-            "time": "2017-12-13 05:18:54"
+            "time": "2017-12-13T05:18:54+00:00"
         },
         {
             "name": "magentoese/ece-patches",
@@ -11195,7 +11194,7 @@
                 "AFL-3.0"
             ],
             "description": "Provide patches for M2 on MECE instances",
-            "time": "2018-04-09 13:21:19"
+            "time": "2018-04-09T13:21:19+00:00"
         },
         {
             "name": "magentoese/ece-tools",
@@ -11254,7 +11253,7 @@
                 "AFL-3.0"
             ],
             "description": "Provides tools to build and deploy Magento 2 Enterprise Edition",
-            "time": "2018-01-03 05:16:29"
+            "time": "2018-01-03T05:16:29+00:00"
         },
         {
             "name": "magentoese/facebook-module",
@@ -11281,7 +11280,7 @@
                 "AFL-3.0"
             ],
             "description": "Connect your shop to Facebook page",
-            "time": "2018-01-09 18:37:26"
+            "time": "2018-01-09T18:37:26+00:00"
         },
         {
             "name": "magentoese/magento-scripts",
@@ -11299,7 +11298,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2018-01-04 00:22:02"
+            "time": "2018-01-04T00:22:02+00:00"
         },
         {
             "name": "magentoese/module-admin-configurations",
@@ -11321,7 +11320,7 @@
                     "MagentoEse\\AdminConfigurations\\": ""
                 }
             },
-            "time": "2018-02-01 19:29:46"
+            "time": "2018-02-01T19:29:46+00:00"
         },
         {
             "name": "magentoese/module-autofill",
@@ -11343,7 +11342,7 @@
                     "MagentoEse\\AutoFill\\": ""
                 }
             },
-            "time": "2016-11-16 15:08:22"
+            "time": "2016-11-16T15:08:22+00:00"
         },
         {
             "name": "magentoese/module-autofill-sample-data",
@@ -11366,7 +11365,7 @@
                     "MagentoEse\\AutoFillSampleData\\": ""
                 }
             },
-            "time": "2016-07-19 14:22:23"
+            "time": "2016-07-19T14:22:23+00:00"
         },
         {
             "name": "magentoese/module-customer-sample-data",
@@ -11388,7 +11387,7 @@
                     "MagentoEse\\CustomerSampleData\\": ""
                 }
             },
-            "time": "2016-07-19 14:22:23"
+            "time": "2016-07-19T14:22:23+00:00"
         },
         {
             "name": "magentoese/module-demo-admin-configurations",
@@ -11410,7 +11409,7 @@
                     "MagentoEse\\DemoAdminConfigurations\\": ""
                 }
             },
-            "time": "2016-11-01 00:17:58"
+            "time": "2016-11-01T00:17:58+00:00"
         },
         {
             "name": "magentoese/module-demo-order-data",
@@ -11432,7 +11431,7 @@
                     "MagentoEse\\DemoSampleOrderData\\": ""
                 }
             },
-            "time": "2018-04-02 16:17:21"
+            "time": "2018-04-02T16:17:21+00:00"
         },
         {
             "name": "magentoese/module-installation-overrides",
@@ -11454,7 +11453,7 @@
                     "MagentoEse\\InstallationOverrides\\": ""
                 }
             },
-            "time": "2017-08-11 14:14:15"
+            "time": "2017-08-11T14:14:15+00:00"
         },
         {
             "name": "magentoese/module-instorepickup",
@@ -11476,7 +11475,7 @@
                     "MagentoEse\\InStorePickup\\": ""
                 }
             },
-            "time": "2017-03-20 19:50:39"
+            "time": "2017-03-20T19:50:39+00:00"
         },
         {
             "name": "magentoese/module-instorepickup-sample-data",
@@ -11499,7 +11498,7 @@
                     "MagentoEse\\InStorePickupSampleData\\": ""
                 }
             },
-            "time": "2017-12-04 19:30:19"
+            "time": "2017-12-04T19:30:19+00:00"
         },
         {
             "name": "magentoese/module-lookbook",
@@ -11522,7 +11521,7 @@
                     "MagentoEse\\LookBook\\": ""
                 }
             },
-            "time": "2017-09-27 17:29:02"
+            "time": "2017-09-27T17:29:02+00:00"
         },
         {
             "name": "magentoese/module-luma-de-attributes",
@@ -11544,7 +11543,7 @@
                     "MagentoEse\\LumaDEAttributes\\": ""
                 }
             },
-            "time": "2017-12-04 19:30:22"
+            "time": "2017-12-04T19:30:22+00:00"
         },
         {
             "name": "magentoese/module-luma-de-categories",
@@ -11566,7 +11565,7 @@
                     "MagentoEse\\LumaDECategories\\": ""
                 }
             },
-            "time": "2017-12-04 19:30:25"
+            "time": "2017-12-04T19:30:25+00:00"
         },
         {
             "name": "magentoese/module-luma-de-cms",
@@ -11585,7 +11584,7 @@
                     "MagentoEse\\LumaDECms\\": ""
                 }
             },
-            "time": "2017-12-06 03:13:39"
+            "time": "2017-12-06T03:13:39+00:00"
         },
         {
             "name": "magentoese/module-luma-de-products",
@@ -11604,7 +11603,7 @@
                     "MagentoEse\\LumaDEProducts\\": ""
                 }
             },
-            "time": "2017-12-04 19:30:29"
+            "time": "2017-12-04T19:30:29+00:00"
         },
         {
             "name": "magentoese/module-luma-de-setup",
@@ -11627,7 +11626,7 @@
                     "MagentoEse\\LumaDESetup\\": ""
                 }
             },
-            "time": "2018-01-04 15:59:08"
+            "time": "2018-01-04T15:59:08+00:00"
         },
         {
             "name": "magentoese/module-luma-de-widget",
@@ -11646,7 +11645,7 @@
                     "MagentoEse\\LumaDEWidget\\": ""
                 }
             },
-            "time": "2016-08-03 13:25:09"
+            "time": "2016-08-03T13:25:09+00:00"
         },
         {
             "name": "magentoese/module-megamenu",
@@ -11668,7 +11667,7 @@
                     "MagentoEse\\MegaMenu\\": ""
                 }
             },
-            "time": "2017-03-22 19:16:49"
+            "time": "2017-03-22T19:16:49+00:00"
         },
         {
             "name": "magentoese/module-product-image-switcher",
@@ -11690,7 +11689,7 @@
                     "MagentoEse\\ProductImageSwitcher\\": ""
                 }
             },
-            "time": "2017-05-08 19:35:55"
+            "time": "2017-05-08T19:35:55+00:00"
         },
         {
             "name": "magentoese/module-product-sample-data-update",
@@ -11712,7 +11711,7 @@
                     "MagentoEse\\ProductSampleDataUpdate\\": ""
                 }
             },
-            "time": "2018-04-03 15:38:00"
+            "time": "2018-04-03T15:38:00+00:00"
         },
         {
             "name": "magentoese/module-productbadge",
@@ -11734,7 +11733,7 @@
                     "MagentoEse\\ProductBadge\\": ""
                 }
             },
-            "time": "2016-07-19 14:22:23"
+            "time": "2016-07-19T14:22:23+00:00"
         },
         {
             "name": "magentoese/module-productbadge-sample-data",
@@ -11756,7 +11755,7 @@
                     "MagentoEse\\ProductBadgeSampleData\\": ""
                 }
             },
-            "time": "2017-12-04 19:30:40"
+            "time": "2017-12-04T19:30:40+00:00"
         },
         {
             "name": "magentoese/module-sales-sample-data",
@@ -11778,7 +11777,7 @@
                     "MagentoEse\\SalesSampleData\\": ""
                 }
             },
-            "time": "2018-03-30 13:13:01"
+            "time": "2018-03-30T13:13:01+00:00"
         },
         {
             "name": "magentoese/module-sctools",
@@ -11800,7 +11799,7 @@
                     "MagentoESE\\SCTools\\": ""
                 }
             },
-            "time": "2018-03-16 19:02:36"
+            "time": "2018-03-16T19:02:36+00:00"
         },
         {
             "name": "magentoese/module-switcherlogos",
@@ -11822,7 +11821,7 @@
                     "MagentoEse\\SwitcherLogos\\": ""
                 }
             },
-            "time": "2017-08-23 19:53:33"
+            "time": "2017-08-23T19:53:33+00:00"
         },
         {
             "name": "magentoese/module-themecustomizer",
@@ -11844,7 +11843,7 @@
                     "MagentoEse\\ThemeCustomizer\\": ""
                 }
             },
-            "time": "2018-04-02 21:37:16"
+            "time": "2018-04-02T21:37:16+00:00"
         },
         {
             "name": "magentoese/module-venia-catalog-sample-data",
@@ -11867,7 +11866,7 @@
                     "MagentoEse\\VeniaCatalogSampleData\\": ""
                 }
             },
-            "time": "2017-10-13 18:39:17"
+            "time": "2017-10-13T18:39:17+00:00"
         },
         {
             "name": "magentoese/module-venia-cms-sample-data",
@@ -11886,7 +11885,7 @@
                     "MagentoEse\\VeniaCmsSampleData\\": ""
                 }
             },
-            "time": "2017-06-22 14:29:43"
+            "time": "2017-06-22T14:29:43+00:00"
         },
         {
             "name": "magentoese/module-venia-media-sample-data",
@@ -11898,7 +11897,7 @@
             },
             "type": "magento2-component",
             "description": "Sample Data media files",
-            "time": "2017-06-22 19:03:48"
+            "time": "2017-06-22T19:03:48+00:00"
         },
         {
             "name": "magentoese/module-venia-setup",
@@ -11920,7 +11919,7 @@
                     "MagentoEse\\VeniaSetup\\": ""
                 }
             },
-            "time": "2017-12-06 14:43:02"
+            "time": "2017-12-06T14:43:02+00:00"
         },
         {
             "name": "magentoese/module-venia-video-sample-data",
@@ -11942,7 +11941,7 @@
                     "MagentoEse\\VeniaVideoSampleData\\": ""
                 }
             },
-            "time": "2017-11-19 21:09:30"
+            "time": "2017-11-19T21:09:30+00:00"
         },
         {
             "name": "magentoese/module-vimeo",
@@ -11964,7 +11963,7 @@
                     "MagentoEse\\Vimeo\\": ""
                 }
             },
-            "time": "2017-09-25 13:36:18"
+            "time": "2017-09-25T13:36:18+00:00"
         },
         {
             "name": "magentoese/nfs4d4m",
@@ -11982,7 +11981,7 @@
                 }
             ],
             "description": "Faster file sharing for Docker for Mac using NFS",
-            "time": "2017-11-13 11:45:29"
+            "time": "2017-11-13T11:45:29+00:00"
         },
         {
             "name": "magentoese/theme-frontend-venia",
@@ -12004,7 +12003,7 @@
                     "registration.php"
                 ]
             },
-            "time": "2018-01-09 21:39:35"
+            "time": "2018-01-09T21:39:35+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -12082,7 +12081,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2017-06-19 01:22:40"
+            "time": "2017-06-19T01:22:40+00:00"
         },
         {
             "name": "oyejorge/less.php",
@@ -12144,7 +12143,7 @@
                 "php",
                 "stylesheet"
             ],
-            "time": "2017-03-28 22:19:25"
+            "time": "2017-03-28T22:19:25+00:00"
         },
         {
             "name": "paradoxlabs/authnetcim",
@@ -12175,7 +12174,7 @@
                 "payment",
                 "tokenization"
             ],
-            "time": "2017-11-20 19:40:32"
+            "time": "2017-11-20T19:40:32+00:00"
         },
         {
             "name": "paradoxlabs/firstdata",
@@ -12209,7 +12208,7 @@
                 "payment",
                 "tokenization"
             ],
-            "time": "2017-11-20 19:32:59"
+            "time": "2017-11-20T19:32:59+00:00"
         },
         {
             "name": "paradoxlabs/stripe",
@@ -12241,7 +12240,7 @@
                 "stripe",
                 "tokenization"
             ],
-            "time": "2017-11-20 19:35:02"
+            "time": "2017-11-20T19:35:02+00:00"
         },
         {
             "name": "paradoxlabs/subscriptions",
@@ -12283,7 +12282,7 @@
                 "proprietary"
             ],
             "description": "Adaptive Subscriptions: Subscriptions, auto-shipments, and recurring payments by ParadoxLabs.",
-            "time": "2017-11-20 19:39:46"
+            "time": "2017-11-20T19:39:46+00:00"
         },
         {
             "name": "paradoxlabs/tokenbase",
@@ -12291,7 +12290,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/paradoxlabs-tokenbase.git",
-                "reference": "203541d18da40f79b23261dfca73a37bed392eac"
+                "reference": "bbfae4fc57ab48db2cfe114eeeeccdf3453a4131"
             },
             "require": {
                 "magento/framework": "^100.0||^101.0",
@@ -12320,7 +12319,7 @@
                 "proprietary"
             ],
             "description": "Base module for ParadoxLabs tokenization payment methods.",
-            "time": "2017-09-20 00:00:00"
+            "time": "2017-09-20T00:00:00+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -12368,7 +12367,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2018-04-04 21:24:14"
+            "time": "2018-04-04T21:24:14+00:00"
         },
         {
             "name": "pelago/emogrifier",
@@ -12437,7 +12436,7 @@
                 "email",
                 "pre-processing"
             ],
-            "time": "2018-01-05 23:30:21"
+            "time": "2018-01-05T23:30:21+00:00"
         },
         {
             "name": "php-amqplib/php-amqplib",
@@ -12491,7 +12490,7 @@
                 "queue",
                 "rabbitmq"
             ],
-            "time": "2015-08-11 12:30:09"
+            "time": "2015-08-11T12:30:09+00:00"
         },
         {
             "name": "phpseclib/phpseclib",
@@ -12583,7 +12582,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2018-04-15 16:55:05"
+            "time": "2018-04-15T16:55:05+00:00"
         },
         {
             "name": "psr/container",
@@ -12632,7 +12631,7 @@
                 "container-interop",
                 "psr"
             ],
-            "time": "2017-02-14 16:28:37"
+            "time": "2017-02-14T16:28:37+00:00"
         },
         {
             "name": "psr/http-message",
@@ -12682,7 +12681,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06 14:39:51"
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "psr/log",
@@ -12729,7 +12728,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10 12:19:37"
+            "time": "2016-10-10T12:19:37+00:00"
         },
         {
             "name": "psr/simple-cache",
@@ -12777,7 +12776,7 @@
                 "psr-16",
                 "simple-cache"
             ],
-            "time": "2017-10-23 01:57:42"
+            "time": "2017-10-23T01:57:42+00:00"
         },
         {
             "name": "ramsey/uuid",
@@ -12857,7 +12856,7 @@
                 "identifier",
                 "uuid"
             ],
-            "time": "2018-01-20 00:28:24"
+            "time": "2018-01-20T00:28:24+00:00"
         },
         {
             "name": "react/promise",
@@ -12903,7 +12902,7 @@
                 "promise",
                 "promises"
             ],
-            "time": "2017-03-25 12:08:31"
+            "time": "2017-03-25T12:08:31+00:00"
         },
         {
             "name": "seld/cli-prompt",
@@ -12951,7 +12950,7 @@
                 "input",
                 "prompt"
             ],
-            "time": "2017-03-18 11:32:45"
+            "time": "2017-03-18T11:32:45+00:00"
         },
         {
             "name": "seld/jsonlint",
@@ -13000,7 +12999,7 @@
                 "parser",
                 "validator"
             ],
-            "time": "2018-01-24 12:46:19"
+            "time": "2018-01-24T12:46:19+00:00"
         },
         {
             "name": "seld/phar-utils",
@@ -13044,7 +13043,7 @@
             "keywords": [
                 "phra"
             ],
-            "time": "2015-10-13 18:44:15"
+            "time": "2015-10-13T18:44:15+00:00"
         },
         {
             "name": "sjparkinson/static-review",
@@ -13098,7 +13097,7 @@
             ],
             "description": "An extendable framework for version control hooks.",
             "abandoned": "phpro/grumphp",
-            "time": "2014-09-22 08:40:36"
+            "time": "2014-09-22T08:40:36+00:00"
         },
         {
             "name": "solarium/solarium",
@@ -13156,7 +13155,7 @@
                 "search",
                 "solr"
             ],
-            "time": "2017-02-02 13:32:22"
+            "time": "2017-02-02T13:32:22+00:00"
         },
         {
             "name": "splendidinternet/mage2-locale-de-de",
@@ -13186,7 +13185,7 @@
                 "OSL-3.0"
             ],
             "description": "German (Germany) language",
-            "time": "2018-04-04 10:38:02"
+            "time": "2018-04-04T10:38:02+00:00"
         },
         {
             "name": "stripe/stripe-php",
@@ -13241,7 +13240,7 @@
                 "payment processing",
                 "stripe"
             ],
-            "time": "2017-06-20 01:39:06"
+            "time": "2017-06-20T01:39:06+00:00"
         },
         {
             "name": "symfony/console",
@@ -13302,7 +13301,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-03 05:20:27"
+            "time": "2018-04-03T05:20:27+00:00"
         },
         {
             "name": "symfony/debug",
@@ -13359,7 +13358,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-30 07:22:48"
+            "time": "2016-07-30T07:22:48+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -13419,7 +13418,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-06 07:35:03"
+            "time": "2018-04-06T07:35:03+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -13468,7 +13467,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2018-02-22 10:48:49"
+            "time": "2018-02-22T10:48:49+00:00"
         },
         {
             "name": "symfony/finder",
@@ -13517,7 +13516,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-04 05:07:11"
+            "time": "2018-04-04T05:07:11+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -13576,7 +13575,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-01-30 19:27:44"
+            "time": "2018-01-30T19:27:44+00:00"
         },
         {
             "name": "symfony/process",
@@ -13625,7 +13624,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-03 05:20:27"
+            "time": "2018-04-03T05:20:27+00:00"
         },
         {
             "name": "tedivm/jshrink",
@@ -13671,7 +13670,7 @@
                 "javascript",
                 "minifier"
             ],
-            "time": "2017-12-08 00:59:56"
+            "time": "2017-12-08T00:59:56+00:00"
         },
         {
             "name": "temando/module-shipping-m2",
@@ -13777,7 +13776,7 @@
                 "minify",
                 "yui"
             ],
-            "time": "2018-01-15 15:26:51"
+            "time": "2018-01-15T15:26:51+00:00"
         },
         {
             "name": "vertex/module-tax",
@@ -13894,7 +13893,7 @@
                 "captcha",
                 "zf2"
             ],
-            "time": "2017-02-23 08:09:44"
+            "time": "2017-02-23T08:09:44+00:00"
         },
         {
             "name": "zendframework/zend-code",
@@ -13947,7 +13946,7 @@
                 "code",
                 "zf2"
             ],
-            "time": "2016-10-24 13:23:32"
+            "time": "2016-10-24T13:23:32+00:00"
         },
         {
             "name": "zendframework/zend-config",
@@ -14003,7 +14002,7 @@
                 "config",
                 "zf2"
             ],
-            "time": "2016-02-04 23:01:10"
+            "time": "2016-02-04T23:01:10+00:00"
         },
         {
             "name": "zendframework/zend-console",
@@ -14056,7 +14055,7 @@
                 "console",
                 "zf"
             ],
-            "time": "2018-01-25 19:08:04"
+            "time": "2018-01-25T19:08:04+00:00"
         },
         {
             "name": "zendframework/zend-crypt",
@@ -14106,7 +14105,7 @@
                 "crypt",
                 "zf2"
             ],
-            "time": "2016-02-03 23:46:30"
+            "time": "2016-02-03T23:46:30+00:00"
         },
         {
             "name": "zendframework/zend-db",
@@ -14164,7 +14163,7 @@
                 "db",
                 "zf"
             ],
-            "time": "2018-04-09 13:21:36"
+            "time": "2018-04-09T13:21:36+00:00"
         },
         {
             "name": "zendframework/zend-di",
@@ -14211,7 +14210,7 @@
                 "di",
                 "zf2"
             ],
-            "time": "2016-04-25 20:58:11"
+            "time": "2016-04-25T20:58:11+00:00"
         },
         {
             "name": "zendframework/zend-diactoros",
@@ -14263,7 +14262,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2018-02-26 15:44:50"
+            "time": "2018-02-26T15:44:50+00:00"
         },
         {
             "name": "zendframework/zend-escaper",
@@ -14307,7 +14306,7 @@
                 "escaper",
                 "zf2"
             ],
-            "time": "2016-06-30 19:48:38"
+            "time": "2016-06-30T19:48:38+00:00"
         },
         {
             "name": "zendframework/zend-eventmanager",
@@ -14354,7 +14353,7 @@
                 "eventmanager",
                 "zf2"
             ],
-            "time": "2017-12-12 17:48:56"
+            "time": "2017-12-12T17:48:56+00:00"
         },
         {
             "name": "zendframework/zend-filter",
@@ -14417,7 +14416,7 @@
                 "filter",
                 "zf"
             ],
-            "time": "2018-04-11 16:20:04"
+            "time": "2018-04-11T16:20:04+00:00"
         },
         {
             "name": "zendframework/zend-form",
@@ -14495,7 +14494,7 @@
                 "form",
                 "zf"
             ],
-            "time": "2017-12-06 21:09:08"
+            "time": "2017-12-06T21:09:08+00:00"
         },
         {
             "name": "zendframework/zend-http",
@@ -14548,7 +14547,7 @@
                 "zend",
                 "zf"
             ],
-            "time": "2017-10-13 12:06:24"
+            "time": "2017-10-13T12:06:24+00:00"
         },
         {
             "name": "zendframework/zend-hydrator",
@@ -14606,7 +14605,7 @@
                 "hydrator",
                 "zf2"
             ],
-            "time": "2016-02-18 22:38:26"
+            "time": "2016-02-18T22:38:26+00:00"
         },
         {
             "name": "zendframework/zend-i18n",
@@ -14673,7 +14672,7 @@
                 "i18n",
                 "zf2"
             ],
-            "time": "2017-05-17 17:00:12"
+            "time": "2017-05-17T17:00:12+00:00"
         },
         {
             "name": "zendframework/zend-inputfilter",
@@ -14726,7 +14725,7 @@
                 "inputfilter",
                 "zf"
             ],
-            "time": "2018-01-22 19:41:18"
+            "time": "2018-01-22T19:41:18+00:00"
         },
         {
             "name": "zendframework/zend-json",
@@ -14781,7 +14780,7 @@
                 "json",
                 "zf2"
             ],
-            "time": "2016-02-04 21:20:26"
+            "time": "2016-02-04T21:20:26+00:00"
         },
         {
             "name": "zendframework/zend-loader",
@@ -14825,7 +14824,7 @@
                 "loader",
                 "zf2"
             ],
-            "time": "2015-06-03 14:05:47"
+            "time": "2015-06-03T14:05:47+00:00"
         },
         {
             "name": "zendframework/zend-log",
@@ -14896,7 +14895,7 @@
                 "logging",
                 "zf2"
             ],
-            "time": "2018-04-09 21:59:51"
+            "time": "2018-04-09T21:59:51+00:00"
         },
         {
             "name": "zendframework/zend-math",
@@ -14946,7 +14945,7 @@
                 "math",
                 "zf2"
             ],
-            "time": "2016-04-07 16:29:53"
+            "time": "2016-04-07T16:29:53+00:00"
         },
         {
             "name": "zendframework/zend-modulemanager",
@@ -15006,7 +15005,7 @@
                 "modulemanager",
                 "zf"
             ],
-            "time": "2017-12-02 06:11:18"
+            "time": "2017-12-02T06:11:18+00:00"
         },
         {
             "name": "zendframework/zend-mvc",
@@ -15098,7 +15097,7 @@
                 "mvc",
                 "zf2"
             ],
-            "time": "2017-12-14 22:44:10"
+            "time": "2017-12-14T22:44:10+00:00"
         },
         {
             "name": "zendframework/zend-psr7bridge",
@@ -15147,7 +15146,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2016-05-10 21:44:39"
+            "time": "2016-05-10T21:44:39+00:00"
         },
         {
             "name": "zendframework/zend-serializer",
@@ -15205,7 +15204,7 @@
                 "serializer",
                 "zf2"
             ],
-            "time": "2017-11-20 22:21:04"
+            "time": "2017-11-20T22:21:04+00:00"
         },
         {
             "name": "zendframework/zend-server",
@@ -15251,7 +15250,7 @@
                 "server",
                 "zf2"
             ],
-            "time": "2016-06-20 22:27:55"
+            "time": "2016-06-20T22:27:55+00:00"
         },
         {
             "name": "zendframework/zend-servicemanager",
@@ -15303,7 +15302,7 @@
                 "servicemanager",
                 "zf2"
             ],
-            "time": "2017-12-05 16:27:36"
+            "time": "2017-12-05T16:27:36+00:00"
         },
         {
             "name": "zendframework/zend-session",
@@ -15370,7 +15369,7 @@
                 "session",
                 "zf"
             ],
-            "time": "2018-02-22 16:33:54"
+            "time": "2018-02-22T16:33:54+00:00"
         },
         {
             "name": "zendframework/zend-soap",
@@ -15423,7 +15422,7 @@
                 "soap",
                 "zf2"
             ],
-            "time": "2018-01-29 17:51:26"
+            "time": "2018-01-29T17:51:26+00:00"
         },
         {
             "name": "zendframework/zend-stdlib",
@@ -15482,7 +15481,7 @@
                 "stdlib",
                 "zf2"
             ],
-            "time": "2016-04-12 21:17:31"
+            "time": "2016-04-12T21:17:31+00:00"
         },
         {
             "name": "zendframework/zend-text",
@@ -15529,7 +15528,7 @@
                 "text",
                 "zf2"
             ],
-            "time": "2016-02-08 19:03:52"
+            "time": "2016-02-08T19:03:52+00:00"
         },
         {
             "name": "zendframework/zend-uri",
@@ -15576,7 +15575,7 @@
                 "uri",
                 "zf2"
             ],
-            "time": "2018-04-10 17:08:10"
+            "time": "2018-04-10T17:08:10+00:00"
         },
         {
             "name": "zendframework/zend-validator",
@@ -15647,7 +15646,7 @@
                 "validator",
                 "zf2"
             ],
-            "time": "2018-02-01 17:05:33"
+            "time": "2018-02-01T17:05:33+00:00"
         },
         {
             "name": "zendframework/zend-view",
@@ -15734,7 +15733,7 @@
                 "view",
                 "zf2"
             ],
-            "time": "2018-01-17 22:21:50"
+            "time": "2018-01-17T22:21:50+00:00"
         }
     ],
     "packages-dev": [],
