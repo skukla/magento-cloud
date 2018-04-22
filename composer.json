@@ -96,7 +96,7 @@
         "amasty/module-store-locator": "dev-master",
         "amasty/rgrid": "dev-master",
         
-        "classyllama/module-owlcarousel":"dev-master",
+
         "fastly/magento2": "^1.2",
         "firegento/fastsimpleimport": "dev-updated",
         "gene/bluefoot": "dev-develop-no-branding",
@@ -173,13 +173,7 @@
         "paradoxlabs/firstdata": "dev-master",
         "paradoxlabs/stripe": "dev-master",
         "paradoxlabs/subscriptions": "dev-master",
-        "paradoxlabs/tokenbase": "4.0.1",
-        
-        "vertex/module-tax": "2.1.0.17",
-        "klarna/module-core": "4.0.6",
-        "klarna/module-kp": "5.0.7",
-        "klarna/module-ordermanagement": "4.0.6",
-        "amzn/amazon-pay-and-login-magento-2-module": "2.0.3"
+        "paradoxlabs/tokenbase": "4.0.1"
     },
     "config": {
         "use-include-path": true

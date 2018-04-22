@@ -175,11 +175,7 @@
         "paradoxlabs/subscriptions": "dev-master",
         "paradoxlabs/tokenbase": "4.0.1",
         //"smile/elasticsuite": "~2.3.6",
-        "vertex/module-tax": "~2.1",
-        "klarna/module-core": "~4.1",
-        "klarna/module-kp": "~5.1",
-        "klarna/module-ordermanagement": "~4.1",
-        "amzn/amazon-pay-and-login-magento-2-module": "~2.0"
+       
     },
     "config": {
         "use-include-path": true
