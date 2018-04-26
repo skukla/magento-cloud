@@ -2,7 +2,7 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.2.2",
+    "version": "2.2.4",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -39,7 +39,8 @@
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-b2b-siemens-sample-data.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-b2b-legrand-sample-data.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-b2b-misc-sample-data.git"},
-        {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-b2b-media-sample-data.git"}
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-b2b-media-sample-data.git"},
+        {"type": "git","url": "git@bitbucket.org:jeffbritts/dockerize-magento2.git"}
     ],
     "scripts": {
         "pre-autoload-dump" : [
@@ -77,11 +78,12 @@
         "magentoese/module-b2b-shared-catalog-sample-data": "dev-split",
         "magentoese/module-installation-overrides": "dev-master",
         "magentoese/module-my-account-widget": "dev-develop",
-        // "magentoese/module-post-install": "dev-master",
+
         "magentoese/module-productbadge": "dev-master",
         "magentoese/module-sales-sample-data": "dev-master",
         "magentoese/nfs4d4m": "dev-master",
-        "magentoese/theme-brentmill": "dev-develop"
+        "magentoese/theme-brentmill": "dev-develop",
+        "arvatoscm/dockerize-magento2": "dev-master"
     },
     "config": {
         "use-include-path": true
