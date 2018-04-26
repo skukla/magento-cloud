@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7ba131966795ae07f2cee53e01e7261b",
-    "content-hash": "8eefb160f697dedfec9169c34c71abc7",
+    "hash": "c89bf0ae0af2417251601973741b0803",
+    "content-hash": "8dc7c12b1d927c39aa6b4680c20c7590",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -107,66 +107,6 @@
                 "payments"
             ],
             "time": "2017-11-28 23:40:51"
-        },
-        {
-            "name": "arvatoscm/dockerize-magento2",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:jeffbritts/dockerize-magento2.git",
-                "reference": "760b4b9886f18041d2a52d0760ac12c972b67d2f"
-            },
-            "type": "magento2-component",
-            "extra": {
-                "map": [
-                    [
-                        "docker-compose.yml",
-                        "docker-compose.yml"
-                    ],
-                    [
-                        "docker-compose-sync.yml",
-                        "docker-compose-sync.yml"
-                    ],
-                    [
-                        "docker-sync.yml",
-                        "docker-sync.yml"
-                    ],
-                    [
-                        "config",
-                        "config"
-                    ],
-                    [
-                        ".env",
-                        ".env"
-                    ],
-                    [
-                        "gulpfile.js",
-                        "gulpfile.js"
-                    ],
-                    [
-                        "package.json",
-                        "package.json"
-                    ],
-                    [
-                        "bin/console",
-                        "bin/console"
-                    ]
-                ]
-            },
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Andreas Koch",
-                    "email": "andy@ak7.io",
-                    "homepage": "https://github.com/andreaskoch",
-                    "role": "Author"
-                }
-            ],
-            "description": "Docker infrastructure definitions for Magento 2",
-            "homepage": "https://github.com/arvatoSCM/dockerize-magento2",
-            "time": "2018-04-13 16:17:47"
         },
         {
             "name": "braintree/braintree_php",
@@ -653,12 +593,12 @@
         },
         {
             "name": "dotmailer/dotmailer-magento2-extension",
-            "version": "2.4.9",
+            "version": "2.5.0",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/dotmailer/dotmailer-magento2-extension/dotmailer-dotmailer-magento2-extension-2.4.9.0.zip",
+                "url": "https://connect20-qa01.magedevteam.com/archives/dotmailer/dotmailer-magento2-extension/dotmailer-dotmailer-magento2-extension-2.5.0.0.zip",
                 "reference": null,
-                "shasum": "6245c7b832106cd95596cbb245c5593dd1d34d2f"
+                "shasum": "e945bded81d50600ab0f471de32581652e2ec59a"
             },
             "require": {
                 "magento/framework": ">=100 <102",
@@ -1322,12 +1262,12 @@
         },
         {
             "name": "klarna/module-core",
-            "version": "4.1.2",
+            "version": "4.1.3",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/klarna/module-core/klarna-module-core-4.1.2.0.zip",
+                "url": "https://connect20-qa01.magedevteam.com/archives/klarna/module-core/klarna-module-core-4.1.3.0.zip",
                 "reference": null,
-                "shasum": "901a56f3dd90bdc2bf9d89933c17293daa209726"
+                "shasum": "d392ac69e0e29861d3cec48f1058f132bc6bd1ea"
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.0",
@@ -1395,12 +1335,12 @@
         },
         {
             "name": "klarna/module-kp",
-            "version": "5.1.2",
+            "version": "5.1.3",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/klarna/module-kp/klarna-module-kp-5.1.2.0.zip",
+                "url": "https://connect20-qa01.magedevteam.com/archives/klarna/module-kp/klarna-module-kp-5.1.3.0.zip",
                 "reference": null,
-                "shasum": "f937e884e210dc8b275522654b673489f07c86bf"
+                "shasum": "4a4d97c9b4bc802e34327753542527dfdf921667"
             },
             "require": {
                 "klarna/module-core": "^4.0",
@@ -1461,12 +1401,12 @@
         },
         {
             "name": "klarna/module-ordermanagement",
-            "version": "4.1.0",
+            "version": "4.1.1",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/klarna/module-ordermanagement/klarna-module-ordermanagement-4.1.0.0.zip",
+                "url": "https://connect20-qa01.magedevteam.com/archives/klarna/module-ordermanagement/klarna-module-ordermanagement-4.1.1.0.zip",
                 "reference": null,
-                "shasum": "33f20d161b9a8e1b063bab556dd71f6fd7b5017a"
+                "shasum": "1bf727a88b3ff0ef835d7c650aba3bf11f130f0f"
             },
             "require": {
                 "klarna/module-core": "^4.0",
@@ -11525,6 +11465,50 @@
             "time": "2018-01-18 14:04:59"
         },
         {
+            "name": "magentoese/module-sctools",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/module-sctools.git",
+                "reference": "003026b6b6de27cb39f0d08185f7cd7e314a9268"
+            },
+            "require": {
+                "php": "~5.6.0|~7.0.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MagentoESE\\SCTools\\": ""
+                }
+            },
+            "time": "2018-03-16 19:02:36"
+        },
+        {
+            "name": "magentoese/module-themecustomizer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/module-themecustomizer.git",
+                "reference": "0e0d5728c278139a9c377092f50fae754b103f68"
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MagentoEse\\ThemeCustomizer\\": ""
+                }
+            },
+            "time": "2018-04-02 21:37:16"
+        },
+        {
             "name": "magentoese/nfs4d4m",
             "version": "dev-master",
             "source": {
@@ -13099,12 +13083,12 @@
         },
         {
             "name": "vertex/module-tax",
-            "version": "2.1.2",
+            "version": "2.1.3",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/vertex/module-tax/vertex-module-tax-2.1.2.0.zip",
+                "url": "https://connect20-qa01.magedevteam.com/archives/vertex/module-tax/vertex-module-tax-2.1.3.0.zip",
                 "reference": null,
-                "shasum": "7b84cd80fdeba779ce873bc2552f42d136030bfb"
+                "shasum": "9a9f992af68f35626adaf1e8206a042a87398d23"
             },
             "require": {
                 "ext-simplexml": "*",
@@ -13120,11 +13104,11 @@
                 "magento/module-sales": "^100.0.2|^101.0.0",
                 "magento/module-shipping": "^100.0.2",
                 "magento/module-store": "^100.0.2",
-                "magento/module-tax": "<=100.2.4",
+                "magento/module-tax": "~100.2.4",
                 "php": "^5.6|^7.0"
             },
             "conflict": {
-                "magento/module-gift-wrapping": ">101.0.2",
+                "magento/module-gift-wrapping": ">=101.1.0",
                 "pixafy/tax": "*",
                 "pixafy/tax-ee": "*",
                 "vertex/tax": "*",
@@ -13141,6 +13125,8 @@
                 "vlucas/phpdotenv": "^2.4"
             },
             "suggest": {
+                "magento/module-checkout": "Vertex Tax Links for Magento 2 also supports Magento's Checkout module",
+                "magento/module-gift-card-account": "Vertex Tax Links for Magento 2 also supports Magento's Gift Card Account module",
                 "magento/module-gift-wrapping": "Vertex Tax Links for Magento 2 also supports Magento's Gift Wrapping module"
             },
             "type": "magento2-module",
@@ -13159,29 +13145,29 @@
         },
         {
             "name": "zendframework/zend-captcha",
-            "version": "2.7.1",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-captcha.git",
-                "reference": "2d56293a5ae3e45e7c8ee7030aa8b305768d8014"
+                "reference": "37e9b6a4f632a9399eecbf2e5e325ad89083f87b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-captcha/zipball/2d56293a5ae3e45e7c8ee7030aa8b305768d8014",
-                "reference": "2d56293a5ae3e45e7c8ee7030aa8b305768d8014",
+                "url": "https://api.github.com/repos/zendframework/zend-captcha/zipball/37e9b6a4f632a9399eecbf2e5e325ad89083f87b",
+                "reference": "37e9b6a4f632a9399eecbf2e5e325ad89083f87b",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.6 || ^7.0",
-                "zendframework/zend-math": "^2.6 || ^3.0",
-                "zendframework/zend-stdlib": "^2.7 || ^3.0"
+                "zendframework/zend-math": "^2.7 || ^3.0",
+                "zendframework/zend-stdlib": "^2.7.7 || ^3.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.8",
+                "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2",
                 "zendframework/zend-coding-standard": "~1.0.0",
-                "zendframework/zend-session": "^2.6",
+                "zendframework/zend-session": "^2.8",
                 "zendframework/zend-text": "^2.6",
-                "zendframework/zend-validator": "^2.6",
+                "zendframework/zend-validator": "^2.10.1",
                 "zendframework/zendservice-recaptcha": "^3.0"
             },
             "suggest": {
@@ -13194,8 +13180,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7-dev",
-                    "dev-develop": "2.8-dev"
+                    "dev-master": "2.8.x-dev",
+                    "dev-develop": "2.9.x-dev"
                 }
             },
             "autoload": {
@@ -13207,12 +13193,13 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "homepage": "https://github.com/zendframework/zend-captcha",
+            "description": "Generate and validate CAPTCHAs using Figlets, images, ReCaptcha, and more",
             "keywords": [
+                "ZendFramework",
                 "captcha",
-                "zf2"
+                "zf"
             ],
-            "time": "2017-02-23 08:09:44"
+            "time": "2018-04-24 17:24:10"
         },
         {
             "name": "zendframework/zend-code",
@@ -13585,30 +13572,30 @@
         },
         {
             "name": "zendframework/zend-escaper",
-            "version": "2.5.2",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-escaper.git",
-                "reference": "2dcd14b61a72d8b8e27d579c6344e12c26141d4e"
+                "reference": "31d8aafae982f9568287cb4dce987e6aff8fd074"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-escaper/zipball/2dcd14b61a72d8b8e27d579c6344e12c26141d4e",
-                "reference": "2dcd14b61a72d8b8e27d579c6344e12c26141d4e",
+                "url": "https://api.github.com/repos/zendframework/zend-escaper/zipball/31d8aafae982f9568287cb4dce987e6aff8fd074",
+                "reference": "31d8aafae982f9568287cb4dce987e6aff8fd074",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5"
+                "php": "^5.6 || ^7.0"
             },
             "require-dev": {
-                "fabpot/php-cs-fixer": "1.7.*",
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2",
+                "zendframework/zend-coding-standard": "~1.0.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5-dev",
-                    "dev-develop": "2.6-dev"
+                    "dev-master": "2.6.x-dev",
+                    "dev-develop": "2.7.x-dev"
                 }
             },
             "autoload": {
@@ -13620,12 +13607,13 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "homepage": "https://github.com/zendframework/zend-escaper",
+            "description": "Securely and safely escape HTML, HTML attributes, JavaScript, CSS, and URLs",
             "keywords": [
+                "ZendFramework",
                 "escaper",
-                "zf2"
+                "zf"
             ],
-            "time": "2016-06-30 19:48:38"
+            "time": "2018-04-25 15:48:53"
         },
         {
             "name": "zendframework/zend-eventmanager",
@@ -13928,24 +13916,24 @@
         },
         {
             "name": "zendframework/zend-i18n",
-            "version": "2.7.4",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-i18n.git",
-                "reference": "d3431e29cc00c2a1c6704e601d4371dbf24f6a31"
+                "reference": "cfdb658121e0d7eb969a498c2f67f1eacaab9c63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-i18n/zipball/d3431e29cc00c2a1c6704e601d4371dbf24f6a31",
-                "reference": "d3431e29cc00c2a1c6704e601d4371dbf24f6a31",
+                "url": "https://api.github.com/repos/zendframework/zend-i18n/zipball/cfdb658121e0d7eb969a498c2f67f1eacaab9c63",
+                "reference": "cfdb658121e0d7eb969a498c2f67f1eacaab9c63",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0 || ^5.6",
+                "php": "^5.6 || ^7.0",
                 "zendframework/zend-stdlib": "^2.7 || ^3.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^6.0.8 || ^5.7.15",
+                "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2",
                 "zendframework/zend-cache": "^2.6.1",
                 "zendframework/zend-coding-standard": "~1.0.0",
                 "zendframework/zend-config": "^2.6",
@@ -13969,8 +13957,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7-dev",
-                    "dev-develop": "2.8-dev"
+                    "dev-master": "2.8.x-dev",
+                    "dev-develop": "2.9.x-dev"
                 },
                 "zf": {
                     "component": "Zend\\I18n",
@@ -13986,12 +13974,13 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "homepage": "https://github.com/zendframework/zend-i18n",
+            "description": "Provide translations for your application, and filter and validate internationalized values",
             "keywords": [
+                "ZendFramework",
                 "i18n",
-                "zf2"
+                "zf"
             ],
-            "time": "2017-05-17 17:00:12"
+            "time": "2018-04-25 19:32:43"
         },
         {
             "name": "zendframework/zend-inputfilter",
@@ -15086,9 +15075,10 @@
         "magentoese/module-my-account-widget": 20,
         "magentoese/module-productbadge": 20,
         "magentoese/module-sales-sample-data": 20,
+        "magentoese/module-sctools": 20,
+        "magentoese/module-themecustomizer": 20,
         "magentoese/nfs4d4m": 20,
-        "magentoese/theme-brentmill": 20,
-        "arvatoscm/dockerize-magento2": 20
+        "magentoese/theme-brentmill": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
