@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "22b313ac3c45885c5c218f1561a0d3bb",
-    "content-hash": "da940ff3ee1e836082a52a3bc556ac2d",
+    "hash": "b6237b5340abf8fdf9f1f4143fc5f035",
+    "content-hash": "fd4ac8c5b637af19fced9fb9c5adf975",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -501,16 +501,16 @@
         },
         {
             "name": "composer/spdx-licenses",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/spdx-licenses.git",
-                "reference": "7e111c50db92fa2ced140f5ba23b4e261bc77a30"
+                "reference": "cb17687e9f936acd7e7245ad3890f953770dec1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/7e111c50db92fa2ced140f5ba23b4e261bc77a30",
-                "reference": "7e111c50db92fa2ced140f5ba23b4e261bc77a30",
+                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/cb17687e9f936acd7e7245ad3890f953770dec1b",
+                "reference": "cb17687e9f936acd7e7245ad3890f953770dec1b",
                 "shasum": ""
             },
             "require": {
@@ -558,7 +558,7 @@
                 "spdx",
                 "validator"
             ],
-            "time": "2018-01-31 13:17:27"
+            "time": "2018-04-30 10:33:04"
         },
         {
             "name": "container-interop/container-interop",
@@ -11087,7 +11087,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git",
-                "reference": "e02da6ad07fee1afe4b95272a73211dafa590b9d"
+                "reference": "81234ddbd6a314bd4efd68fbb40835c20f380f39"
             },
             "require": {
                 "magento/framework": "*"
@@ -11101,7 +11101,7 @@
                     "MagentoEse\\AdminConfigurations\\": ""
                 }
             },
-            "time": "2018-02-01 19:29:46"
+            "time": "2018-05-04 13:55:02"
         },
         {
             "name": "magentoese/module-autofill",
