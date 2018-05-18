@@ -75,8 +75,7 @@
         "magentoese/module-b2b-misc-sample-data": "dev-master",
         "magentoese/module-b2b-media-sample-data": "dev-master",
         "magentoese/module-b2b-order-approval": "dev-develop",
-        "magentoese/module-b2b-order-sample-data": "dev-develop",
-        "magentoese/module-b2b-shared-catalog-sample-data": "dev-split",
+
         "magentoese/module-installation-overrides": "dev-master",
         "magentoese/module-my-account-widget": "dev-develop",
         
