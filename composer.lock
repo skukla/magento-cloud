@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b6237b5340abf8fdf9f1f4143fc5f035",
-    "content-hash": "fd4ac8c5b637af19fced9fb9c5adf975",
+    "hash": "22b313ac3c45885c5c218f1561a0d3bb",
+    "content-hash": "da940ff3ee1e836082a52a3bc556ac2d",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -63,21 +63,24 @@
         },
         {
             "name": "amzn/amazon-pay-sdk-php",
-            "version": "3.2.0",
+            "version": "3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amzn/amazon-pay-sdk-php.git",
-                "reference": "0b96d1eaffa9d5c9a97e3c8cbc2d0667c390b929"
+                "reference": "5dfe16a4756af1d9f69862e79fae91f42b105869"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/amzn/amazon-pay-sdk-php/zipball/0b96d1eaffa9d5c9a97e3c8cbc2d0667c390b929",
-                "reference": "0b96d1eaffa9d5c9a97e3c8cbc2d0667c390b929",
+                "url": "https://api.github.com/repos/amzn/amazon-pay-sdk-php/zipball/5dfe16a4756af1d9f69862e79fae91f42b105869",
+                "reference": "5dfe16a4756af1d9f69862e79fae91f42b105869",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
                 "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4"
             },
             "type": "library",
             "autoload": {
@@ -106,7 +109,7 @@
                 "payment",
                 "payments"
             ],
-            "time": "2017-11-28 23:40:51"
+            "time": "2018-05-03 18:01:33"
         },
         {
             "name": "braintree/braintree_php",
@@ -720,16 +723,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.52",
+            "version": "1.2.54",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "f9b0cebac872d0df7c9b937e603d890deabb2ed5"
+                "reference": "59f1661e1ec333014a1132971780b98f4866ac70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/f9b0cebac872d0df7c9b937e603d890deabb2ed5",
-                "reference": "f9b0cebac872d0df7c9b937e603d890deabb2ed5",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/59f1661e1ec333014a1132971780b98f4866ac70",
+                "reference": "59f1661e1ec333014a1132971780b98f4866ac70",
                 "shasum": ""
             },
             "require": {
@@ -754,7 +757,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2018-05-02 20:29:55"
+            "time": "2018-05-17 13:58:17"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -10976,7 +10979,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/ece-patches.git",
-                "reference": "47dbf22ad06afe0d2014a9f48abcdf5810c3e191"
+                "reference": "f17d64a01c7eac0afe2fbe808c59e3b3b3496885"
             },
             "require": {
                 "composer/composer": "@stable",
@@ -11002,7 +11005,7 @@
                 "AFL-3.0"
             ],
             "description": "Provide patches for M2 on MECE instances",
-            "time": "2018-04-09 13:21:19"
+            "time": "2018-05-17 20:30:47"
         },
         {
             "name": "magentoese/ece-tools",
@@ -11398,7 +11401,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-b2b-shared-catalog-sample-data.git",
-                "reference": "c48a9a0616a0600788f1d4dd8314cd2af1a1986c"
+                "reference": "e215adfb7b216461fb0073bb9eee434a0e4946f9"
             },
             "require": {
                 "magento/framework": "*"
@@ -11412,7 +11415,7 @@
                     "MagentoEse\\B2BSharedCatalogSampleData\\": ""
                 }
             },
-            "time": "2018-05-03 20:39:48"
+            "time": "2018-05-18 00:24:36"
         },
         {
             "name": "magentoese/module-b2b-siemens-sample-data",
@@ -13779,16 +13782,16 @@
         },
         {
             "name": "zendframework/zend-form",
-            "version": "2.11.0",
+            "version": "2.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-form.git",
-                "reference": "b68a9f07d93381613b68817091d0505ca94d3363"
+                "reference": "565fb4f4bb3e0dbeea0173c923c4a8be77de9441"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-form/zipball/b68a9f07d93381613b68817091d0505ca94d3363",
-                "reference": "b68a9f07d93381613b68817091d0505ca94d3363",
+                "url": "https://api.github.com/repos/zendframework/zend-form/zipball/565fb4f4bb3e0dbeea0173c923c4a8be77de9441",
+                "reference": "565fb4f4bb3e0dbeea0173c923c4a8be77de9441",
                 "shasum": ""
             },
             "require": {
@@ -13827,8 +13830,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.11.x-dev",
-                    "dev-develop": "2.12.x-dev"
+                    "dev-master": "2.12.x-dev",
+                    "dev-develop": "2.13.x-dev"
                 },
                 "zf": {
                     "component": "Zend\\Form",
@@ -13853,7 +13856,7 @@
                 "form",
                 "zf"
             ],
-            "time": "2017-12-06 21:09:08"
+            "time": "2018-05-16 18:49:44"
         },
         {
             "name": "zendframework/zend-http",
@@ -13970,16 +13973,16 @@
         },
         {
             "name": "zendframework/zend-i18n",
-            "version": "2.8.0",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-i18n.git",
-                "reference": "cfdb658121e0d7eb969a498c2f67f1eacaab9c63"
+                "reference": "6d69af5a04e1a4de7250043cb1322f077a0cdb7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-i18n/zipball/cfdb658121e0d7eb969a498c2f67f1eacaab9c63",
-                "reference": "cfdb658121e0d7eb969a498c2f67f1eacaab9c63",
+                "url": "https://api.github.com/repos/zendframework/zend-i18n/zipball/6d69af5a04e1a4de7250043cb1322f077a0cdb7f",
+                "reference": "6d69af5a04e1a4de7250043cb1322f077a0cdb7f",
                 "shasum": ""
             },
             "require": {
@@ -14011,8 +14014,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8.x-dev",
-                    "dev-develop": "2.9.x-dev"
+                    "dev-master": "2.9.x-dev",
+                    "dev-develop": "2.10.x-dev"
                 },
                 "zf": {
                     "component": "Zend\\I18n",
@@ -14034,20 +14037,20 @@
                 "i18n",
                 "zf"
             ],
-            "time": "2018-04-25 19:32:43"
+            "time": "2018-05-16 16:39:13"
         },
         {
             "name": "zendframework/zend-inputfilter",
-            "version": "2.8.1",
+            "version": "2.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-inputfilter.git",
-                "reference": "55d1430db559e9781b147e73c2c0ce6635d8efe2"
+                "reference": "3f02179e014d9ef0faccda2ad6c65d38adc338d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-inputfilter/zipball/55d1430db559e9781b147e73c2c0ce6635d8efe2",
-                "reference": "55d1430db559e9781b147e73c2c0ce6635d8efe2",
+                "url": "https://api.github.com/repos/zendframework/zend-inputfilter/zipball/3f02179e014d9ef0faccda2ad6c65d38adc338d8",
+                "reference": "3f02179e014d9ef0faccda2ad6c65d38adc338d8",
                 "shasum": ""
             },
             "require": {
@@ -14087,7 +14090,7 @@
                 "inputfilter",
                 "zf"
             ],
-            "time": "2018-01-22 19:41:18"
+            "time": "2018-05-14 17:38:03"
         },
         {
             "name": "zendframework/zend-json",
@@ -14516,16 +14519,16 @@
         },
         {
             "name": "zendframework/zend-serializer",
-            "version": "2.8.1",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-serializer.git",
-                "reference": "7ac42b9a47e9cb23895173a3096bc3b3fb7ac580"
+                "reference": "0172690db48d8935edaf625c4cba38b79719892c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-serializer/zipball/7ac42b9a47e9cb23895173a3096bc3b3fb7ac580",
-                "reference": "7ac42b9a47e9cb23895173a3096bc3b3fb7ac580",
+                "url": "https://api.github.com/repos/zendframework/zend-serializer/zipball/0172690db48d8935edaf625c4cba38b79719892c",
+                "reference": "0172690db48d8935edaf625c4cba38b79719892c",
                 "shasum": ""
             },
             "require": {
@@ -14534,10 +14537,9 @@
                 "zendframework/zend-stdlib": "^2.7 || ^3.0"
             },
             "require-dev": {
-                "doctrine/instantiator": "1.0.*",
-                "phpunit/phpunit": "^5.5",
+                "phpunit/phpunit": "^5.7.25 || ^6.4.4",
                 "zendframework/zend-coding-standard": "~1.0.0",
-                "zendframework/zend-math": "^2.6",
+                "zendframework/zend-math": "^2.6 || ^3.0",
                 "zendframework/zend-servicemanager": "^2.7.5 || ^3.0.3"
             },
             "suggest": {
@@ -14547,8 +14549,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev",
-                    "dev-develop": "2.9-dev"
+                    "dev-master": "2.9.x-dev",
+                    "dev-develop": "2.10.x-dev"
                 },
                 "zf": {
                     "component": "Zend\\Serializer",
@@ -14565,12 +14567,12 @@
                 "BSD-3-Clause"
             ],
             "description": "provides an adapter based interface to simply generate storable representation of PHP types by different facilities, and recover",
-            "homepage": "https://github.com/zendframework/zend-serializer",
             "keywords": [
+                "ZendFramework",
                 "serializer",
-                "zf2"
+                "zf"
             ],
-            "time": "2017-11-20 22:21:04"
+            "time": "2018-05-14 18:45:18"
         },
         {
             "name": "zendframework/zend-server",
