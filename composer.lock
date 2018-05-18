@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "673f295e606243919e872528fe90ca98",
-    "content-hash": "da940ff3ee1e836082a52a3bc556ac2d",
+    "hash": "b00ca4ca56b86937db75169e6370c992",
+    "content-hash": "3d0a2ec97911f24887d9c839be451ccb",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -11360,7 +11360,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-b2b-order-sample-data.git",
-                "reference": "51c8eec46aa42f02992fcbe55f9168dce58be584"
+                "reference": "dd18b2fea4132153de0317709c0a8154e1b09a26"
             },
             "require": {
                 "magento/framework": "*"
@@ -11374,7 +11374,7 @@
                     "MagentoEse\\B2BOrderSampleData\\": ""
                 }
             },
-            "time": "2018-01-29 20:49:37"
+            "time": "2018-05-18 20:15:26"
         },
         {
             "name": "magentoese/module-b2b-philips-sample-data",
@@ -11396,12 +11396,34 @@
             "time": "2018-04-27 14:44:50"
         },
         {
+            "name": "magentoese/module-b2b-pricing-sample-data",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/module-b2b-pricing-sample-data.git",
+                "reference": "86a4d041e7f3071d7cc00704937ba45a40397817"
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MagentoEse\\B2BPricingSampleData\\": ""
+                }
+            },
+            "time": "2018-05-18 20:09:20"
+        },
+        {
             "name": "magentoese/module-b2b-shared-catalog-sample-data",
             "version": "dev-split",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-b2b-shared-catalog-sample-data.git",
-                "reference": "6f3c2b17d3bb84d65191adfa31e4c0096b616ac4"
+                "reference": "9a4a38bbe69fba763e73f0096ffcd98e93862360"
             },
             "require": {
                 "magento/framework": "*"
@@ -11415,7 +11437,7 @@
                     "MagentoEse\\B2BSharedCatalogSampleData\\": ""
                 }
             },
-            "time": "2018-05-18 19:02:19"
+            "time": "2018-05-18 22:16:53"
         },
         {
             "name": "magentoese/module-b2b-siemens-sample-data",
@@ -15132,6 +15154,7 @@
         "magentoese/module-b2b-media-sample-data": 20,
         "magentoese/module-b2b-order-approval": 20,
         "magentoese/module-b2b-order-sample-data": 20,
+        "magentoese/module-b2b-pricing-sample-data": 20,
         "magentoese/module-b2b-shared-catalog-sample-data": 20,
         "magentoese/module-installation-overrides": 20,
         "magentoese/module-my-account-widget": 20,

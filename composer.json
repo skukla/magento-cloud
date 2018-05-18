@@ -20,6 +20,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-b2b-company-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-b2b-order-approval.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-b2b-order-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-pricing-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-b2b-shared-catalog-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-installation-overrides.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-my-account-widget.git"},
@@ -75,10 +76,12 @@
         "magentoese/module-b2b-misc-sample-data": "dev-master",
         "magentoese/module-b2b-media-sample-data": "dev-master",
         "magentoese/module-b2b-order-approval": "dev-develop",
-
+        "magentoese/module-b2b-order-sample-data": "dev-develop",
+        "magentoese/module-b2b-pricing-sample-data": "dev-master",
+        "magentoese/module-b2b-shared-catalog-sample-data": "dev-split",
         "magentoese/module-installation-overrides": "dev-master",
         "magentoese/module-my-account-widget": "dev-develop",
-        
+
         "magentoese/module-productbadge": "dev-master",
         "magentoese/module-sales-sample-data": "dev-master",
         "magentoese/module-sctools": "dev-master",
