@@ -11401,7 +11401,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-b2b-shared-catalog-sample-data.git",
-                "reference": "79218f74723e9413f329c4a8001862d30095470d"
+                "reference": "6f3c2b17d3bb84d65191adfa31e4c0096b616ac4"
             },
             "require": {
                 "magento/framework": "*"
@@ -11415,7 +11415,7 @@
                     "MagentoEse\\B2BSharedCatalogSampleData\\": ""
                 }
             },
-            "time": "2018-05-18 17:50:48"
+            "time": "2018-05-18 19:02:19"
         },
         {
             "name": "magentoese/module-b2b-siemens-sample-data",
