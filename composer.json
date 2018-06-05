@@ -8,8 +8,8 @@
         "AFL-3.0"
     ],
     "repositories": [
+        {"type": "composer", "url": "https://repo.magento.com/"},
         
-        {"type": "composer", "url": "https://connect20-qa01.magedevteam.com/"},
         
         {"type": "git", "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"},
         {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
