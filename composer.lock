@@ -4,32 +4,32 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b00ca4ca56b86937db75169e6370c992",
-    "content-hash": "3d0a2ec97911f24887d9c839be451ccb",
+    "hash": "db0ae5935087ad47d6604e4b8be6196f",
+    "content-hash": "4e4c1dd565b57c17b9bccc34e004b381",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
-            "version": "2.0.4",
+            "version": "2.0.7",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/amzn/amazon-pay-and-login-magento-2-module/amzn-amazon-pay-and-login-magento-2-module-2.0.4.0.zip",
+                "url": "https://repo.magento.com/archives/amzn/amazon-pay-and-login-magento-2-module/amzn-amazon-pay-and-login-magento-2-module-2.0.7.0.zip",
                 "reference": null,
-                "shasum": "c0a208f7b517a3505e3b982088f8f7c171c591b2"
+                "shasum": "508427247845111ed80a476d225a274b0783f28b"
             },
             "require": {
                 "amzn/amazon-pay-sdk-php": "^3.2.0",
-                "magento/framework": "^100.1.0|^101.0.0",
-                "magento/module-backend": "^100.1.0|100.2.0",
-                "magento/module-checkout": "^100.1.0|^100.2.0",
-                "magento/module-config": "^100.1.0|^101.0.0",
-                "magento/module-customer": "^100.1.0|^101.0.0",
-                "magento/module-developer": "^100.1.0|^100.2.0",
-                "magento/module-eav": "^100.1.0|^101.0.0",
-                "magento/module-payment": "^100.1.0|^100.2.0",
-                "magento/module-quote": "^100.1.0|^101.0.0",
-                "magento/module-sales": "^100.1.0|^101.0.0",
-                "magento/module-store": "^100.1.0|^100.2.0",
-                "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+                "magento/framework": "^100.1.0|^101.0.4",
+                "magento/module-backend": "^100.1.0|100.2.4",
+                "magento/module-checkout": "^100.1.0|^100.2.4",
+                "magento/module-config": "^100.1.0|^101.0.4",
+                "magento/module-customer": "^100.1.0|^101.0.4",
+                "magento/module-developer": "^100.1.0|^100.2.2",
+                "magento/module-eav": "^100.1.0|^101.0.3",
+                "magento/module-payment": "^100.1.0|^100.2.2",
+                "magento/module-quote": "^100.1.0|^101.0.3",
+                "magento/module-sales": "^100.1.0|^101.0.3",
+                "magento/module-store": "^100.1.0|^100.2.3",
+                "php": "~7.0.13|~7.1.0"
             },
             "require-dev": {
                 "behat/behat": "^3.1.0",
@@ -723,16 +723,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.54",
+            "version": "1.2.55",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "59f1661e1ec333014a1132971780b98f4866ac70"
+                "reference": "d1de441a6ce6514e82e1b726adcd697489772e8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/59f1661e1ec333014a1132971780b98f4866ac70",
-                "reference": "59f1661e1ec333014a1132971780b98f4866ac70",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/d1de441a6ce6514e82e1b726adcd697489772e8b",
+                "reference": "d1de441a6ce6514e82e1b726adcd697489772e8b",
                 "shasum": ""
             },
             "require": {
@@ -757,7 +757,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2018-05-17 13:58:17"
+            "time": "2018-05-31 02:30:19"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -1265,25 +1265,25 @@
         },
         {
             "name": "klarna/module-core",
-            "version": "4.1.5",
+            "version": "4.2.3",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/klarna/module-core/klarna-module-core-4.1.5.0.zip",
+                "url": "https://repo.magento.com/archives/klarna/module-core/klarna-module-core-4.2.3.0.zip",
                 "reference": null,
-                "shasum": "e66a94286af680e34923009b17dd3baec85f0c66"
+                "shasum": "df6b76c353c85e24be2374a51913736eb208e088"
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.0",
                 "magento/framework": "^100.1||^101.0",
                 "magento/module-bundle": "^100.1",
-                "magento/module-catalog": "^101.0||^102.0",
-                "magento/module-config": "^100.1||^101.0",
-                "magento/module-customer": "^100.1||^101.0",
+                "magento/module-catalog": "^102.0",
+                "magento/module-config": "^101.0",
+                "magento/module-customer": "^101.0",
                 "magento/module-directory": "^100.1",
-                "magento/module-payment": "^100.1||^100.2",
-                "magento/module-paypal": "^100.1||^100.2",
-                "magento/module-quote": "^100.1||^101.0",
-                "magento/module-sales": "^100.1||^101.0",
+                "magento/module-payment": "^100.2",
+                "magento/module-paypal": "^100.2",
+                "magento/module-quote": "^101.0",
+                "magento/module-sales": "^101.0",
                 "magento/module-store": "^100.1",
                 "magento/module-tax": "^100.1",
                 "php": "^5.6|~7.0.13|~7.1.0",
@@ -1405,12 +1405,12 @@
         },
         {
             "name": "klarna/module-ordermanagement",
-            "version": "4.1.2",
+            "version": "4.1.3",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/klarna/module-ordermanagement/klarna-module-ordermanagement-4.1.2.0.zip",
+                "url": "https://repo.magento.com/archives/klarna/module-ordermanagement/klarna-module-ordermanagement-4.1.3.0.zip",
                 "reference": null,
-                "shasum": "0815c744260b80827bf18153d3c239e708e1efd9"
+                "shasum": "cfab7be33ceaaf1913803117b0a183f756d454ec"
             },
             "require": {
                 "klarna/module-core": "^4.0",
@@ -10979,7 +10979,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/ece-patches.git",
-                "reference": "f17d64a01c7eac0afe2fbe808c59e3b3b3496885"
+                "reference": "07ef65097568daa8babd6f137e43d00ea3fd93e9"
             },
             "require": {
                 "composer/composer": "@stable",
@@ -11005,7 +11005,7 @@
                 "AFL-3.0"
             ],
             "description": "Provide patches for M2 on MECE instances",
-            "time": "2018-05-17 20:30:47"
+            "time": "2018-05-23 19:28:33"
         },
         {
             "name": "magentoese/ece-tools",
@@ -11072,7 +11072,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "1627577f0869895ac1911ccefe77f40727c7eb1b"
+                "reference": "812ddf6657f65d03a9d75e841b987eb94bab8327"
             },
             "type": "project",
             "authors": [
@@ -11082,7 +11082,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2018-01-04 00:22:02"
+            "time": "2018-05-25 10:49:51"
         },
         {
             "name": "magentoese/module-admin-configurations",
@@ -11108,7 +11108,7 @@
         },
         {
             "name": "magentoese/module-autofill",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-autofill.git",
@@ -11130,7 +11130,7 @@
         },
         {
             "name": "magentoese/module-autofill-sample-data",
-            "version": "dev-b2bdevelop",
+            "version": "dev-b2b",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-autofill-sample-data.git",
@@ -11153,7 +11153,7 @@
         },
         {
             "name": "magentoese/module-b2b-admin-configurations",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-b2b-admin-configurations.git",
@@ -11175,7 +11175,7 @@
         },
         {
             "name": "magentoese/module-b2b-b2c-sample-data",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-b2b-b2c-sample-data.git",
@@ -11197,11 +11197,11 @@
         },
         {
             "name": "magentoese/module-b2b-catalog-sample-data",
-            "version": "dev-split",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/module-b2b-catalog-sample-data.git",
-                "reference": "4ce841e2fa077f41a766a433943042e72133a822"
+                "reference": "53fbfcc8111d47cc2a04c9632644942770d69328"
             },
             "require": {
                 "firegento/fastsimpleimport": "*",
@@ -11216,15 +11216,15 @@
                     "MagentoEse\\B2BCatalogSampleData\\": ""
                 }
             },
-            "time": "2018-04-19 22:01:04"
+            "time": "2018-06-05 15:58:44"
         },
         {
             "name": "magentoese/module-b2b-cms-sample-data",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-b2b-cms-sample-data.git",
-                "reference": "23d061b2a374322537c39c4b0f6bcb5ab2ad258d"
+                "reference": "0108bcfade48faa3b537fd3e6c3b33b35ca7746f"
             },
             "require": {
                 "magentoese/module-b2b-media-sample-data": "*"
@@ -11238,11 +11238,11 @@
                     "MagentoEse\\B2bCmsSampleData\\": ""
                 }
             },
-            "time": "2018-04-30 17:28:42"
+            "time": "2018-06-05 16:20:18"
         },
         {
             "name": "magentoese/module-b2b-company-sample-data",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-b2b-company-sample-data.git",
@@ -11333,11 +11333,11 @@
         },
         {
             "name": "magentoese/module-b2b-order-approval",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-b2b-order-approval.git",
-                "reference": "36b6adbfe110ae4d0126601810630dddfb2441d9"
+                "reference": "b4908bd9aa15ec30f4ce9badc27c915e0ec50c2c"
             },
             "require": {
                 "firegento/fastsimpleimport": "*",
@@ -11352,11 +11352,11 @@
                     "MagentoEse\\B2bOrderApproval\\": ""
                 }
             },
-            "time": "2017-10-17 12:49:52"
+            "time": "2018-06-06 00:43:48"
         },
         {
             "name": "magentoese/module-b2b-order-sample-data",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-b2b-order-sample-data.git",
@@ -11419,7 +11419,7 @@
         },
         {
             "name": "magentoese/module-b2b-shared-catalog-sample-data",
-            "version": "dev-split",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-b2b-shared-catalog-sample-data.git",
@@ -11482,7 +11482,7 @@
         },
         {
             "name": "magentoese/module-my-account-widget",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-my-account-widget.git",
@@ -11607,7 +11607,7 @@
         },
         {
             "name": "magentoese/theme-brentmill",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/theme-brentmill.git",
@@ -12626,16 +12626,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.39",
+            "version": "v2.8.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "932d1e4f7f33ee37d3534f5f452474daa66283c2"
+                "reference": "e8e59b74ad1274714dad2748349b55e3e6e630c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/932d1e4f7f33ee37d3534f5f452474daa66283c2",
-                "reference": "932d1e4f7f33ee37d3534f5f452474daa66283c2",
+                "url": "https://api.github.com/repos/symfony/console/zipball/e8e59b74ad1274714dad2748349b55e3e6e630c7",
+                "reference": "e8e59b74ad1274714dad2748349b55e3e6e630c7",
                 "shasum": ""
             },
             "require": {
@@ -12683,7 +12683,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-30 01:21:07"
+            "time": "2018-05-15 21:17:45"
         },
         {
             "name": "symfony/debug",
@@ -12744,7 +12744,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.8.39",
+            "version": "v2.8.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -12804,20 +12804,21 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v3.4.9",
+            "version": "v3.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "253a4490b528597aa14d2bf5aeded6f5e5e4a541"
+                "reference": "8e03ca3fa52a0f56b87506f38cf7bd3f9442b3a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/253a4490b528597aa14d2bf5aeded6f5e5e4a541",
-                "reference": "253a4490b528597aa14d2bf5aeded6f5e5e4a541",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/8e03ca3fa52a0f56b87506f38cf7bd3f9442b3a0",
+                "reference": "8e03ca3fa52a0f56b87506f38cf7bd3f9442b3a0",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5.9|>=7.0.8"
+                "php": "^5.5.9|>=7.0.8",
+                "symfony/polyfill-ctype": "~1.8"
             },
             "type": "library",
             "extra": {
@@ -12849,20 +12850,20 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2018-02-22 10:48:49"
+            "time": "2018-05-16 08:49:21"
         },
         {
             "name": "symfony/finder",
-            "version": "v3.4.9",
+            "version": "v3.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "bd14efe8b1fabc4de82bf50dce62f05f9a102433"
+                "reference": "472a92f3df8b247b49ae364275fb32943b9656c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/bd14efe8b1fabc4de82bf50dce62f05f9a102433",
-                "reference": "bd14efe8b1fabc4de82bf50dce62f05f9a102433",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/472a92f3df8b247b49ae364275fb32943b9656c6",
+                "reference": "472a92f3df8b247b49ae364275fb32943b9656c6",
                 "shasum": ""
             },
             "require": {
@@ -12898,7 +12899,62 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-04 05:07:11"
+            "time": "2018-05-16 08:49:21"
+        },
+        {
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "7cc359f1b7b80fc25ed7796be7d96adc9b354bae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/7cc359f1b7b80fc25ed7796be7d96adc9b354bae",
+                "reference": "7cc359f1b7b80fc25ed7796be7d96adc9b354bae",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                },
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "time": "2018-04-30 19:57:29"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -12961,16 +13017,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v2.8.39",
+            "version": "v2.8.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "ee2c91470ff262b1a00aec27875d38594aa87629"
+                "reference": "713952f2ccbcc8342ecdbe1cb313d3e2da8aad28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/ee2c91470ff262b1a00aec27875d38594aa87629",
-                "reference": "ee2c91470ff262b1a00aec27875d38594aa87629",
+                "url": "https://api.github.com/repos/symfony/process/zipball/713952f2ccbcc8342ecdbe1cb313d3e2da8aad28",
+                "reference": "713952f2ccbcc8342ecdbe1cb313d3e2da8aad28",
                 "shasum": ""
             },
             "require": {
@@ -13006,7 +13062,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-03 05:20:27"
+            "time": "2018-05-15 21:17:45"
         },
         {
             "name": "tedivm/jshrink",
@@ -13056,12 +13112,12 @@
         },
         {
             "name": "temando/module-shipping-m2",
-            "version": "1.1.3",
+            "version": "1.2.5",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/temando/module-shipping-m2/temando-module-shipping-m2-1.1.3.0.zip",
+                "url": "https://repo.magento.com/archives/temando/module-shipping-m2/temando-module-shipping-m2-1.2.5.0.zip",
                 "reference": null,
-                "shasum": "8de74c7bb5f6fb92206c51e7afd1eddffcf0e2d4"
+                "shasum": "0ebf91c0de033f16cf9349b15977f888f7fb36f4"
             },
             "require": {
                 "magento/framework": "^101.0.0",
@@ -13071,6 +13127,7 @@
                 "magento/module-config": "^101.0.0",
                 "magento/module-customer": "^101.0.0",
                 "magento/module-directory": "^100.2.0",
+                "magento/module-eav": "^101.0.0",
                 "magento/module-integration": "^100.2.0",
                 "magento/module-multishipping": "^100.2.0",
                 "magento/module-quote": "^101.0.0",
@@ -13079,7 +13136,6 @@
                 "magento/module-store": "^100.2.0",
                 "magento/module-tax": "^100.2.0",
                 "magento/module-ui": "^101.0.0",
-                "magento/zendframework1": "^1.12.16",
                 "monolog/monolog": "^1.17.0",
                 "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
                 "psr/log": "~1.0",
@@ -13162,12 +13218,12 @@
         },
         {
             "name": "vertex/module-tax",
-            "version": "2.1.2",
+            "version": "2.1.6",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/vertex/module-tax/vertex-module-tax-2.1.2.0.zip",
+                "url": "https://repo.magento.com/archives/vertex/module-tax/vertex-module-tax-2.1.6.0.zip",
                 "reference": null,
-                "shasum": "5138f65c4db9d3ad4f2f33558cb3cd80ac3e180f"
+                "shasum": "f4626cbc2428c0e5ef329b644a846bbc9faf3840"
             },
             "require": {
                 "ext-simplexml": "*",
@@ -13183,11 +13239,11 @@
                 "magento/module-sales": "^100.0.2|^101.0.0",
                 "magento/module-shipping": "^100.0.2",
                 "magento/module-store": "^100.0.2",
-                "magento/module-tax": "<=100.2.4",
-                "php": "^5.6|^7.0"
+                "magento/module-tax": "<=100.2.5",
+                "php": "^5.5.22|^7.0"
             },
             "conflict": {
-                "magento/module-gift-wrapping": ">101.0.2",
+                "magento/module-gift-wrapping": ">101.0.3",
                 "pixafy/tax": "*",
                 "pixafy/tax-ee": "*",
                 "vertex/tax": "*",
@@ -13204,7 +13260,11 @@
                 "vlucas/phpdotenv": "^2.4"
             },
             "suggest": {
-                "magento/module-gift-wrapping": "Vertex Tax Links for Magento 2 also supports Magento's Gift Wrapping module"
+                "magento/module-checkout": "Vertex Tax Links for Magento 2 also supports Magento's Checkout module",
+                "magento/module-gift-card-account": "Vertex Tax Links for Magento 2 also supports Magento's Gift Card Account module",
+                "magento/module-gift-wrapping": "Vertex Tax Links for Magento 2 also supports Magento's Gift Wrapping module",
+                "magento/module-multishipping": "Vertex Tax Links for Magento 2 also supports Magento's Multishipping module",
+                "magento/module-reward": "Vertex Tax Links for Magento 2 also supports Magento's Reward module"
             },
             "type": "magento2-module",
             "autoload": {
@@ -13218,7 +13278,7 @@
             "license": [
                 "proprietary"
             ],
-            "description": "Vertex Tax component for Magento 2"
+            "description": "Vertex Tax Links for Magento 2"
         },
         {
             "name": "zendframework/zend-captcha",
@@ -13597,16 +13657,16 @@
         },
         {
             "name": "zendframework/zend-diactoros",
-            "version": "1.7.1",
+            "version": "1.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-diactoros.git",
-                "reference": "bf26aff803a11c5cc8eb7c4878a702c403ec67f1"
+                "reference": "741e7a571836f038de731105f4742ca8a164e43a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/bf26aff803a11c5cc8eb7c4878a702c403ec67f1",
-                "reference": "bf26aff803a11c5cc8eb7c4878a702c403ec67f1",
+                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/741e7a571836f038de731105f4742ca8a164e43a",
+                "reference": "741e7a571836f038de731105f4742ca8a164e43a",
                 "shasum": ""
             },
             "require": {
@@ -13626,7 +13686,8 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.7.x-dev",
-                    "dev-develop": "1.8.x-dev"
+                    "dev-develop": "1.8.x-dev",
+                    "dev-release-2.0": "2.0.x-dev"
                 }
             },
             "autoload": {
@@ -13645,7 +13706,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2018-02-26 15:44:50"
+            "time": "2018-05-29 16:53:08"
         },
         {
             "name": "zendframework/zend-escaper",
