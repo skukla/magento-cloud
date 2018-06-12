@@ -83,6 +83,7 @@ mounts:
 hooks:
     # We run build hooks before your application has been packaged.
     build: |
+        ./vendor/magentoese/magento-scripts/create-consolidated-cron-xmls.sh
         php ./vendor/bin/m2-ece-build
     # We run deploy hook after your application has been deployed and started.
     deploy: |
