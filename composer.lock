@@ -11045,7 +11045,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "802556a295591c7faaafcc900223d88d3b4c9064"
+                "reference": "5ca7eaf4711a3d174272b63198de47dace14c79d"
             },
             "type": "project",
             "authors": [
@@ -11055,7 +11055,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2018-06-13T04:43:39+00:00"
+            "time": "2018-06-13T21:21:54+00:00"
         },
         {
             "name": "magentoese/module-admin-configurations",
@@ -11777,16 +11777,16 @@
         },
         {
             "name": "react/promise",
-            "version": "v2.6.0",
+            "version": "v2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/promise.git",
-                "reference": "5e60e5596a5422287f9d2205f405bef2ae0cef4b"
+                "reference": "f4edc2581617431aea50430749db55cc3fc031b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/promise/zipball/5e60e5596a5422287f9d2205f405bef2ae0cef4b",
-                "reference": "5e60e5596a5422287f9d2205f405bef2ae0cef4b",
+                "url": "https://api.github.com/repos/reactphp/promise/zipball/f4edc2581617431aea50430749db55cc3fc031b3",
+                "reference": "f4edc2581617431aea50430749db55cc3fc031b3",
                 "shasum": ""
             },
             "require": {
@@ -11819,7 +11819,7 @@
                 "promise",
                 "promises"
             ],
-            "time": "2018-06-11T11:05:43+00:00"
+            "time": "2018-06-13T15:59:06+00:00"
         },
         {
             "name": "seld/cli-prompt",
