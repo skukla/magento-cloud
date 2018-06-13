@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f21227f949c79cc90b5479f3d44a646e",
+    "content-hash": "131377f985216b195e33cbdea0f27539",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -11045,7 +11045,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "f4f261a1bae8c58e19de3e094af27246f9c591c8"
+                "reference": "bb67f9d77a510d4188be6943ff660f87131bad8f"
             },
             "type": "project",
             "authors": [
@@ -11055,15 +11055,15 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2018-06-12T22:30:39+00:00"
+            "time": "2018-06-13T02:55:42+00:00"
         },
         {
             "name": "magentoese/module-admin-configurations",
-            "version": "dev-master",
+            "version": "dev-magemojo",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git",
-                "reference": "97ece6ab301a56d2389006597fc43b6c3e6a0c07"
+                "reference": "f74cf3b66d211a2aa0c95b763c308ca9d512c53a"
             },
             "require": {
                 "magento/framework": "*"
@@ -11077,7 +11077,7 @@
                     "MagentoEse\\AdminConfigurations\\": ""
                 }
             },
-            "time": "2018-06-12T13:33:54+00:00"
+            "time": "2018-06-13T02:40:50+00:00"
         },
         {
             "name": "magentoese/nfs4d4m",
