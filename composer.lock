@@ -10907,7 +10907,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/dock-mage.git",
-                "reference": "bef2b63e395ef0185163bbd9aa7e3a99f1e43d91"
+                "reference": "97d20b940511301b21ca0a72edd114c2c7521a91"
             },
             "type": "library",
             "authors": [
@@ -10917,7 +10917,7 @@
                 }
             ],
             "description": "Launch Magento infrastructure using docker-compose",
-            "time": "2017-12-13T05:18:54+00:00"
+            "time": "2018-06-13T03:45:59+00:00"
         },
         {
             "name": "magentoese/ece-patches",
@@ -11045,7 +11045,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "bb67f9d77a510d4188be6943ff660f87131bad8f"
+                "reference": "802556a295591c7faaafcc900223d88d3b4c9064"
             },
             "type": "project",
             "authors": [
@@ -11055,7 +11055,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2018-06-13T02:55:42+00:00"
+            "time": "2018-06-13T04:43:39+00:00"
         },
         {
             "name": "magentoese/module-admin-configurations",
