@@ -722,16 +722,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.55",
+            "version": "1.2.56",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "d1de441a6ce6514e82e1b726adcd697489772e8b"
+                "reference": "ab7ba13fc857856e60d940fb13441b4ba8b37e6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/d1de441a6ce6514e82e1b726adcd697489772e8b",
-                "reference": "d1de441a6ce6514e82e1b726adcd697489772e8b",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/ab7ba13fc857856e60d940fb13441b4ba8b37e6f",
+                "reference": "ab7ba13fc857856e60d940fb13441b4ba8b37e6f",
                 "shasum": ""
             },
             "require": {
@@ -756,7 +756,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2018-05-31T02:30:19+00:00"
+            "time": "2018-06-11T21:42:33+00:00"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -11045,7 +11045,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "812ddf6657f65d03a9d75e841b987eb94bab8327"
+                "reference": "f4f261a1bae8c58e19de3e094af27246f9c591c8"
             },
             "type": "project",
             "authors": [
@@ -11055,7 +11055,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2018-05-25T10:49:51+00:00"
+            "time": "2018-06-12T22:30:39+00:00"
         },
         {
             "name": "magentoese/module-admin-configurations",
@@ -11063,7 +11063,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git",
-                "reference": "46e1185b2eaf514538b2069696ec9dfe40b61bf8"
+                "reference": "97ece6ab301a56d2389006597fc43b6c3e6a0c07"
             },
             "require": {
                 "magento/framework": "*"
@@ -11077,7 +11077,7 @@
                     "MagentoEse\\AdminConfigurations\\": ""
                 }
             },
-            "time": "2018-06-11T00:28:10+00:00"
+            "time": "2018-06-12T13:33:54+00:00"
         },
         {
             "name": "magentoese/nfs4d4m",
@@ -11777,16 +11777,16 @@
         },
         {
             "name": "react/promise",
-            "version": "v2.5.1",
+            "version": "v2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/promise.git",
-                "reference": "62785ae604c8d69725d693eb370e1d67e94c4053"
+                "reference": "5e60e5596a5422287f9d2205f405bef2ae0cef4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/promise/zipball/62785ae604c8d69725d693eb370e1d67e94c4053",
-                "reference": "62785ae604c8d69725d693eb370e1d67e94c4053",
+                "url": "https://api.github.com/repos/reactphp/promise/zipball/5e60e5596a5422287f9d2205f405bef2ae0cef4b",
+                "reference": "5e60e5596a5422287f9d2205f405bef2ae0cef4b",
                 "shasum": ""
             },
             "require": {
@@ -11819,7 +11819,7 @@
                 "promise",
                 "promises"
             ],
-            "time": "2017-03-25T12:08:31+00:00"
+            "time": "2018-06-11T11:05:43+00:00"
         },
         {
             "name": "seld/cli-prompt",
