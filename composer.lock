@@ -11004,7 +11004,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/dock-mage.git",
-                "reference": "97d20b940511301b21ca0a72edd114c2c7521a91"
+                "reference": "993b669c41eba7a91f66e6e91cf1c327aac646a3"
             },
             "type": "library",
             "authors": [
@@ -11014,7 +11014,7 @@
                 }
             ],
             "description": "Launch Magento infrastructure using docker-compose",
-            "time": "2018-06-13T03:45:59+00:00"
+            "time": "2018-06-14T18:03:27+00:00"
         },
         {
             "name": "magentoese/ece-patches",
@@ -11115,7 +11115,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "ba543a395831717bc3903312b756183cb3cc15de"
+                "reference": "60cb274e442a1cd0f3f006158f128f95e4a1aeaa"
             },
             "type": "project",
             "authors": [
@@ -11125,7 +11125,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2018-06-14T14:22:35+00:00"
+            "time": "2018-06-14T19:22:06+00:00"
         },
         {
             "name": "magentoese/module-admin-configurations",
@@ -11200,7 +11200,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-b2b-admin-configurations.git",
-                "reference": "84d046ab8a2c5b976804acaa460f82e27dab72bc"
+                "reference": "992c6a3fd5470cdfeac7065e3e0b8406228f8caa"
             },
             "require": {
                 "magento/framework": "*"
@@ -11214,7 +11214,7 @@
                     "MagentoEse\\B2bAdminConfigurations\\": ""
                 }
             },
-            "time": "2017-10-23T18:10:51+00:00"
+            "time": "2018-06-14T19:06:24+00:00"
         },
         {
             "name": "magentoese/module-b2b-b2c-sample-data",
