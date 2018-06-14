@@ -55,3 +55,6 @@ atlassian*
 /generated/*
 !/generated/.htaccess
 auth.json
+/.tmp
+/init
+/yarn-error.log
