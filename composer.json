@@ -2,7 +2,11 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
+<<<<<<< HEAD
     "version": "2.2.4",
+=======
+    "version": "2.2.2",
+>>>>>>> b00ca51c7200753d7413d05abdb99cff70209ec0
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -26,8 +30,11 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-post-install.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-productbadge.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-sales-sample-data.git"},
+<<<<<<< HEAD
         {"type": "git", "url": "git@github.com:PMET-public/module-sctools.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-themecustomizer.git"},
+=======
+>>>>>>> b00ca51c7200753d7413d05abdb99cff70209ec0
         {"type": "git", "url": "git@github.com:PMET-public/nfs4d4m.git"},
         {"type": "git", "url": "git@github.com:PMET-public/theme-brentmill.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/bluefoot.git"},
@@ -83,8 +90,11 @@
         
         "magentoese/module-productbadge": "dev-master",
         "magentoese/module-sales-sample-data": "dev-master",
+<<<<<<< HEAD
         "magentoese/module-sctools": "dev-master",
         "magentoese/module-themecustomizer": "dev-master",
+=======
+>>>>>>> b00ca51c7200753d7413d05abdb99cff70209ec0
         "magentoese/nfs4d4m": "dev-master",
         "magentoese/theme-brentmill": "dev-develop"
     },
