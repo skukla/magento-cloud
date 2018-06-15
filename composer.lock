@@ -722,16 +722,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.56",
+            "version": "1.2.57",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "ab7ba13fc857856e60d940fb13441b4ba8b37e6f"
+                "reference": "fce2f3c5fe0658e112502346fcea8940384b6e62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/ab7ba13fc857856e60d940fb13441b4ba8b37e6f",
-                "reference": "ab7ba13fc857856e60d940fb13441b4ba8b37e6f",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/fce2f3c5fe0658e112502346fcea8940384b6e62",
+                "reference": "fce2f3c5fe0658e112502346fcea8940384b6e62",
                 "shasum": ""
             },
             "require": {
@@ -756,7 +756,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2018-06-11T21:42:33+00:00"
+            "time": "2018-06-15T01:21:02+00:00"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -10907,7 +10907,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/dock-mage.git",
-                "reference": "97d20b940511301b21ca0a72edd114c2c7521a91"
+                "reference": "993b669c41eba7a91f66e6e91cf1c327aac646a3"
             },
             "type": "library",
             "authors": [
@@ -10917,7 +10917,7 @@
                 }
             ],
             "description": "Launch Magento infrastructure using docker-compose",
-            "time": "2018-06-13T03:45:59+00:00"
+            "time": "2018-06-14T18:03:27+00:00"
         },
         {
             "name": "magentoese/ece-patches",
@@ -11045,7 +11045,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "ba543a395831717bc3903312b756183cb3cc15de"
+                "reference": "60cb274e442a1cd0f3f006158f128f95e4a1aeaa"
             },
             "type": "project",
             "authors": [
@@ -11055,7 +11055,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2018-06-14T14:22:35+00:00"
+            "time": "2018-06-14T19:22:06+00:00"
         },
         {
             "name": "magentoese/module-admin-configurations",
