@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1a490940aa39b2306879b7a37ab2fafc",
+    "content-hash": "aafd1595b92819e31a13d5f76e8b25b2",
     "packages": [
         {
             "name": "amasty/base",
@@ -2267,6 +2267,28 @@
                 "AFL-3.0"
             ],
             "description": "Chinese (China) language"
+        },
+        {
+            "name": "magento/magento-cloud-metapackage",
+            "version": "2.2.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/magento-cloud-metapackage/magento-magento-cloud-metapackage-2.2.4.0.zip",
+                "reference": null,
+                "shasum": "516230470cffadfb714f1b81c82144fe5dac5206"
+            },
+            "require": {
+                "fastly/magento2": "^1.2.34",
+                "magento/ece-tools": "~2002.0.11",
+                "magento/module-paypal-on-boarding": "100.2.*",
+                "magento/product-enterprise-edition": "2.2.4",
+                "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+            },
+            "type": "metapackage",
+            "license": [
+                "proprietary"
+            ],
+            "description": "eCommerce Platform for Growth (Cloud Enterprise Edition)"
         },
         {
             "name": "magento/magento-composer-installer",
@@ -7723,6 +7745,37 @@
             "description": "N/A"
         },
         {
+            "name": "magento/module-paypal-on-boarding",
+            "version": "100.2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-paypal-on-boarding/magento-module-paypal-on-boarding-100.2.1.0.zip",
+                "reference": null,
+                "shasum": "8d64d0549dca3d3821d62a8be9f94dcb79eebaf9"
+            },
+            "require": {
+                "magento/framework": "101.0.*",
+                "magento/module-backend": "100.2.*",
+                "magento/module-config": "101.0.*",
+                "magento/module-paypal": "100.2.*",
+                "magento/module-store": "100.2.*",
+                "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\PaypalOnBoarding\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "N/A"
+        },
+        {
             "name": "magento/module-persistent",
             "version": "100.2.0",
             "dist": {
@@ -11461,7 +11514,7 @@
         },
         {
             "name": "magentoese/module-demo-order-data",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-demo-sample-order-data.git",
@@ -11483,7 +11536,7 @@
         },
         {
             "name": "magentoese/module-installation-overrides",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-installation-overrides.git",
@@ -11550,11 +11603,11 @@
         },
         {
             "name": "magentoese/module-lookbook",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/module-lookbook.git",
-                "reference": "3b7010c3deabccf0b046b5b68f131c7ef441f692"
+                "reference": "63853b7188491b5f4c6d5846d11dbed2370da0c0"
             },
             "require": {
                 "classyllama/module-owlcarousel": "dev-master",
@@ -11569,7 +11622,7 @@
                     "MagentoEse\\LookBook\\": ""
                 }
             },
-            "time": "2017-09-27T17:29:02+00:00"
+            "time": "2018-06-15T14:20:32+00:00"
         },
         {
             "name": "magentoese/module-luma-de-attributes",
@@ -11617,11 +11670,11 @@
         },
         {
             "name": "magentoese/module-luma-de-cms",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-luma-de-cms.git",
-                "reference": "eb45fd5d89b6a8e5d9d581dc967e19c9b922e132"
+                "reference": "f3e8557acf31b095c98610b0121c25d66564fd51"
             },
             "type": "magento2-module",
             "autoload": {
@@ -11632,7 +11685,7 @@
                     "MagentoEse\\LumaDECms\\": ""
                 }
             },
-            "time": "2017-12-06T03:13:39+00:00"
+            "time": "2018-06-14T17:20:24+00:00"
         },
         {
             "name": "magentoese/module-luma-de-products",
@@ -11741,7 +11794,7 @@
         },
         {
             "name": "magentoese/module-product-sample-data-update",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-product-sample-data-update.git",
@@ -11807,11 +11860,11 @@
         },
         {
             "name": "magentoese/module-sales-sample-data",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-sales-sample-data.git",
-                "reference": "5bff2ece8f60ac1a0154ce2f4f324beb287addd7"
+                "reference": "40147bdc6ebd68da0a9d71905f6a299aed05e460"
             },
             "require": {
                 "magento/framework": "*"
@@ -11825,7 +11878,7 @@
                     "MagentoEse\\SalesSampleData\\": ""
                 }
             },
-            "time": "2018-03-30T13:13:01+00:00"
+            "time": "2018-06-15T17:23:17+00:00"
         },
         {
             "name": "magentoese/module-sctools",
@@ -11851,7 +11904,7 @@
         },
         {
             "name": "magentoese/module-switcherlogos",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/module-switcherlogos.git",
@@ -11895,11 +11948,11 @@
         },
         {
             "name": "magentoese/module-venia-catalog-sample-data",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-venia-catalog-sample-data.git",
-                "reference": "278fa2764313c2cdaffb478c071e2951a5a5ac66"
+                "reference": "bc2ee211a3e10de7b252252fb0639500ed84be1e"
             },
             "require": {
                 "firegento/fastsimpleimport": "dev-updated",
@@ -11914,11 +11967,11 @@
                     "MagentoEse\\VeniaCatalogSampleData\\": ""
                 }
             },
-            "time": "2017-10-13T18:39:17+00:00"
+            "time": "2018-06-14T17:25:28+00:00"
         },
         {
             "name": "magentoese/module-venia-cms-sample-data",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-venia-cms-sample-data.git",
@@ -11949,7 +12002,7 @@
         },
         {
             "name": "magentoese/module-venia-setup",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-venia-setup.git",
@@ -12033,11 +12086,11 @@
         },
         {
             "name": "magentoese/theme-frontend-venia",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/theme-frontend-venia.git",
-                "reference": "6845bcc5434d3557379f67aa7edcb5d7641b2932"
+                "reference": "1827db52a4eeac4332c7b3f04353454464117edd"
             },
             "require": {
                 "magento/framework": "*",
@@ -12051,7 +12104,7 @@
                     "registration.php"
                 ]
             },
-            "time": "2018-01-09T21:39:35+00:00"
+            "time": "2018-06-14T17:28:59+00:00"
         },
         {
             "name": "monolog/monolog",
