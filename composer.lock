@@ -1515,16 +1515,16 @@
         },
         {
             "name": "magemojo/m2-ce-cron",
-            "version": "1.2.1-stable",
+            "version": "1.2.2-stable",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magemojo/m2-ce-cron.git",
-                "reference": "93f1e7c31fa6c2660d5bfdc936dba32a2f0f9dd1"
+                "reference": "c64ccc55d05662e08446861155ac3cf349b8d142"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magemojo/m2-ce-cron/zipball/93f1e7c31fa6c2660d5bfdc936dba32a2f0f9dd1",
-                "reference": "93f1e7c31fa6c2660d5bfdc936dba32a2f0f9dd1",
+                "url": "https://api.github.com/repos/magemojo/m2-ce-cron/zipball/c64ccc55d05662e08446861155ac3cf349b8d142",
+                "reference": "c64ccc55d05662e08446861155ac3cf349b8d142",
                 "shasum": ""
             },
             "require": {
@@ -1555,7 +1555,7 @@
                 "cron",
                 "magento2"
             ],
-            "time": "2018-06-06T14:34:04+00:00"
+            "time": "2018-06-18T19:51:00+00:00"
         },
         {
             "name": "magento/composer",
@@ -10925,7 +10925,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/ece-patches.git",
-                "reference": "b064d8c6766a36fb66b3042a5ebf15a05b33d860"
+                "reference": "10a8182210a386fd721ed3f7a1202a27aa4149d2"
             },
             "require": {
                 "composer/composer": "@stable",
@@ -10951,7 +10951,7 @@
                 "AFL-3.0"
             ],
             "description": "Provide patches for M2 on MECE instances",
-            "time": "2018-06-14T14:44:51+00:00"
+            "time": "2018-06-18T16:38:27+00:00"
         },
         {
             "name": "magentoese/ece-tools",
