@@ -40,6 +40,7 @@ return [
     'Magento_Msrp' => 1,
     'Magento_Sales' => 1,
     'Magento_Checkout' => 1,
+    'MagentoEse_MagentoScripts' => 1,
     'MagentoEse_MegaMenu' => 1,
     'Magento_GoogleAnalytics' => 1,
     'Magento_PageCache' => 1,
