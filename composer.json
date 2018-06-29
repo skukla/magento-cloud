@@ -163,7 +163,7 @@
         "magentoese/module-switcherlogos": "dev-master",
         "magentoese/module-themecustomizer": "dev-master",
         "magentoese/module-venia-setup": "dev-master",
-        "magentoese/module-venia-catalog-sample-data": "dev-master",
+        "magentoese/module-venia-catalog-sample-data": "dev-revert-to-std",
         "magentoese/module-venia-cms-sample-data": "dev-master",
         "magentoese/module-venia-media-sample-data": "dev-master",
         "magentoese/module-venia-video-sample-data": "dev-master",
