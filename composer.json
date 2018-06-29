@@ -144,7 +144,7 @@
         
         "magentoese/module-installation-overrides": "dev-master",
         "magentoese/module-instorepickup": "dev-master",
-        "magentoese/module-instorepickup-sample-data": "dev-master",
+        "magentoese/module-instorepickup-sample-data": "dev-revert-to-std",
         "magentoese/module-lookbook": "dev-master",
         "magentoese/module-luma-de-attributes": "dev-master",
         "magentoese/module-luma-de-categories": "dev-master",
@@ -154,7 +154,7 @@
         "magentoese/module-luma-de-widget": "dev-master",
         "magentoese/module-megamenu": "dev-master",
         
-        "magentoese/module-product-sample-data-update": "dev-master",
+        "magentoese/module-product-sample-data-update": "dev-revert-to-std",
         "magentoese/module-product-image-switcher": "dev-master",
         "magentoese/module-productbadge": "dev-master",
         "magentoese/module-productbadge-sample-data": "dev-master",
