@@ -2,7 +2,7 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.2.4",
+    "version": "2.2.5",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -57,7 +57,7 @@
         "firegento/fastsimpleimport": "dev-updated",
         "gene/bluefoot": "dev-develop-no-branding",
         "magemojo/m2-ce-cron": "^1.2",
-        "magento/magento-cloud-metapackage": "2.2.4",
+        "magento/magento-cloud-metapackage": "2.2.5",
         "magento/extension-b2b": "*",
         "magentoese/dock-mage": "dev-master",
         "magentoese/ece-tools": "dev-develop",
