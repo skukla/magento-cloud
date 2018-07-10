@@ -2,7 +2,7 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.2.4",
+    "version": "2.2.5",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -103,7 +103,7 @@
         "m2epro/magento2-extension": "dev-master",
         "magemojo/m2-ce-cron": "^1.2",
         
-        "magento/magento-cloud-metapackage": "2.2.4",
+        "magento/magento-cloud-metapackage": "2.2.5",
         "magento/module-bundle-sample-data": "100.2.*",
         "magento/module-widget-sample-data": "100.2.*",
         "magento/module-catalog-sample-data": "100.2.*",
