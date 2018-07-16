@@ -62,7 +62,7 @@
         "magentoese/ece-patches": "dev-develop",
         "magentoese/facebook-module": "dev-master",
         "magentoese/magento-scripts": "dev-2.2-ga",
-        "magentoese/module-admin-configurations": "dev-magemojo",
+        "magentoese/module-admin-configurations": "dev-master",
         "magentoese/nfs4d4m": "dev-master"
     },
     "config": {
