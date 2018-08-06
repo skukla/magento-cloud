@@ -58,9 +58,9 @@
         "magento/sample-data-media": "100.2.*",
         "magento/module-offline-shipping-sample-data": "100.2.*",
         "magentoese/dock-mage": "dev-master",
-        "magentoese/ece-tools": "dev-2002.0.12",
+        "magentoese/ece-tools": "2002.0.12.x-dev",
         "magentoese/facebook-module": "dev-master",
-        "magentoese/magento-scripts": "dev-2.2.5",
+        "magentoese/magento-scripts": "2.2.5.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/nfs4d4m": "dev-master"
     },
