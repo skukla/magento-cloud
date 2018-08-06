@@ -6,7 +6,7 @@
 name: mymagento
 
 # The toolstack used to build the application.
-type: php:7.0
+type: php:7.1
 build:
     flavor: composer
 
@@ -39,31 +39,26 @@ web:
             passthru: "/index.php"
             index:
                 - index.php
-            # expires: -1
+            expires: -1
             scripts: true
             allow: false
             rules:
                 \.(css|js|map|hbs|gif|jpe?g|png|tiff|wbmp|ico|jng|bmp|svgz|midi?|mp?ga|mp2|mp3|m4a|ra|weba|3gpp?|mp4|mpe?g|mpe|ogv|mov|webm|flv|mng|asx|asf|wmv|avi|ogx|swf|jar|ttf|eot|woff|otf|html?)$:
                     allow: true
-                    expires: 1y
                 /robots\.txt$:
-                    allow: true
-                    expires: 1y
+                    passthru: "/media/robots.txt"
+                ^/sitemap(.*)\.xml$:
+                    passthru: "/media/sitemap$1.xml"
         "/media":
             root: "pub/media"
             allow: true
             scripts: false
-            passthru: "/index.php"
-            expires: 1y
-            rules:
-                .*:
-                    allow: true
+            passthru: "/get.php"
         "/static":
             root: "pub/static"
             allow: true
             scripts: false
             passthru: "/front-static.php"
-            expires: 1y
             rules:
                 ^/static/version\d+/(?<resource>.*)$:
                     passthru: "/static/$resource"
@@ -79,14 +74,16 @@ mounts:
     "pub/media": "shared:files/media"
     "pub/static": "shared:files/static"
 
-# The hooks executed at various points in the lifecycle of the application.
 hooks:
     # We run build hooks before your application has been packaged.
     build: |
-        php ./vendor/bin/m2-ece-build
+        php ./vendor/bin/ece-tools build
     # We run deploy hook after your application has been deployed and started.
     deploy: |
         ./vendor/magentoese/magento-scripts/deploy.sh
+    # We run post deploy hook to clean and warm the cache. Available with ECE-Tools 2002.0.10.
+    post_deploy: |
+        php ./vendor/bin/ece-tools post-deploy
 
 # Default Magento 2 cron jobs
 crons:
