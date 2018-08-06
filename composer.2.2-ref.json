@@ -92,6 +92,7 @@
     "minimum-stability": "alpha",
     "prefer-stable": true,
     "extra": {
-        "magento-force": "override"
+        "magento-force": true,
+        "magento-deploystrategy": "copy"
     }
 }
