@@ -1,0 +1,14 @@
+https://github.com/magento/magento2/issues/12385
+diff --git a/vendor/colinmollenhour/php-redis-session-abstract/src/Cm/RedisSession/Handler.php b/vendor/colinmollenhour/php-redis-session-abstract/src/Cm/RedisSession/Handler.php
+index 4e0f937..d738a0c 100644
+--- a/vendor/colinmollenhour/php-redis-session-abstract/src/Cm/RedisSession/Handler.php
++++ b/vendor/colinmollenhour/php-redis-session-abstract/src/Cm/RedisSession/Handler.php
+@@ -351,7 +351,7 @@ class Handler implements \SessionHandlerInterface
+         $tries = $waiting = $lock = 0;
+         $lockPid = $oldLockPid = null; // Restart waiting for lock when current lock holder changes
+         $detectZombies = false;
+-        $breakAfter = $this->_getBreakAfter();
++        $breakAfter = 2; // $this->_getBreakAfter();
+         $timeStart = microtime(true);
+         $this->_log(sprintf("Attempting to take lock on ID %s", $sessionId));
+ 

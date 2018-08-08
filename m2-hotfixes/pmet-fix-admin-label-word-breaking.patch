@@ -1,0 +1,21 @@
+diff --git a/vendor/magento/theme-adminhtml-backend/web/css/styles-old.less b/vendor/magento/theme-adminhtml-backend/web/css/styles-old.less
+index 7cc1319..c21e7cc 100644
+--- a/vendor/magento/theme-adminhtml-backend/web/css/styles-old.less
++++ b/vendor/magento/theme-adminhtml-backend/web/css/styles-old.less
+@@ -1368,7 +1368,7 @@
+         line-height: 3.2rem;
+         padding: 0 30px 0 0;
+         white-space: nowrap;
+-        word-wrap: break-word;
++        word-wrap: normal;
+
+         &:before {
+             content: '.';
+@@ -1383,7 +1383,6 @@
+             line-height: 1.33;
+             vertical-align: middle;
+             white-space: normal;
+-            word-break: break-all;
+
+             &[data-config-scope] {
+                 position: relative;
