@@ -1,0 +1,15 @@
+diff --git a/vendor/amzn/amazon-pay-and-login-magento-2-module/src/Payment/view/frontend/web/js/catalog-add-to-cart.js b/vendor/amzn/amazon-pay-and-login-magento-2-module/src/Payment/view/frontend/web/js/catalog-add-to-cart.js
+index e495512..f426472 100644
+--- a/vendor/amzn/amazon-pay-and-login-magento-2-module/src/Payment/view/frontend/web/js/catalog-add-to-cart.js
++++ b/vendor/amzn/amazon-pay-and-login-magento-2-module/src/Payment/view/frontend/web/js/catalog-add-to-cart.js
+@@ -28,7 +28,9 @@ define([
+          */
+         _create: function () {
+             //this is overridden here and ignores the redirect option until fixed by Magento (as of 2.1)
+-            this._bindSubmit();
++            if (this.options.bindSubmit) {
++                this._bindSubmit();
++            }
+         },
+ 
+         /**
