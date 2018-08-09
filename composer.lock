@@ -1,11 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "d029e15fa856ba79066881956270d2d2",
-    "content-hash": "c2d1aca60025995b4151508a07eb07fc",
+    "content-hash": "4c2a17f8f6e399f0b4b0d3e95d443e37",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -109,7 +108,7 @@
                 "payment",
                 "payments"
             ],
-            "time": "2018-05-03 18:01:33"
+            "time": "2018-05-03T18:01:33+00:00"
         },
         {
             "name": "braintree/braintree_php",
@@ -156,7 +155,7 @@
                 }
             ],
             "description": "Braintree PHP Client Library",
-            "time": "2018-02-08 23:03:34"
+            "time": "2018-02-08T23:03:34+00:00"
         },
         {
             "name": "colinmollenhour/cache-backend-file",
@@ -192,7 +191,7 @@
             ],
             "description": "The stock Zend_Cache_Backend_File backend has extremely poor performance for cleaning by tags making it become unusable as the number of cached items increases. This backend makes many changes resulting in a huge performance boost, especially for tag cleaning.",
             "homepage": "https://github.com/colinmollenhour/Cm_Cache_Backend_File",
-            "time": "2016-05-02 16:24:47"
+            "time": "2016-05-02T16:24:47+00:00"
         },
         {
             "name": "colinmollenhour/cache-backend-redis",
@@ -228,7 +227,7 @@
             ],
             "description": "Zend_Cache backend using Redis with full support for tags.",
             "homepage": "https://github.com/colinmollenhour/Cm_Cache_Backend_Redis",
-            "time": "2017-10-05 20:50:44"
+            "time": "2017-10-05T20:50:44+00:00"
         },
         {
             "name": "colinmollenhour/credis",
@@ -268,7 +267,7 @@
             ],
             "description": "Credis is a lightweight interface to the Redis key-value store which wraps the phpredis library when available for better performance.",
             "homepage": "https://github.com/colinmollenhour/credis",
-            "time": "2017-07-05 15:32:38"
+            "time": "2017-07-05T15:32:38+00:00"
         },
         {
             "name": "colinmollenhour/php-redis-session-abstract",
@@ -305,20 +304,20 @@
             ],
             "description": "A Redis-based session handler with optimistic locking",
             "homepage": "https://github.com/colinmollenhour/php-redis-session-abstract",
-            "time": "2017-03-22 16:13:03"
+            "time": "2017-03-22T16:13:03+00:00"
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "d2c0a83b7533d6912e8d516756ebd34f893e9169"
+                "reference": "46afded9720f40b9dc63542af4e3e43a1177acb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/d2c0a83b7533d6912e8d516756ebd34f893e9169",
-                "reference": "d2c0a83b7533d6912e8d516756ebd34f893e9169",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/46afded9720f40b9dc63542af4e3e43a1177acb0",
+                "reference": "46afded9720f40b9dc63542af4e3e43a1177acb0",
                 "shasum": ""
             },
             "require": {
@@ -361,7 +360,7 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2018-03-29 19:57:20"
+            "time": "2018-08-08T08:57:40+00:00"
         },
         {
             "name": "composer/composer",
@@ -438,7 +437,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2017-03-10 08:29:45"
+            "time": "2017-03-10T08:29:45+00:00"
         },
         {
             "name": "composer/semver",
@@ -500,7 +499,7 @@
                 "validation",
                 "versioning"
             ],
-            "time": "2016-08-30 16:08:34"
+            "time": "2016-08-30T16:08:34+00:00"
         },
         {
             "name": "composer/spdx-licenses",
@@ -561,7 +560,7 @@
                 "spdx",
                 "validator"
             ],
-            "time": "2018-04-30 10:33:04"
+            "time": "2018-04-30T10:33:04+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -592,7 +591,74 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
-            "time": "2017-02-14 19:40:03"
+            "time": "2017-02-14T19:40:03+00:00"
+        },
+        {
+            "name": "doctrine/inflector",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/inflector.git",
+                "reference": "5527a48b7313d15261292c149e55e26eae771b0a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/5527a48b7313d15261292c149e55e26eae771b0a",
+                "reference": "5527a48b7313d15261292c149e55e26eae771b0a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Common\\Inflector\\": "lib/Doctrine/Common/Inflector"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Common String Manipulations with regard to casing and singular/plural rules.",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "inflection",
+                "pluralize",
+                "singularize",
+                "string"
+            ],
+            "time": "2018-01-09T20:05:19+00:00"
         },
         {
             "name": "dotmailer/dotmailer-magento2-extension",
@@ -719,20 +785,20 @@
                 "elasticsearch",
                 "search"
             ],
-            "time": "2017-11-08 17:04:47"
+            "time": "2017-11-08T17:04:47+00:00"
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.58",
+            "version": "1.2.62",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "bfae7dc5c65e23f7b0dca511c7a570e51f2e1f4c"
+                "reference": "263808cc5a031c94e89b4706ee7fda9ea1f5dc9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/bfae7dc5c65e23f7b0dca511c7a570e51f2e1f4c",
-                "reference": "bfae7dc5c65e23f7b0dca511c7a570e51f2e1f4c",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/263808cc5a031c94e89b4706ee7fda9ea1f5dc9c",
+                "reference": "263808cc5a031c94e89b4706ee7fda9ea1f5dc9c",
                 "shasum": ""
             },
             "require": {
@@ -757,7 +823,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2018-07-02 12:16:11"
+            "time": "2018-08-08T14:06:41+00:00"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -790,7 +856,7 @@
             ],
             "description": "Wrapper for Magento2 ImportExport functionality, which imports products and customers from arrays",
             "homepage": "https://github.com/firegento/FireGento_FastSimpleImport2",
-            "time": "2017-09-12 13:19:06"
+            "time": "2017-09-12T13:19:06+00:00"
         },
         {
             "name": "gene/bluefoot",
@@ -825,7 +891,63 @@
                 }
             ],
             "description": "BlueFoot CMS & PageBuilder for Magento 2",
-            "time": "2018-01-17 20:56:14"
+            "time": "2018-01-17T20:56:14+00:00"
+        },
+        {
+            "name": "graylog2/gelf-php",
+            "version": "1.5.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bzikarsky/gelf-php.git",
+                "reference": "c4e0743ba323459b6e62222107a0898e77d2fd6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bzikarsky/gelf-php/zipball/c4e0743ba323459b6e62222107a0898e77d2fd6e",
+                "reference": "c4e0743ba323459b6e62222107a0898e77d2fd6e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9",
+                "psr/log": "~1.0"
+            },
+            "provide": {
+                "psr/log-implementation": "~1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.3",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Gelf\\": "src/Gelf"
+                },
+                "files": [
+                    "src/check_technical_requirements.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Benjamin Zikarsky",
+                    "email": "benjamin@zikarsky.de"
+                },
+                {
+                    "name": "gelf-php contributors",
+                    "homepage": "https://github.com/bzikarsky/gelf-php/contributors"
+                }
+            ],
+            "description": "A php implementation to send log-messages to a GELF compatible backend like Graylog2.",
+            "time": "2017-06-24T10:38:25+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -890,7 +1012,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2018-04-22 15:46:56"
+            "time": "2018-04-22T15:46:56+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -941,7 +1063,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-12-20 10:07:11"
+            "time": "2016-12-20T10:07:11+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -1006,20 +1128,20 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-03-20 17:10:46"
+            "time": "2017-03-20T17:10:46+00:00"
         },
         {
             "name": "guzzlehttp/ringphp",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/RingPHP.git",
-                "reference": "dbbb91d7f6c191e5e405e900e3102ac7f261bc0b"
+                "reference": "5e2a174052995663dd68e6b5ad838afd47dd615b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/RingPHP/zipball/dbbb91d7f6c191e5e405e900e3102ac7f261bc0b",
-                "reference": "dbbb91d7f6c191e5e405e900e3102ac7f261bc0b",
+                "url": "https://api.github.com/repos/guzzle/RingPHP/zipball/5e2a174052995663dd68e6b5ad838afd47dd615b",
+                "reference": "5e2a174052995663dd68e6b5ad838afd47dd615b",
                 "shasum": ""
             },
             "require": {
@@ -1057,7 +1179,7 @@
                 }
             ],
             "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
-            "time": "2015-05-20 03:37:09"
+            "time": "2018-07-31T13:22:33+00:00"
         },
         {
             "name": "guzzlehttp/streams",
@@ -1107,31 +1229,75 @@
                 "Guzzle",
                 "stream"
             ],
-            "time": "2014-10-12 19:18:40"
+            "time": "2014-10-12T19:18:40+00:00"
         },
         {
-            "name": "illuminate/container",
-            "version": "v5.5.40",
+            "name": "illuminate/config",
+            "version": "v5.6.31",
             "source": {
                 "type": "git",
-                "url": "https://github.com/illuminate/container.git",
-                "reference": "25821159f2bb12dc9e5720a4b13ea3372ffa8216"
+                "url": "https://github.com/illuminate/config.git",
+                "reference": "e8158dff3189deed846c84c66c60fa68c21ee579"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/container/zipball/25821159f2bb12dc9e5720a4b13ea3372ffa8216",
-                "reference": "25821159f2bb12dc9e5720a4b13ea3372ffa8216",
+                "url": "https://api.github.com/repos/illuminate/config/zipball/e8158dff3189deed846c84c66c60fa68c21ee579",
+                "reference": "e8158dff3189deed846c84c66c60fa68c21ee579",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "5.5.*",
-                "php": ">=7.0",
+                "illuminate/contracts": "5.6.*",
+                "illuminate/support": "5.6.*",
+                "php": "^7.1.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Config\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Config package.",
+            "homepage": "https://laravel.com",
+            "time": "2017-11-07T20:23:51+00:00"
+        },
+        {
+            "name": "illuminate/container",
+            "version": "v5.6.31",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/container.git",
+                "reference": "1f0757cae8749400aeda730f6438a081fc3c082d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/container/zipball/1f0757cae8749400aeda730f6438a081fc3c082d",
+                "reference": "1f0757cae8749400aeda730f6438a081fc3c082d",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "5.6.*",
+                "php": "^7.1.3",
                 "psr/container": "~1.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.5-dev"
+                    "dev-master": "5.6-dev"
                 }
             },
             "autoload": {
@@ -1151,31 +1317,31 @@
             ],
             "description": "The Illuminate Container package.",
             "homepage": "https://laravel.com",
-            "time": "2018-01-19 17:58:33"
+            "time": "2018-05-24T13:16:56+00:00"
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.5.40",
+            "version": "v5.6.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "04fbae936ed14e673dddd18a39662f49e7d199f5"
+                "reference": "2c029101285f6066f45e3ae5910b1b5f900fdcb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/04fbae936ed14e673dddd18a39662f49e7d199f5",
-                "reference": "04fbae936ed14e673dddd18a39662f49e7d199f5",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/2c029101285f6066f45e3ae5910b1b5f900fdcb4",
+                "reference": "2c029101285f6066f45e3ae5910b1b5f900fdcb4",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0",
+                "php": "^7.1.3",
                 "psr/container": "~1.0",
                 "psr/simple-cache": "~1.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.5-dev"
+                    "dev-master": "5.6-dev"
                 }
             },
             "autoload": {
@@ -1195,7 +1361,65 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "https://laravel.com",
-            "time": "2018-03-20 15:34:35"
+            "time": "2018-07-31T12:49:53+00:00"
+        },
+        {
+            "name": "illuminate/support",
+            "version": "v5.6.31",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/support.git",
+                "reference": "0561e4e48797fbaeafeec0054b14605b08722a5a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/0561e4e48797fbaeafeec0054b14605b08722a5a",
+                "reference": "0561e4e48797fbaeafeec0054b14605b08722a5a",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/inflector": "~1.1",
+                "ext-mbstring": "*",
+                "illuminate/contracts": "5.6.*",
+                "nesbot/carbon": "^1.24.1",
+                "php": "^7.1.3"
+            },
+            "conflict": {
+                "tightenco/collect": "<5.5.33"
+            },
+            "suggest": {
+                "illuminate/filesystem": "Required to use the composer class (5.6.*).",
+                "ramsey/uuid": "Required to use Str::uuid() (^3.7).",
+                "symfony/process": "Required to use the composer class (~4.0).",
+                "symfony/var-dumper": "Required to use the dd function (~4.0)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Support\\": ""
+                },
+                "files": [
+                    "helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Support package.",
+            "homepage": "https://laravel.com",
+            "time": "2018-08-06T19:58:11+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -1261,7 +1485,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2018-02-14 22:26:30"
+            "time": "2018-02-14T22:26:30+00:00"
         },
         {
             "name": "klarna/module-core",
@@ -1467,16 +1691,16 @@
         },
         {
             "name": "magemojo/m2-ce-cron",
-            "version": "1.2.2-stable",
+            "version": "1.2.5-stable",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magemojo/m2-ce-cron.git",
-                "reference": "c64ccc55d05662e08446861155ac3cf349b8d142"
+                "reference": "bab19fd05a549b181b0efc4a4126dbae60cb9048"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magemojo/m2-ce-cron/zipball/c64ccc55d05662e08446861155ac3cf349b8d142",
-                "reference": "c64ccc55d05662e08446861155ac3cf349b8d142",
+                "url": "https://api.github.com/repos/magemojo/m2-ce-cron/zipball/bab19fd05a549b181b0efc4a4126dbae60cb9048",
+                "reference": "bab19fd05a549b181b0efc4a4126dbae60cb9048",
                 "shasum": ""
             },
             "require": {
@@ -1507,7 +1731,7 @@
                 "cron",
                 "magento2"
             ],
-            "time": "2018-06-18 19:51:00"
+            "time": "2018-08-02T18:48:26+00:00"
         },
         {
             "name": "magento/composer",
@@ -1975,7 +2199,7 @@
                 "composer-installer",
                 "magento"
             ],
-            "time": "2017-12-29 16:45:24"
+            "time": "2017-12-29T16:45:24+00:00"
         },
         {
             "name": "magento/magento2-base",
@@ -10858,7 +11082,7 @@
                 "ZF1",
                 "framework"
             ],
-            "time": "2017-06-21 14:56:23"
+            "time": "2017-06-21T14:56:23+00:00"
         },
         {
             "name": "magentoese/dock-mage",
@@ -10866,7 +11090,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/dock-mage.git",
-                "reference": "993b669c41eba7a91f66e6e91cf1c327aac646a3"
+                "reference": "049265629dad1803da0e7ff491185b68aa0a837e"
             },
             "type": "library",
             "authors": [
@@ -10876,100 +11100,93 @@
                 }
             ],
             "description": "Launch Magento infrastructure using docker-compose",
-            "time": "2018-06-14 18:03:27"
-        },
-        {
-            "name": "magentoese/ece-patches",
-            "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/ece-patches.git",
-                "reference": "10a8182210a386fd721ed3f7a1202a27aa4149d2"
-            },
-            "require": {
-                "composer/composer": "@stable",
-                "composer/semver": "^1.4",
-                "php": "^7.0"
-            },
-            "replace": {
-                "magento/ece-patches": "*"
-            },
-            "bin": [
-                "m2-apply-patches"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Magento\\Command\\": [
-                        "src/Magento/Command"
-                    ]
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "Provide patches for M2 on MECE instances",
-            "time": "2018-06-18 16:38:27"
+            "time": "2018-07-13T17:48:46+00:00"
         },
         {
             "name": "magentoese/ece-tools",
-            "version": "dev-develop",
+            "version": "2002.0.12.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/ece-tools.git",
-                "reference": "7f30ce365b6311893c90006d47bc3634b2b6bc0e"
+                "reference": "e08613f335531cec0309b46b5d1e56f03729fe1e"
             },
             "require": {
                 "composer/composer": "@stable",
                 "composer/semver": "^1.4",
+                "graylog2/gelf-php": "^1.4.2",
+                "guzzlehttp/guzzle": "^6.3",
+                "illuminate/config": "^5.5",
                 "illuminate/container": "^5.5",
-                "monolog/monolog": "^1.17",
+                "illuminate/contracts": "^5.5",
+                "monolog/monolog": "^1.16",
                 "php": "^7.0",
                 "psr/container": "^1.0",
                 "psr/log": "^1.0",
-                "symfony/console": "^2.6"
+                "symfony/console": "^2.6||^4.0",
+                "symfony/yaml": "^2.3||^3.3"
             },
             "replace": {
-                "magento/ece-tools": "*"
+                "magento/ece-patches": "*",
+                "magento/ece-tools": "*",
+                "magento/magento-cloud-configuration": "*"
             },
             "require-dev": {
-                "illuminate/config": "^5.5",
                 "php-mock/php-mock-phpunit": "^2.0",
                 "phpmd/phpmd": "@stable",
                 "phpunit/php-code-coverage": "^5.2",
-                "phpunit/phpunit": "~6.2.0",
+                "phpunit/phpunit": "^6.2",
                 "squizlabs/php_codesniffer": " ^3.0"
             },
             "bin": [
-                "m2-ece-branch",
+                "bin/ece-tools",
                 "m2-ece-build",
                 "m2-ece-deploy",
-                "m2-ece-scd-dump",
-                "bin/ece-tools"
+                "m2-ece-scd-dump"
             ],
-            "type": "library",
+            "type": "magento2-component",
+            "extra": {
+                "map": [
+                    [
+                        "dist/.magento.env.yaml",
+                        ".magento.env.yaml.dist"
+                    ],
+                    [
+                        "dist/config.env",
+                        "docker/config.env.dist"
+                    ],
+                    [
+                        "dist/global.env",
+                        "docker/global.env.dist"
+                    ]
+                ]
+            },
             "autoload": {
                 "psr-4": {
                     "Magento\\MagentoCloud\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Magento\\MagentoCloud\\Test\\": "tests/static/",
+                    "Magento\\MagentoCloud\\Test\\Integration\\": "tests/integration/"
                 }
             },
             "scripts": {
                 "test": [
                     "phpcs src --standard=tests/static/phpcs-ruleset.xml -p -n",
                     "phpmd src xml tests/static/phpmd-ruleset.xml",
-                    "phpunit --configuration tests/unit/phpunit.xml.dist"
+                    "phpunit --configuration tests/unit",
+                    "phpunit --configuration tests/unit --coverage-clover tests/unit/tmp/clover.xml && php tests/unit/code-coverage.php tests/unit/tmp/clover.xml"
                 ],
-                "test-coverage": [
-                    "phpunit --configuration tests/unit/phpunit.xml.dist --coverage-html tests/unit/tmp/coverage"
+                "test-coverage-generate": [
+                    "phpunit --configuration tests/unit --coverage-html tests/unit/tmp/coverage"
                 ]
             },
             "license": [
-                "OSL-3.0",
-                "AFL-3.0"
+                "proprietary"
             ],
             "description": "Provides tools to build and deploy Magento 2 Enterprise Edition",
-            "time": "2018-01-03 05:16:29"
+            "time": "2018-08-08T19:33:53+00:00"
         },
         {
             "name": "magentoese/facebook-module",
@@ -10996,15 +11213,15 @@
                 "AFL-3.0"
             ],
             "description": "Connect your shop to Facebook page",
-            "time": "2018-01-09 18:37:26"
+            "time": "2018-01-09T18:37:26+00:00"
         },
         {
             "name": "magentoese/magento-scripts",
-            "version": "dev-2.2-ga",
+            "version": "2.2.5.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "689292123e32a0ef6cd4f3cb8751f202e43d47a7"
+                "reference": "96897122f4d9900c2ead8ef1046b78b6eb3d47f0"
             },
             "require": {
                 "magento/framework": "*"
@@ -11025,11 +11242,11 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2018-06-22 15:52:47"
+            "time": "2018-08-09T13:44:06+00:00"
         },
         {
             "name": "magentoese/module-admin-configurations",
-            "version": "dev-magemojo",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git",
@@ -11047,7 +11264,7 @@
                     "MagentoEse\\AdminConfigurations\\": ""
                 }
             },
-            "time": "2018-06-13 05:14:31"
+            "time": "2018-06-13T05:14:31+00:00"
         },
         {
             "name": "magentoese/nfs4d4m",
@@ -11065,7 +11282,7 @@
                 }
             ],
             "description": "Faster file sharing for Docker for Mac using NFS",
-            "time": "2017-11-13 11:45:29"
+            "time": "2017-11-13T11:45:29+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -11143,7 +11360,62 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2017-06-19 01:22:40"
+            "time": "2017-06-19T01:22:40+00:00"
+        },
+        {
+            "name": "nesbot/carbon",
+            "version": "1.33.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/briannesbitt/Carbon.git",
+                "reference": "55667c1007a99e82030874b1bb14d24d07108413"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/55667c1007a99e82030874b1bb14d24d07108413",
+                "reference": "55667c1007a99e82030874b1bb14d24d07108413",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9",
+                "symfony/translation": "~2.6 || ~3.0 || ~4.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2",
+                "phpunit/phpunit": "^4.8.35 || ^5.7"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Carbon\\Laravel\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brian Nesbitt",
+                    "email": "brian@nesbot.com",
+                    "homepage": "http://nesbot.com"
+                }
+            ],
+            "description": "A simple API extension for DateTime.",
+            "homepage": "http://carbon.nesbot.com",
+            "keywords": [
+                "date",
+                "datetime",
+                "time"
+            ],
+            "time": "2018-08-07T08:39:47+00:00"
         },
         {
             "name": "oyejorge/less.php",
@@ -11205,20 +11477,20 @@
                 "php",
                 "stylesheet"
             ],
-            "time": "2017-03-28 22:19:25"
+            "time": "2017-03-28T22:19:25+00:00"
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.15",
+            "version": "v2.0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "10bcb46e8f3d365170f6de9d05245aa066b81f09"
+                "reference": "29af24f25bab834fcbb38ad2a69fa93b867e070d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/10bcb46e8f3d365170f6de9d05245aa066b81f09",
-                "reference": "10bcb46e8f3d365170f6de9d05245aa066b81f09",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/29af24f25bab834fcbb38ad2a69fa93b867e070d",
+                "reference": "29af24f25bab834fcbb38ad2a69fa93b867e070d",
                 "shasum": ""
             },
             "require": {
@@ -11254,7 +11526,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2018-06-08 15:26:40"
+            "time": "2018-07-04T16:31:37+00:00"
         },
         {
             "name": "pelago/emogrifier",
@@ -11323,7 +11595,7 @@
                 "email",
                 "pre-processing"
             ],
-            "time": "2018-01-05 23:30:21"
+            "time": "2018-01-05T23:30:21+00:00"
         },
         {
             "name": "php-amqplib/php-amqplib",
@@ -11377,7 +11649,7 @@
                 "queue",
                 "rabbitmq"
             ],
-            "time": "2015-08-11 12:30:09"
+            "time": "2015-08-11T12:30:09+00:00"
         },
         {
             "name": "phpseclib/phpseclib",
@@ -11469,7 +11741,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2018-04-15 16:55:05"
+            "time": "2018-04-15T16:55:05+00:00"
         },
         {
             "name": "psr/container",
@@ -11518,7 +11790,7 @@
                 "container-interop",
                 "psr"
             ],
-            "time": "2017-02-14 16:28:37"
+            "time": "2017-02-14T16:28:37+00:00"
         },
         {
             "name": "psr/http-message",
@@ -11568,7 +11840,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06 14:39:51"
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "psr/log",
@@ -11615,7 +11887,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10 12:19:37"
+            "time": "2016-10-10T12:19:37+00:00"
         },
         {
             "name": "psr/simple-cache",
@@ -11663,7 +11935,7 @@
                 "psr-16",
                 "simple-cache"
             ],
-            "time": "2017-10-23 01:57:42"
+            "time": "2017-10-23T01:57:42+00:00"
         },
         {
             "name": "ramsey/uuid",
@@ -11743,7 +12015,7 @@
                 "identifier",
                 "uuid"
             ],
-            "time": "2018-01-20 00:28:24"
+            "time": "2018-01-20T00:28:24+00:00"
         },
         {
             "name": "react/promise",
@@ -11789,7 +12061,7 @@
                 "promise",
                 "promises"
             ],
-            "time": "2018-06-13 15:59:06"
+            "time": "2018-06-13T15:59:06+00:00"
         },
         {
             "name": "seld/cli-prompt",
@@ -11837,7 +12109,7 @@
                 "input",
                 "prompt"
             ],
-            "time": "2017-03-18 11:32:45"
+            "time": "2017-03-18T11:32:45+00:00"
         },
         {
             "name": "seld/jsonlint",
@@ -11886,7 +12158,7 @@
                 "parser",
                 "validator"
             ],
-            "time": "2018-01-24 12:46:19"
+            "time": "2018-01-24T12:46:19+00:00"
         },
         {
             "name": "seld/phar-utils",
@@ -11930,7 +12202,7 @@
             "keywords": [
                 "phra"
             ],
-            "time": "2015-10-13 18:44:15"
+            "time": "2015-10-13T18:44:15+00:00"
         },
         {
             "name": "solarium/solarium",
@@ -11988,20 +12260,20 @@
                 "search",
                 "solr"
             ],
-            "time": "2017-02-02 13:32:22"
+            "time": "2017-02-02T13:32:22+00:00"
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.42",
+            "version": "v2.8.44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "e8e59b74ad1274714dad2748349b55e3e6e630c7"
+                "reference": "0c1fcbb9afb5cff992c982ff99c0434f0146dcfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/e8e59b74ad1274714dad2748349b55e3e6e630c7",
-                "reference": "e8e59b74ad1274714dad2748349b55e3e6e630c7",
+                "url": "https://api.github.com/repos/symfony/console/zipball/0c1fcbb9afb5cff992c982ff99c0434f0146dcfc",
+                "reference": "0c1fcbb9afb5cff992c982ff99c0434f0146dcfc",
                 "shasum": ""
             },
             "require": {
@@ -12049,7 +12321,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-05-15 21:17:45"
+            "time": "2018-07-26T11:13:39+00:00"
         },
         {
             "name": "symfony/debug",
@@ -12106,20 +12378,20 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-30 07:22:48"
+            "time": "2016-07-30T07:22:48+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.8.42",
+            "version": "v2.8.44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "9b69aad7d4c086dc94ebade2d5eb9145da5dac8c"
+                "reference": "84ae343f39947aa084426ed1138bb96bf94d1f12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/9b69aad7d4c086dc94ebade2d5eb9145da5dac8c",
-                "reference": "9b69aad7d4c086dc94ebade2d5eb9145da5dac8c",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/84ae343f39947aa084426ed1138bb96bf94d1f12",
+                "reference": "84ae343f39947aa084426ed1138bb96bf94d1f12",
                 "shasum": ""
             },
             "require": {
@@ -12166,20 +12438,20 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-06 07:35:03"
+            "time": "2018-07-26T09:03:18+00:00"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v3.4.12",
+            "version": "v3.4.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "8a721a5f2553c6c3482b1c5b22ed60fe94dd63ed"
+                "reference": "a59f917e3c5d82332514cb4538387638f5bde2d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/8a721a5f2553c6c3482b1c5b22ed60fe94dd63ed",
-                "reference": "8a721a5f2553c6c3482b1c5b22ed60fe94dd63ed",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/a59f917e3c5d82332514cb4538387638f5bde2d6",
+                "reference": "a59f917e3c5d82332514cb4538387638f5bde2d6",
                 "shasum": ""
             },
             "require": {
@@ -12216,20 +12488,20 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2018-06-21 11:10:19"
+            "time": "2018-07-26T11:19:56+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v3.4.12",
+            "version": "v3.4.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "3a8c3de91d2b2c68cd2d665cf9d00f7ef9eaa394"
+                "reference": "8a84fcb207451df0013b2c74cbbf1b62d47b999a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/3a8c3de91d2b2c68cd2d665cf9d00f7ef9eaa394",
-                "reference": "3a8c3de91d2b2c68cd2d665cf9d00f7ef9eaa394",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/8a84fcb207451df0013b2c74cbbf1b62d47b999a",
+                "reference": "8a84fcb207451df0013b2c74cbbf1b62d47b999a",
                 "shasum": ""
             },
             "require": {
@@ -12265,29 +12537,32 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2018-06-19 20:52:10"
+            "time": "2018-07-26T11:19:56+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.8.0",
+            "version": "v1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "7cc359f1b7b80fc25ed7796be7d96adc9b354bae"
+                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/7cc359f1b7b80fc25ed7796be7d96adc9b354bae",
-                "reference": "7cc359f1b7b80fc25ed7796be7d96adc9b354bae",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e3d826245268269cd66f8326bd8bc066687b4a19",
+                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.8-dev"
+                    "dev-master": "1.9-dev"
                 }
             },
             "autoload": {
@@ -12320,20 +12595,20 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2018-04-30 19:57:29"
+            "time": "2018-08-06T14:22:27+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.8.0",
+            "version": "v1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "3296adf6a6454a050679cde90f95350ad604b171"
+                "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/3296adf6a6454a050679cde90f95350ad604b171",
-                "reference": "3296adf6a6454a050679cde90f95350ad604b171",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/d0cd638f4634c16d8df4508e847f14e9e43168b8",
+                "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8",
                 "shasum": ""
             },
             "require": {
@@ -12345,7 +12620,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.8-dev"
+                    "dev-master": "1.9-dev"
                 }
             },
             "autoload": {
@@ -12379,20 +12654,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-04-26 10:06:28"
+            "time": "2018-08-06T14:22:27+00:00"
         },
         {
             "name": "symfony/process",
-            "version": "v2.8.42",
+            "version": "v2.8.44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "542d88b350c42750fdc14e73860ee96dd423e95d"
+                "reference": "cc83afdb5ac99147806b3bb65a3ff1227664f596"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/542d88b350c42750fdc14e73860ee96dd423e95d",
-                "reference": "542d88b350c42750fdc14e73860ee96dd423e95d",
+                "url": "https://api.github.com/repos/symfony/process/zipball/cc83afdb5ac99147806b3bb65a3ff1227664f596",
+                "reference": "cc83afdb5ac99147806b3bb65a3ff1227664f596",
                 "shasum": ""
             },
             "require": {
@@ -12428,7 +12703,127 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2018-05-27 07:40:52"
+            "time": "2018-07-26T11:13:39+00:00"
+        },
+        {
+            "name": "symfony/translation",
+            "version": "v3.3.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/translation.git",
+                "reference": "90cb5ca3eb84b3053fef876e11e405fd819487fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/90cb5ca3eb84b3053fef876e11e405fd819487fc",
+                "reference": "90cb5ca3eb84b3053fef876e11e405fd819487fc",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5.9|>=7.0.8",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "conflict": {
+                "symfony/config": "<2.8",
+                "symfony/yaml": "<3.3"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "~2.8|~3.0",
+                "symfony/intl": "^2.8.18|^3.2.5",
+                "symfony/yaml": "~3.3"
+            },
+            "suggest": {
+                "psr/log": "To use logging capability in translator",
+                "symfony/config": "",
+                "symfony/yaml": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Translation\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Translation Component",
+            "homepage": "https://symfony.com",
+            "time": "2018-01-18T14:19:00+00:00"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v3.3.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "af615970e265543a26ee712c958404eb9b7ac93d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/af615970e265543a26ee712c958404eb9b7ac93d",
+                "reference": "af615970e265543a26ee712c958404eb9b7ac93d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5.9|>=7.0.8"
+            },
+            "require-dev": {
+                "symfony/console": "~2.8|~3.0"
+            },
+            "suggest": {
+                "symfony/console": "For validating YAML files using the lint command"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Yaml\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "https://symfony.com",
+            "time": "2018-01-20T15:04:53+00:00"
         },
         {
             "name": "tedivm/jshrink",
@@ -12474,7 +12869,7 @@
                 "javascript",
                 "minifier"
             ],
-            "time": "2017-12-08 00:59:56"
+            "time": "2017-12-08T00:59:56+00:00"
         },
         {
             "name": "temando/module-shipping-m2",
@@ -12580,7 +12975,7 @@
                 "minify",
                 "yui"
             ],
-            "time": "2018-01-15 15:26:51"
+            "time": "2018-01-15T15:26:51+00:00"
         },
         {
             "name": "vertex/module-tax",
@@ -12702,7 +13097,7 @@
                 "captcha",
                 "zf"
             ],
-            "time": "2018-04-24 17:24:10"
+            "time": "2018-04-24T17:24:10+00:00"
         },
         {
             "name": "zendframework/zend-code",
@@ -12755,7 +13150,7 @@
                 "code",
                 "zf2"
             ],
-            "time": "2016-10-24 13:23:32"
+            "time": "2016-10-24T13:23:32+00:00"
         },
         {
             "name": "zendframework/zend-config",
@@ -12811,7 +13206,7 @@
                 "config",
                 "zf2"
             ],
-            "time": "2016-02-04 23:01:10"
+            "time": "2016-02-04T23:01:10+00:00"
         },
         {
             "name": "zendframework/zend-console",
@@ -12864,7 +13259,7 @@
                 "console",
                 "zf"
             ],
-            "time": "2018-01-25 19:08:04"
+            "time": "2018-01-25T19:08:04+00:00"
         },
         {
             "name": "zendframework/zend-crypt",
@@ -12914,7 +13309,7 @@
                 "crypt",
                 "zf2"
             ],
-            "time": "2016-02-03 23:46:30"
+            "time": "2016-02-03T23:46:30+00:00"
         },
         {
             "name": "zendframework/zend-db",
@@ -12972,7 +13367,7 @@
                 "db",
                 "zf"
             ],
-            "time": "2018-04-09 13:21:36"
+            "time": "2018-04-09T13:21:36+00:00"
         },
         {
             "name": "zendframework/zend-di",
@@ -13019,20 +13414,20 @@
                 "di",
                 "zf2"
             ],
-            "time": "2016-04-25 20:58:11"
+            "time": "2016-04-25T20:58:11+00:00"
         },
         {
             "name": "zendframework/zend-diactoros",
-            "version": "1.8.0",
+            "version": "1.8.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-diactoros.git",
-                "reference": "11c9c1835e60eef6f9234377a480fcec096ebd9e"
+                "reference": "736ffa7c2bfa4a60e8a10acb316fa2ac456c5fba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/11c9c1835e60eef6f9234377a480fcec096ebd9e",
-                "reference": "11c9c1835e60eef6f9234377a480fcec096ebd9e",
+                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/736ffa7c2bfa4a60e8a10acb316fa2ac456c5fba",
+                "reference": "736ffa7c2bfa4a60e8a10acb316fa2ac456c5fba",
                 "shasum": ""
             },
             "require": {
@@ -13045,7 +13440,7 @@
             "require-dev": {
                 "ext-dom": "*",
                 "ext-libxml": "*",
-                "phpunit/phpunit": "^5.7.16 || ^6.0.8",
+                "phpunit/phpunit": "^5.7.16 || ^6.0.8 || ^7.2.7",
                 "zendframework/zend-coding-standard": "~1.0"
             },
             "type": "library",
@@ -13082,7 +13477,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2018-06-27 18:52:43"
+            "time": "2018-08-01T13:47:49+00:00"
         },
         {
             "name": "zendframework/zend-escaper",
@@ -13127,7 +13522,7 @@
                 "escaper",
                 "zf"
             ],
-            "time": "2018-04-25 15:48:53"
+            "time": "2018-04-25T15:48:53+00:00"
         },
         {
             "name": "zendframework/zend-eventmanager",
@@ -13174,7 +13569,7 @@
                 "eventmanager",
                 "zf2"
             ],
-            "time": "2017-12-12 17:48:56"
+            "time": "2017-12-12T17:48:56+00:00"
         },
         {
             "name": "zendframework/zend-filter",
@@ -13237,7 +13632,7 @@
                 "filter",
                 "zf"
             ],
-            "time": "2018-04-11 16:20:04"
+            "time": "2018-04-11T16:20:04+00:00"
         },
         {
             "name": "zendframework/zend-form",
@@ -13315,20 +13710,20 @@
                 "form",
                 "zf"
             ],
-            "time": "2018-05-16 18:49:44"
+            "time": "2018-05-16T18:49:44+00:00"
         },
         {
             "name": "zendframework/zend-http",
-            "version": "2.8.0",
+            "version": "2.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-http.git",
-                "reference": "f48b276ffa11b48dd1ae3c6bc306d6ed7958ef51"
+                "reference": "44197164a270259116162a442f639085ea24094a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-http/zipball/f48b276ffa11b48dd1ae3c6bc306d6ed7958ef51",
-                "reference": "f48b276ffa11b48dd1ae3c6bc306d6ed7958ef51",
+                "url": "https://api.github.com/repos/zendframework/zend-http/zipball/44197164a270259116162a442f639085ea24094a",
+                "reference": "44197164a270259116162a442f639085ea24094a",
                 "shasum": ""
             },
             "require": {
@@ -13370,7 +13765,7 @@
                 "zend",
                 "zf"
             ],
-            "time": "2018-04-26 21:04:50"
+            "time": "2018-08-01T13:50:48+00:00"
         },
         {
             "name": "zendframework/zend-hydrator",
@@ -13428,7 +13823,7 @@
                 "hydrator",
                 "zf2"
             ],
-            "time": "2016-02-18 22:38:26"
+            "time": "2016-02-18T22:38:26+00:00"
         },
         {
             "name": "zendframework/zend-i18n",
@@ -13496,7 +13891,7 @@
                 "i18n",
                 "zf"
             ],
-            "time": "2018-05-16 16:39:13"
+            "time": "2018-05-16T16:39:13+00:00"
         },
         {
             "name": "zendframework/zend-inputfilter",
@@ -13549,7 +13944,7 @@
                 "inputfilter",
                 "zf"
             ],
-            "time": "2018-05-14 17:38:03"
+            "time": "2018-05-14T17:38:03+00:00"
         },
         {
             "name": "zendframework/zend-json",
@@ -13604,7 +13999,7 @@
                 "json",
                 "zf2"
             ],
-            "time": "2016-02-04 21:20:26"
+            "time": "2016-02-04T21:20:26+00:00"
         },
         {
             "name": "zendframework/zend-loader",
@@ -13649,7 +14044,7 @@
                 "loader",
                 "zf"
             ],
-            "time": "2018-04-30 15:20:54"
+            "time": "2018-04-30T15:20:54+00:00"
         },
         {
             "name": "zendframework/zend-log",
@@ -13720,7 +14115,7 @@
                 "logging",
                 "zf2"
             ],
-            "time": "2018-04-09 21:59:51"
+            "time": "2018-04-09T21:59:51+00:00"
         },
         {
             "name": "zendframework/zend-math",
@@ -13770,7 +14165,7 @@
                 "math",
                 "zf2"
             ],
-            "time": "2016-04-07 16:29:53"
+            "time": "2016-04-07T16:29:53+00:00"
         },
         {
             "name": "zendframework/zend-modulemanager",
@@ -13830,7 +14225,7 @@
                 "modulemanager",
                 "zf"
             ],
-            "time": "2017-12-02 06:11:18"
+            "time": "2017-12-02T06:11:18+00:00"
         },
         {
             "name": "zendframework/zend-mvc",
@@ -13925,7 +14320,7 @@
                 "mvc",
                 "zf2"
             ],
-            "time": "2018-05-03 13:13:41"
+            "time": "2018-05-03T13:13:41+00:00"
         },
         {
             "name": "zendframework/zend-psr7bridge",
@@ -13974,7 +14369,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2016-05-10 21:44:39"
+            "time": "2016-05-10T21:44:39+00:00"
         },
         {
             "name": "zendframework/zend-serializer",
@@ -14031,7 +14426,7 @@
                 "serializer",
                 "zf"
             ],
-            "time": "2018-05-14 18:45:18"
+            "time": "2018-05-14T18:45:18+00:00"
         },
         {
             "name": "zendframework/zend-server",
@@ -14078,7 +14473,7 @@
                 "server",
                 "zf"
             ],
-            "time": "2018-04-30 22:21:28"
+            "time": "2018-04-30T22:21:28+00:00"
         },
         {
             "name": "zendframework/zend-servicemanager",
@@ -14130,7 +14525,7 @@
                 "servicemanager",
                 "zf2"
             ],
-            "time": "2018-06-22 14:49:54"
+            "time": "2018-06-22T14:49:54+00:00"
         },
         {
             "name": "zendframework/zend-session",
@@ -14197,7 +14592,7 @@
                 "session",
                 "zf"
             ],
-            "time": "2018-02-22 16:33:54"
+            "time": "2018-02-22T16:33:54+00:00"
         },
         {
             "name": "zendframework/zend-soap",
@@ -14250,7 +14645,7 @@
                 "soap",
                 "zf2"
             ],
-            "time": "2018-01-29 17:51:26"
+            "time": "2018-01-29T17:51:26+00:00"
         },
         {
             "name": "zendframework/zend-stdlib",
@@ -14309,7 +14704,7 @@
                 "stdlib",
                 "zf2"
             ],
-            "time": "2016-04-12 21:17:31"
+            "time": "2016-04-12T21:17:31+00:00"
         },
         {
             "name": "zendframework/zend-text",
@@ -14357,7 +14752,7 @@
                 "text",
                 "zf"
             ],
-            "time": "2018-04-30 14:55:10"
+            "time": "2018-04-30T14:55:10+00:00"
         },
         {
             "name": "zendframework/zend-uri",
@@ -14404,7 +14799,7 @@
                 "uri",
                 "zf"
             ],
-            "time": "2018-04-30 13:40:08"
+            "time": "2018-04-30T13:40:08+00:00"
         },
         {
             "name": "zendframework/zend-validator",
@@ -14475,7 +14870,7 @@
                 "validator",
                 "zf2"
             ],
-            "time": "2018-02-01 17:05:33"
+            "time": "2018-02-01T17:05:33+00:00"
         },
         {
             "name": "zendframework/zend-view",
@@ -14562,7 +14957,7 @@
                 "view",
                 "zf2"
             ],
-            "time": "2018-01-17 22:21:50"
+            "time": "2018-01-17T22:21:50+00:00"
         }
     ],
     "packages-dev": [],
@@ -14573,7 +14968,6 @@
         "gene/bluefoot": 20,
         "magentoese/dock-mage": 20,
         "magentoese/ece-tools": 20,
-        "magentoese/ece-patches": 20,
         "magentoese/facebook-module": 20,
         "magentoese/magento-scripts": 20,
         "magentoese/module-admin-configurations": 20,
