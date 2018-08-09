@@ -3,6 +3,7 @@
 !/.gitignore
 !/.magento.app.yaml
 !/.magento.env.yaml*
+.magento.env.yaml.dist
 !/.magento
 !/.magento/**
 /.magento/local
