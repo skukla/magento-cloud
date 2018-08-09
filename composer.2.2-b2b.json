@@ -59,7 +59,7 @@
         "magentoese/dock-mage": "dev-master",
         "magentoese/ece-tools": "dev-develop",
         "magentoese/ece-patches": "dev-develop",
-        "magentoese/magento-scripts": "dev-2.2-ga",
+        "magentoese/magento-scripts": "2.2.5.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/module-autofill": "dev-develop",
         "magentoese/module-autofill-sample-data": "dev-b2bdevelop",
