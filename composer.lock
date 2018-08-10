@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4c2a17f8f6e399f0b4b0d3e95d443e37",
+    "content-hash": "18046d4bec404c9eb8ed902a54bfd9ab",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -1233,7 +1233,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v5.6.31",
+            "version": "v5.6.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -1277,7 +1277,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.6.31",
+            "version": "v5.6.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -1321,7 +1321,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.6.31",
+            "version": "v5.6.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -1365,7 +1365,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v5.6.31",
+            "version": "v5.6.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -11104,17 +11104,17 @@
         },
         {
             "name": "magentoese/ece-tools",
-            "version": "2002.0.12.x-dev",
+            "version": "2002.0.13.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/ece-tools.git",
-                "reference": "e08613f335531cec0309b46b5d1e56f03729fe1e"
+                "reference": "c50790c859cdccd4413fe796c9751f61335d91de"
             },
             "require": {
                 "composer/composer": "@stable",
                 "composer/semver": "^1.4",
                 "graylog2/gelf-php": "^1.4.2",
-                "guzzlehttp/guzzle": "^6.3",
+                "guzzlehttp/guzzle": "^6.2",
                 "illuminate/config": "^5.5",
                 "illuminate/container": "^5.5",
                 "illuminate/contracts": "^5.5",
@@ -11151,12 +11151,12 @@
                         ".magento.env.yaml.dist"
                     ],
                     [
-                        "dist/config.env",
-                        "docker/config.env.dist"
+                        "dist/docker/config.php",
+                        "docker/config.php.dist"
                     ],
                     [
-                        "dist/global.env",
-                        "docker/global.env.dist"
+                        "dist/docker/global.php",
+                        "docker/global.php.dist"
                     ]
                 ]
             },
@@ -11186,7 +11186,7 @@
                 "proprietary"
             ],
             "description": "Provides tools to build and deploy Magento 2 Enterprise Edition",
-            "time": "2018-08-08T19:33:53+00:00"
+            "time": "2018-08-10T15:15:44+00:00"
         },
         {
             "name": "magentoese/facebook-module",
@@ -11194,10 +11194,10 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/easysocialshop_magento2.git",
-                "reference": "bdb50d5242fb5fd8aac9ccc458bb9101eb01e2c4"
+                "reference": "2d61de8568118c7299719f287d37a4f376effbb0"
             },
             "replace": {
-                "shopialfb/facebook-module": "2.0.*"
+                "shopialfb/facebook-module": "2.*"
             },
             "type": "magento2-module",
             "autoload": {
@@ -11213,7 +11213,7 @@
                 "AFL-3.0"
             ],
             "description": "Connect your shop to Facebook page",
-            "time": "2018-01-09T18:37:26+00:00"
+            "time": "2018-08-09T19:51:52+00:00"
         },
         {
             "name": "magentoese/magento-scripts",
@@ -13418,16 +13418,16 @@
         },
         {
             "name": "zendframework/zend-diactoros",
-            "version": "1.8.4",
+            "version": "1.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-diactoros.git",
-                "reference": "736ffa7c2bfa4a60e8a10acb316fa2ac456c5fba"
+                "reference": "3e4edb822c942f37ade0d09579cfbab11e2fee87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/736ffa7c2bfa4a60e8a10acb316fa2ac456c5fba",
-                "reference": "736ffa7c2bfa4a60e8a10acb316fa2ac456c5fba",
+                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/3e4edb822c942f37ade0d09579cfbab11e2fee87",
+                "reference": "3e4edb822c942f37ade0d09579cfbab11e2fee87",
                 "shasum": ""
             },
             "require": {
@@ -13477,7 +13477,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2018-08-01T13:47:49+00:00"
+            "time": "2018-08-10T14:16:32+00:00"
         },
         {
             "name": "zendframework/zend-escaper",
