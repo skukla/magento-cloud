@@ -25,3 +25,5 @@
 !/update/.htaccess
 !/README.md
 !/package-lock.json
+!/.vscode
+!/.vscode/launch.json
