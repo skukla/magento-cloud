@@ -23,6 +23,7 @@
             "vendor/magentoese/magento-scripts/composer-setup.sh ref"
         ],
         "post-autoload-dump" : [
+            "find . -maxdepth 2 -type d"
         ]
     },
     "require": {
