@@ -25,7 +25,7 @@
         "post-autoload-dump" : [
             "find . -maxdepth 2 -type d",
             "ps aux",
-            "ls -al setup/config/application.config.php"
+            "ls -al setup/config/application.config.php || :"
         ]
     },
     "require": {
