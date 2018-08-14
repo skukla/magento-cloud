@@ -18,53 +18,51 @@
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/ece-tools.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"}
     ],
-    "scripts": {
-        "pre-autoload-dump" : [
-            "vendor/magentoese/magento-scripts/composer-setup.sh ref"
-        ],
-        "post-autoload-dump" : [
-            "find . -maxdepth 2 -type d",
-            "ps aux",
-            "ls -al setup/config/application.config.php || :"
-        ]
-    },
+    
+    
+    
+    
+    
+    
+    
     "require": {
-        "fastly/magento2": "^1.2",
-        "firegento/fastsimpleimport": "dev-updated",
-        "gene/bluefoot": "dev-develop-no-branding",
-        "magemojo/m2-ce-cron": "^1.2",
-        "magento/magento-cloud-metapackage": "2.2.5",
-        "magento/module-bundle-sample-data": "100.2.*",
-        "magento/module-widget-sample-data": "100.2.*",
-        "magento/module-catalog-sample-data": "100.2.*",
-        "magento/module-customer-sample-data": "100.2.*",
-        "magento/module-theme-sample-data": "100.2.*",
-        "magento/module-cms-sample-data": "100.2.*",
-        "magento/module-review-sample-data": "100.2.*",
-        "magento/module-catalog-rule-sample-data": "100.2.*",
-        "magento/module-sales-rule-sample-data": "100.2.*",
-        "magento/module-sales-sample-data": "100.2.*",
-        "magento/module-tax-sample-data": "100.2.*",
-        "magento/module-downloadable-sample-data": "100.2.*",
-        "magento/module-grouped-product-sample-data": "100.2.*",
-        "magento/module-msrp-sample-data": "100.2.*",
-        "magento/module-gift-card-sample-data": "100.2.*",
-        "magento/module-product-links-sample-data": "100.2.*",
-        "magento/module-wishlist-sample-data": "100.2.*",
-        "magento/module-configurable-sample-data": "100.2.*",
-        "magento/module-customer-balance-sample-data": "100.2.*",
-        "magento/module-target-rule-sample-data": "100.2.*",
-        "magento/module-gift-registry-sample-data": "100.2.*",
-        "magento/module-multiple-wishlist-sample-data": "100.2.*",
-        "magento/module-swatches-sample-data": "100.2.*",
-        "magento/sample-data-media": "100.2.*",
-        "magento/module-offline-shipping-sample-data": "100.2.*",
-        "magentoese/dock-mage": "dev-master",
-        "magentoese/ece-tools": "2002.0.13.x-dev",
-        "magentoese/facebook-module": "dev-master",
-        "magentoese/magento-scripts": "2.2.5.x-dev",
-        "magentoese/module-admin-configurations": "dev-master",
-        "magentoese/nfs4d4m": "dev-master"
+        
+        
+        
+        
+        "magento/magento-cloud-metapackage": "2.2.5"
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     },
     "config": {
         "use-include-path": true
