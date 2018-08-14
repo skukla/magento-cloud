@@ -26,7 +26,6 @@
         ]
     },
     "require": {
-        // "fastly/magento2": "^1.2",
         "firegento/fastsimpleimport": "dev-updated",
         "gene/bluefoot": "dev-develop-no-branding",
         "magemojo/m2-ce-cron": "^1.2",
