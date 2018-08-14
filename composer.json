@@ -30,7 +30,7 @@
         
         
         
-        "magento/magento-cloud-metapackage": "2.2.5"
+        "magento/magento-cloud-metapackage": "2.2.5",
         
         
         
@@ -59,8 +59,7 @@
         
         
         
-        
-        
+        "magentoese/magento-scripts": "2.2.5.x-dev"
         
         
     },

@@ -30,8 +30,7 @@
         //"firegento/fastsimpleimport": "dev-updated",
         //"gene/bluefoot": "dev-develop-no-branding",
         // "magemojo/m2-ce-cron": "^1.2",
-        "magento/magento-cloud-metapackage": "2.2.5"
-        // ,
+        "magento/magento-cloud-metapackage": "2.2.5",
         // "magento/module-bundle-sample-data": "100.2.*",
         // "magento/module-widget-sample-data": "100.2.*",
         // "magento/module-catalog-sample-data": "100.2.*",
@@ -60,7 +59,7 @@
         // "magentoese/dock-mage": "dev-master",
         // "magentoese/ece-tools": "2002.0.13.x-dev",
         // "magentoese/facebook-module": "dev-master",
-        // "magentoese/magento-scripts": "2.2.5.x-dev",
+        "magentoese/magento-scripts": "2.2.5.x-dev"
         // "magentoese/module-admin-configurations": "dev-master",
         // "magentoese/nfs4d4m": "dev-master"
     },
