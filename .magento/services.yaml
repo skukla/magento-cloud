@@ -10,7 +10,7 @@ redis:
     type: redis:3.0
 
 elasticsearch:
-   type: elasticsearch:2.4
+   type: elasticsearch:5.2
    disk: 1024
    configuration:
     plugins:
