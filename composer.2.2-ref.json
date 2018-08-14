@@ -57,11 +57,11 @@
         // "magento/sample-data-media": "100.2.*",
         // "magento/module-offline-shipping-sample-data": "100.2.*",
         // "magentoese/dock-mage": "dev-master",
-        // "magentoese/ece-tools": "2002.0.13.x-dev",
-        // "magentoese/facebook-module": "dev-master",
-        "magentoese/magento-scripts": "2.2.5.x-dev"
-        // "magentoese/module-admin-configurations": "dev-master",
-        // "magentoese/nfs4d4m": "dev-master"
+        "magentoese/ece-tools": "2002.0.13.x-dev",
+        "magentoese/facebook-module": "dev-master",
+        "magentoese/magento-scripts": "2.2.5.x-dev",
+        "magentoese/module-admin-configurations": "dev-master",
+        "magentoese/nfs4d4m": "dev-master"
     },
     "config": {
         "use-include-path": true
