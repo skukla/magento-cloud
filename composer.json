@@ -18,13 +18,13 @@
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/ece-tools.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"}
     ],
-    
-    
-    
-    
-    
-    
-    
+    "scripts": {
+        "pre-autoload-dump" : [
+            "vendor/magentoese/magento-scripts/composer-setup.sh ref"
+        ],
+        "post-autoload-dump" : [
+        ]
+    },
     "require": {
         
         
