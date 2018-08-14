@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "56b222d4ae13c003997f478ef1176a50",
+    "content-hash": "b4cf340d52d393259245bb7306d855d9",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -826,6 +826,41 @@
             "time": "2018-08-08T14:06:41+00:00"
         },
         {
+            "name": "gene/bluefoot",
+            "version": "dev-develop-no-branding",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.the1umastory.com:md/bluefoot.git",
+                "reference": "4536648e84546fe3d03f210d30c43b3814ed7f24"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Gene\\BlueFoot\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Macaulay",
+                    "homepage": "http://gene.co.uk/",
+                    "role": "Senior Developer"
+                },
+                {
+                    "name": "Hob Adams",
+                    "homepage": "http://gene.co.uk/",
+                    "role": "Senior Developer"
+                }
+            ],
+            "description": "BlueFoot CMS & PageBuilder for Magento 2",
+            "time": "2018-01-17T20:56:14+00:00"
+        },
+        {
             "name": "graylog2/gelf-php",
             "version": "1.5.5",
             "source": {
@@ -1620,6 +1655,50 @@
                 }
             ],
             "description": "Klarna Order Management Magento 2 Extension"
+        },
+        {
+            "name": "magemojo/m2-ce-cron",
+            "version": "1.2.5-stable",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magemojo/m2-ce-cron.git",
+                "reference": "bab19fd05a549b181b0efc4a4126dbae60cb9048"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magemojo/m2-ce-cron/zipball/bab19fd05a549b181b0efc4a4126dbae60cb9048",
+                "reference": "bab19fd05a549b181b0efc4a4126dbae60cb9048",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MageMojo\\Cron\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "MageMojo",
+                    "homepage": "https://github.com/magemojo/"
+                }
+            ],
+            "description": "Replacement package for Magento 2 Cron Functionality",
+            "homepage": "https://github.com/magemojo/",
+            "keywords": [
+                "cron",
+                "magento2"
+            ],
+            "time": "2018-08-02T18:48:26+00:00"
         },
         {
             "name": "magento/composer",
@@ -10235,6 +10314,24 @@
             "time": "2017-06-21T14:56:23+00:00"
         },
         {
+            "name": "magentoese/dock-mage",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/dock-mage.git",
+                "reference": "049265629dad1803da0e7ff491185b68aa0a837e"
+            },
+            "type": "library",
+            "authors": [
+                {
+                    "name": "Keith Bentrup",
+                    "email": "kbentrup@magento.com"
+                }
+            ],
+            "description": "Launch Magento infrastructure using docker-compose",
+            "time": "2018-07-13T17:48:46+00:00"
+        },
+        {
             "name": "magentoese/ece-tools",
             "version": "2002.0.13.x-dev",
             "source": {
@@ -14096,6 +14193,8 @@
     "aliases": [],
     "minimum-stability": "alpha",
     "stability-flags": {
+        "gene/bluefoot": 20,
+        "magentoese/dock-mage": 20,
         "magentoese/ece-tools": 20,
         "magentoese/facebook-module": 20,
         "magentoese/magento-scripts": 20,
