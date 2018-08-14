@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "33061924fbb20f2b0b011ce0b5532573",
+    "content-hash": "f84a6cc4ad01396d91010bfd51d29540",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -824,6 +824,39 @@
             ],
             "description": "Fastly CDN Module for Magento 2.x",
             "time": "2018-08-08T14:06:41+00:00"
+        },
+        {
+            "name": "firegento/fastsimpleimport",
+            "version": "dev-updated",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git",
+                "reference": "76f13957df9d6e7489a8066d4c76edc5ce12a038"
+            },
+            "require": {
+                "php": "~5.5.0|~5.6.0|~7.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "FireGento\\FastSimpleImport\\": ""
+                }
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Team FireGento",
+                    "email": "team@firegento.com"
+                }
+            ],
+            "description": "Wrapper for Magento2 ImportExport functionality, which imports products and customers from arrays",
+            "homepage": "https://github.com/firegento/FireGento_FastSimpleImport2",
+            "time": "2017-09-12T13:19:06+00:00"
         },
         {
             "name": "gene/bluefoot",
@@ -14931,6 +14964,7 @@
     "aliases": [],
     "minimum-stability": "alpha",
     "stability-flags": {
+        "firegento/fastsimpleimport": 20,
         "gene/bluefoot": 20,
         "magentoese/dock-mage": 20,
         "magentoese/ece-tools": 20,
