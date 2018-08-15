@@ -60,7 +60,8 @@
         "magentoese/facebook-module": "dev-master",
         "magentoese/magento-scripts": "2.2.5.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
-        "magentoese/nfs4d4m": "dev-master"
+        "magentoese/nfs4d4m": "dev-master",
+        "n98/magerun2": "^2.2"
     },
     "config": {
         "use-include-path": true
