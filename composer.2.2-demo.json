@@ -2,7 +2,7 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.2.4",
+    "version": "2.2.5",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -96,13 +96,12 @@
         "amasty/rgrid": "dev-master",
         //"amasty/xsearch": "dev-master",
         "classyllama/module-owlcarousel":"dev-master",
-        "fastly/magento2": "^1.2",
         "firegento/fastsimpleimport": "dev-updated",
         "gene/bluefoot": "dev-develop-no-branding",
         "m2epro/magento2-extension": "dev-master",
         "magemojo/m2-ce-cron": "^1.2",
-        "magento/product-enterprise-edition": "2.2.4",
-        //"magento/magento-cloud-metapackage": "2.2.2",
+        //"magento/product-enterprise-edition": "2.2.4",
+        "magento/magento-cloud-metapackage": "2.2.5",
         "magento/module-bundle-sample-data": "100.2.*",
         "magento/module-widget-sample-data": "100.2.*",
         "magento/module-catalog-sample-data": "100.2.*",
@@ -168,6 +167,7 @@
         "magentoese/module-vimeo": "2.2.x-dev",
         "magentoese/nfs4d4m": "dev-master",
         "magentoese/theme-frontend-venia": "dev-develop",
+        "n98/magerun2": "^2.2",
         "paradoxlabs/authnetcim": "dev-master",
         "paradoxlabs/firstdata": "dev-master",
         "paradoxlabs/stripe": "dev-master",
@@ -204,6 +204,7 @@
     "minimum-stability": "alpha",
     "prefer-stable": true,
     "extra": {
-        "magento-force": "override"
+        "magento-force": true,
+        "magento-deploystrategy": "copy"
     }
 }

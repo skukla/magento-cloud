@@ -2,7 +2,7 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.2.4",
+    "version": "2.2.5",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -50,7 +50,6 @@
         ]
     },
     "require": {
-        "fastly/magento2": "^1.2",
         "firegento/fastsimpleimport": "dev-updated",
         "gene/bluefoot": "dev-develop-no-branding",
         "magento/magento-cloud-metapackage": "2.2.4",
@@ -83,7 +82,8 @@
         "magentoese/module-sctools": "dev-master",
         "magentoese/module-themecustomizer": "dev-master",
         "magentoese/nfs4d4m": "dev-master",
-        "magentoese/theme-brentmill": "dev-develop"
+        "magentoese/theme-brentmill": "dev-develop",
+        "n98/magerun2": "^2.2"
     },
     "config": {
         "use-include-path": true
@@ -113,6 +113,7 @@
     "minimum-stability": "alpha",
     "prefer-stable": true,
     "extra": {
-        "magento-force": "override"
+        "magento-force": true,
+        "magento-deploystrategy": "copy"
     }
 }
