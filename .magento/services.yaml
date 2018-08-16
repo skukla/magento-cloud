@@ -16,7 +16,6 @@ elasticsearch:
     plugins:
       - analysis-icu
       - analysis-phonetic
-      - lang-python
 
 rabbitmq:
     type: rabbitmq
