@@ -77,6 +77,10 @@
             "vendor/magentoese/magento-scripts/composer-setup.sh demo"
         ],
         "post-autoload-dump" : [
+        ],
+        // enable error reporting
+        "post-install-cmd" : [
+            "mv pub/errors/local.xml.sample pub/errors/local.xml || :"
         ]
     },
     "require": {
