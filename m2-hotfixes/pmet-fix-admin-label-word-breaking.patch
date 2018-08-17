@@ -1,0 +1,13 @@
+diff --git a/vendor/magento/theme-adminhtml-backend/web/css/styles-old.less b/vendor/magento/theme-adminhtml-backend/web/css/styles-old.less
+index b66fed0c..55b95401 100644
+--- a/vendor/magento/theme-adminhtml-backend/web/css/styles-old.less
++++ b/vendor/magento/theme-adminhtml-backend/web/css/styles-old.less
+@@ -1368,7 +1368,7 @@
+         line-height: 3.2rem;
+         padding: 0 30px 0 0;
+         white-space: nowrap;
+-        word-wrap: break-word;
++        word-wrap: normal;
+ 
+         &:before {
+             content: '.';

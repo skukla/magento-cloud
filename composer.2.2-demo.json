@@ -2,7 +2,7 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.2.4",
+    "version": "2.2.5",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -59,7 +59,6 @@
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-store-locator.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/bluefoot.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/easysocialshop_magento2.git"},
-        {"type": "git", "url": "git@gitlab.the1umastory.com:md/ece-patches.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/ece-tools.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-lookbook.git"},
@@ -78,6 +77,10 @@
             "vendor/magentoese/magento-scripts/composer-setup.sh demo"
         ],
         "post-autoload-dump" : [
+        ],
+        // enable error reporting
+        "post-install-cmd" : [
+            "mv pub/errors/local.xml.sample pub/errors/local.xml || :"
         ]
     },
     "require": {
@@ -97,13 +100,12 @@
         "amasty/rgrid": "dev-master",
         //"amasty/xsearch": "dev-master",
         "classyllama/module-owlcarousel":"dev-master",
-        "fastly/magento2": "^1.2",
         "firegento/fastsimpleimport": "dev-updated",
         "gene/bluefoot": "dev-develop-no-branding",
         "m2epro/magento2-extension": "dev-master",
         "magemojo/m2-ce-cron": "^1.2",
-        "magento/product-enterprise-edition": "2.2.4",
-        //"magento/magento-cloud-metapackage": "2.2.2",
+        //"magento/product-enterprise-edition": "2.2.4",
+        "magento/magento-cloud-metapackage": "2.2.5",
         "magento/module-bundle-sample-data": "100.2.*",
         "magento/module-widget-sample-data": "100.2.*",
         "magento/module-catalog-sample-data": "100.2.*",
@@ -131,52 +133,52 @@
         "magento/module-offline-shipping-sample-data": "100.2.*",
         // "magento/mcom-connector" : "*",
         "magentoese/dock-mage": "dev-master",
-        "magentoese/ece-tools": "dev-develop",
-        "magentoese/ece-patches": "dev-develop",
+        "magentoese/ece-tools": "2002.0.13.x-dev",
         "magentoese/facebook-module": "dev-master",
-        "magentoese/magento-scripts": "dev-2.2-ga",
+        "magentoese/magento-scripts": "2.2.5.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/module-autofill": "dev-master",
         "magentoese/module-autofill-sample-data": "dev-demo",
         "magentoese/module-customer-sample-data": "dev-master",
         "magentoese/module-demo-admin-configurations": "dev-master",
-        "magentoese/module-demo-order-data": "dev-develop",
+        "magentoese/module-demo-order-data": "dev-master",
         // "magentoese/module-elasticsearch-config": "dev-master",
-        "magentoese/module-installation-overrides": "dev-develop",
+        "magentoese/module-installation-overrides": "dev-master",
         "magentoese/module-instorepickup": "dev-master",
         "magentoese/module-instorepickup-sample-data": "dev-master",
-        "magentoese/module-lookbook": "dev-develop",
+        "magentoese/module-lookbook": "dev-master",
         "magentoese/module-luma-de-attributes": "dev-master",
         "magentoese/module-luma-de-categories": "dev-master",
-        "magentoese/module-luma-de-cms": "dev-develop",
+        "magentoese/module-luma-de-cms": "dev-master",
         "magentoese/module-luma-de-products": "dev-master",
         "magentoese/module-luma-de-setup": "dev-master",
         "magentoese/module-luma-de-widget": "dev-master",
         "magentoese/module-megamenu": "dev-master",
         //"magentoese/module-post-install": "dev-master",
-        "magentoese/module-product-sample-data-update": "dev-develop",
+        "magentoese/module-product-sample-data-update": "dev-master",
         "magentoese/module-product-image-switcher": "dev-master",
         "magentoese/module-productbadge": "dev-master",
         "magentoese/module-productbadge-sample-data": "dev-master",
-        "magentoese/module-sales-sample-data": "dev-develop",
+        "magentoese/module-sales-sample-data": "dev-master",
         "magentoese/module-sctools": "dev-master",
-        "magentoese/module-switcherlogos": "dev-develop",
+        "magentoese/module-switcherlogos": "dev-master",
         "magentoese/module-themecustomizer": "dev-master",
-        "magentoese/module-venia-setup": "dev-develop",
-        "magentoese/module-venia-catalog-sample-data": "dev-develop",
-        "magentoese/module-venia-cms-sample-data": "dev-develop",
+        "magentoese/module-venia-setup": "dev-master",
+        "magentoese/module-venia-catalog-sample-data": "dev-master",
+        "magentoese/module-venia-cms-sample-data": "dev-master",
         "magentoese/module-venia-media-sample-data": "dev-master",
         "magentoese/module-venia-video-sample-data": "dev-master",
         "magentoese/module-vimeo": "2.2.x-dev",
         "magentoese/nfs4d4m": "dev-master",
-        "magentoese/theme-frontend-venia": "dev-develop",
+        "magentoese/theme-frontend-venia": "dev-master",
+        "n98/magerun2": "^2.2",
         "paradoxlabs/authnetcim": "dev-master",
         "paradoxlabs/firstdata": "dev-master",
         "paradoxlabs/stripe": "dev-master",
         "paradoxlabs/subscriptions": "dev-master",
         "paradoxlabs/tokenbase": "4.0.1"
         //"smile/elasticsuite": "~2.3.6",
-       
+
     },
     "config": {
         "use-include-path": true
@@ -206,6 +208,7 @@
     "minimum-stability": "alpha",
     "prefer-stable": true,
     "extra": {
-        "magento-force": "override"
+        "magento-force": true,
+        "magento-deploystrategy": "copy"
     }
 }

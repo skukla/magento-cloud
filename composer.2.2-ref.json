@@ -2,7 +2,7 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.2.4",
+    "version": "2.2.5",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -15,7 +15,6 @@
         {"type": "git", "url": "git@github.com:PMET-public/nfs4d4m.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/bluefoot.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/easysocialshop_magento2.git"},
-        {"type": "git", "url": "git@gitlab.the1umastory.com:md/ece-patches.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/ece-tools.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"}
     ],
@@ -24,14 +23,17 @@
             "vendor/magentoese/magento-scripts/composer-setup.sh ref"
         ],
         "post-autoload-dump" : [
+        ],
+        // enable error reporting
+        "post-install-cmd" : [
+            "mv pub/errors/local.xml.sample pub/errors/local.xml || :"
         ]
     },
     "require": {
-        "fastly/magento2": "^1.2",
         "firegento/fastsimpleimport": "dev-updated",
         "gene/bluefoot": "dev-develop-no-branding",
         "magemojo/m2-ce-cron": "^1.2",
-        "magento/magento-cloud-metapackage": "2.2.4",
+        "magento/magento-cloud-metapackage": "2.2.5",
         "magento/module-bundle-sample-data": "100.2.*",
         "magento/module-widget-sample-data": "100.2.*",
         "magento/module-catalog-sample-data": "100.2.*",
@@ -58,12 +60,12 @@
         "magento/sample-data-media": "100.2.*",
         "magento/module-offline-shipping-sample-data": "100.2.*",
         "magentoese/dock-mage": "dev-master",
-        "magentoese/ece-tools": "dev-develop",
-        "magentoese/ece-patches": "dev-develop",
+        "magentoese/ece-tools": "2002.0.13.x-dev",
         "magentoese/facebook-module": "dev-master",
-        "magentoese/magento-scripts": "dev-2.2-ga",
+        "magentoese/magento-scripts": "2.2.5.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
-        "magentoese/nfs4d4m": "dev-master"
+        "magentoese/nfs4d4m": "dev-master",
+        "n98/magerun2": "^2.2"
     },
     "config": {
         "use-include-path": true
@@ -93,6 +95,7 @@
     "minimum-stability": "alpha",
     "prefer-stable": true,
     "extra": {
-        "magento-force": "override"
+        "magento-force": true,
+        "magento-deploystrategy": "copy"
     }
 }

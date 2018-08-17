@@ -1,0 +1,13 @@
+diff --git a/setup/src/Magento/Setup/Model/Installer.php b/setup/src/Magento/Setup/Model/Installer.php
+index 4a9bfd9..0ca75a0 100644
+--- a/setup/src/Magento/Setup/Model/Installer.php
++++ b/setup/src/Magento/Setup/Model/Installer.php
+@@ -446,7 +446,7 @@ class Installer
+         }
+         $this->progress->setNext();
+         $this->log->logMeta(
+-            sprintf(self::PROGRESS_LOG_RENDER, $this->progress->getCurrent(), $this->progress->getTotal())
++            sprintf(self::PROGRESS_LOG_RENDER.'                                             '.date("H:i:s"), $this->progress->getCurrent(), $this->progress->getTotal())
+         );
+     }
+ 
