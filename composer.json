@@ -59,7 +59,6 @@
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-store-locator.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/bluefoot.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/easysocialshop_magento2.git"},
-        {"type": "git", "url": "git@gitlab.the1umastory.com:md/ece-patches.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/ece-tools.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-lookbook.git"},
@@ -78,6 +77,10 @@
             "vendor/magentoese/magento-scripts/composer-setup.sh demo"
         ],
         "post-autoload-dump" : [
+        ],
+        
+        "post-install-cmd" : [
+            "mv pub/errors/local.xml.sample pub/errors/local.xml || :"
         ]
     },
     "require": {
@@ -97,7 +100,6 @@
         "amasty/rgrid": "dev-master",
         
         "classyllama/module-owlcarousel":"dev-master",
-        "fastly/magento2": "^1.2",
         "firegento/fastsimpleimport": "dev-updated",
         "gene/bluefoot": "dev-develop-no-branding",
         "m2epro/magento2-extension": "dev-master",
@@ -131,10 +133,9 @@
         "magento/module-offline-shipping-sample-data": "100.2.*",
         
         "magentoese/dock-mage": "dev-master",
-        "magentoese/ece-tools": "dev-develop",
-        "magentoese/ece-patches": "dev-develop",
+        "magentoese/ece-tools": "2002.0.13.x-dev",
         "magentoese/facebook-module": "dev-master",
-        "magentoese/magento-scripts": "dev-2.2-ga",
+        "magentoese/magento-scripts": "2.2.5.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/module-autofill": "dev-master",
         "magentoese/module-autofill-sample-data": "dev-demo",
@@ -170,6 +171,7 @@
         "magentoese/module-vimeo": "2.2.x-dev",
         "magentoese/nfs4d4m": "dev-master",
         "magentoese/theme-frontend-venia": "dev-master",
+        "n98/magerun2": "^2.2",
         "paradoxlabs/authnetcim": "dev-master",
         "paradoxlabs/firstdata": "dev-master",
         "paradoxlabs/stripe": "dev-master",
@@ -206,6 +208,7 @@
     "minimum-stability": "alpha",
     "prefer-stable": true,
     "extra": {
-        "magento-force": "override"
+        "magento-force": true,
+        "magento-deploystrategy": "copy"
     }
 }
