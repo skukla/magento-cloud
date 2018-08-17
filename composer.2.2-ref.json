@@ -24,9 +24,7 @@
         ],
         "post-install-cmd" : [
             // enable error reporting
-            "mv pub/errors/local.xml.sample pub/errors/local.xml || :",
-            // create consolidated crontab.xml & cron_groups.xml
-            "vendor/magentoese/magento-scripts/create-consolidated-cron-xmls.sh"
+            "mv pub/errors/local.xml.sample pub/errors/local.xml || :"
         ]
     },
     "require": {
