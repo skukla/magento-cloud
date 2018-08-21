@@ -364,4 +364,5 @@ return [
         'is_active' => '1'
       ]
     ]
+  ]
 ];
