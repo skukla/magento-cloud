@@ -79,6 +79,8 @@ hooks:
     build: |
         php ./vendor/bin/ece-tools build:generate
         php ./vendor/bin/ece-tools build:transfer
+        # create consolidated crontab.xml & cron_groups.xml
+        ./vendor/magentoese/magento-scripts/create-consolidated-cron-xmls.sh
     # We run deploy hook after your application has been deployed and started.
     deploy: |
         ./vendor/magentoese/magento-scripts/deploy.sh
