@@ -1123,16 +1123,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.62",
+            "version": "1.2.63",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "263808cc5a031c94e89b4706ee7fda9ea1f5dc9c"
+                "reference": "6b89e1b78361a07384039c750b20b4ad0d183ed8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/263808cc5a031c94e89b4706ee7fda9ea1f5dc9c",
-                "reference": "263808cc5a031c94e89b4706ee7fda9ea1f5dc9c",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/6b89e1b78361a07384039c750b20b4ad0d183ed8",
+                "reference": "6b89e1b78361a07384039c750b20b4ad0d183ed8",
                 "shasum": ""
             },
             "require": {
@@ -1157,7 +1157,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2018-08-08T14:06:41+00:00"
+            "time": "2018-08-27T13:36:57+00:00"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -1617,7 +1617,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v5.6.34",
+            "version": "v5.6.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -1661,7 +1661,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.6.34",
+            "version": "v5.6.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -1705,7 +1705,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.6.34",
+            "version": "v5.6.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -1749,7 +1749,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v5.6.34",
+            "version": "v5.6.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -11601,7 +11601,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/dock-mage.git",
-                "reference": "448cc180e4e90e7683cf9654e0b552f0221d7ee3"
+                "reference": "2dbddd8981fbf406aae9f118c788dc6c09d02360"
             },
             "type": "library",
             "authors": [
@@ -11611,7 +11611,7 @@
                 }
             ],
             "description": "Launch Magento infrastructure using docker-compose",
-            "time": "2018-08-24T17:16:10+00:00"
+            "time": "2018-08-28T14:55:56+00:00"
         },
         {
             "name": "magentoese/ece-tools",
@@ -12914,7 +12914,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/paradoxlabs-subscriptions.git",
-                "reference": "fb6346e30b905930303482f9993a92787bec13a7"
+                "reference": "98dfcc5660ac2020d5645edff22ace6ae9fe115e"
             },
             "require": {
                 "magento/framework": "^100.0||^101.0",
@@ -12948,7 +12948,7 @@
                 "proprietary"
             ],
             "description": "Adaptive Subscriptions: Subscriptions, auto-shipments, and recurring payments by ParadoxLabs.",
-            "time": "2018-08-24T16:48:45+00:00"
+            "time": "2018-08-28T18:39:42+00:00"
         },
         {
             "name": "paradoxlabs/tokenbase",
@@ -13975,7 +13975,7 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.44",
+            "version": "v2.8.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
@@ -14093,7 +14093,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.8.44",
+            "version": "v2.8.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -14153,16 +14153,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v3.4.14",
+            "version": "v3.4.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "a59f917e3c5d82332514cb4538387638f5bde2d6"
+                "reference": "285ce5005cb01a0aeaa5b0cf590bd0cc40bb631c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/a59f917e3c5d82332514cb4538387638f5bde2d6",
-                "reference": "a59f917e3c5d82332514cb4538387638f5bde2d6",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/285ce5005cb01a0aeaa5b0cf590bd0cc40bb631c",
+                "reference": "285ce5005cb01a0aeaa5b0cf590bd0cc40bb631c",
                 "shasum": ""
             },
             "require": {
@@ -14199,11 +14199,11 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2018-07-26T11:19:56+00:00"
+            "time": "2018-08-10T07:29:05+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v3.4.14",
+            "version": "v3.4.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -14424,16 +14424,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v2.8.44",
+            "version": "v2.8.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "cc83afdb5ac99147806b3bb65a3ff1227664f596"
+                "reference": "4be278e19064c3492095de50c9e375caae569ae1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/cc83afdb5ac99147806b3bb65a3ff1227664f596",
-                "reference": "cc83afdb5ac99147806b3bb65a3ff1227664f596",
+                "url": "https://api.github.com/repos/symfony/process/zipball/4be278e19064c3492095de50c9e375caae569ae1",
+                "reference": "4be278e19064c3492095de50c9e375caae569ae1",
                 "shasum": ""
             },
             "require": {
@@ -14469,7 +14469,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2018-07-26T11:13:39+00:00"
+            "time": "2018-08-03T09:45:57+00:00"
         },
         {
             "name": "symfony/translation",
@@ -14537,16 +14537,16 @@
         },
         {
             "name": "symfony/validator",
-            "version": "v2.8.44",
+            "version": "v2.8.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/validator.git",
-                "reference": "30352cf38e35ef34cf60676ee72ff3f84c551fac"
+                "reference": "131ae089fb441c3bed5cda4335404b5f289f7003"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/validator/zipball/30352cf38e35ef34cf60676ee72ff3f84c551fac",
-                "reference": "30352cf38e35ef34cf60676ee72ff3f84c551fac",
+                "url": "https://api.github.com/repos/symfony/validator/zipball/131ae089fb441c3bed5cda4335404b5f289f7003",
+                "reference": "131ae089fb441c3bed5cda4335404b5f289f7003",
                 "shasum": ""
             },
             "require": {
@@ -14607,7 +14607,7 @@
             ],
             "description": "Symfony Validator Component",
             "homepage": "https://symfony.com",
-            "time": "2018-07-26T11:13:39+00:00"
+            "time": "2018-08-05T14:25:16+00:00"
         },
         {
             "name": "symfony/var-dumper",
@@ -14680,7 +14680,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.44",
+            "version": "v2.8.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
