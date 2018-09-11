@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "15b8bf32852997adef5b3a2fc67129c7",
+    "content-hash": "dbe38d92adea497aaa0e48ac9c96b792",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -1028,7 +1028,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v5.7.2",
+            "version": "v5.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -1072,7 +1072,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.7.2",
+            "version": "v5.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -1116,7 +1116,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.7.2",
+            "version": "v5.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -1160,16 +1160,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v5.7.2",
+            "version": "v5.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "3dabc8fe2eebf614ba133fa34a4c160119ec7241"
+                "reference": "966c3198b5f82c00f8e5f7b6f16c35ffcb636acc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/3dabc8fe2eebf614ba133fa34a4c160119ec7241",
-                "reference": "3dabc8fe2eebf614ba133fa34a4c160119ec7241",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/966c3198b5f82c00f8e5f7b6f16c35ffcb636acc",
+                "reference": "966c3198b5f82c00f8e5f7b6f16c35ffcb636acc",
                 "shasum": ""
             },
             "require": {
@@ -1215,38 +1215,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2018-09-06T13:40:39+00:00"
-        },
-        {
-            "name": "jbritts/valet-install",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:jeffbritts/valet-install",
-                "reference": "ca3caba860764b19ea1e2261750fbcba64b3b0b9"
-            },
-            "require": {
-                "mage2tv/magento-cache-clean": "0.0.10"
-            },
-            "type": "magento2-component",
-            "extra": {
-                "map": [
-                    [
-                        "install",
-                        "install"
-                    ],
-                    [
-                        ".env.sample",
-                        ".env.sample"
-                    ],
-                    [
-                        "vp",
-                        "vp"
-                    ]
-                ]
-            },
-            "description": "Valet + installation and dev tools",
-            "time": "2018-09-02T20:48:18+00:00"
+            "time": "2018-09-07T22:44:17+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -1313,47 +1282,6 @@
                 "schema"
             ],
             "time": "2018-02-14T22:26:30+00:00"
-        },
-        {
-            "name": "mage2tv/magento-cache-clean",
-            "version": "0.0.10",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mage2tv/magento-cache-clean.git",
-                "reference": "9a7a0ca60831faae98991119546b3809a2f2cc28"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mage2tv/magento-cache-clean/zipball/9a7a0ca60831faae98991119546b3809a2f2cc28",
-                "reference": "9a7a0ca60831faae98991119546b3809a2f2cc28",
-                "shasum": ""
-            },
-            "suggest": {
-                "magento/project-community-edition": "*"
-            },
-            "bin": [
-                "bin/cache-clean.js"
-            ],
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Vinai Kopp",
-                    "email": "vinai@netzarbeiter.com",
-                    "role": "lead"
-                }
-            ],
-            "description": "A faster drop in replacement for bin/magento cache:clean with file watcher",
-            "homepage": "https://github.com/mage2tv/magento-cache-clean",
-            "keywords": [
-                "development",
-                "magento",
-                "utility"
-            ],
-            "time": "2018-08-22T17:30:45+00:00"
         },
         {
             "name": "magemojo/m2-ce-cron",
@@ -15532,8 +15460,7 @@
         "magentoese/facebook-module": 20,
         "magentoese/magento-scripts": 20,
         "magentoese/module-admin-configurations": 20,
-        "magentoese/nfs4d4m": 20,
-        "jbritts/valet-install": 20
+        "magentoese/nfs4d4m": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

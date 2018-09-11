@@ -17,8 +17,7 @@
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/bluefoot.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/easysocialshop_magento2.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/ece-tools.git"},
-        {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"},
-        {"type": "git","url": "git@bitbucket.org:jeffbritts/valet-install"}
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"}
     ],
     "scripts": {
         "pre-autoload-dump" : [
@@ -65,10 +64,9 @@
         "magentoese/facebook-module": "dev-master",
         "magentoese/magento-scripts": "2.2.5.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
-        "magentoese/nfs4d4m": "dev-master",
+        "magentoese/nfs4d4m": "dev-master"
         
-        "jbritts/valet-install": "dev-master"
-    },
+     },
     "config": {
         "use-include-path": true
     },
