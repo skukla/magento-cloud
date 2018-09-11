@@ -3,7 +3,7 @@ index 3bb1862..cd027cf 100644
 --- a/vendor/magento/module-staging/etc/module.xml
 +++ b/vendor/magento/module-staging/etc/module.xml
 @@ -9,7 +9,6 @@
-     <module name="Magento_Staging" setup_version="2.1.0">
+     <module name="Magento_Staging" >
          <sequence>
              <module name="Magento_Ui"/>
 -            <module name="Magento_Admin"/>
@@ -16,7 +16,7 @@ index 7c25a2c..d4b7cd5 100644
 +++ b/vendor/magento/module-support/etc/module.xml
 @@ -9,7 +9,6 @@
          xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-     <module name="Magento_Support" setup_version="2.0.1">
+     <module name="Magento_Support" >
          <sequence>
 -            <module name="Magento_Adminhtml"/>
          </sequence>
