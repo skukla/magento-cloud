@@ -8,7 +8,7 @@
         "AFL-3.0"
     ],
     "repositories": [
-        
+        //{"type": "composer", "url": "https://repo.magento.com/"},
         {"type": "composer", "url": "https://connect20-qa01.magedevteam.com/"},
         {"type": "git", "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"},
         {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
@@ -25,15 +25,15 @@
             "vendor/magentoese/magento-scripts/composer-setup.sh ref"
         ],
         "post-install-cmd" : [
-            
+            // enable error reporting
             "mv pub/errors/local.xml.sample pub/errors/local.xml || :"
         ]
     },
     "require": {
         "firegento/fastsimpleimport": "dev-updated",
-        
+        //"gene/bluefoot": "dev-develop-no-branding",
         "magemojo/m2-ce-cron": "^1.2",
-        
+        //"magento/magento-cloud-metapackage": "2.2.5",
         "magento/product-enterprise-edition": "2.3.0-alpha",
         "magento/module-bundle-sample-data": "100.3.*",
         "magento/module-widget-sample-data": "100.3.*",
@@ -66,7 +66,7 @@
         "magentoese/magento-scripts": "2.2.5.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/nfs4d4m": "dev-master",
-        
+        //"n98/magerun2": "^2.2"
         "jbritts/valet-install": "dev-master"
     },
     "config": {
