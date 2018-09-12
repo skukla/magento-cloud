@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dbe38d92adea497aaa0e48ac9c96b792",
+    "content-hash": "aa4e594bad3310104f9931249e91f56f",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -1282,50 +1282,6 @@
                 "schema"
             ],
             "time": "2018-02-14T22:26:30+00:00"
-        },
-        {
-            "name": "magemojo/m2-ce-cron",
-            "version": "1.2.5-stable",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magemojo/m2-ce-cron.git",
-                "reference": "bab19fd05a549b181b0efc4a4126dbae60cb9048"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magemojo/m2-ce-cron/zipball/bab19fd05a549b181b0efc4a4126dbae60cb9048",
-                "reference": "bab19fd05a549b181b0efc4a4126dbae60cb9048",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageMojo\\Cron\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "MageMojo",
-                    "homepage": "https://github.com/magemojo/"
-                }
-            ],
-            "description": "Replacement package for Magento 2 Cron Functionality",
-            "homepage": "https://github.com/magemojo/",
-            "keywords": [
-                "cron",
-                "magento2"
-            ],
-            "time": "2018-08-02T18:48:26+00:00"
         },
         {
             "name": "magento/composer",
@@ -6175,37 +6131,6 @@
             },
             "license": [
                 "proprietary"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-gift-registry-sample-data",
-            "version": "100.3.0-alpha76",
-            "dist": {
-                "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-gift-registry-sample-data/magento-module-gift-registry-sample-data-100.3.0.0-alpha76.zip",
-                "reference": null,
-                "shasum": "3b0fdbb37e39cbdbda8b3158b54c4f835670e0d3"
-            },
-            "require": {
-                "magento/module-directory": "100.3.*",
-                "magento/module-gift-registry": "101.1.*",
-                "magento/module-sample-data": "100.3.*",
-                "magento/module-store": "100.3.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\GiftRegistrySampleData\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
             ],
             "description": "N/A"
         },
@@ -11524,33 +11449,6 @@
             "time": "2018-08-10T15:15:44+00:00"
         },
         {
-            "name": "magentoese/facebook-module",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/easysocialshop_magento2.git",
-                "reference": "2d61de8568118c7299719f287d37a4f376effbb0"
-            },
-            "replace": {
-                "shopialfb/facebook-module": "2.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Shopial\\Facebook\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "Connect your shop to Facebook page",
-            "time": "2018-08-09T19:51:52+00:00"
-        },
-        {
             "name": "magentoese/magento-scripts",
             "version": "2.2.5.x-dev",
             "source": {
@@ -11581,11 +11479,11 @@
         },
         {
             "name": "magentoese/module-admin-configurations",
-            "version": "dev-master",
+            "version": "2.3.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git",
-                "reference": "e70d152e557bd22af6ecea88178900971febfebd"
+                "reference": "5de02dcdfe35aad1bd1fa7dcabf872d2e67e8b86"
             },
             "require": {
                 "magento/framework": "*"
@@ -11599,7 +11497,7 @@
                     "MagentoEse\\AdminConfigurations\\": ""
                 }
             },
-            "time": "2018-06-13T05:14:31+00:00"
+            "time": "2018-09-12T13:39:47+00:00"
         },
         {
             "name": "magentoese/nfs4d4m",
@@ -15457,7 +15355,6 @@
         "magento/product-enterprise-edition": 15,
         "magentoese/dock-mage": 20,
         "magentoese/ece-tools": 20,
-        "magentoese/facebook-module": 20,
         "magentoese/magento-scripts": 20,
         "magentoese/module-admin-configurations": 20,
         "magentoese/nfs4d4m": 20

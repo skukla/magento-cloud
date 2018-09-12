@@ -31,8 +31,9 @@
     "require": {
         "firegento/fastsimpleimport": "dev-updated",
         
-        "magemojo/m2-ce-cron": "^1.2",
         
+        
+
         "magento/product-enterprise-edition": "2.3.0-alpha",
         "magento/module-bundle-sample-data": "100.3.*",
         "magento/module-widget-sample-data": "100.3.*",
@@ -54,17 +55,18 @@
         "magento/module-configurable-sample-data": "100.3.*",
         "magento/module-customer-balance-sample-data": "100.3.*",
         "magento/module-target-rule-sample-data": "100.3.*",
-        "magento/module-gift-registry-sample-data": "100.3.*",
+        
+        
         "magento/module-multiple-wishlist-sample-data": "100.3.*",
         "magento/module-swatches-sample-data": "100.3.*",
         "magento/sample-data-media": "100.3.*",
         "magento/module-offline-shipping-sample-data": "100.3.*",
         "magentoese/dock-mage": "dev-master",
         "magentoese/ece-tools": "2002.0.13.x-dev",
-        "magentoese/facebook-module": "dev-master",
         "magentoese/magento-scripts": "2.2.5.x-dev",
-        "magentoese/module-admin-configurations": "dev-master",
+        "magentoese/module-admin-configurations": "2.3.x-dev",
         "magentoese/nfs4d4m": "dev-master"
+        
         
      },
     "config": {
