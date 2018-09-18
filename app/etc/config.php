@@ -240,7 +240,8 @@ return [
         'Amasty_Groupcat' => 1,
         'Magento_WidgetSampleData' => 1,
         'Magento_Support' => 1,
-        'Magento_Swagger' => 1,
+        'Magento_Webapi' => 1,
+        'Magento_SwaggerWebapi' => 1,
         'Magento_MultipleWishlistSampleData' => 1,
         'Magento_SwatchesLayeredNavigation' => 1,
         'MagentoEse_ProductBadgeSampleData' => 1,
@@ -262,7 +263,7 @@ return [
         'Magento_Version' => 1,
         'MagentoEse_VeniaSetup' => 1,
         'MagentoEse_VeniaCmsSampleData' => 1,
-        'Magento_Webapi' => 1,
+        'Magento_Swagger' => 1,
         'Magento_WebapiSecurity' => 1,
         'Magento_CatalogPermissions' => 1,
         'MagentoEse_VeniaCatalogSampleData' => 1,
@@ -278,7 +279,6 @@ return [
         'ParadoxLabs_Stripe' => 1,
         'ParadoxLabs_Subscriptions' => 1,
         'ParadoxLabs_Authnetcim' => 1,
-        'Shopial_Facebook' => 1,
         'Temando_Shipping' => 1,
         'Vertex_Tax' => 1
     ]
