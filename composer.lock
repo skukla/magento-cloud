@@ -11814,7 +11814,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "6aa1f8cd5af31e3dc29e7e0a28eb2668a8793386"
+                "reference": "06793c360bf07dc274e93c3381dde22bd18fd44a"
             },
             "require": {
                 "magento/framework": "*"
@@ -11835,7 +11835,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2018-08-17T19:52:38+00:00"
+            "time": "2018-09-20T16:30:29+00:00"
         },
         {
             "name": "magentoese/module-admin-configurations",
@@ -11922,7 +11922,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-cms-sample-data-update.git",
-                "reference": "05337f507af110a8548f34b6bd7216fb85002135"
+                "reference": "381ab200c28d14ac5c80e1715203af47669297bc"
             },
             "type": "magento2-module",
             "autoload": {
@@ -11933,7 +11933,7 @@
                     "MagentoEse\\CmsSampleDataUpdate\\": ""
                 }
             },
-            "time": "2016-08-03T17:18:14+00:00"
+            "time": "2018-09-20T16:15:13+00:00"
         },
         {
             "name": "magentoese/module-customer-sample-data",
