@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "91729a80fc59285b14b1518d89067f17",
+    "content-hash": "d297dc84746bd3a3626f0e5128a55ac2",
     "packages": [
         {
             "name": "amasty/base",
@@ -1183,16 +1183,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.66",
+            "version": "1.2.67",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "c0911626ad52f69ae151b371476102d815064204"
+                "reference": "91aef07dc974f9f3840cc20e5e1891c9377dbc9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/c0911626ad52f69ae151b371476102d815064204",
-                "reference": "c0911626ad52f69ae151b371476102d815064204",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/91aef07dc974f9f3840cc20e5e1891c9377dbc9a",
+                "reference": "91aef07dc974f9f3840cc20e5e1891c9377dbc9a",
                 "shasum": ""
             },
             "require": {
@@ -1217,7 +1217,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2018-09-18T16:56:11+00:00"
+            "time": "2018-09-20T15:21:58+00:00"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -1677,7 +1677,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v5.7.4",
+            "version": "v5.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -1721,7 +1721,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.7.4",
+            "version": "v5.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -1765,7 +1765,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.7.4",
+            "version": "v5.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -1809,16 +1809,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v5.7.4",
+            "version": "v5.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "bb579d7174181c343259933cac430869eada7edb"
+                "reference": "f7c68e8c8aab200cc8ad84f974d5511cda58a742"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/bb579d7174181c343259933cac430869eada7edb",
-                "reference": "bb579d7174181c343259933cac430869eada7edb",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/f7c68e8c8aab200cc8ad84f974d5511cda58a742",
+                "reference": "f7c68e8c8aab200cc8ad84f974d5511cda58a742",
                 "shasum": ""
             },
             "require": {
@@ -1864,7 +1864,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2018-09-16T20:37:01+00:00"
+            "time": "2018-09-19T18:36:57+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -11905,6 +11905,37 @@
             "time": "2016-07-19T14:22:23+00:00"
         },
         {
+            "name": "magentoese/module-cms-media-sample-data-update",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.the1umastory.com:md/module-cms-media-sample-data-update.git",
+                "reference": "feae9bc10391c6b4dfbebe8019bc2804c3dcc326"
+            },
+            "type": "magento2-component",
+            "description": "Sample Data media files",
+            "time": "2018-09-20T14:39:49+00:00"
+        },
+        {
+            "name": "magentoese/module-cms-sample-data-update",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/module-cms-sample-data-update.git",
+                "reference": "05337f507af110a8548f34b6bd7216fb85002135"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MagentoEse\\CmsSampleDataUpdate\\": ""
+                }
+            },
+            "time": "2016-08-03T17:18:14+00:00"
+        },
+        {
             "name": "magentoese/module-customer-sample-data",
             "version": "dev-master",
             "source": {
@@ -13972,16 +14003,16 @@
         },
         {
             "name": "splendidinternet/mage2-locale-de-de",
-            "version": "1.44.0",
+            "version": "1.45.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/splendidinternet/Magento2_German_LocalePack_de_DE.git",
-                "reference": "06f0fb0a470a7b05ce1003f61516c2afa812641c"
+                "reference": "ab47c76df8a0cd8bb394a0da71e4045ef4a43ea6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/splendidinternet/Magento2_German_LocalePack_de_DE/zipball/06f0fb0a470a7b05ce1003f61516c2afa812641c",
-                "reference": "06f0fb0a470a7b05ce1003f61516c2afa812641c",
+                "url": "https://api.github.com/repos/splendidinternet/Magento2_German_LocalePack_de_DE/zipball/ab47c76df8a0cd8bb394a0da71e4045ef4a43ea6",
+                "reference": "ab47c76df8a0cd8bb394a0da71e4045ef4a43ea6",
                 "shasum": ""
             },
             "require": {
@@ -13998,7 +14029,7 @@
                 "OSL-3.0"
             ],
             "description": "German (Germany) language",
-            "time": "2018-08-30T13:10:19+00:00"
+            "time": "2018-09-20T12:33:37+00:00"
         },
         {
             "name": "stripe/stripe-php",
@@ -17034,6 +17065,8 @@
         "magentoese/ece-tools": 20,
         "magentoese/magento-scripts": 20,
         "magentoese/module-admin-configurations": 20,
+        "magentoese/module-cms-sample-data-update": 20,
+        "magentoese/module-cms-media-sample-data-update": 20,
         "magentoese/module-autofill": 20,
         "magentoese/module-autofill-sample-data": 20,
         "magentoese/module-customer-sample-data": 20,
