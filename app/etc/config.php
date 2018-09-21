@@ -275,11 +275,6 @@ return [
         'Magento_WishlistAnalytics' => 1,
         'MagentoEse_CmsSampleDataUpdate' => 1,
         'Magento_Worldpay' => 1,
-        'ParadoxLabs_TokenBase' => 1,
-        'ParadoxLabs_FirstData' => 1,
-        'ParadoxLabs_Stripe' => 1,
-        'ParadoxLabs_Subscriptions' => 1,
-        'ParadoxLabs_Authnetcim' => 1,
         'Temando_Shipping' => 1,
         'Vertex_Tax' => 1
     ]
