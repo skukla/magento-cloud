@@ -135,7 +135,7 @@
         // "magento/mcom-connector" : "*",
         "magentoese/dock-mage": "dev-master",
         "magentoese/ece-tools": "2002.0.13.x-dev",
-         "magentoese/magento-scripts": "2.2.5.x-dev",
+        "magentoese/magento-scripts": "2.2.5.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/module-cms-sample-data-update": "dev-master",
         "magentoese/module-cms-media-sample-data-update": "dev-master",
@@ -174,12 +174,13 @@
         "magentoese/nfs4d4m": "dev-master",
         "magentoese/theme-frontend-venia": "dev-master",
         "n98/magerun2": "^2.2",
-        "paradoxlabs/authnetcim": "dev-master",
-        "paradoxlabs/firstdata": "dev-master",
-        "paradoxlabs/stripe": "dev-master",
-        "paradoxlabs/subscriptions": "dev-master",
-        "paradoxlabs/tokenbase": "4.0.1"
+        "paradoxlabs/authnetcim": "4.1.2.x-dev",
+        "paradoxlabs/firstdata": "2.1.1.x-dev",
+        "paradoxlabs/stripe": "2.1.2.x-dev",
+        "paradoxlabs/subscriptions": "3.0.2.x-dev",
+        "paradoxlabs/tokenbase": "4.1.3.x-dev"
         //"smile/elasticsuite": "~2.3.6",
+
     },
     "config": {
         "use-include-path": true
