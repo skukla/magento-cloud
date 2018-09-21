@@ -11922,7 +11922,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-cms-sample-data-update.git",
-                "reference": "4b0c846c16251448ae4a86b6266b3e303f862d21"
+                "reference": "62837d2d461b837fbfd90beb0dd8dbc6e46608ff"
             },
             "type": "magento2-module",
             "autoload": {
@@ -11933,7 +11933,7 @@
                     "MagentoEse\\CmsSampleDataUpdate\\": ""
                 }
             },
-            "time": "2018-09-20T18:46:50+00:00"
+            "time": "2018-09-21T17:18:39+00:00"
         },
         {
             "name": "magentoese/module-customer-sample-data",
