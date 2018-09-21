@@ -180,7 +180,6 @@
         "paradoxlabs/subscriptions": "dev-master",
         "paradoxlabs/tokenbase": "4.0.1"
         
-
     },
     "config": {
         "use-include-path": true

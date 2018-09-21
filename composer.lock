@@ -1183,16 +1183,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.67",
+            "version": "1.2.68",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "91aef07dc974f9f3840cc20e5e1891c9377dbc9a"
+                "reference": "b31771e800620333a4ad81e1d8da4ba3e2deb9cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/91aef07dc974f9f3840cc20e5e1891c9377dbc9a",
-                "reference": "91aef07dc974f9f3840cc20e5e1891c9377dbc9a",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/b31771e800620333a4ad81e1d8da4ba3e2deb9cc",
+                "reference": "b31771e800620333a4ad81e1d8da4ba3e2deb9cc",
                 "shasum": ""
             },
             "require": {
@@ -1217,7 +1217,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2018-09-20T15:21:58+00:00"
+            "time": "2018-09-20T18:09:16+00:00"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -11922,7 +11922,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-cms-sample-data-update.git",
-                "reference": "381ab200c28d14ac5c80e1715203af47669297bc"
+                "reference": "4b0c846c16251448ae4a86b6266b3e303f862d21"
             },
             "type": "magento2-module",
             "autoload": {
@@ -11933,7 +11933,7 @@
                     "MagentoEse\\CmsSampleDataUpdate\\": ""
                 }
             },
-            "time": "2018-09-20T16:15:13+00:00"
+            "time": "2018-09-20T18:46:50+00:00"
         },
         {
             "name": "magentoese/module-customer-sample-data",
@@ -12758,16 +12758,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.33.0",
+            "version": "1.34.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "55667c1007a99e82030874b1bb14d24d07108413"
+                "reference": "1dbd3cb01c5645f3e7deda7aa46ef780d95fcc33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/55667c1007a99e82030874b1bb14d24d07108413",
-                "reference": "55667c1007a99e82030874b1bb14d24d07108413",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/1dbd3cb01c5645f3e7deda7aa46ef780d95fcc33",
+                "reference": "1dbd3cb01c5645f3e7deda7aa46ef780d95fcc33",
                 "shasum": ""
             },
             "require": {
@@ -12809,7 +12809,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2018-08-07T08:39:47+00:00"
+            "time": "2018-09-20T19:36:25+00:00"
         },
         {
             "name": "nikic/php-parser",
