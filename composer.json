@@ -58,7 +58,7 @@
         "firegento/fastsimpleimport": "dev-updated",
         "gene/bluefoot": "dev-develop-no-branding",
         "magemojo/m2-ce-cron": "^1.2",
-        "magento/magento-cloud-metapackage": "2.2.6",
+        "magento/magento-cloud-metapackage": "2.2.4",
         "magento/extension-b2b": "*",
         "magentoese/dock-mage": "dev-master",
         "magentoese/ece-tools": "2002.0.13.x-dev",
