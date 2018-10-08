@@ -882,16 +882,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.69",
+            "version": "1.2.70",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "ee6168b3a03f00f918e7b1b1a87707e88e0b4e79"
+                "reference": "4ec82afce7be2174249aa7e094520a7cdea46c54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/ee6168b3a03f00f918e7b1b1a87707e88e0b4e79",
-                "reference": "ee6168b3a03f00f918e7b1b1a87707e88e0b4e79",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/4ec82afce7be2174249aa7e094520a7cdea46c54",
+                "reference": "4ec82afce7be2174249aa7e094520a7cdea46c54",
                 "shasum": ""
             },
             "require": {
@@ -916,7 +916,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2018-09-27T16:07:58+00:00"
+            "time": "2018-10-04T07:29:17+00:00"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -1376,7 +1376,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v5.7.6",
+            "version": "v5.7.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -1420,16 +1420,16 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.7.6",
+            "version": "v5.7.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
-                "reference": "0fc33b14ae6cf9a1e694fd43f2a274e590a824b2"
+                "reference": "2582a994f2f8a153a4880de757a89ad4eeb083d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/container/zipball/0fc33b14ae6cf9a1e694fd43f2a274e590a824b2",
-                "reference": "0fc33b14ae6cf9a1e694fd43f2a274e590a824b2",
+                "url": "https://api.github.com/repos/illuminate/container/zipball/2582a994f2f8a153a4880de757a89ad4eeb083d7",
+                "reference": "2582a994f2f8a153a4880de757a89ad4eeb083d7",
                 "shasum": ""
             },
             "require": {
@@ -1460,20 +1460,20 @@
             ],
             "description": "The Illuminate Container package.",
             "homepage": "https://laravel.com",
-            "time": "2018-05-28T08:50:10+00:00"
+            "time": "2018-10-03T15:20:19+00:00"
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.7.6",
+            "version": "v5.7.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "2daf3c078610f744e2a4dc2f44fb5060cce9835b"
+                "reference": "9532d673de305b0c0028c0ce60c8952b807d7bc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/2daf3c078610f744e2a4dc2f44fb5060cce9835b",
-                "reference": "2daf3c078610f744e2a4dc2f44fb5060cce9835b",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/9532d673de305b0c0028c0ce60c8952b807d7bc3",
+                "reference": "9532d673de305b0c0028c0ce60c8952b807d7bc3",
                 "shasum": ""
             },
             "require": {
@@ -1504,20 +1504,20 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "https://laravel.com",
-            "time": "2018-09-18T12:50:05+00:00"
+            "time": "2018-10-03T14:04:39+00:00"
         },
         {
             "name": "illuminate/support",
-            "version": "v5.7.6",
+            "version": "v5.7.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "f7c68e8c8aab200cc8ad84f974d5511cda58a742"
+                "reference": "c7583db6703a36b7fa76254073046e0a920ed276"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/f7c68e8c8aab200cc8ad84f974d5511cda58a742",
-                "reference": "f7c68e8c8aab200cc8ad84f974d5511cda58a742",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/c7583db6703a36b7fa76254073046e0a920ed276",
+                "reference": "c7583db6703a36b7fa76254073046e0a920ed276",
                 "shasum": ""
             },
             "require": {
@@ -1563,7 +1563,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2018-09-19T18:36:57+00:00"
+            "time": "2018-10-04T13:27:30+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -1933,16 +1933,16 @@
         },
         {
             "name": "magemojo/m2-ce-cron",
-            "version": "1.2.5-stable",
+            "version": "1.2.6-stable",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magemojo/m2-ce-cron.git",
-                "reference": "bab19fd05a549b181b0efc4a4126dbae60cb9048"
+                "reference": "161eb88ef85df235a308c524fc604c3f1c54599c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magemojo/m2-ce-cron/zipball/bab19fd05a549b181b0efc4a4126dbae60cb9048",
-                "reference": "bab19fd05a549b181b0efc4a4126dbae60cb9048",
+                "url": "https://api.github.com/repos/magemojo/m2-ce-cron/zipball/161eb88ef85df235a308c524fc604c3f1c54599c",
+                "reference": "161eb88ef85df235a308c524fc604c3f1c54599c",
                 "shasum": ""
             },
             "require": {
@@ -1973,7 +1973,7 @@
                 "cron",
                 "magento2"
             ],
-            "time": "2018-08-02T18:48:26+00:00"
+            "time": "2018-10-03T16:14:07+00:00"
         },
         {
             "name": "magento/composer",
@@ -12967,16 +12967,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v3.4.16",
+            "version": "v3.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "f89ab242d915d188fca95ee3291c72c5a094a195"
+                "reference": "d69930fc337d767607267d57c20a7403d0a822a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/f89ab242d915d188fca95ee3291c72c5a094a195",
-                "reference": "f89ab242d915d188fca95ee3291c72c5a094a195",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/d69930fc337d767607267d57c20a7403d0a822a4",
+                "reference": "d69930fc337d767607267d57c20a7403d0a822a4",
                 "shasum": ""
             },
             "require": {
@@ -13013,20 +13013,20 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2018-09-30T03:32:28+00:00"
+            "time": "2018-10-02T12:28:39+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v3.4.16",
+            "version": "v3.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "e8db87d755e14271e920e31ba834a4ae99483232"
+                "reference": "54ba444dddc5bd5708a34bd095ea67c6eb54644d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/e8db87d755e14271e920e31ba834a4ae99483232",
-                "reference": "e8db87d755e14271e920e31ba834a4ae99483232",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/54ba444dddc5bd5708a34bd095ea67c6eb54644d",
+                "reference": "54ba444dddc5bd5708a34bd095ea67c6eb54644d",
                 "shasum": ""
             },
             "require": {
@@ -13062,7 +13062,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2018-09-21T12:47:54+00:00"
+            "time": "2018-10-03T08:46:40+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
