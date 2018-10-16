@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "35ac6996ee43e46322676868884bd809",
+    "content-hash": "a9c6062c56b91476c6e9abb93630dc95",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-with-amazon-core-module",
@@ -11385,11 +11385,11 @@
         },
         {
             "name": "magentoese/ece-tools",
-            "version": "2002.0.14.x-dev",
+            "version": "2002.0.14.1-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/ece-tools.git",
-                "reference": "f493671e42b2ef810cd8e678436851419f9eeff7"
+                "reference": "0e44c2d67e354d583af0a0a66be44789c36e0ec2"
             },
             "require": {
                 "composer/composer": "@stable",
@@ -11468,7 +11468,7 @@
                 "proprietary"
             ],
             "description": "Provides tools to build and deploy Magento 2 Enterprise Edition",
-            "time": "2018-10-15T22:30:45+00:00"
+            "time": "2018-10-16T19:08:48+00:00"
         },
         {
             "name": "magentoese/magento-scripts",
