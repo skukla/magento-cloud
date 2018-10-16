@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "26cc54d22a6205a1576f908edb2900ce",
+    "content-hash": "d7b013784d627f2f93621bf858b6c194",
     "packages": [
         {
             "name": "amasty/base",
@@ -1183,16 +1183,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.70",
+            "version": "1.2.72",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "4ec82afce7be2174249aa7e094520a7cdea46c54"
+                "reference": "b218767a2b5cd7654055f10e3e295503db68499a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/4ec82afce7be2174249aa7e094520a7cdea46c54",
-                "reference": "4ec82afce7be2174249aa7e094520a7cdea46c54",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/b218767a2b5cd7654055f10e3e295503db68499a",
+                "reference": "b218767a2b5cd7654055f10e3e295503db68499a",
                 "shasum": ""
             },
             "require": {
@@ -1217,7 +1217,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2018-10-04T07:29:17+00:00"
+            "time": "2018-10-15T14:35:49+00:00"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -1677,16 +1677,16 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v5.7.8",
+            "version": "v5.7.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
-                "reference": "3cc6f07804b0a349c81b6479765a0bb58050fea0"
+                "reference": "08b6e422d62602ee5263ca2113e9f3d800e905a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/config/zipball/3cc6f07804b0a349c81b6479765a0bb58050fea0",
-                "reference": "3cc6f07804b0a349c81b6479765a0bb58050fea0",
+                "url": "https://api.github.com/repos/illuminate/config/zipball/08b6e422d62602ee5263ca2113e9f3d800e905a4",
+                "reference": "08b6e422d62602ee5263ca2113e9f3d800e905a4",
                 "shasum": ""
             },
             "require": {
@@ -1717,24 +1717,25 @@
             ],
             "description": "The Illuminate Config package.",
             "homepage": "https://laravel.com",
-            "time": "2018-01-04T20:39:14+00:00"
+            "time": "2018-10-06T18:48:42+00:00"
         },
         {
             "name": "illuminate/container",
-            "version": "v5.7.8",
+            "version": "v5.7.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
-                "reference": "2582a994f2f8a153a4880de757a89ad4eeb083d7"
+                "reference": "73cde7bd4985eefb1d468a745e1d50d03e276121"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/container/zipball/2582a994f2f8a153a4880de757a89ad4eeb083d7",
-                "reference": "2582a994f2f8a153a4880de757a89ad4eeb083d7",
+                "url": "https://api.github.com/repos/illuminate/container/zipball/73cde7bd4985eefb1d468a745e1d50d03e276121",
+                "reference": "73cde7bd4985eefb1d468a745e1d50d03e276121",
                 "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "5.7.*",
+                "illuminate/support": "5.7.*",
                 "php": "^7.1.3",
                 "psr/container": "^1.0"
             },
@@ -1761,20 +1762,20 @@
             ],
             "description": "The Illuminate Container package.",
             "homepage": "https://laravel.com",
-            "time": "2018-10-03T15:20:19+00:00"
+            "time": "2018-10-07T15:52:17+00:00"
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.7.8",
+            "version": "v5.7.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "9532d673de305b0c0028c0ce60c8952b807d7bc3"
+                "reference": "64df81d3382d876f1c1d3d5481d89c93b61b8279"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/9532d673de305b0c0028c0ce60c8952b807d7bc3",
-                "reference": "9532d673de305b0c0028c0ce60c8952b807d7bc3",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/64df81d3382d876f1c1d3d5481d89c93b61b8279",
+                "reference": "64df81d3382d876f1c1d3d5481d89c93b61b8279",
                 "shasum": ""
             },
             "require": {
@@ -1805,20 +1806,20 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "https://laravel.com",
-            "time": "2018-10-03T14:04:39+00:00"
+            "time": "2018-10-08T13:34:14+00:00"
         },
         {
             "name": "illuminate/support",
-            "version": "v5.7.8",
+            "version": "v5.7.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "c7583db6703a36b7fa76254073046e0a920ed276"
+                "reference": "ea95697233b06650382eb0f5798be22b4e520dea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/c7583db6703a36b7fa76254073046e0a920ed276",
-                "reference": "c7583db6703a36b7fa76254073046e0a920ed276",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/ea95697233b06650382eb0f5798be22b4e520dea",
+                "reference": "ea95697233b06650382eb0f5798be22b4e520dea",
                 "shasum": ""
             },
             "require": {
@@ -1864,7 +1865,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2018-10-04T13:27:30+00:00"
+            "time": "2018-10-07T15:51:39+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -1910,33 +1911,34 @@
         },
         {
             "name": "jakub-onderka/php-console-highlighter",
-            "version": "v0.3.2",
+            "version": "v0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JakubOnderka/PHP-Console-Highlighter.git",
-                "reference": "7daa75df45242c8d5b75a22c00a201e7954e4fb5"
+                "reference": "9f7a229a69d52506914b4bc61bfdb199d90c5547"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JakubOnderka/PHP-Console-Highlighter/zipball/7daa75df45242c8d5b75a22c00a201e7954e4fb5",
-                "reference": "7daa75df45242c8d5b75a22c00a201e7954e4fb5",
+                "url": "https://api.github.com/repos/JakubOnderka/PHP-Console-Highlighter/zipball/9f7a229a69d52506914b4bc61bfdb199d90c5547",
+                "reference": "9f7a229a69d52506914b4bc61bfdb199d90c5547",
                 "shasum": ""
             },
             "require": {
-                "jakub-onderka/php-console-color": "~0.1",
-                "php": ">=5.3.0"
+                "ext-tokenizer": "*",
+                "jakub-onderka/php-console-color": "~0.2",
+                "php": ">=5.4.0"
             },
             "require-dev": {
                 "jakub-onderka/php-code-style": "~1.0",
-                "jakub-onderka/php-parallel-lint": "~0.5",
+                "jakub-onderka/php-parallel-lint": "~1.0",
                 "jakub-onderka/php-var-dump-check": "~0.1",
                 "phpunit/phpunit": "~4.0",
                 "squizlabs/php_codesniffer": "~1.5"
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "JakubOnderka\\PhpConsoleHighlighter": "src/"
+                "psr-4": {
+                    "JakubOnderka\\PhpConsoleHighlighter\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1950,7 +1952,8 @@
                     "homepage": "http://www.acci.cz/"
                 }
             ],
-            "time": "2015-04-20T18:58:01+00:00"
+            "description": "Highlight PHP code in terminal",
+            "time": "2018-09-29T18:48:56+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -11723,15 +11726,16 @@
         },
         {
             "name": "magentoese/ece-tools",
-            "version": "2002.0.13.x-dev",
+            "version": "2002.0.14.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/ece-tools.git",
-                "reference": "c50790c859cdccd4413fe796c9751f61335d91de"
+                "reference": "f493671e42b2ef810cd8e678436851419f9eeff7"
             },
             "require": {
                 "composer/composer": "@stable",
                 "composer/semver": "^1.4",
+                "ext-json": "*",
                 "graylog2/gelf-php": "^1.4.2",
                 "guzzlehttp/guzzle": "^6.2",
                 "illuminate/config": "^5.5",
@@ -11805,7 +11809,7 @@
                 "proprietary"
             ],
             "description": "Provides tools to build and deploy Magento 2 Enterprise Edition",
-            "time": "2018-08-10T15:15:44+00:00"
+            "time": "2018-10-15T22:30:45+00:00"
         },
         {
             "name": "magentoese/magento-scripts",
@@ -11813,7 +11817,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "06793c360bf07dc274e93c3381dde22bd18fd44a"
+                "reference": "ec036a237be80c982401e4608e3e31218732e0ce"
             },
             "require": {
                 "magento/framework": "*"
@@ -11834,7 +11838,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2018-09-20T16:30:29+00:00"
+            "time": "2018-10-16T15:05:59+00:00"
         },
         {
             "name": "magentoese/module-admin-configurations",
@@ -12220,7 +12224,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/module-megamenu.git",
-                "reference": "50a8aed30cc98144407e9211432a120d3f384f73"
+                "reference": "3eb8e57dd9a668564bcad6a9594568ecb2be66dc"
             },
             "require": {
                 "magento/framework": "*"
@@ -12234,7 +12238,7 @@
                     "MagentoEse\\MegaMenu\\": ""
                 }
             },
-            "time": "2018-09-10T17:16:50+00:00"
+            "time": "2017-03-22T19:16:49+00:00"
         },
         {
             "name": "magentoese/module-product-image-switcher",
@@ -12418,7 +12422,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-venia-catalog-sample-data.git",
-                "reference": "45dd3b1f91b828a72eb00d629b6c86bc8854fdc2"
+                "reference": "636c0c0250338c3e808f232dc2c991a000c42cae"
             },
             "require": {
                 "firegento/fastsimpleimport": "dev-updated",
@@ -12433,7 +12437,7 @@
                     "MagentoEse\\VeniaCatalogSampleData\\": ""
                 }
             },
-            "time": "2018-10-04T19:53:51+00:00"
+            "time": "2018-10-09T19:22:50+00:00"
         },
         {
             "name": "magentoese/module-venia-cms-sample-data",
@@ -12688,16 +12692,16 @@
         },
         {
             "name": "n98/magerun2",
-            "version": "2.2.0",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/netz98/n98-magerun2.git",
-                "reference": "deeeda6d739ff6768fa2decc92d3b0bef636a052"
+                "reference": "2e0516b623aa95a6b2c753016fdcf026c5039975"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/netz98/n98-magerun2/zipball/deeeda6d739ff6768fa2decc92d3b0bef636a052",
-                "reference": "deeeda6d739ff6768fa2decc92d3b0bef636a052",
+                "url": "https://api.github.com/repos/netz98/n98-magerun2/zipball/2e0516b623aa95a6b2c753016fdcf026c5039975",
+                "reference": "2e0516b623aa95a6b2c753016fdcf026c5039975",
                 "shasum": ""
             },
             "require": {
@@ -12753,7 +12757,7 @@
                 "magento",
                 "magerun2"
             ],
-            "time": "2018-06-10T12:14:40+00:00"
+            "time": "2018-10-13T19:17:44+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -12812,16 +12816,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.0.4",
+            "version": "v4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "fa6ee28600d21d49b2b4e1006b48426cec8e579c"
+                "reference": "d0230c5c77a7e3cfa69446febf340978540958c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/fa6ee28600d21d49b2b4e1006b48426cec8e579c",
-                "reference": "fa6ee28600d21d49b2b4e1006b48426cec8e579c",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/d0230c5c77a7e3cfa69446febf340978540958c0",
+                "reference": "d0230c5c77a7e3cfa69446febf340978540958c0",
                 "shasum": ""
             },
             "require": {
@@ -12837,7 +12841,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0-dev"
+                    "dev-master": "4.1-dev"
                 }
             },
             "autoload": {
@@ -12859,7 +12863,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2018-09-18T07:03:24+00:00"
+            "time": "2018-10-10T09:24:14+00:00"
         },
         {
             "name": "oyejorge/less.php",
@@ -13603,23 +13607,23 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.9.8",
+            "version": "v0.9.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "ed3c32c4304e1a678a6e0f9dc11dd2d927d89555"
+                "reference": "9aaf29575bb8293206bb0420c1e1c87ff2ffa94e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/ed3c32c4304e1a678a6e0f9dc11dd2d927d89555",
-                "reference": "ed3c32c4304e1a678a6e0f9dc11dd2d927d89555",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/9aaf29575bb8293206bb0420c1e1c87ff2ffa94e",
+                "reference": "9aaf29575bb8293206bb0420c1e1c87ff2ffa94e",
                 "shasum": ""
             },
             "require": {
                 "dnoegel/php-xdg-base-dir": "0.1",
                 "ext-json": "*",
                 "ext-tokenizer": "*",
-                "jakub-onderka/php-console-highlighter": "0.3.*",
+                "jakub-onderka/php-console-highlighter": "0.3.*|0.4.*",
                 "nikic/php-parser": "~1.3|~2.0|~3.0|~4.0",
                 "php": ">=5.4.0",
                 "symfony/console": "~2.3.10|^2.4.2|~3.0|~4.0",
@@ -13673,7 +13677,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2018-09-05T11:40:09+00:00"
+            "time": "2018-10-13T15:16:03+00:00"
         },
         {
             "name": "ramsey/uuid",
@@ -14032,16 +14036,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v6.19.1",
+            "version": "v6.19.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "b1e9f8a25253de2cd527a5c776011ba9120f355a"
+                "reference": "02bfccdf554a048c11c72567c31a43713ad3cd79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/b1e9f8a25253de2cd527a5c776011ba9120f355a",
-                "reference": "b1e9f8a25253de2cd527a5c776011ba9120f355a",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/02bfccdf554a048c11c72567c31a43713ad3cd79",
+                "reference": "02bfccdf554a048c11c72567c31a43713ad3cd79",
                 "shasum": ""
             },
             "require": {
@@ -14083,7 +14087,7 @@
                 "payment processing",
                 "stripe"
             ],
-            "time": "2018-09-25T12:21:14+00:00"
+            "time": "2018-10-11T16:17:52+00:00"
         },
         {
             "name": "symfony/console",

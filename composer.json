@@ -134,7 +134,7 @@
         "magento/module-offline-shipping-sample-data": "100.2.*",
         
         "magentoese/dock-mage": "dev-master",
-        "magentoese/ece-tools": "2002.0.13.x-dev",
+        "magentoese/ece-tools": "2002.0.14.x-dev",
         "magentoese/magento-scripts": "2.2.5.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/module-cms-sample-data-update": "dev-master",
