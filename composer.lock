@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c2d774fc5668ad6b61d399e53241568",
+    "content-hash": "fe46f5c17cb7753668fd284068c16f08",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-with-amazon-core-module",
@@ -882,16 +882,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.70",
+            "version": "1.2.72",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "4ec82afce7be2174249aa7e094520a7cdea46c54"
+                "reference": "b218767a2b5cd7654055f10e3e295503db68499a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/4ec82afce7be2174249aa7e094520a7cdea46c54",
-                "reference": "4ec82afce7be2174249aa7e094520a7cdea46c54",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/b218767a2b5cd7654055f10e3e295503db68499a",
+                "reference": "b218767a2b5cd7654055f10e3e295503db68499a",
                 "shasum": ""
             },
             "require": {
@@ -916,7 +916,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2018-10-04T07:29:17+00:00"
+            "time": "2018-10-15T14:35:49+00:00"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -1610,33 +1610,34 @@
         },
         {
             "name": "jakub-onderka/php-console-highlighter",
-            "version": "v0.3.2",
+            "version": "v0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JakubOnderka/PHP-Console-Highlighter.git",
-                "reference": "7daa75df45242c8d5b75a22c00a201e7954e4fb5"
+                "reference": "9f7a229a69d52506914b4bc61bfdb199d90c5547"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JakubOnderka/PHP-Console-Highlighter/zipball/7daa75df45242c8d5b75a22c00a201e7954e4fb5",
-                "reference": "7daa75df45242c8d5b75a22c00a201e7954e4fb5",
+                "url": "https://api.github.com/repos/JakubOnderka/PHP-Console-Highlighter/zipball/9f7a229a69d52506914b4bc61bfdb199d90c5547",
+                "reference": "9f7a229a69d52506914b4bc61bfdb199d90c5547",
                 "shasum": ""
             },
             "require": {
-                "jakub-onderka/php-console-color": "~0.1",
-                "php": ">=5.3.0"
+                "ext-tokenizer": "*",
+                "jakub-onderka/php-console-color": "~0.2",
+                "php": ">=5.4.0"
             },
             "require-dev": {
                 "jakub-onderka/php-code-style": "~1.0",
-                "jakub-onderka/php-parallel-lint": "~0.5",
+                "jakub-onderka/php-parallel-lint": "~1.0",
                 "jakub-onderka/php-var-dump-check": "~0.1",
                 "phpunit/phpunit": "~4.0",
                 "squizlabs/php_codesniffer": "~1.5"
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "JakubOnderka\\PhpConsoleHighlighter": "src/"
+                "psr-4": {
+                    "JakubOnderka\\PhpConsoleHighlighter\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1650,7 +1651,8 @@
                     "homepage": "http://www.acci.cz/"
                 }
             ],
-            "time": "2015-04-20T18:58:01+00:00"
+            "description": "Highlight PHP code in terminal",
+            "time": "2018-09-29T18:48:56+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -11492,15 +11494,16 @@
         },
         {
             "name": "magentoese/ece-tools",
-            "version": "2002.0.13.x-dev",
+            "version": "2002.0.14.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/ece-tools.git",
-                "reference": "c50790c859cdccd4413fe796c9751f61335d91de"
+                "reference": "f493671e42b2ef810cd8e678436851419f9eeff7"
             },
             "require": {
                 "composer/composer": "@stable",
                 "composer/semver": "^1.4",
+                "ext-json": "*",
                 "graylog2/gelf-php": "^1.4.2",
                 "guzzlehttp/guzzle": "^6.2",
                 "illuminate/config": "^5.5",
@@ -11574,7 +11577,7 @@
                 "proprietary"
             ],
             "description": "Provides tools to build and deploy Magento 2 Enterprise Edition",
-            "time": "2018-08-10T15:15:44+00:00"
+            "time": "2018-10-15T22:30:45+00:00"
         },
         {
             "name": "magentoese/magento-scripts",
@@ -11582,7 +11585,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "06793c360bf07dc274e93c3381dde22bd18fd44a"
+                "reference": "ec036a237be80c982401e4608e3e31218732e0ce"
             },
             "require": {
                 "magento/framework": "*"
@@ -11603,7 +11606,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2018-09-20T16:30:29+00:00"
+            "time": "2018-10-16T15:05:59+00:00"
         },
         {
             "name": "magentoese/module-admin-configurations",
@@ -11722,7 +11725,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/module-b2b-catalog-sample-data.git",
-                "reference": "7c5e7ee072288ec16f0d53fd2fe0fc454bca655c"
+                "reference": "b9bc645341d67150b85882f84d6604bdc01d3b15"
             },
             "require": {
                 "firegento/fastsimpleimport": "*",
@@ -11737,7 +11740,7 @@
                     "MagentoEse\\B2BCatalogSampleData\\": ""
                 }
             },
-            "time": "2018-10-09T18:25:26+00:00"
+            "time": "2018-10-09T19:21:02+00:00"
         },
         {
             "name": "magentoese/module-b2b-cms-sample-data",
@@ -12261,16 +12264,16 @@
         },
         {
             "name": "n98/magerun2",
-            "version": "2.2.0",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/netz98/n98-magerun2.git",
-                "reference": "deeeda6d739ff6768fa2decc92d3b0bef636a052"
+                "reference": "2e0516b623aa95a6b2c753016fdcf026c5039975"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/netz98/n98-magerun2/zipball/deeeda6d739ff6768fa2decc92d3b0bef636a052",
-                "reference": "deeeda6d739ff6768fa2decc92d3b0bef636a052",
+                "url": "https://api.github.com/repos/netz98/n98-magerun2/zipball/2e0516b623aa95a6b2c753016fdcf026c5039975",
+                "reference": "2e0516b623aa95a6b2c753016fdcf026c5039975",
                 "shasum": ""
             },
             "require": {
@@ -12326,7 +12329,7 @@
                 "magento",
                 "magerun2"
             ],
-            "time": "2018-06-10T12:14:40+00:00"
+            "time": "2018-10-13T19:17:44+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -12385,16 +12388,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.0.4",
+            "version": "v4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "fa6ee28600d21d49b2b4e1006b48426cec8e579c"
+                "reference": "d0230c5c77a7e3cfa69446febf340978540958c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/fa6ee28600d21d49b2b4e1006b48426cec8e579c",
-                "reference": "fa6ee28600d21d49b2b4e1006b48426cec8e579c",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/d0230c5c77a7e3cfa69446febf340978540958c0",
+                "reference": "d0230c5c77a7e3cfa69446febf340978540958c0",
                 "shasum": ""
             },
             "require": {
@@ -12410,7 +12413,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0-dev"
+                    "dev-master": "4.1-dev"
                 }
             },
             "autoload": {
@@ -12432,7 +12435,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2018-09-18T07:03:24+00:00"
+            "time": "2018-10-10T09:24:14+00:00"
         },
         {
             "name": "oyejorge/less.php",
@@ -13000,23 +13003,23 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.9.8",
+            "version": "v0.9.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "ed3c32c4304e1a678a6e0f9dc11dd2d927d89555"
+                "reference": "9aaf29575bb8293206bb0420c1e1c87ff2ffa94e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/ed3c32c4304e1a678a6e0f9dc11dd2d927d89555",
-                "reference": "ed3c32c4304e1a678a6e0f9dc11dd2d927d89555",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/9aaf29575bb8293206bb0420c1e1c87ff2ffa94e",
+                "reference": "9aaf29575bb8293206bb0420c1e1c87ff2ffa94e",
                 "shasum": ""
             },
             "require": {
                 "dnoegel/php-xdg-base-dir": "0.1",
                 "ext-json": "*",
                 "ext-tokenizer": "*",
-                "jakub-onderka/php-console-highlighter": "0.3.*",
+                "jakub-onderka/php-console-highlighter": "0.3.*|0.4.*",
                 "nikic/php-parser": "~1.3|~2.0|~3.0|~4.0",
                 "php": ">=5.4.0",
                 "symfony/console": "~2.3.10|^2.4.2|~3.0|~4.0",
@@ -13070,7 +13073,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2018-09-05T11:40:09+00:00"
+            "time": "2018-10-13T15:16:03+00:00"
         },
         {
             "name": "ramsey/uuid",
