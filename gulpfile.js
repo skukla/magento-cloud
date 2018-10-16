@@ -12,8 +12,8 @@ var stripComments = function (vinylObj) {
 }
 
 gulp.task('watch', function () {
-  if (argv.q) {
-    stripComments({path: argv.q});
+  if (argv.f) {
+    stripComments({path: argv.f});
   } else {
     gulp.watch('composer.*.json', {events: ['change']}, stripComments);
   }
