@@ -11389,7 +11389,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/ece-tools.git",
-                "reference": "dacde9296bd9eef81e184735c71fcf43d2553738"
+                "reference": "0a2765808b95d477d81dce85ead467354c529814"
             },
             "require": {
                 "composer/composer": "@stable",
@@ -11468,7 +11468,7 @@
                 "proprietary"
             ],
             "description": "Provides tools to build and deploy Magento 2 Enterprise Edition",
-            "time": "2018-10-16T22:32:31+00:00"
+            "time": "2018-10-16T23:04:13+00:00"
         },
         {
             "name": "magentoese/magento-scripts",
