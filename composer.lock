@@ -671,16 +671,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "46afded9720f40b9dc63542af4e3e43a1177acb0"
+                "reference": "8afa52cd417f4ec417b4bfe86b68106538a87660"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/46afded9720f40b9dc63542af4e3e43a1177acb0",
-                "reference": "46afded9720f40b9dc63542af4e3e43a1177acb0",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/8afa52cd417f4ec417b4bfe86b68106538a87660",
+                "reference": "8afa52cd417f4ec417b4bfe86b68106538a87660",
                 "shasum": ""
             },
             "require": {
@@ -723,7 +723,7 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2018-08-08T08:57:40+00:00"
+            "time": "2018-10-18T06:09:13+00:00"
         },
         {
             "name": "composer/composer",
@@ -11817,7 +11817,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "ec036a237be80c982401e4608e3e31218732e0ce"
+                "reference": "d008451ebe5e74e7e06a753fe9a0f8983b62ba23"
             },
             "require": {
                 "magento/framework": "*"
@@ -11838,7 +11838,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2018-10-16T15:05:59+00:00"
+            "time": "2018-10-19T12:38:30+00:00"
         },
         {
             "name": "magentoese/module-admin-configurations",
@@ -12224,7 +12224,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/module-megamenu.git",
-                "reference": "3eb8e57dd9a668564bcad6a9594568ecb2be66dc"
+                "reference": "50a8aed30cc98144407e9211432a120d3f384f73"
             },
             "require": {
                 "magento/framework": "*"
@@ -12238,7 +12238,7 @@
                     "MagentoEse\\MegaMenu\\": ""
                 }
             },
-            "time": "2017-03-22T19:16:49+00:00"
+            "time": "2018-09-10T17:16:50+00:00"
         },
         {
             "name": "magentoese/module-product-image-switcher",
@@ -12692,16 +12692,16 @@
         },
         {
             "name": "n98/magerun2",
-            "version": "2.3.0",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/netz98/n98-magerun2.git",
-                "reference": "2e0516b623aa95a6b2c753016fdcf026c5039975"
+                "reference": "6d673590e09f25fb9d3c8846bca4dc0404378715"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/netz98/n98-magerun2/zipball/2e0516b623aa95a6b2c753016fdcf026c5039975",
-                "reference": "2e0516b623aa95a6b2c753016fdcf026c5039975",
+                "url": "https://api.github.com/repos/netz98/n98-magerun2/zipball/6d673590e09f25fb9d3c8846bca4dc0404378715",
+                "reference": "6d673590e09f25fb9d3c8846bca4dc0404378715",
                 "shasum": ""
             },
             "require": {
@@ -12757,7 +12757,7 @@
                 "magento",
                 "magerun2"
             ],
-            "time": "2018-10-13T19:17:44+00:00"
+            "time": "2018-10-18T12:14:56+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -14036,16 +14036,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v6.19.4",
+            "version": "v6.19.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "02bfccdf554a048c11c72567c31a43713ad3cd79"
+                "reference": "1ab5c54fae4c16e9cc47d60c7454e6c3b6bbcb85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/02bfccdf554a048c11c72567c31a43713ad3cd79",
-                "reference": "02bfccdf554a048c11c72567c31a43713ad3cd79",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/1ab5c54fae4c16e9cc47d60c7454e6c3b6bbcb85",
+                "reference": "1ab5c54fae4c16e9cc47d60c7454e6c3b6bbcb85",
                 "shasum": ""
             },
             "require": {
@@ -14087,7 +14087,7 @@
                 "payment processing",
                 "stripe"
             ],
-            "time": "2018-10-11T16:17:52+00:00"
+            "time": "2018-10-17T14:58:41+00:00"
         },
         {
             "name": "symfony/console",
