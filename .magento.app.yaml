@@ -95,7 +95,7 @@ crons:
         cmd: "php bin/magento cron:run"
     msgq:
         spec: "*/5 * * * *"
-        cmd: "./vendor/bin/magentoese/magento-scripts/cron.sh"
+        cmd: "./vendor/bin/magentoese/magento-scripts/mq-cron.sh"
 
 # Environment variables
 variables:
