@@ -84,17 +84,15 @@ hooks:
     # We run deploy hook after your application has been deployed and started.
     deploy: |
         php ./vendor/bin/ece-tools deploy
-        sed -i.bak "\$i'cron' => array ( 'enabled' => 0, )," /app/app/etc/env.php
     # We run post deploy hook to clean and warm the cache. Available with ECE-Tools 2002.0.10.
     post_deploy: |
         php ./vendor/bin/ece-tools post-deploy
-        sed -i.bak '/cron.*enabled/d' /app/app/etc/env.php
 
 # Default Magento 2 cron jobs
 crons:
     cronrun:
         spec: "*/5 * * * *"
-        cmd: "./vendor/magentoese/magento-scripts/cron.sh"
+        cmd: "php bin/magento cron:run"
 
 # Environment variables
 variables:
