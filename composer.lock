@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c081ee3f76e876685259683315699146",
+    "content-hash": "d9d15ade5d382f334026ef8b0347cfcf",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-with-amazon-core-module",
@@ -1933,50 +1933,6 @@
                 }
             ],
             "description": "Klarna Order Management Magento 2 Extension"
-        },
-        {
-            "name": "magemojo/m2-ce-cron",
-            "version": "1.2.6-stable",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magemojo/m2-ce-cron.git",
-                "reference": "161eb88ef85df235a308c524fc604c3f1c54599c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magemojo/m2-ce-cron/zipball/161eb88ef85df235a308c524fc604c3f1c54599c",
-                "reference": "161eb88ef85df235a308c524fc604c3f1c54599c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageMojo\\Cron\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "MageMojo",
-                    "homepage": "https://github.com/magemojo/"
-                }
-            ],
-            "description": "Replacement package for Magento 2 Cron Functionality",
-            "homepage": "https://github.com/magemojo/",
-            "keywords": [
-                "cron",
-                "magento2"
-            ],
-            "time": "2018-10-03T16:14:07+00:00"
         },
         {
             "name": "magento/composer",
@@ -11476,7 +11432,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "d008451ebe5e74e7e06a753fe9a0f8983b62ba23"
+                "reference": "a2f83ec12e9633817f0da84cb2ec6b31b27db6c7"
             },
             "require": {
                 "magento/framework": "*"
@@ -11497,7 +11453,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2018-10-19T12:38:30+00:00"
+            "time": "2018-10-19T16:57:01+00:00"
         },
         {
             "name": "magentoese/module-admin-configurations",
