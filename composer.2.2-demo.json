@@ -104,7 +104,6 @@
         "firegento/fastsimpleimport": "dev-updated",
         "gene/bluefoot": "dev-develop-no-branding",
         "m2epro/magento2-extension": "dev-master",
-        "magemojo/m2-ce-cron": "^1.2",
         //"magento/product-enterprise-edition": "2.2.4",
         "magento/magento-cloud-metapackage": "2.2.6",
         "magento/module-bundle-sample-data": "100.2.*",
