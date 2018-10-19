@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fe46f5c17cb7753668fd284068c16f08",
+    "content-hash": "3dc9c8fd31b16fbfa8584cc4280c872c",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-with-amazon-core-module",
@@ -370,16 +370,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "46afded9720f40b9dc63542af4e3e43a1177acb0"
+                "reference": "8afa52cd417f4ec417b4bfe86b68106538a87660"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/46afded9720f40b9dc63542af4e3e43a1177acb0",
-                "reference": "46afded9720f40b9dc63542af4e3e43a1177acb0",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/8afa52cd417f4ec417b4bfe86b68106538a87660",
+                "reference": "8afa52cd417f4ec417b4bfe86b68106538a87660",
                 "shasum": ""
             },
             "require": {
@@ -422,7 +422,7 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2018-08-08T08:57:40+00:00"
+            "time": "2018-10-18T06:09:13+00:00"
         },
         {
             "name": "composer/composer",
@@ -1933,50 +1933,6 @@
                 }
             ],
             "description": "Klarna Order Management Magento 2 Extension"
-        },
-        {
-            "name": "magemojo/m2-ce-cron",
-            "version": "1.2.6-stable",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magemojo/m2-ce-cron.git",
-                "reference": "161eb88ef85df235a308c524fc604c3f1c54599c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magemojo/m2-ce-cron/zipball/161eb88ef85df235a308c524fc604c3f1c54599c",
-                "reference": "161eb88ef85df235a308c524fc604c3f1c54599c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageMojo\\Cron\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "MageMojo",
-                    "homepage": "https://github.com/magemojo/"
-                }
-            ],
-            "description": "Replacement package for Magento 2 Cron Functionality",
-            "homepage": "https://github.com/magemojo/",
-            "keywords": [
-                "cron",
-                "magento2"
-            ],
-            "time": "2018-10-03T16:14:07+00:00"
         },
         {
             "name": "magento/composer",
@@ -11585,7 +11541,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "ec036a237be80c982401e4608e3e31218732e0ce"
+                "reference": "a2f83ec12e9633817f0da84cb2ec6b31b27db6c7"
             },
             "require": {
                 "magento/framework": "*"
@@ -11606,7 +11562,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2018-10-16T15:05:59+00:00"
+            "time": "2018-10-19T16:57:01+00:00"
         },
         {
             "name": "magentoese/module-admin-configurations",
@@ -12264,16 +12220,16 @@
         },
         {
             "name": "n98/magerun2",
-            "version": "2.3.0",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/netz98/n98-magerun2.git",
-                "reference": "2e0516b623aa95a6b2c753016fdcf026c5039975"
+                "reference": "6d673590e09f25fb9d3c8846bca4dc0404378715"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/netz98/n98-magerun2/zipball/2e0516b623aa95a6b2c753016fdcf026c5039975",
-                "reference": "2e0516b623aa95a6b2c753016fdcf026c5039975",
+                "url": "https://api.github.com/repos/netz98/n98-magerun2/zipball/6d673590e09f25fb9d3c8846bca4dc0404378715",
+                "reference": "6d673590e09f25fb9d3c8846bca4dc0404378715",
                 "shasum": ""
             },
             "require": {
@@ -12329,7 +12285,7 @@
                 "magento",
                 "magerun2"
             ],
-            "time": "2018-10-13T19:17:44+00:00"
+            "time": "2018-10-18T12:14:56+00:00"
         },
         {
             "name": "nesbot/carbon",
