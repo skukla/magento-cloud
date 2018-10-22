@@ -11637,7 +11637,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-b2b-admin-configurations.git",
-                "reference": "992c6a3fd5470cdfeac7065e3e0b8406228f8caa"
+                "reference": "2531308c54b1c46fc4617362cd73566b2527812f"
             },
             "require": {
                 "magento/framework": "*"
@@ -11651,7 +11651,7 @@
                     "MagentoEse\\B2bAdminConfigurations\\": ""
                 }
             },
-            "time": "2018-06-14T19:06:24+00:00"
+            "time": "2018-10-21T23:38:05+00:00"
         },
         {
             "name": "magentoese/module-b2b-b2c-sample-data",
