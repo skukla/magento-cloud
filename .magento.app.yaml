@@ -83,7 +83,7 @@ hooks:
         ./vendor/magentoese/magento-scripts/create-consolidated-cron-xmls.sh
     # We run deploy hook after your application has been deployed and started.
     deploy: |
-        ./vendor/magentoese/magento-scripts/deploy.sh
+        php ./vendor/bin/ece-tools deploy
     # We run post deploy hook to clean and warm the cache. Available with ECE-Tools 2002.0.10.
     post_deploy: |
         php ./vendor/bin/ece-tools post-deploy
@@ -92,7 +92,7 @@ hooks:
 crons:
     cronrun:
         spec: "*/5 * * * *"
-        cmd: "./vendor/magentoese/magento-scripts/cron.sh"
+        cmd: "php bin/magento cron:run"
 
 # Environment variables
 variables:

@@ -2,20 +2,18 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.2.5",
+    "version": "2.3.0",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
     ],
     "repositories": [
-        //{"type": "composer", "url": "https://repo.magento.com/"},
-        {"type": "composer", "url": "https://connect20-qa01.magedevteam.com/"},
+        {"type": "composer", "url": "https://repo.magento.com/"},
+        {"type": "composer", "url": "https://connect20-qa04.magedevteam.com/"},
         {"type": "git", "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"},
         {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
         {"type": "git", "url": "git@github.com:PMET-public/nfs4d4m.git"},
-        {"type": "git", "url": "git@gitlab.the1umastory.com:md/bluefoot.git"},
-        {"type": "git", "url": "git@gitlab.the1umastory.com:md/easysocialshop_magento2.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/ece-tools.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"}
     ],
@@ -23,18 +21,18 @@
         "pre-autoload-dump" : [
             "vendor/magentoese/magento-scripts/composer-setup.sh ref"
         ],
+        "post-autoload-dump" : [
+        ],
+        // enable error reporting
         "post-install-cmd" : [
-            // enable error reporting
             "mv pub/errors/local.xml.sample pub/errors/local.xml || :"
         ]
     },
     "require": {
         "firegento/fastsimpleimport": "dev-updated",
         //"gene/bluefoot": "dev-develop-no-branding",
-        //"magemojo/m2-ce-cron": "^1.2",
-        //On browse - Missing required argument $routerList of Magento\Framework\App\RouterList.
-
-        "magento/product-enterprise-edition": "2.3.0-alpha",
+        //"magento/magento-cloud-metapackage": "2.2.6",
+        "magento/product-enterprise-edition": "2.3.0-beta23",
         "magento/module-bundle-sample-data": "100.3.*",
         "magento/module-widget-sample-data": "100.3.*",
         "magento/module-catalog-sample-data": "100.3.*",
@@ -55,20 +53,20 @@
         "magento/module-configurable-sample-data": "100.3.*",
         "magento/module-customer-balance-sample-data": "100.3.*",
         "magento/module-target-rule-sample-data": "100.3.*",
-        //"magento/module-gift-registry-sample-data": "100.3.*",
-        //Uncaught Error: Call to a member function getData() on boolean in /Users/jbritts/sites/ref-230/vendor/magento/module-gift-registry-sample-data/Model/GiftRegistry.php:200
+        "magento/module-gift-registry-sample-data": "100.3.*",
         "magento/module-multiple-wishlist-sample-data": "100.3.*",
         "magento/module-swatches-sample-data": "100.3.*",
         "magento/sample-data-media": "100.3.*",
         "magento/module-offline-shipping-sample-data": "100.3.*",
+        "magento/page-builder-commerce": "100.0.0-beta101801",
         "magentoese/dock-mage": "dev-master",
-        "magentoese/ece-tools": "2002.0.13.x-dev",
+        "magentoese/ece-tools": "2002.0.14.x-dev",
         "magentoese/magento-scripts": "2.2.5.x-dev",
-        "magentoese/module-admin-configurations": "2.3.x-dev",
+        "magentoese/module-admin-configurations": "dev-master",
         "magentoese/nfs4d4m": "dev-master"
+        //magerun not 2.3 compatible yet
         //"n98/magerun2": "^2.2"
-        //not 2.3 compatible
-     },
+    },
     "config": {
         "use-include-path": true
     },
