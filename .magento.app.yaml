@@ -25,7 +25,9 @@ runtime:
 # side is in the form `<service name>:<endpoint name>`.
 relationships:
     database: "mysql:mysql"
+    elasticsearch: "elasticsearch:elasticsearch"
     redis: "redis:redis"
+    mq: "rabbitmq:rabbitmq"
 
 # The configuration of app when it is exposed to the web.
 web:
@@ -77,6 +79,8 @@ hooks:
     build: |
         php ./vendor/bin/ece-tools build:generate
         php ./vendor/bin/ece-tools build:transfer
+        # create consolidated crontab.xml & cron_groups.xml
+        ./vendor/magentoese/magento-scripts/create-consolidated-cron-xmls.sh
     # We run deploy hook after your application has been deployed and started.
     deploy: |
         php ./vendor/bin/ece-tools deploy
@@ -87,7 +91,7 @@ hooks:
 # Default Magento 2 cron jobs
 crons:
     cronrun:
-        spec: "* * * * *"
+        spec: "*/5 * * * *"
         cmd: "php bin/magento cron:run"
 
 # Environment variables
@@ -96,3 +100,7 @@ variables:
         CONFIG__DEFAULT__PAYPAL_ONBOARDING__MIDDLEMAN_DOMAIN: 'payment-broker.magento.com'
         CONFIG__STORES__DEFAULT__PAYMENT__BRAINTREE__CHANNEL: 'Magento_Enterprise_Cloud_BT'
         CONFIG__STORES__DEFAULT__PAYPAL__NOTATION_CODE: 'Magento_Enterprise_Cloud'
+
+dependencies:
+  ruby:
+    amqp-utils: "0.5.1"

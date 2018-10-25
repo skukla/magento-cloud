@@ -3,6 +3,7 @@
 !/.gitignore
 !/.magento.app.yaml
 !/.magento.env.yaml*
+.magento.env.yaml.dist
 !/.magento
 !/.magento/**
 /.magento/local
@@ -12,7 +13,6 @@
 !/app/design/**
 !/app/etc/config.php
 !/app/i18n/**
-!/auth.json
 !/build_options.ini
 !/composer.json
 !/composer.lock
@@ -24,3 +24,6 @@
 !/update
 !/update/.htaccess
 !/README.md
+!/package-lock.json
+!/.vscode
+!/.vscode/launch.json
