@@ -51,15 +51,15 @@
         ],
         "post-autoload-dump" : [
         ],
-        
+        // enable error reporting
         "post-install-cmd" : [
             "mv pub/errors/local.xml.sample pub/errors/local.xml || :"
         ]
     },
     "require": {
         "firegento/fastsimpleimport": "dev-updated",
-        
-        
+        //"gene/bluefoot": "dev-develop-no-branding",
+        //"magento/magento-cloud-metapackage": "2.2.6",
         "magento/product-enterprise-edition": "2.3.0-beta28",
         "magento/extension-b2b": "1.1.0-beta28",
         "magento/page-builder-commerce": "100.0.0-beta101801",
@@ -86,14 +86,14 @@
         "magentoese/module-b2b-shared-catalog-sample-data": "dev-master",
         "magentoese/module-installation-overrides": "dev-master",
         "magentoese/module-my-account-widget": "dev-master",
-        
+        // "magentoese/module-post-install": "dev-master",
         "magentoese/module-productbadge": "dev-master",
         "magentoese/module-sales-sample-data": "dev-master",
         "magentoese/module-sctools": "dev-master",
         "magentoese/module-themecustomizer": "dev-master",
         "magentoese/nfs4d4m": "dev-master",
         "magentoese/theme-brentmill": "dev-master"
-        
+        //"n98/magerun2": "^2.2"
     },
     "config": {
         "use-include-path": true
