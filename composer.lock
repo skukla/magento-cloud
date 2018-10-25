@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "546dc1acd9f38b733cc04f1a12683fa6",
+    "content-hash": "818f2864792924b4356243566d7f6cd2",
     "packages": [
         {
             "name": "amasty/base",
@@ -1918,7 +1918,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v5.7.9",
+            "version": "v5.7.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -1962,16 +1962,16 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.7.9",
+            "version": "v5.7.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
-                "reference": "73cde7bd4985eefb1d468a745e1d50d03e276121"
+                "reference": "4c90c3d3ba88e52da152e885d24c9f891a2ec545"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/container/zipball/73cde7bd4985eefb1d468a745e1d50d03e276121",
-                "reference": "73cde7bd4985eefb1d468a745e1d50d03e276121",
+                "url": "https://api.github.com/repos/illuminate/container/zipball/4c90c3d3ba88e52da152e885d24c9f891a2ec545",
+                "reference": "4c90c3d3ba88e52da152e885d24c9f891a2ec545",
                 "shasum": ""
             },
             "require": {
@@ -2003,11 +2003,11 @@
             ],
             "description": "The Illuminate Container package.",
             "homepage": "https://laravel.com",
-            "time": "2018-10-07T15:52:17+00:00"
+            "time": "2018-10-18T03:39:45+00:00"
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.7.9",
+            "version": "v5.7.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -2051,16 +2051,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v5.7.9",
+            "version": "v5.7.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "ea95697233b06650382eb0f5798be22b4e520dea"
+                "reference": "45bfc0cd080c51946f61c04e324c2b4c6df58a9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/ea95697233b06650382eb0f5798be22b4e520dea",
-                "reference": "ea95697233b06650382eb0f5798be22b4e520dea",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/45bfc0cd080c51946f61c04e324c2b4c6df58a9d",
+                "reference": "45bfc0cd080c51946f61c04e324c2b4c6df58a9d",
                 "shasum": ""
             },
             "require": {
@@ -2106,38 +2106,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2018-10-07T15:51:39+00:00"
-        },
-        {
-            "name": "jbritts/valet-install",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:jeffbritts/valet-install",
-                "reference": "8ac7b879498d6623858cdc937c159cadecebbcf2"
-            },
-            "require": {
-                "mage2tv/magento-cache-clean": "0.0.18"
-            },
-            "type": "magento2-component",
-            "extra": {
-                "map": [
-                    [
-                        "install",
-                        "install"
-                    ],
-                    [
-                        ".env.sample",
-                        ".env.sample"
-                    ],
-                    [
-                        "vp",
-                        "vp"
-                    ]
-                ]
-            },
-            "description": "Valet + installation and dev tools",
-            "time": "2018-10-18T18:34:15+00:00"
+            "time": "2018-10-22T17:36:06+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -2528,47 +2497,6 @@
                 "rakuten"
             ],
             "time": "2018-07-05T10:02:14+00:00"
-        },
-        {
-            "name": "mage2tv/magento-cache-clean",
-            "version": "0.0.18",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mage2tv/magento-cache-clean.git",
-                "reference": "d15d09a1939a1bb2dbd8c1d9f10fbe71d9451fff"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mage2tv/magento-cache-clean/zipball/d15d09a1939a1bb2dbd8c1d9f10fbe71d9451fff",
-                "reference": "d15d09a1939a1bb2dbd8c1d9f10fbe71d9451fff",
-                "shasum": ""
-            },
-            "suggest": {
-                "magento/project-community-edition": "*"
-            },
-            "bin": [
-                "bin/cache-clean.js"
-            ],
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Vinai Kopp",
-                    "email": "vinai@netzarbeiter.com",
-                    "role": "lead"
-                }
-            ],
-            "description": "A faster drop in replacement for bin/magento cache:clean with file watcher",
-            "homepage": "https://github.com/mage2tv/magento-cache-clean",
-            "keywords": [
-                "development",
-                "magento",
-                "utility"
-            ],
-            "time": "2018-10-12T14:53:19+00:00"
         },
         {
             "name": "magemojo/m2-ce-cron",
@@ -14794,6 +14722,28 @@
             "time": "2018-09-10T17:20:23+00:00"
         },
         {
+            "name": "magentoese/module-product-image-switcher",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/module-productimageswitcher.git",
+                "reference": "797379bd01546db38306b5d6bd35ba5369731d76"
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MagentoEse\\ProductImageSwitcher\\": ""
+                }
+            },
+            "time": "2017-05-08T19:35:55+00:00"
+        },
+        {
             "name": "magentoese/module-product-sample-data-update",
             "version": "dev-master",
             "source": {
@@ -14836,6 +14786,28 @@
                 }
             },
             "time": "2016-07-19T14:22:23+00:00"
+        },
+        {
+            "name": "magentoese/module-productbadge-sample-data",
+            "version": "2.3.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/module-productbadge-sample-data.git",
+                "reference": "876dc79da971b7e6d84ec6d1276dad130c58f3eb"
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MagentoEse\\ProductBadgeSampleData\\": ""
+                }
+            },
+            "time": "2018-10-23T14:57:55+00:00"
         },
         {
             "name": "magentoese/module-sales-sample-data",
@@ -15146,12 +15118,12 @@
         },
         {
             "name": "msp/recaptcha",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/msp/recaptcha/msp-recaptcha-2.0.1.0.zip",
+                "url": "https://repo.magento.com/archives/msp/recaptcha/msp-recaptcha-2.0.2.0.zip",
                 "reference": null,
-                "shasum": "7952d603b73ad6b5a63733d92e21ac047cb9c037"
+                "shasum": "f037ce5e2b4202117adc4ec0ab93212ef31bff7e"
             },
             "require": {
                 "google/recaptcha": "^1.1",
@@ -19608,7 +19580,9 @@
         "magentoese/module-luma-de-widget": 20,
         "magentoese/module-megamenu": 20,
         "magentoese/module-product-sample-data-update": 20,
+        "magentoese/module-product-image-switcher": 20,
         "magentoese/module-productbadge": 20,
+        "magentoese/module-productbadge-sample-data": 20,
         "magentoese/module-sales-sample-data": 20,
         "magentoese/module-sctools": 20,
         "magentoese/module-switcherlogos": 20,
@@ -19620,8 +19594,7 @@
         "magentoese/module-vimeo": 20,
         "magentoese/nfs4d4m": 20,
         "magentoese/theme-frontend-venia": 20,
-        "splendidinternet/mage2-locale-de-de": 20,
-        "jbritts/valet-install": 20
+        "splendidinternet/mage2-locale-de-de": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
