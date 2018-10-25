@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "818f2864792924b4356243566d7f6cd2",
+    "content-hash": "5e20766478aad81bc09356f4e6e64627",
     "packages": [
         {
             "name": "amasty/base",
@@ -14722,28 +14722,6 @@
             "time": "2018-09-10T17:20:23+00:00"
         },
         {
-            "name": "magentoese/module-product-image-switcher",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:PMET-public/module-productimageswitcher.git",
-                "reference": "797379bd01546db38306b5d6bd35ba5369731d76"
-            },
-            "require": {
-                "magento/framework": "*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MagentoEse\\ProductImageSwitcher\\": ""
-                }
-            },
-            "time": "2017-05-08T19:35:55+00:00"
-        },
-        {
             "name": "magentoese/module-product-sample-data-update",
             "version": "dev-master",
             "source": {
@@ -19580,7 +19558,6 @@
         "magentoese/module-luma-de-widget": 20,
         "magentoese/module-megamenu": 20,
         "magentoese/module-product-sample-data-update": 20,
-        "magentoese/module-product-image-switcher": 20,
         "magentoese/module-productbadge": 20,
         "magentoese/module-productbadge-sample-data": 20,
         "magentoese/module-sales-sample-data": 20,

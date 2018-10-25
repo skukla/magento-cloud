@@ -161,7 +161,8 @@
         "magentoese/module-megamenu": "2.3.x-dev",
         //"magentoese/module-post-install": "dev-master",
         "magentoese/module-product-sample-data-update": "dev-master",
-        "magentoese/module-product-image-switcher": "dev-master",
+        //broken in 2.3
+        //"magentoese/module-product-image-switcher": "dev-master",
         "magentoese/module-productbadge": "dev-master",
         "magentoese/module-productbadge-sample-data": "2.3.x-dev",
         "magentoese/module-sales-sample-data": "dev-master",
