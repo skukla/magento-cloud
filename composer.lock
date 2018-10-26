@@ -14574,7 +14574,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-msi-inventory-sample-data-b2b.git",
-                "reference": "cd8f407a75b4f1e2ae236e03278ae213a0836dc5"
+                "reference": "8b49f27a72270c73b0ffb2eeef3326dd3ee2dd5e"
             },
             "require": {
                 "magento/framework": "*",
@@ -14596,7 +14596,7 @@
                 "AFL-3.0"
             ],
             "description": "N/A",
-            "time": "2018-10-26T18:17:30+00:00"
+            "time": "2018-10-26T19:12:36+00:00"
         },
         {
             "name": "magentoese/module-my-account-widget",
