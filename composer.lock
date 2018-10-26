@@ -14787,7 +14787,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-msi-inventory-sample-data-demo.git",
-                "reference": "72d5b1ad6c1315a303436109061a543e617970c3"
+                "reference": "a58905edabc69ca7cf3870360085c26b7a656bd6"
             },
             "require": {
                 "magento/framework": "*",
@@ -14809,7 +14809,7 @@
                 "AFL-3.0"
             ],
             "description": "N/A",
-            "time": "2018-10-26T13:37:55+00:00"
+            "time": "2018-10-26T14:29:26+00:00"
         },
         {
             "name": "magentoese/module-product-sample-data-update",
