@@ -4624,12 +4624,12 @@
         },
         {
             "name": "magento/module-bundle-sample-data",
-            "version": "100.3.0-beta23",
+            "version": "100.3.0-beta32",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-bundle-sample-data/magento-module-bundle-sample-data-100.3.0.0-beta23.zip",
+                "url": "https://repo.magento.com/archives/magento/module-bundle-sample-data/magento-module-bundle-sample-data-100.3.0.0-beta32.zip",
                 "reference": null,
-                "shasum": "dd170fd054cc5ab2a8cf28ce3b3fae1a069535e9"
+                "shasum": "1a9afe4814cfb23d4eab30c303017f2d38b00942"
             },
             "require": {
                 "magento/module-bundle": "100.3.*",
@@ -5196,12 +5196,12 @@
         },
         {
             "name": "magento/module-catalog-rule-sample-data",
-            "version": "100.3.0-beta23",
+            "version": "100.3.0-beta32",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-catalog-rule-sample-data/magento-module-catalog-rule-sample-data-100.3.0.0-beta23.zip",
+                "url": "https://repo.magento.com/archives/magento/module-catalog-rule-sample-data/magento-module-catalog-rule-sample-data-100.3.0.0-beta32.zip",
                 "reference": null,
-                "shasum": "884235e6f28cb1a7ce768f543b7a53904ba0f7b2"
+                "shasum": "febc0b7fe92d954c0caf138959cf63b08ab5fb48"
             },
             "require": {
                 "magento/module-catalog-rule": "101.1.*",
@@ -5260,12 +5260,12 @@
         },
         {
             "name": "magento/module-catalog-sample-data",
-            "version": "100.3.0-beta23",
+            "version": "100.3.0-beta32",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-catalog-sample-data/magento-module-catalog-sample-data-100.3.0.0-beta23.zip",
+                "url": "https://repo.magento.com/archives/magento/module-catalog-sample-data/magento-module-catalog-sample-data-100.3.0.0-beta32.zip",
                 "reference": null,
-                "shasum": "3e8e9bcfbb1e70b00a2eebd8186692078c78ed73"
+                "shasum": "080fd288e640682a4b46704611df1bff93868fb5"
             },
             "require": {
                 "magento/module-sample-data": "100.3.*",
@@ -5729,12 +5729,12 @@
         },
         {
             "name": "magento/module-cms-sample-data",
-            "version": "100.3.0-beta23",
+            "version": "100.3.0-beta32",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-cms-sample-data/magento-module-cms-sample-data-100.3.0.0-beta23.zip",
+                "url": "https://repo.magento.com/archives/magento/module-cms-sample-data/magento-module-cms-sample-data-100.3.0.0-beta32.zip",
                 "reference": null,
-                "shasum": "219f9c0aa638eca928b04f022f6e6d4fc5dac5f2"
+                "shasum": "a68f1999e958f0c119d74a1510885c66b8aa9971"
             },
             "require": {
                 "magento/module-cms": "103.0.*",
@@ -6072,12 +6072,12 @@
         },
         {
             "name": "magento/module-configurable-sample-data",
-            "version": "100.3.0-beta23",
+            "version": "100.3.0-beta32",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-configurable-sample-data/magento-module-configurable-sample-data-100.3.0.0-beta23.zip",
+                "url": "https://repo.magento.com/archives/magento/module-configurable-sample-data/magento-module-configurable-sample-data-100.3.0.0-beta32.zip",
                 "reference": null,
-                "shasum": "85bdb026c3bbcbbbe710012e02885f0135520cbc"
+                "shasum": "c21e0409c5d62d6047a72aea625cbcba797a4779"
             },
             "require": {
                 "magento/module-configurable-product": "100.3.*",
@@ -6380,12 +6380,12 @@
         },
         {
             "name": "magento/module-customer-balance-sample-data",
-            "version": "100.3.0-beta29",
+            "version": "100.3.0-beta33",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-customer-balance-sample-data/magento-module-customer-balance-sample-data-100.3.0.0-beta29.zip",
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-customer-balance-sample-data/magento-module-customer-balance-sample-data-100.3.0.0-beta33.zip",
                 "reference": null,
-                "shasum": "8f56680fbf97965a4fec7e3ab06c155075380c2d"
+                "shasum": "9a48ab412b5e87e9aff9fadb2921694eef37b3d6"
             },
             "require": {
                 "magento/module-customer-balance": "100.3.*",
@@ -6548,12 +6548,12 @@
         },
         {
             "name": "magento/module-customer-sample-data",
-            "version": "100.3.0-beta23",
+            "version": "100.3.0-beta32",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-customer-sample-data/magento-module-customer-sample-data-100.3.0.0-beta23.zip",
+                "url": "https://repo.magento.com/archives/magento/module-customer-sample-data/magento-module-customer-sample-data-100.3.0.0-beta32.zip",
                 "reference": null,
-                "shasum": "ddf8959775e09420bb70fa7335f9bda54a36a6bd"
+                "shasum": "82e566087f684b739a60bc73567fc569d435a824"
             },
             "require": {
                 "magento/module-sample-data": "100.3.*",
@@ -6906,12 +6906,12 @@
         },
         {
             "name": "magento/module-downloadable-sample-data",
-            "version": "100.3.0-beta23",
+            "version": "100.3.0-beta32",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-downloadable-sample-data/magento-module-downloadable-sample-data-100.3.0.0-beta23.zip",
+                "url": "https://repo.magento.com/archives/magento/module-downloadable-sample-data/magento-module-downloadable-sample-data-100.3.0.0-beta32.zip",
                 "reference": null,
-                "shasum": "c8eea9ade55e3198c1e0d61780e4e77308925183"
+                "shasum": "121353c14833e861e17005afa5603072d059231b"
             },
             "require": {
                 "magento/module-catalog-sample-data": "100.3.*",
@@ -7421,12 +7421,12 @@
         },
         {
             "name": "magento/module-gift-card-sample-data",
-            "version": "100.3.0-beta29",
+            "version": "100.3.0-beta33",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-gift-card-sample-data/magento-module-gift-card-sample-data-100.3.0.0-beta29.zip",
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-gift-card-sample-data/magento-module-gift-card-sample-data-100.3.0.0-beta33.zip",
                 "reference": null,
-                "shasum": "f2ed53997d7b9630384eee3f3a20dc82188d5e28"
+                "shasum": "747ca9104f1e8aafe45ee67bdd5b803e1a6d3421"
             },
             "require": {
                 "magento/module-catalog-sample-data": "100.3.*",
@@ -7603,12 +7603,12 @@
         },
         {
             "name": "magento/module-gift-registry-sample-data",
-            "version": "100.3.0-beta29",
+            "version": "100.3.0-beta33",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-gift-registry-sample-data/magento-module-gift-registry-sample-data-100.3.0.0-beta29.zip",
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-gift-registry-sample-data/magento-module-gift-registry-sample-data-100.3.0.0-beta33.zip",
                 "reference": null,
-                "shasum": "b4216e34fc9bde3074fd295705e2afdc12c3f4c2"
+                "shasum": "4950c81aba57ed4c984eeb605bed40425be26965"
             },
             "require": {
                 "magento/module-directory": "100.3.*",
@@ -8019,12 +8019,12 @@
         },
         {
             "name": "magento/module-grouped-product-sample-data",
-            "version": "100.3.0-beta23",
+            "version": "100.3.0-beta32",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-grouped-product-sample-data/magento-module-grouped-product-sample-data-100.3.0.0-beta23.zip",
+                "url": "https://repo.magento.com/archives/magento/module-grouped-product-sample-data/magento-module-grouped-product-sample-data-100.3.0.0-beta32.zip",
                 "reference": null,
-                "shasum": "0614aed88bf86c9e117bc72b3de121dba0395e2b"
+                "shasum": "a3f93a0d48941163c498c129bec650fa806212eb"
             },
             "require": {
                 "magento/module-catalog-sample-data": "100.3.*",
@@ -8217,12 +8217,12 @@
         },
         {
             "name": "magento/module-inventory",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory/magento-module-inventory-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory/magento-module-inventory-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "65784774e64e4112677605d30d63727f45b9ec4e"
+                "shasum": "996f3dc898b018af2e3846da32ac128fdc601d33"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8246,12 +8246,12 @@
         },
         {
             "name": "magento/module-inventory-admin-ui",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-admin-ui/magento-module-inventory-admin-ui-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-admin-ui/magento-module-inventory-admin-ui-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "07cdfd48b7b6dc4f810d183e18ff5dfcd415935a"
+                "shasum": "3988d6cc70e3bae2026a42ab2bc43c6a05a93779"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8278,12 +8278,12 @@
         },
         {
             "name": "magento/module-inventory-api",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-api/magento-module-inventory-api-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-api/magento-module-inventory-api-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "55b6ed7264079bcfce03372ef6422ddf3c1de9dd"
+                "shasum": "2e33953e752f641e95ffea5b18d2a6db485aeaa3"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8306,12 +8306,12 @@
         },
         {
             "name": "magento/module-inventory-bundle-product",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-bundle-product/magento-module-inventory-bundle-product-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-bundle-product/magento-module-inventory-bundle-product-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "080533c88bda05db1db8beb72b93175f365b9fb5"
+                "shasum": "a8144c2b39c4fd320fddae58e7cb80f9a6637bfc"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8338,12 +8338,12 @@
         },
         {
             "name": "magento/module-inventory-bundle-product-admin-ui",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-bundle-product-admin-ui/magento-module-inventory-bundle-product-admin-ui-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-bundle-product-admin-ui/magento-module-inventory-bundle-product-admin-ui-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "07134c4878b8bfcf3f02e4af1ce7cbfafc954ea6"
+                "shasum": "6b7e8e91ffbd106b7cf147832b85a10413a6329c"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8369,12 +8369,12 @@
         },
         {
             "name": "magento/module-inventory-cache",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-cache/magento-module-inventory-cache-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-cache/magento-module-inventory-cache-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "24b1272607e6a6e2a298a6828389c85f5f37b969"
+                "shasum": "16a9956386f760d25e404602c5b3a8da5089c810"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8402,12 +8402,12 @@
         },
         {
             "name": "magento/module-inventory-catalog",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-catalog/magento-module-inventory-catalog-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-catalog/magento-module-inventory-catalog-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "4defe24a032d13bd2410a460bb67a4f7970f6edc"
+                "shasum": "8e90a7da7df30c9baceba052cb322cd7ff17a4be"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8416,6 +8416,7 @@
                 "magento/module-inventory": "1.0.*",
                 "magento/module-inventory-api": "1.0.*",
                 "magento/module-inventory-catalog-api": "1.0.*",
+                "magento/module-inventory-configuration": "1.0.*",
                 "magento/module-inventory-configuration-api": "1.0.*",
                 "magento/module-inventory-indexer": "1.0.*",
                 "magento/module-inventory-sales-api": "1.0.*",
@@ -8442,12 +8443,12 @@
         },
         {
             "name": "magento/module-inventory-catalog-admin-ui",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-catalog-admin-ui/magento-module-inventory-catalog-admin-ui-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-catalog-admin-ui/magento-module-inventory-catalog-admin-ui-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "11b086facb33c591bad93629bbc04de701d26b06"
+                "shasum": "62fbe4408e70f96753d3fca35dc3a2f06de9b10f"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8482,12 +8483,12 @@
         },
         {
             "name": "magento/module-inventory-catalog-api",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-catalog-api/magento-module-inventory-catalog-api-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-catalog-api/magento-module-inventory-catalog-api-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "4584276bf09cd794c109ae8edcf63682c508d1bd"
+                "shasum": "7187f0a61eb68d2a03cc504a2dca2d33f49a4bb8"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8510,12 +8511,12 @@
         },
         {
             "name": "magento/module-inventory-catalog-search",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-catalog-search/magento-module-inventory-catalog-search-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-catalog-search/magento-module-inventory-catalog-search-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "b38d0595ef65c7db1001b361fa8aff554745cb7d"
+                "shasum": "fd7f51154f6b847b0e05ae3853e98417eaa45a87"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8544,12 +8545,12 @@
         },
         {
             "name": "magento/module-inventory-configurable-product",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-configurable-product/magento-module-inventory-configurable-product-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-configurable-product/magento-module-inventory-configurable-product-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "7a61b3a6b366d9612a7bbe8fc0fd9d9bb433c11f"
+                "shasum": "83dc21ef03dd45850fac027ae4bb82b2bca7804b"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8580,12 +8581,12 @@
         },
         {
             "name": "magento/module-inventory-configurable-product-admin-ui",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-configurable-product-admin-ui/magento-module-inventory-configurable-product-admin-ui-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-configurable-product-admin-ui/magento-module-inventory-configurable-product-admin-ui-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "318e9c212833785aac6b3c778a993be37dbd06d9"
+                "shasum": "5401ab76d5a35ab0a49352f10d3ed4bea68d2ec0"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8614,12 +8615,12 @@
         },
         {
             "name": "magento/module-inventory-configurable-product-indexer",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-configurable-product-indexer/magento-module-inventory-configurable-product-indexer-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-configurable-product-indexer/magento-module-inventory-configurable-product-indexer-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "f83d86f8071e6d7075a9fddfae931f93b26d0a4e"
+                "shasum": "d03f3187da789cc563925462ce7442818be4b55b"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8650,12 +8651,12 @@
         },
         {
             "name": "magento/module-inventory-configuration",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-configuration/magento-module-inventory-configuration-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-configuration/magento-module-inventory-configuration-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "0a7a65efd4e895159695a27cd901c3e3be1e2bc3"
+                "shasum": "9a797ddc9ce0a348663f3d408d8b953c7a205c2b"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8683,12 +8684,12 @@
         },
         {
             "name": "magento/module-inventory-configuration-api",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-configuration-api/magento-module-inventory-configuration-api-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-configuration-api/magento-module-inventory-configuration-api-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "c78ca12e27eec2c8eda92df96cb76759101a9bed"
+                "shasum": "9868a3451dc30586cdaf514f703084395920755b"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8711,12 +8712,12 @@
         },
         {
             "name": "magento/module-inventory-grouped-product",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-grouped-product/magento-module-inventory-grouped-product-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-grouped-product/magento-module-inventory-grouped-product-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "546015baf58b437c0ff785540ff0d33d9d78941c"
+                "shasum": "dc566b74e8fd1ed6c114a9308f1a914a7de86c93"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8743,12 +8744,12 @@
         },
         {
             "name": "magento/module-inventory-grouped-product-admin-ui",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-grouped-product-admin-ui/magento-module-inventory-grouped-product-admin-ui-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-grouped-product-admin-ui/magento-module-inventory-grouped-product-admin-ui-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "78ad7d1c83861e4d99ed5869aa54fdecb15e2259"
+                "shasum": "232201767499d8b499678d2c70aea8e67fc7a4ff"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8780,12 +8781,12 @@
         },
         {
             "name": "magento/module-inventory-grouped-product-indexer",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-grouped-product-indexer/magento-module-inventory-grouped-product-indexer-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-grouped-product-indexer/magento-module-inventory-grouped-product-indexer-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "44f8bd35a7a41e6637911544419b5bffde7d5949"
+                "shasum": "2d58e5a4aa450a54cad89ceaa892abed07a97386"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8817,12 +8818,12 @@
         },
         {
             "name": "magento/module-inventory-import-export",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-import-export/magento-module-inventory-import-export-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-import-export/magento-module-inventory-import-export-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "3750fb6984f2149065990ac80eb516bd0d4f18ce"
+                "shasum": "143b9f70f6ee7f490a4a8bb23b29d33571e49cc5"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8854,12 +8855,12 @@
         },
         {
             "name": "magento/module-inventory-indexer",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-indexer/magento-module-inventory-indexer-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-indexer/magento-module-inventory-indexer-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "5cc9fd47a434ae45b9b10e2f5c58ff22db5e2a06"
+                "shasum": "cae8825bc18af3066650dd5d07852831c6351b75"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8891,12 +8892,12 @@
         },
         {
             "name": "magento/module-inventory-low-quantity-notification",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-low-quantity-notification/magento-module-inventory-low-quantity-notification-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-low-quantity-notification/magento-module-inventory-low-quantity-notification-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "b8828eeba224e3525dd971969afdf99e788b79ac"
+                "shasum": "98d868bd9e4b0ca4383c8e0cf188254ad81baefb"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8928,18 +8929,19 @@
         },
         {
             "name": "magento/module-inventory-low-quantity-notification-admin-ui",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-low-quantity-notification-admin-ui/magento-module-inventory-low-quantity-notification-admin-ui-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-low-quantity-notification-admin-ui/magento-module-inventory-low-quantity-notification-admin-ui-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "0660387a86a461afc34574614be1a6da244e80c6"
+                "shasum": "c1f2f730f531704dfc4247ceb4aa6d0b6819b71b"
             },
             "require": {
                 "magento/framework": "102.0.*",
                 "magento/module-backend": "101.0.*",
                 "magento/module-catalog": "103.0.*",
                 "magento/module-inventory-api": "1.0.*",
+                "magento/module-inventory-catalog-api": "1.0.*",
                 "magento/module-inventory-configuration-api": "1.0.*",
                 "magento/module-inventory-low-quantity-notification": "1.0.*",
                 "magento/module-inventory-low-quantity-notification-api": "1.0.*",
@@ -8964,12 +8966,12 @@
         },
         {
             "name": "magento/module-inventory-low-quantity-notification-api",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-low-quantity-notification-api/magento-module-inventory-low-quantity-notification-api-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-low-quantity-notification-api/magento-module-inventory-low-quantity-notification-api-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "f46ffe027d9f034984fcc47de47ae4f007672197"
+                "shasum": "e93bdb44079bf44a1154da4ee3fa0862594a7bee"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8992,12 +8994,12 @@
         },
         {
             "name": "magento/module-inventory-multi-dimensional-indexer-api",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-multi-dimensional-indexer-api/magento-module-inventory-multi-dimensional-indexer-api-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-multi-dimensional-indexer-api/magento-module-inventory-multi-dimensional-indexer-api-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "c5db04c86c6bbc3ff1356a5c06d6c8c2f282ab11"
+                "shasum": "5b8984d34dfd020c338585f1336db1cb594a00a6"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -9020,12 +9022,12 @@
         },
         {
             "name": "magento/module-inventory-product-alert",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-product-alert/magento-module-inventory-product-alert-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-product-alert/magento-module-inventory-product-alert-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "807a416acd07552007a04c7147153161d7f6b75c"
+                "shasum": "f3ef71272ba65c9527e3bd1619d8d46309f9c23d"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -9057,12 +9059,12 @@
         },
         {
             "name": "magento/module-inventory-reservations",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-reservations/magento-module-inventory-reservations-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-reservations/magento-module-inventory-reservations-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "abf33a011367ff460eebe598af35f3ca6c69a323"
+                "shasum": "0a8811d5d48dae5e1036b9a1d02418e0fbc91eaa"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -9086,12 +9088,12 @@
         },
         {
             "name": "magento/module-inventory-reservations-api",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-reservations-api/magento-module-inventory-reservations-api-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-reservations-api/magento-module-inventory-reservations-api-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "ce0cacddc911fb2bda33a6868a2e54b5117913a0"
+                "shasum": "5866609d5523b4c090359432ccc48b5e3ffb8daa"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -9114,12 +9116,12 @@
         },
         {
             "name": "magento/module-inventory-sales",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-sales/magento-module-inventory-sales-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-sales/magento-module-inventory-sales-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "d5bbdbe0e0386b34f8e0c5b572361ddbd89977ef"
+                "shasum": "8cb5c6240269ae192e3e023a317a231eac32124f"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -9159,12 +9161,12 @@
         },
         {
             "name": "magento/module-inventory-sales-admin-ui",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-sales-admin-ui/magento-module-inventory-sales-admin-ui-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-sales-admin-ui/magento-module-inventory-sales-admin-ui-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "f484e2b8af3f581dc528e094cb59b8b0f8671729"
+                "shasum": "86494352fdea6091e46d2030aca8c0c90e78315c"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -9197,12 +9199,12 @@
         },
         {
             "name": "magento/module-inventory-sales-api",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-sales-api/magento-module-inventory-sales-api-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-sales-api/magento-module-inventory-sales-api-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "31e190bd8ac825a839713e8c1aaea7abd2d0da8b"
+                "shasum": "213a551378efbef720e986180747d6575fd7dd30"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -9227,12 +9229,12 @@
         },
         {
             "name": "magento/module-inventory-sales-frontend-ui",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-sales-frontend-ui/magento-module-inventory-sales-frontend-ui-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-sales-frontend-ui/magento-module-inventory-sales-frontend-ui-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "234f4a22d3ac4b2a163aca851afbeeae7d101c3d"
+                "shasum": "cbec585ce427b4a9726c94783eb3df69d3015daf"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -9258,12 +9260,12 @@
         },
         {
             "name": "magento/module-inventory-shipping",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-shipping/magento-module-inventory-shipping-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-shipping/magento-module-inventory-shipping-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "416c0234826540564060abf4f4a51167360ecdad"
+                "shasum": "b061ad1851618b2c518e94e31622b3e3ebf76261"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -9294,12 +9296,12 @@
         },
         {
             "name": "magento/module-inventory-shipping-admin-ui",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-shipping-admin-ui/magento-module-inventory-shipping-admin-ui-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-shipping-admin-ui/magento-module-inventory-shipping-admin-ui-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "ce8c84546243947aa59eefa82d9e6da0905c8131"
+                "shasum": "dbc806b1bcde38b3cf8211abc6746d4742568d14"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -9330,12 +9332,12 @@
         },
         {
             "name": "magento/module-inventory-source-deduction-api",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-source-deduction-api/magento-module-inventory-source-deduction-api-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-source-deduction-api/magento-module-inventory-source-deduction-api-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "f64f1b29dfdac9f4287725cbd3d0bb65f415187b"
+                "shasum": "d6644aa86f02d2b4a0d9d2f343f843e966cd93ef"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -9361,12 +9363,12 @@
         },
         {
             "name": "magento/module-inventory-source-selection",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-source-selection/magento-module-inventory-source-selection-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-source-selection/magento-module-inventory-source-selection-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "44e10637b92c4d86aa37614df124d5edf003ead9"
+                "shasum": "f413963207a718fcbd384f10534a5359712ea0fa"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -9391,12 +9393,12 @@
         },
         {
             "name": "magento/module-inventory-source-selection-api",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-source-selection-api/magento-module-inventory-source-selection-api-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-source-selection-api/magento-module-inventory-source-selection-api-1.0.0.0-beta4.zip",
                 "reference": null,
-                "shasum": "272662de6d0b747998f04f1fa2f8f0c9a5bf0a81"
+                "shasum": "cd342584a3a3d33ef9639f274718bbf50d50e00c"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -9742,12 +9744,12 @@
         },
         {
             "name": "magento/module-msrp-sample-data",
-            "version": "100.3.0-beta23",
+            "version": "100.3.0-beta32",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-msrp-sample-data/magento-module-msrp-sample-data-100.3.0.0-beta23.zip",
+                "url": "https://repo.magento.com/archives/magento/module-msrp-sample-data/magento-module-msrp-sample-data-100.3.0.0-beta32.zip",
                 "reference": null,
-                "shasum": "f5ec6420b121c415fe70c552429ba072a05fccfb"
+                "shasum": "5ce12b88307769909d16fd83a3fe33afa2b21666"
             },
             "require": {
                 "magento/module-msrp": "100.3.*",
@@ -9846,12 +9848,12 @@
         },
         {
             "name": "magento/module-multiple-wishlist-sample-data",
-            "version": "100.3.0-beta29",
+            "version": "100.3.0-beta33",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-multiple-wishlist-sample-data/magento-module-multiple-wishlist-sample-data-100.3.0.0-beta29.zip",
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-multiple-wishlist-sample-data/magento-module-multiple-wishlist-sample-data-100.3.0.0-beta33.zip",
                 "reference": null,
-                "shasum": "3c5c98ee43403872955e6c9c22d686acd9b9ccf8"
+                "shasum": "80a4ec7931af9441b82aacad7048ac7cc7ba8d25"
             },
             "require": {
                 "magento/module-multiple-wishlist": "100.3.*",
@@ -10088,12 +10090,12 @@
         },
         {
             "name": "magento/module-offline-shipping-sample-data",
-            "version": "100.3.0-beta23",
+            "version": "100.3.0-beta32",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-offline-shipping-sample-data/magento-module-offline-shipping-sample-data-100.3.0.0-beta23.zip",
+                "url": "https://repo.magento.com/archives/magento/module-offline-shipping-sample-data/magento-module-offline-shipping-sample-data-100.3.0.0-beta32.zip",
                 "reference": null,
-                "shasum": "4cc139f996d7c1c1cc5bdd854c86ba8470c2554a"
+                "shasum": "6d1417be80fd245ec0d70ce35cba419626f74ad2"
             },
             "require": {
                 "magento/module-directory": "100.3.*",
@@ -10484,12 +10486,12 @@
         },
         {
             "name": "magento/module-product-links-sample-data",
-            "version": "100.3.0-beta23",
+            "version": "100.3.0-beta32",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-product-links-sample-data/magento-module-product-links-sample-data-100.3.0.0-beta23.zip",
+                "url": "https://repo.magento.com/archives/magento/module-product-links-sample-data/magento-module-product-links-sample-data-100.3.0.0-beta32.zip",
                 "reference": null,
-                "shasum": "bfae19012df47547be34495bc153f172abd2acc9"
+                "shasum": "a48868299485cce4c9ed6c06c95fdb88f60f7c1a"
             },
             "require": {
                 "magento/module-catalog-sample-data": "100.3.*",
@@ -10967,12 +10969,12 @@
         },
         {
             "name": "magento/module-review-sample-data",
-            "version": "100.3.0-beta23",
+            "version": "100.3.0-beta32",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-review-sample-data/magento-module-review-sample-data-100.3.0.0-beta23.zip",
+                "url": "https://repo.magento.com/archives/magento/module-review-sample-data/magento-module-review-sample-data-100.3.0.0-beta32.zip",
                 "reference": null,
-                "shasum": "985ae17c694755608bd311ea1643a57f621d3204"
+                "shasum": "7e0e27373502178953e6a345ba18af5472528fac"
             },
             "require": {
                 "magento/module-review": "100.3.*",
@@ -11551,12 +11553,12 @@
         },
         {
             "name": "magento/module-sales-rule-sample-data",
-            "version": "100.3.0-beta23",
+            "version": "100.3.0-beta32",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-sales-rule-sample-data/magento-module-sales-rule-sample-data-100.3.0.0-beta23.zip",
+                "url": "https://repo.magento.com/archives/magento/module-sales-rule-sample-data/magento-module-sales-rule-sample-data-100.3.0.0-beta32.zip",
                 "reference": null,
-                "shasum": "0f50d2529dfb0185137dcd89a260c467fd29eb11"
+                "shasum": "7ccc055abdf8d31c78f531d46224266d68d13427"
             },
             "require": {
                 "magento/module-catalog-rule-sample-data": "100.3.*",
@@ -11616,12 +11618,12 @@
         },
         {
             "name": "magento/module-sales-sample-data",
-            "version": "100.3.0-beta23",
+            "version": "100.3.0-beta32",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-sales-sample-data/magento-module-sales-sample-data-100.3.0.0-beta23.zip",
+                "url": "https://repo.magento.com/archives/magento/module-sales-sample-data/magento-module-sales-sample-data-100.3.0.0-beta32.zip",
                 "reference": null,
-                "shasum": "52c725674cd68efd77b684ab73515dde5b0c887b"
+                "shasum": "5c2a70a852330448ac3a8116038e55f8940c47c2"
             },
             "require": {
                 "magento/module-configurable-sample-data": "100.3.*",
@@ -12436,12 +12438,12 @@
         },
         {
             "name": "magento/module-swatches-sample-data",
-            "version": "100.3.0-beta23",
+            "version": "100.3.0-beta32",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-swatches-sample-data/magento-module-swatches-sample-data-100.3.0.0-beta23.zip",
+                "url": "https://repo.magento.com/archives/magento/module-swatches-sample-data/magento-module-swatches-sample-data-100.3.0.0-beta32.zip",
                 "reference": null,
-                "shasum": "892c1bc224a045e7d63fe47784dd9dd502e90a34"
+                "shasum": "cbf5806d098bc0d5ea87a7afc5270cbae414bf22"
             },
             "require": {
                 "magento/module-eav": "102.0.*",
@@ -12508,12 +12510,12 @@
         },
         {
             "name": "magento/module-target-rule-sample-data",
-            "version": "100.3.0-beta29",
+            "version": "100.3.0-beta33",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-target-rule-sample-data/magento-module-target-rule-sample-data-100.3.0.0-beta29.zip",
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-target-rule-sample-data/magento-module-target-rule-sample-data-100.3.0.0-beta33.zip",
                 "reference": null,
-                "shasum": "7eec97438a61ee20fdd57d0b048cb84845b4406f"
+                "shasum": "67312e3b1a6efdca2d403912e52930954451f273"
             },
             "require": {
                 "magento/module-sample-data": "100.3.*",
@@ -12645,12 +12647,12 @@
         },
         {
             "name": "magento/module-tax-sample-data",
-            "version": "100.3.0-beta23",
+            "version": "100.3.0-beta32",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-tax-sample-data/magento-module-tax-sample-data-100.3.0.0-beta23.zip",
+                "url": "https://repo.magento.com/archives/magento/module-tax-sample-data/magento-module-tax-sample-data-100.3.0.0-beta32.zip",
                 "reference": null,
-                "shasum": "172c94d567f37c99c9399d01ac4220fc5803d1fa"
+                "shasum": "52596bead77856861eeb756afd276855ac6b2fcd"
             },
             "require": {
                 "magento/module-sample-data": "100.3.*",
@@ -12718,12 +12720,12 @@
         },
         {
             "name": "magento/module-theme-sample-data",
-            "version": "100.3.0-beta23",
+            "version": "100.3.0-beta32",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-theme-sample-data/magento-module-theme-sample-data-100.3.0.0-beta23.zip",
+                "url": "https://repo.magento.com/archives/magento/module-theme-sample-data/magento-module-theme-sample-data-100.3.0.0-beta32.zip",
                 "reference": null,
-                "shasum": "d1ebc4ad9ecaf08c1fbb3be4c0edf3e53e0899a2"
+                "shasum": "5e9a4cc422a4afc472086d95d69bf4edbc2d546c"
             },
             "require": {
                 "magento/module-sample-data": "100.3.*",
@@ -13496,12 +13498,12 @@
         },
         {
             "name": "magento/module-widget-sample-data",
-            "version": "100.3.0-beta23",
+            "version": "100.3.0-beta32",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-widget-sample-data/magento-module-widget-sample-data-100.3.0.0-beta23.zip",
+                "url": "https://repo.magento.com/archives/magento/module-widget-sample-data/magento-module-widget-sample-data-100.3.0.0-beta32.zip",
                 "reference": null,
-                "shasum": "a079bcfb502ed32d3c843f8164b57ab66197f960"
+                "shasum": "917a542f63d86c4ebcd5a31c110d57ebe8a170c9"
             },
             "require": {
                 "magento/module-cms": "103.0.*",
@@ -13601,12 +13603,12 @@
         },
         {
             "name": "magento/module-wishlist-sample-data",
-            "version": "100.3.0-beta23",
+            "version": "100.3.0-beta32",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-wishlist-sample-data/magento-module-wishlist-sample-data-100.3.0.0-beta23.zip",
+                "url": "https://repo.magento.com/archives/magento/module-wishlist-sample-data/magento-module-wishlist-sample-data-100.3.0.0-beta32.zip",
                 "reference": null,
-                "shasum": "ee4437f5cf7b13d8782cc404dabf02cbfe5fccfb"
+                "shasum": "0c4b0970a66acc2dc145ac665f0464a55d249aad"
             },
             "require": {
                 "magento/module-sample-data": "100.3.*",
@@ -14106,12 +14108,12 @@
         },
         {
             "name": "magento/sample-data-media",
-            "version": "100.3.0-beta23",
+            "version": "100.3.0-beta32",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/sample-data-media/magento-sample-data-media-100.3.0.0-beta23.zip",
+                "url": "https://repo.magento.com/archives/magento/sample-data-media/magento-sample-data-media-100.3.0.0-beta32.zip",
                 "reference": null,
-                "shasum": "e1828ddcd001be750fbc7ac07dea08c784ab4360"
+                "shasum": "ae189a4afd3b3ab86a0844a61c628439d80729cb"
             },
             "type": "magento2-component",
             "extra": {
@@ -14861,7 +14863,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-productbadge-sample-data.git",
-                "reference": "876dc79da971b7e6d84ec6d1276dad130c58f3eb"
+                "reference": "361b354d059fa285ce5f4f3161975c79d76b1fc8"
             },
             "require": {
                 "magento/framework": "*"
@@ -14875,7 +14877,7 @@
                     "MagentoEse\\ProductBadgeSampleData\\": ""
                 }
             },
-            "time": "2018-10-23T14:57:55+00:00"
+            "time": "2018-10-30T20:14:37+00:00"
         },
         {
             "name": "magentoese/module-sales-sample-data",
@@ -15264,16 +15266,16 @@
         },
         {
             "name": "myclabs/php-enum",
-            "version": "1.6.2",
+            "version": "1.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/php-enum.git",
-                "reference": "ca2f4090a7ecae6f0c67fc9bd07cfb51cdf04219"
+                "reference": "550d2334d77f91b0816a5cbd6965272fe20146b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/php-enum/zipball/ca2f4090a7ecae6f0c67fc9bd07cfb51cdf04219",
-                "reference": "ca2f4090a7ecae6f0c67fc9bd07cfb51cdf04219",
+                "url": "https://api.github.com/repos/myclabs/php-enum/zipball/550d2334d77f91b0816a5cbd6965272fe20146b8",
+                "reference": "550d2334d77f91b0816a5cbd6965272fe20146b8",
                 "shasum": ""
             },
             "require": {
@@ -15304,7 +15306,7 @@
             "keywords": [
                 "enum"
             ],
-            "time": "2018-08-01T21:05:54+00:00"
+            "time": "2018-10-30T14:36:18+00:00"
         },
         {
             "name": "nesbot/carbon",
