@@ -10,6 +10,7 @@
     "repositories": [
         {"type": "composer", "url": "https://repo.magento.com/"},
         {"type": "composer", "url": "https://connect20-qa04.magedevteam.com/"},
+        {"type": "composer", "url": "https://connect20-qa01.magedevteam.com/"},
         {"type": "git", "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"},
         {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
@@ -32,7 +33,7 @@
         "firegento/fastsimpleimport": "dev-updated",
         //"gene/bluefoot": "dev-develop-no-branding",
         //"magento/magento-cloud-metapackage": "2.2.6",
-        "magento/product-enterprise-edition": "2.3.0-beta23",
+        "magento/product-enterprise-edition": "2.3.0-beta34",
         "magento/module-bundle-sample-data": "100.3.*",
         "magento/module-widget-sample-data": "100.3.*",
         "magento/module-catalog-sample-data": "100.3.*",
