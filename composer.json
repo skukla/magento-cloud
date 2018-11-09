@@ -111,7 +111,7 @@
         
         
         "magemojo/m2-ce-cron": "^1.2",
-        "magento/product-enterprise-edition": "2.3.0-beta34",
+        "magento/product-enterprise-edition": "2.3.0-beta32",
         
         "magento/module-bundle-sample-data": "100.3.*",
         "magento/module-widget-sample-data": "100.3.*",
@@ -168,8 +168,7 @@
         "magentoese/module-msi-inventory-sample-data-demo": "dev-master",
         
         "magentoese/module-product-sample-data-update": "dev-master",
-        
-        
+        "magentoese/module-product-image-switcher": "2.3.x-dev",
         "magentoese/module-productbadge": "dev-master",
         "magentoese/module-productbadge-sample-data": "2.3.x-dev",
         "magentoese/module-sales-sample-data": "dev-master",
@@ -178,7 +177,7 @@
         "magentoese/module-themecustomizer": "dev-master",
         "magentoese/module-venia-setup": "dev-master",
         "magentoese/module-venia-catalog-sample-data": "dev-master",
-        
+        "magentoese/module-venia-cms-sample-data": "2.3.x-dev",
         "magentoese/module-venia-media-sample-data": "dev-master",
         "magentoese/module-venia-video-sample-data": "dev-master",
         "magentoese/module-vimeo": "2.2.x-dev",
@@ -193,6 +192,7 @@
         
         
         
+
 
     },
     "config": {

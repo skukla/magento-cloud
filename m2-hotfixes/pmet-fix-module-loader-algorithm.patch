@@ -1,5 +1,5 @@
 diff --git a/vendor/magento/framework/Module/ModuleList/Loader.php b/vendor/magento/framework/Module/ModuleList/Loader.php
-index d2a9e95..e50e52e 100644
+index bdfb7776..9a3f5d9e 100644
 --- a/vendor/magento/framework/Module/ModuleList/Loader.php
 +++ b/vendor/magento/framework/Module/ModuleList/Loader.php
 @@ -132,10 +132,12 @@ class Loader
@@ -16,7 +16,7 @@ index d2a9e95..e50e52e 100644
              ];
          }
  
-@@ -184,4 +186,60 @@ class Loader
+@@ -184,4 +186,62 @@ class Loader
          }
          return $result;
      }
