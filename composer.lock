@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c39f75292498238dfbb26163dac7af11",
+    "content-hash": "6ddfc6dcf282b4229bb61db989df9034",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -342,24 +342,25 @@
         },
         {
             "name": "christian-riesen/base32",
-            "version": "1.3.1",
+            "version": "1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ChristianRiesen/base32.git",
-                "reference": "0a31e50c0fa9b1692d077c86ac188eecdcbaf7fa"
+                "reference": "80ff0e3b2124e61b4b39e2535709452f70bff367"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ChristianRiesen/base32/zipball/0a31e50c0fa9b1692d077c86ac188eecdcbaf7fa",
-                "reference": "0a31e50c0fa9b1692d077c86ac188eecdcbaf7fa",
+                "url": "https://api.github.com/repos/ChristianRiesen/base32/zipball/80ff0e3b2124e61b4b39e2535709452f70bff367",
+                "reference": "80ff0e3b2124e61b4b39e2535709452f70bff367",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=5.3"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.*",
-                "satooshi/php-coveralls": "0.*"
+                "php": ">=5.6",
+                "phpunit/phpunit": "^5.0",
+                "satooshi/php-coveralls": "^1.0"
             },
             "type": "library",
             "extra": {
@@ -392,7 +393,7 @@
                 "encode",
                 "rfc4648"
             ],
-            "time": "2016-05-05T11:49:03+00:00"
+            "time": "2018-11-02T09:03:50+00:00"
         },
         {
             "name": "colinmollenhour/cache-backend-file",
@@ -598,16 +599,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "1.7.2",
+            "version": "1.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "576aab9b5abb2ed11a1c52353a759363216a4ad2"
+                "reference": "e965b9aaa8854c3067f1ed2ae45f436572d73eb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/576aab9b5abb2ed11a1c52353a759363216a4ad2",
-                "reference": "576aab9b5abb2ed11a1c52353a759363216a4ad2",
+                "url": "https://api.github.com/repos/composer/composer/zipball/e965b9aaa8854c3067f1ed2ae45f436572d73eb7",
+                "reference": "e965b9aaa8854c3067f1ed2ae45f436572d73eb7",
                 "shasum": ""
             },
             "require": {
@@ -674,7 +675,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2018-08-16T14:57:12+00:00"
+            "time": "2018-11-01T09:05:06+00:00"
         },
         {
             "name": "composer/semver",
@@ -740,16 +741,16 @@
         },
         {
             "name": "composer/spdx-licenses",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/spdx-licenses.git",
-                "reference": "cb17687e9f936acd7e7245ad3890f953770dec1b"
+                "reference": "7a9556b22bd9d4df7cad89876b00af58ef20d3a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/cb17687e9f936acd7e7245ad3890f953770dec1b",
-                "reference": "cb17687e9f936acd7e7245ad3890f953770dec1b",
+                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/7a9556b22bd9d4df7cad89876b00af58ef20d3a2",
+                "reference": "7a9556b22bd9d4df7cad89876b00af58ef20d3a2",
                 "shasum": ""
             },
             "require": {
@@ -797,7 +798,7 @@
                 "spdx",
                 "validator"
             ],
-            "time": "2018-04-30T10:33:04+00:00"
+            "time": "2018-11-01T09:45:54+00:00"
         },
         {
             "name": "composer/xdebug-handler",
@@ -2431,12 +2432,12 @@
         },
         {
             "name": "magento/inventory-composer-installer",
-            "version": "1.0.0-beta",
+            "version": "1.0.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/inventory-composer-installer/magento-inventory-composer-installer-1.0.0.0-beta.zip",
+                "url": "https://repo.magento.com/archives/magento/inventory-composer-installer/magento-inventory-composer-installer-1.0.0.0.zip",
                 "reference": null,
-                "shasum": "7cfebe2f2e52be9270a08dffd5d6f66070402e19"
+                "shasum": "2bab41faa4de945948d112c57fed3e02d4cfeb99"
             },
             "require": {
                 "composer-plugin-api": "^1.1",
@@ -2462,51 +2463,51 @@
         },
         {
             "name": "magento/inventory-composer-metapackage",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/inventory-composer-metapackage/magento-inventory-composer-metapackage-1.0.0.0-beta3.zip",
+                "url": "https://repo.magento.com/archives/magento/inventory-composer-metapackage/magento-inventory-composer-metapackage-1.0.0.0.zip",
                 "reference": null,
-                "shasum": "905f8c8ea09e7a03262882310e10621103d2b91b"
+                "shasum": "aae085d2d5242ffb1d625a4f95301a27422852e7"
             },
             "require": {
-                "magento/inventory-composer-installer": "~1.0.0",
-                "magento/module-inventory": "~1.0.0",
-                "magento/module-inventory-admin-ui": "~1.0.0",
-                "magento/module-inventory-api": "~1.0.0",
-                "magento/module-inventory-bundle-product": "~1.0.0",
-                "magento/module-inventory-bundle-product-admin-ui": "~1.0.0",
-                "magento/module-inventory-cache": "~1.0.0",
-                "magento/module-inventory-catalog": "~1.0.0",
-                "magento/module-inventory-catalog-admin-ui": "~1.0.0",
-                "magento/module-inventory-catalog-api": "~1.0.0",
-                "magento/module-inventory-catalog-search": "~1.0.0",
-                "magento/module-inventory-configurable-product": "~1.0.0",
-                "magento/module-inventory-configurable-product-admin-ui": "~1.0.0",
-                "magento/module-inventory-configurable-product-indexer": "~1.0.0",
-                "magento/module-inventory-configuration": "~1.0.0",
-                "magento/module-inventory-configuration-api": "~1.0.0",
-                "magento/module-inventory-grouped-product": "~1.0.0",
-                "magento/module-inventory-grouped-product-admin-ui": "~1.0.0",
-                "magento/module-inventory-grouped-product-indexer": "~1.0.0",
-                "magento/module-inventory-import-export": "~1.0.0",
-                "magento/module-inventory-indexer": "~1.0.0",
-                "magento/module-inventory-low-quantity-notification": "~1.0.0",
-                "magento/module-inventory-low-quantity-notification-admin-ui": "~1.0.0",
-                "magento/module-inventory-low-quantity-notification-api": "~1.0.0",
-                "magento/module-inventory-multi-dimensional-indexer-api": "~1.0.0",
-                "magento/module-inventory-product-alert": "~1.0.0",
-                "magento/module-inventory-reservations": "~1.0.0",
-                "magento/module-inventory-reservations-api": "~1.0.0",
-                "magento/module-inventory-sales": "~1.0.0",
-                "magento/module-inventory-sales-admin-ui": "~1.0.0",
-                "magento/module-inventory-sales-api": "~1.0.0",
-                "magento/module-inventory-sales-frontend-ui": "~1.0.0",
-                "magento/module-inventory-shipping": "~1.0.0",
-                "magento/module-inventory-shipping-admin-ui": "~1.0.0",
-                "magento/module-inventory-source-deduction-api": "~1.0.0",
-                "magento/module-inventory-source-selection": "~1.0.0",
-                "magento/module-inventory-source-selection-api": "~1.0.0"
+                "magento/inventory-composer-installer": "^1.0.0",
+                "magento/module-inventory": "^1.0.0",
+                "magento/module-inventory-admin-ui": "^1.0.0",
+                "magento/module-inventory-api": "^1.0.0",
+                "magento/module-inventory-bundle-product": "^1.0.0",
+                "magento/module-inventory-bundle-product-admin-ui": "^1.0.0",
+                "magento/module-inventory-cache": "^1.0.0",
+                "magento/module-inventory-catalog": "^1.0.0",
+                "magento/module-inventory-catalog-admin-ui": "^1.0.0",
+                "magento/module-inventory-catalog-api": "^1.0.0",
+                "magento/module-inventory-catalog-search": "^1.0.0",
+                "magento/module-inventory-configurable-product": "^1.0.0",
+                "magento/module-inventory-configurable-product-admin-ui": "^1.0.0",
+                "magento/module-inventory-configurable-product-indexer": "^1.0.0",
+                "magento/module-inventory-configuration": "^1.0.0",
+                "magento/module-inventory-configuration-api": "^1.0.0",
+                "magento/module-inventory-grouped-product": "^1.0.0",
+                "magento/module-inventory-grouped-product-admin-ui": "^1.0.0",
+                "magento/module-inventory-grouped-product-indexer": "^1.0.0",
+                "magento/module-inventory-import-export": "^1.0.0",
+                "magento/module-inventory-indexer": "^1.0.0",
+                "magento/module-inventory-low-quantity-notification": "^1.0.0",
+                "magento/module-inventory-low-quantity-notification-admin-ui": "^1.0.0",
+                "magento/module-inventory-low-quantity-notification-api": "^1.0.0",
+                "magento/module-inventory-multi-dimensional-indexer-api": "^1.0.0",
+                "magento/module-inventory-product-alert": "^1.0.0",
+                "magento/module-inventory-reservations": "^1.0.0",
+                "magento/module-inventory-reservations-api": "^1.0.0",
+                "magento/module-inventory-sales": "^1.0.0",
+                "magento/module-inventory-sales-admin-ui": "^1.0.0",
+                "magento/module-inventory-sales-api": "^1.0.0",
+                "magento/module-inventory-sales-frontend-ui": "^1.0.0",
+                "magento/module-inventory-shipping": "^1.0.0",
+                "magento/module-inventory-shipping-admin-ui": "^1.0.0",
+                "magento/module-inventory-source-deduction-api": "^1.0.0",
+                "magento/module-inventory-source-selection": "^1.0.0",
+                "magento/module-inventory-source-selection-api": "^1.0.0"
             },
             "type": "metapackage",
             "description": "Metapackage with Magento Inventory modules for simple installation"
@@ -4176,12 +4177,12 @@
         },
         {
             "name": "magento/module-banner-page-builder",
-            "version": "100.0.0-beta101801",
+            "version": "100.0.0-beta110701",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa04.magedevteam.com/archives/magento/module-banner-page-builder/magento-module-banner-page-builder-100.0.0.0-beta101801.zip",
+                "url": "https://connect20-qa04.magedevteam.com/archives/magento/module-banner-page-builder/magento-module-banner-page-builder-100.0.0.0-beta110701.zip",
                 "reference": null,
-                "shasum": "e34b6eb19d52755b853ab696f99ac50411f73985"
+                "shasum": "a99856342fe2193f5261a220dff0832e068f0559"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -5164,12 +5165,12 @@
         },
         {
             "name": "magento/module-catalog-staging-page-builder",
-            "version": "100.0.0-beta101801",
+            "version": "100.0.0-beta110701",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa04.magedevteam.com/archives/magento/module-catalog-staging-page-builder/magento-module-catalog-staging-page-builder-100.0.0.0-beta101801.zip",
+                "url": "https://connect20-qa04.magedevteam.com/archives/magento/module-catalog-staging-page-builder/magento-module-catalog-staging-page-builder-100.0.0.0-beta110701.zip",
                 "reference": null,
-                "shasum": "d6a50a29494993f0c4f9add66f62c756703b0ada"
+                "shasum": "bf48cc51bd651f3ed80adff148ae37a098a39280"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -8183,1208 +8184,6 @@
             "description": "N/A"
         },
         {
-            "name": "magento/module-inventory",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory/magento-module-inventory-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "65784774e64e4112677605d30d63727f45b9ec4e"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-inventory-api": "1.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\Inventory\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-admin-ui",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-admin-ui/magento-module-inventory-admin-ui-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "07cdfd48b7b6dc4f810d183e18ff5dfcd415935a"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-backend": "101.0.*",
-                "magento/module-directory": "100.3.*",
-                "magento/module-inventory-api": "1.0.*",
-                "magento/module-ui": "101.1.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryAdminUi\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-api",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-api/magento-module-inventory-api-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "55b6ed7264079bcfce03372ef6422ddf3c1de9dd"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryApi\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-bundle-product",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-bundle-product/magento-module-inventory-bundle-product-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "080533c88bda05db1db8beb72b93175f365b9fb5"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-bundle": "100.3.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "suggest": {
-                "magento/module-inventory-configuration-api": "1.0.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryBundleProduct\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-bundle-product-admin-ui",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-bundle-product-admin-ui/magento-module-inventory-bundle-product-admin-ui-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "07134c4878b8bfcf3f02e4af1ce7cbfafc954ea6"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "suggest": {
-                "magento/module-inventory-configuration-api": "1.0.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryBundleProductAdminUi\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-cache",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-cache/magento-module-inventory-cache-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "24b1272607e6a6e2a298a6828389c85f5f37b969"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-inventory-catalog-api": "1.0.*",
-                "magento/module-inventory-indexer": "1.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "suggest": {
-                "magento/module-catalog": "103.0.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryCache\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-catalog",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-catalog/magento-module-inventory-catalog-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "4defe24a032d13bd2410a460bb67a4f7970f6edc"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-catalog": "103.0.*",
-                "magento/module-catalog-inventory": "100.3.*",
-                "magento/module-inventory": "1.0.*",
-                "magento/module-inventory-api": "1.0.*",
-                "magento/module-inventory-catalog-api": "1.0.*",
-                "magento/module-inventory-configuration-api": "1.0.*",
-                "magento/module-inventory-indexer": "1.0.*",
-                "magento/module-inventory-sales-api": "1.0.*",
-                "magento/module-store": "101.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "suggest": {
-                "magento/module-inventory-reservations-api": "1.0.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryCatalog\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-catalog-admin-ui",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-catalog-admin-ui/magento-module-inventory-catalog-admin-ui-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "11b086facb33c591bad93629bbc04de701d26b06"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-asynchronous-operations": "100.3.*",
-                "magento/module-backend": "101.0.*",
-                "magento/module-catalog": "103.0.*",
-                "magento/module-catalog-inventory": "100.3.*",
-                "magento/module-inventory-api": "1.0.*",
-                "magento/module-inventory-catalog-api": "1.0.*",
-                "magento/module-inventory-configuration-api": "1.0.*",
-                "magento/module-inventory-indexer": "1.0.*",
-                "magento/module-ui": "101.1.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "suggest": {
-                "magento/module-inventory-admin-ui": "1.0.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryCatalogAdminUi\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-catalog-api",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-catalog-api/magento-module-inventory-catalog-api-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "4584276bf09cd794c109ae8edcf63682c508d1bd"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryCatalogApi\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-catalog-search",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-catalog-search/magento-module-inventory-catalog-search-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "b38d0595ef65c7db1001b361fa8aff554745cb7d"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-inventory-indexer": "1.0.*",
-                "magento/module-inventory-sales-api": "1.0.*",
-                "magento/module-store": "101.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "suggest": {
-                "magento/module-catalog-search": "101.0.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryCatalogSearch\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-configurable-product",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-configurable-product/magento-module-inventory-configurable-product-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "7a61b3a6b366d9612a7bbe8fc0fd9d9bb433c11f"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-catalog": "103.0.*",
-                "magento/module-catalog-inventory": "100.3.*",
-                "magento/module-inventory-indexer": "1.0.*",
-                "magento/module-inventory-sales-api": "1.0.*",
-                "magento/module-store": "101.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "suggest": {
-                "magento/module-configurable-product": "100.3.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryConfigurableProduct\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-configurable-product-admin-ui",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-configurable-product-admin-ui/magento-module-inventory-configurable-product-admin-ui-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "318e9c212833785aac6b3c778a993be37dbd06d9"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-catalog": "103.0.*",
-                "magento/module-configurable-product": "100.3.*",
-                "magento/module-inventory-api": "1.0.*",
-                "magento/module-inventory-catalog-admin-ui": "1.0.*",
-                "magento/module-inventory-catalog-api": "1.0.*",
-                "magento/module-ui": "101.1.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryConfigurableProductAdminUi\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-configurable-product-indexer",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-configurable-product-indexer/magento-module-inventory-configurable-product-indexer-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "f83d86f8071e6d7075a9fddfae931f93b26d0a4e"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-catalog": "103.0.*",
-                "magento/module-inventory-api": "1.0.*",
-                "magento/module-inventory-catalog-api": "1.0.*",
-                "magento/module-inventory-indexer": "1.0.*",
-                "magento/module-inventory-multi-dimensional-indexer-api": "1.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "suggest": {
-                "magento/module-inventory": "1.0.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryConfigurableProductIndexer\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-configuration",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-configuration/magento-module-inventory-configuration-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "0a7a65efd4e895159695a27cd901c3e3be1e2bc3"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-catalog-inventory": "100.3.*",
-                "magento/module-inventory-api": "1.0.*",
-                "magento/module-inventory-catalog-api": "1.0.*",
-                "magento/module-inventory-configuration-api": "1.0.*",
-                "magento/module-store": "101.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryConfiguration\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-configuration-api",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-configuration-api/magento-module-inventory-configuration-api-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "c78ca12e27eec2c8eda92df96cb76759101a9bed"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryConfigurationApi\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-grouped-product",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-grouped-product/magento-module-inventory-grouped-product-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "546015baf58b437c0ff785540ff0d33d9d78941c"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-grouped-product": "100.3.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "suggest": {
-                "magento/module-inventory-configuration-api": "1.0.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryGroupedProduct\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-grouped-product-admin-ui",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-grouped-product-admin-ui/magento-module-inventory-grouped-product-admin-ui-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "78ad7d1c83861e4d99ed5869aa54fdecb15e2259"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-catalog": "103.0.*",
-                "magento/module-grouped-product": "100.3.*",
-                "magento/module-inventory-api": "1.0.*",
-                "magento/module-inventory-catalog-admin-ui": "1.0.*",
-                "magento/module-inventory-catalog-api": "1.0.*",
-                "magento/module-ui": "101.1.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "suggest": {
-                "magento/module-inventory-configuration-api": "1.0.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryGroupedProductAdminUi\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-grouped-product-indexer",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-grouped-product-indexer/magento-module-inventory-grouped-product-indexer-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "44f8bd35a7a41e6637911544419b5bffde7d5949"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-catalog": "103.0.*",
-                "magento/module-grouped-product": "100.3.*",
-                "magento/module-inventory-api": "1.0.*",
-                "magento/module-inventory-catalog-api": "1.0.*",
-                "magento/module-inventory-indexer": "1.0.*",
-                "magento/module-inventory-multi-dimensional-indexer-api": "1.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "suggest": {
-                "magento/module-inventory": "1.0.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryGroupedProductIndexer\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-import-export",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-import-export/magento-module-inventory-import-export-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "3750fb6984f2149065990ac80eb516bd0d4f18ce"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-eav": "102.0.*",
-                "magento/module-import-export": "100.3.*",
-                "magento/module-inventory": "1.0.*",
-                "magento/module-inventory-api": "1.0.*",
-                "magento/module-inventory-catalog-api": "1.0.*",
-                "magento/module-store": "101.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "suggest": {
-                "magento/module-catalog-import-export": "101.0.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryImportExport\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-indexer",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-indexer/magento-module-inventory-indexer-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "5cc9fd47a434ae45b9b10e2f5c58ff22db5e2a06"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-inventory": "1.0.*",
-                "magento/module-inventory-api": "1.0.*",
-                "magento/module-inventory-catalog-api": "1.0.*",
-                "magento/module-inventory-multi-dimensional-indexer-api": "1.0.*",
-                "magento/module-inventory-sales": "1.0.*",
-                "magento/module-inventory-sales-api": "1.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "suggest": {
-                "magento/module-catalog": "103.0.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryIndexer\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-low-quantity-notification",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-low-quantity-notification/magento-module-inventory-low-quantity-notification-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "b8828eeba224e3525dd971969afdf99e788b79ac"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-catalog": "103.0.*",
-                "magento/module-catalog-inventory": "100.3.*",
-                "magento/module-eav": "102.0.*",
-                "magento/module-inventory": "1.0.*",
-                "magento/module-inventory-api": "1.0.*",
-                "magento/module-inventory-catalog-api": "1.0.*",
-                "magento/module-inventory-configuration-api": "1.0.*",
-                "magento/module-inventory-low-quantity-notification-api": "1.0.*",
-                "magento/module-store": "101.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryLowQuantityNotification\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-low-quantity-notification-admin-ui",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-low-quantity-notification-admin-ui/magento-module-inventory-low-quantity-notification-admin-ui-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "0660387a86a461afc34574614be1a6da244e80c6"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-backend": "101.0.*",
-                "magento/module-catalog": "103.0.*",
-                "magento/module-inventory-api": "1.0.*",
-                "magento/module-inventory-configuration-api": "1.0.*",
-                "magento/module-inventory-low-quantity-notification": "1.0.*",
-                "magento/module-inventory-low-quantity-notification-api": "1.0.*",
-                "magento/module-reports": "100.3.*",
-                "magento/module-ui": "101.1.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryLowQuantityNotificationAdminUi\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-low-quantity-notification-api",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-low-quantity-notification-api/magento-module-inventory-low-quantity-notification-api-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "f46ffe027d9f034984fcc47de47ae4f007672197"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryLowQuantityNotificationApi\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-multi-dimensional-indexer-api",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-multi-dimensional-indexer-api/magento-module-inventory-multi-dimensional-indexer-api-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "c5db04c86c6bbc3ff1356a5c06d6c8c2f282ab11"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryMultiDimensionalIndexerApi\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-product-alert",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-product-alert/magento-module-inventory-product-alert-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "807a416acd07552007a04c7147153161d7f6b75c"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-backend": "101.0.*",
-                "magento/module-catalog": "103.0.*",
-                "magento/module-inventory-api": "1.0.*",
-                "magento/module-inventory-sales-api": "1.0.*",
-                "magento/module-product-alert": "100.3.*",
-                "magento/module-store": "101.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "suggest": {
-                "magento/module-product-alert": "100.3.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryProductAlert\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-reservations",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-reservations/magento-module-inventory-reservations-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "abf33a011367ff460eebe598af35f3ca6c69a323"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-inventory-reservations-api": "1.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryReservations\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-reservations-api",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-reservations-api/magento-module-inventory-reservations-api-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "ce0cacddc911fb2bda33a6868a2e54b5117913a0"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryReservationsApi\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-sales",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-sales/magento-module-inventory-sales-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "d5bbdbe0e0386b34f8e0c5b572361ddbd89977ef"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-catalog": "103.0.*",
-                "magento/module-catalog-inventory": "100.3.*",
-                "magento/module-inventory-api": "1.0.*",
-                "magento/module-inventory-catalog-api": "1.0.*",
-                "magento/module-inventory-configuration-api": "1.0.*",
-                "magento/module-inventory-reservations-api": "1.0.*",
-                "magento/module-inventory-sales-api": "1.0.*",
-                "magento/module-inventory-source-deduction-api": "1.0.*",
-                "magento/module-sales": "102.0.*",
-                "magento/module-sales-inventory": "100.3.*",
-                "magento/module-store": "101.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "require-dev": {
-                "magento/module-inventory-indexer": "*"
-            },
-            "suggest": {
-                "magento/module-inventory-catalog": "1.0.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventorySales\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-sales-admin-ui",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-sales-admin-ui/magento-module-inventory-sales-admin-ui-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "f484e2b8af3f581dc528e094cb59b8b0f8671729"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-backend": "101.0.*",
-                "magento/module-catalog": "103.0.*",
-                "magento/module-catalog-inventory": "100.3.*",
-                "magento/module-inventory-admin-ui": "1.0.*",
-                "magento/module-inventory-api": "1.0.*",
-                "magento/module-inventory-catalog-api": "1.0.*",
-                "magento/module-inventory-configuration-api": "1.0.*",
-                "magento/module-inventory-sales-api": "1.0.*",
-                "magento/module-store": "101.0.*",
-                "magento/module-ui": "101.1.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventorySalesAdminUi\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-sales-api",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-sales-api/magento-module-inventory-sales-api-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "31e190bd8ac825a839713e8c1aaea7abd2d0da8b"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-inventory-api": "1.0.*",
-                "magento/module-sales": "102.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventorySalesApi\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-sales-frontend-ui",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-sales-frontend-ui/magento-module-inventory-sales-frontend-ui-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "234f4a22d3ac4b2a163aca851afbeeae7d101c3d"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-catalog-inventory": "100.3.*",
-                "magento/module-inventory-configuration-api": "1.0.*",
-                "magento/module-inventory-sales-api": "1.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventorySalesFrontendUi\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-shipping",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-shipping/magento-module-inventory-shipping-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "416c0234826540564060abf4f4a51167360ecdad"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-inventory-api": "1.0.*",
-                "magento/module-inventory-catalog-api": "1.0.*",
-                "magento/module-inventory-sales-api": "1.0.*",
-                "magento/module-inventory-source-deduction-api": "1.0.*",
-                "magento/module-inventory-source-selection-api": "1.0.*",
-                "magento/module-sales": "102.0.*",
-                "magento/module-shipping": "100.3.*",
-                "magento/module-store": "101.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryShipping\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-shipping-admin-ui",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-shipping-admin-ui/magento-module-inventory-shipping-admin-ui-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "ce8c84546243947aa59eefa82d9e6da0905c8131"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-backend": "101.0.*",
-                "magento/module-inventory-api": "1.0.*",
-                "magento/module-inventory-configuration-api": "1.0.*",
-                "magento/module-inventory-sales-api": "1.0.*",
-                "magento/module-inventory-source-selection-api": "1.0.*",
-                "magento/module-sales": "102.0.*",
-                "magento/module-shipping": "100.3.*",
-                "magento/module-ui": "101.1.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryShippingAdminUi\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-source-deduction-api",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-source-deduction-api/magento-module-inventory-source-deduction-api-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "f64f1b29dfdac9f4287725cbd3d0bb65f415187b"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-inventory-api": "1.0.*",
-                "magento/module-inventory-configuration-api": "1.0.*",
-                "magento/module-inventory-sales-api": "1.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventorySourceDeductionApi\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-source-selection",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-source-selection/magento-module-inventory-source-selection-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "44e10637b92c4d86aa37614df124d5edf003ead9"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-inventory-api": "1.0.*",
-                "magento/module-inventory-source-selection-api": "1.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventorySourceSelection\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-source-selection-api",
-            "version": "1.0.0-beta3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-source-selection-api/magento-module-inventory-source-selection-api-1.0.0.0-beta3.zip",
-                "reference": null,
-                "shasum": "272662de6d0b747998f04f1fa2f8f0c9a5bf0a81"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventorySourceSelectionApi\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
             "name": "magento/module-invitation",
             "version": "100.3.0-beta28",
             "dist": {
@@ -9608,66 +8407,6 @@
                 "AFL-3.0"
             ],
             "description": "N/A"
-        },
-        {
-            "name": "magento/module-msi-inventory-sample-data",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:PMET-public/module-msi-inventory-sample-data.git",
-                "reference": "7261779393b4674fc0a61225ebc3b54d5653aa19"
-            },
-            "require": {
-                "magento/framework": "*",
-                "magento/module-inventory-api": "*",
-                "magento/module-msi-source-stock-sample-data": "*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\MsiInventorySampleData\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A",
-            "time": "2018-10-19T15:13:16+00:00"
-        },
-        {
-            "name": "magento/module-msi-source-stock-sample-data",
-            "version": "dev-b2b",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:PMET-public/module-msi-source-stock-sample-data.git",
-                "reference": "a9ef9043be425922ff8b50863157750c865b3a41"
-            },
-            "require": {
-                "magento/framework": "*",
-                "magento/module-inventory-api": "*",
-                "magento/module-inventory-sales-api": "*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\MsiSourceStockSampleData\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A",
-            "time": "2018-10-26T13:11:36+00:00"
         },
         {
             "name": "magento/module-msrp",
@@ -10091,12 +8830,12 @@
         },
         {
             "name": "magento/module-page-builder",
-            "version": "100.0.0-beta101801",
+            "version": "100.0.0-beta110701",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa04.magedevteam.com/archives/magento/module-page-builder/magento-module-page-builder-100.0.0.0-beta101801.zip",
+                "url": "https://connect20-qa04.magedevteam.com/archives/magento/module-page-builder/magento-module-page-builder-100.0.0.0-beta110701.zip",
                 "reference": null,
-                "shasum": "f3ec02b2943f13dd4dfe5381df734a2a25562c12"
+                "shasum": "9453f20c6b6cbab5438aafaf04fc1cdb49305a69"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -10133,12 +8872,12 @@
         },
         {
             "name": "magento/module-page-builder-analytics",
-            "version": "100.0.0-beta101801",
+            "version": "100.0.0-beta110701",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa04.magedevteam.com/archives/magento/module-page-builder-analytics/magento-module-page-builder-analytics-100.0.0.0-beta101801.zip",
+                "url": "https://connect20-qa04.magedevteam.com/archives/magento/module-page-builder-analytics/magento-module-page-builder-analytics-100.0.0.0-beta110701.zip",
                 "reference": null,
-                "shasum": "d29252e2c3bb52cc7427f3b2f6450ce0182e1118"
+                "shasum": "7f313bd20f1d7c75719523d814f763457f8920df"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -14289,11 +13028,11 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/module-b2b-catalog-sample-data.git",
-                "reference": "b9bc645341d67150b85882f84d6604bdc01d3b15"
+                "reference": "2990fe6f883be23bcba14c0864de9e5421cdc225"
             },
             "require": {
                 "firegento/fastsimpleimport": "*",
-                "php": "~5.6.0|~7.0.2|~7.0.6|~7.1.0"
+                "php": "~5.6.0|~7.0.2|~7.0.6|~7.1.0|~7.2.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -14304,7 +13043,7 @@
                     "MagentoEse\\B2BCatalogSampleData\\": ""
                 }
             },
-            "time": "2018-10-09T19:21:02+00:00"
+            "time": "2018-10-31T23:20:53+00:00"
         },
         {
             "name": "magentoese/module-b2b-cms-sample-data",
@@ -14569,36 +13308,6 @@
             "time": "2017-08-11T14:14:15+00:00"
         },
         {
-            "name": "magentoese/module-msi-inventory-sample-data-b2b",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:PMET-public/module-msi-inventory-sample-data-b2b.git",
-                "reference": "8b49f27a72270c73b0ffb2eeef3326dd3ee2dd5e"
-            },
-            "require": {
-                "magento/framework": "*",
-                "magento/module-msi-inventory-sample-data": "*",
-                "magento/module-msi-source-stock-sample-data": "*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MagentoEse\\MsiInventorySampleDataB2B\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A",
-            "time": "2018-10-26T19:12:36+00:00"
-        },
-        {
             "name": "magentoese/module-my-account-widget",
             "version": "dev-master",
             "source": {
@@ -14689,7 +13398,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-themecustomizer.git",
-                "reference": "6198ff0c6a047dde2afc2e0651b0511ddb0752fb"
+                "reference": "57c7d0f259259d15837c5f4a994bbf5c7615f60f"
             },
             "require": {
                 "magento/framework": "*"
@@ -14703,7 +13412,7 @@
                     "MagentoEse\\ThemeCustomizer\\": ""
                 }
             },
-            "time": "2018-10-26T12:13:16+00:00"
+            "time": "2018-11-08T14:28:41+00:00"
         },
         {
             "name": "magentoese/nfs4d4m",
@@ -14744,16 +13453,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.23.0",
+            "version": "1.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4"
+                "reference": "bfc9ebb28f97e7a24c45bdc3f0ff482e47bb0266"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
-                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bfc9ebb28f97e7a24c45bdc3f0ff482e47bb0266",
+                "reference": "bfc9ebb28f97e7a24c45bdc3f0ff482e47bb0266",
                 "shasum": ""
             },
             "require": {
@@ -14818,7 +13527,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2017-06-19T01:22:40+00:00"
+            "time": "2018-11-05T09:00:11+00:00"
         },
         {
             "name": "msp/recaptcha",
@@ -14900,16 +13609,16 @@
         },
         {
             "name": "myclabs/php-enum",
-            "version": "1.6.2",
+            "version": "1.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/php-enum.git",
-                "reference": "ca2f4090a7ecae6f0c67fc9bd07cfb51cdf04219"
+                "reference": "550d2334d77f91b0816a5cbd6965272fe20146b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/php-enum/zipball/ca2f4090a7ecae6f0c67fc9bd07cfb51cdf04219",
-                "reference": "ca2f4090a7ecae6f0c67fc9bd07cfb51cdf04219",
+                "url": "https://api.github.com/repos/myclabs/php-enum/zipball/550d2334d77f91b0816a5cbd6965272fe20146b8",
+                "reference": "550d2334d77f91b0816a5cbd6965272fe20146b8",
                 "shasum": ""
             },
             "require": {
@@ -14940,20 +13649,20 @@
             "keywords": [
                 "enum"
             ],
-            "time": "2018-08-01T21:05:54+00:00"
+            "time": "2018-10-30T14:36:18+00:00"
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.34.0",
+            "version": "1.34.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "1dbd3cb01c5645f3e7deda7aa46ef780d95fcc33"
+                "reference": "19201b87f7dba2a7cbf1cccdf0e1da13c04ee9c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/1dbd3cb01c5645f3e7deda7aa46ef780d95fcc33",
-                "reference": "1dbd3cb01c5645f3e7deda7aa46ef780d95fcc33",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/19201b87f7dba2a7cbf1cccdf0e1da13c04ee9c9",
+                "reference": "19201b87f7dba2a7cbf1cccdf0e1da13c04ee9c9",
                 "shasum": ""
             },
             "require": {
@@ -14995,7 +13704,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2018-09-20T19:36:25+00:00"
+            "time": "2018-11-08T13:33:47+00:00"
         },
         {
             "name": "oyejorge/less.php",
@@ -15439,16 +14148,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.11",
+            "version": "2.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "7053f06f91b3de78e143d430e55a8f7889efc08b"
+                "reference": "8814dc7841db159daed0b32c2b08fb7e03c6afe7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/7053f06f91b3de78e143d430e55a8f7889efc08b",
-                "reference": "7053f06f91b3de78e143d430e55a8f7889efc08b",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/8814dc7841db159daed0b32c2b08fb7e03c6afe7",
+                "reference": "8814dc7841db159daed0b32c2b08fb7e03c6afe7",
                 "shasum": ""
             },
             "require": {
@@ -15527,7 +14236,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2018-04-15T16:55:05+00:00"
+            "time": "2018-11-04T05:45:48+00:00"
         },
         {
             "name": "psr/container",
@@ -16010,16 +14719,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.1.6",
+            "version": "v4.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "dc7122fe5f6113cfaba3b3de575d31112c9aa60b"
+                "reference": "432122af37d8cd52fba1b294b11976e0d20df595"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/dc7122fe5f6113cfaba3b3de575d31112c9aa60b",
-                "reference": "dc7122fe5f6113cfaba3b3de575d31112c9aa60b",
+                "url": "https://api.github.com/repos/symfony/console/zipball/432122af37d8cd52fba1b294b11976e0d20df595",
+                "reference": "432122af37d8cd52fba1b294b11976e0d20df595",
                 "shasum": ""
             },
             "require": {
@@ -16074,20 +14783,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-10-03T08:15:46+00:00"
+            "time": "2018-10-31T09:30:44+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v4.1.6",
+            "version": "v4.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "bfb30c2ad377615a463ebbc875eba64a99f6aa3e"
+                "reference": "552541dad078c85d9414b09c041ede488b456cd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/bfb30c2ad377615a463ebbc875eba64a99f6aa3e",
-                "reference": "bfb30c2ad377615a463ebbc875eba64a99f6aa3e",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/552541dad078c85d9414b09c041ede488b456cd5",
+                "reference": "552541dad078c85d9414b09c041ede488b456cd5",
                 "shasum": ""
             },
             "require": {
@@ -16137,20 +14846,20 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2018-07-26T09:10:45+00:00"
+            "time": "2018-10-10T13:52:42+00:00"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.1.6",
+            "version": "v4.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "596d12b40624055c300c8b619755b748ca5cf0b5"
+                "reference": "fd7bd6535beb1f0a0a9e3ee960666d0598546981"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/596d12b40624055c300c8b619755b748ca5cf0b5",
-                "reference": "596d12b40624055c300c8b619755b748ca5cf0b5",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/fd7bd6535beb1f0a0a9e3ee960666d0598546981",
+                "reference": "fd7bd6535beb1f0a0a9e3ee960666d0598546981",
                 "shasum": ""
             },
             "require": {
@@ -16187,11 +14896,11 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2018-10-02T12:40:59+00:00"
+            "time": "2018-10-30T13:18:25+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v4.1.6",
+            "version": "v4.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -16240,16 +14949,16 @@
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v2.8.46",
+            "version": "v2.8.47",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "3f19d7d5913c846275c9aa6d5d862353e529f622"
+                "reference": "43441c14988c1c66b16db5a88c4a70920f60bd56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/3f19d7d5913c846275c9aa6d5d862353e529f622",
-                "reference": "3f19d7d5913c846275c9aa6d5d862353e529f622",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/43441c14988c1c66b16db5a88c4a70920f60bd56",
+                "reference": "43441c14988c1c66b16db5a88c4a70920f60bd56",
                 "shasum": ""
             },
             "require": {
@@ -16290,11 +14999,11 @@
                 "configuration",
                 "options"
             ],
-            "time": "2018-09-08T12:44:02+00:00"
+            "time": "2018-10-02T11:25:20+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.9.0",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -16352,16 +15061,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.9.0",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8"
+                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/d0cd638f4634c16d8df4508e847f14e9e43168b8",
-                "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/c79c051f5b3a46be09205c73b80b346e4153e494",
+                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494",
                 "shasum": ""
             },
             "require": {
@@ -16407,20 +15116,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-08-06T14:22:27+00:00"
+            "time": "2018-09-21T13:07:52+00:00"
         },
         {
             "name": "symfony/polyfill-php56",
-            "version": "v1.9.0",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php56.git",
-                "reference": "7b4fc009172cc0196535b0328bd1226284a28000"
+                "reference": "ff208829fe1aa48ab9af356992bb7199fed551af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/7b4fc009172cc0196535b0328bd1226284a28000",
-                "reference": "7b4fc009172cc0196535b0328bd1226284a28000",
+                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/ff208829fe1aa48ab9af356992bb7199fed551af",
+                "reference": "ff208829fe1aa48ab9af356992bb7199fed551af",
                 "shasum": ""
             },
             "require": {
@@ -16463,20 +15172,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-08-06T14:22:27+00:00"
+            "time": "2018-09-21T06:26:08+00:00"
         },
         {
             "name": "symfony/polyfill-util",
-            "version": "v1.9.0",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-util.git",
-                "reference": "8e15d04ba3440984d23e7964b2ee1d25c8de1581"
+                "reference": "3b58903eae668d348a7126f999b0da0f2f93611c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/8e15d04ba3440984d23e7964b2ee1d25c8de1581",
-                "reference": "8e15d04ba3440984d23e7964b2ee1d25c8de1581",
+                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/3b58903eae668d348a7126f999b0da0f2f93611c",
+                "reference": "3b58903eae668d348a7126f999b0da0f2f93611c",
                 "shasum": ""
             },
             "require": {
@@ -16515,20 +15224,20 @@
                 "polyfill",
                 "shim"
             ],
-            "time": "2018-08-06T14:22:27+00:00"
+            "time": "2018-09-30T16:36:12+00:00"
         },
         {
             "name": "symfony/process",
-            "version": "v4.1.6",
+            "version": "v4.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "ee33c0322a8fee0855afcc11fff81e6b1011b529"
+                "reference": "3e83acef94d979b1de946599ef86b3a352abcdc9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/ee33c0322a8fee0855afcc11fff81e6b1011b529",
-                "reference": "ee33c0322a8fee0855afcc11fff81e6b1011b529",
+                "url": "https://api.github.com/repos/symfony/process/zipball/3e83acef94d979b1de946599ef86b3a352abcdc9",
+                "reference": "3e83acef94d979b1de946599ef86b3a352abcdc9",
                 "shasum": ""
             },
             "require": {
@@ -16564,20 +15273,20 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2018-10-02T12:40:59+00:00"
+            "time": "2018-10-14T20:48:13+00:00"
         },
         {
             "name": "symfony/property-access",
-            "version": "v2.8.46",
+            "version": "v2.8.47",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/property-access.git",
-                "reference": "353e1a590be65b627258663d6a75f31e0ed1ed3d"
+                "reference": "39eaaa4e316fbb246b9e3ea1150a284185804f49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/property-access/zipball/353e1a590be65b627258663d6a75f31e0ed1ed3d",
-                "reference": "353e1a590be65b627258663d6a75f31e0ed1ed3d",
+                "url": "https://api.github.com/repos/symfony/property-access/zipball/39eaaa4e316fbb246b9e3ea1150a284185804f49",
+                "reference": "39eaaa4e316fbb246b9e3ea1150a284185804f49",
                 "shasum": ""
             },
             "require": {
@@ -16625,20 +15334,20 @@
                 "property path",
                 "reflection"
             ],
-            "time": "2018-09-08T12:44:02+00:00"
+            "time": "2018-10-02T12:08:28+00:00"
         },
         {
             "name": "symfony/translation",
-            "version": "v4.1.6",
+            "version": "v4.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "9f0b61e339160a466ebcde167a6c5521c810e304"
+                "reference": "aa04dc1c75b7d3da7bd7003104cd0cfc5dff635c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/9f0b61e339160a466ebcde167a6c5521c810e304",
-                "reference": "9f0b61e339160a466ebcde167a6c5521c810e304",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/aa04dc1c75b7d3da7bd7003104cd0cfc5dff635c",
+                "reference": "aa04dc1c75b7d3da7bd7003104cd0cfc5dff635c",
                 "shasum": ""
             },
             "require": {
@@ -16694,11 +15403,11 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2018-10-02T16:36:10+00:00"
+            "time": "2018-10-28T18:38:52+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.4.17",
+            "version": "v3.4.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
@@ -19249,9 +17958,6 @@
         "magentoese/module-b2b-pricing-sample-data": 20,
         "magentoese/module-b2b-shared-catalog-sample-data": 20,
         "magentoese/module-installation-overrides": 20,
-        "magento/module-msi-source-stock-sample-data": 20,
-        "magento/module-msi-inventory-sample-data": 20,
-        "magentoese/module-msi-inventory-sample-data-b2b": 20,
         "magentoese/module-my-account-widget": 20,
         "magentoese/module-productbadge": 20,
         "magentoese/module-sales-sample-data": 20,
