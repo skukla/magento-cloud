@@ -9,7 +9,6 @@
     ],
     "repositories": [
         {"type": "composer", "url": "https://repo.magento.com/"},
-        {"type": "composer", "url": "https://connect20-qa01.magedevteam.com/"},
         {"type": "composer", "url": "https://connect20-qa04.magedevteam.com/"},
         {"type": "git", "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"},
         {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
@@ -61,10 +60,8 @@
     },
     "require": {
         "firegento/fastsimpleimport": "dev-updated",
-        //"gene/bluefoot": "dev-develop-no-branding",
-        //"magento/magento-cloud-metapackage": "2.2.6",
-        "magento/product-enterprise-edition": "2.3.0-beta28",
-        "magento/extension-b2b": "1.1.0-beta28",
+        "magento/magento-cloud-metapackage": "2.3.0",
+        "magento/extension-b2b": "1.1.*",
         "magento/page-builder-commerce": "100.0.0-beta101801",
         "magentoese/dock-mage": "dev-master",
         "magentoese/ece-tools": "2002.0.14.x-dev",
