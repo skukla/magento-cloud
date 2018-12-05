@@ -13,7 +13,8 @@
         {"type": "git", "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"},
         {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/Magento2_German_LocalePack_de_DE"},
+        
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/Magento2_German_LocalePack_de_DE.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-m2epro.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-autofill-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-autofill.git"},
@@ -49,6 +50,8 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-vimeo.git"},
         {"type": "git", "url": "git@github.com:PMET-public/nfs4d4m.git"},
         {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-venia.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-advanced-conditions.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-banners-lite.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-base.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-blog-pro.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-duplicate-categories.git"},
@@ -57,7 +60,6 @@
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-groupcat.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-product-attachments.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-rules-grid.git"},
-        {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-search-autocomplete.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-special-promotions-pro.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-special-promotions.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-store-locator.git"},
@@ -87,28 +89,22 @@
         ]
     },
     "require": {
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        "amasty/module-advanced-conditions":"dev-master",
+        "amasty/base": "1.4.9.x-dev",
+        "amasty/module-banners-lite":"dev-master",
+        "amasty/blog": "1.3.3.x-dev",
+        "amasty/duplicatecategories": "1.0.3.x-dev",
+        "amasty/geoip": "1.3.7.x-dev",
+        "amasty/groupcat": "1.5.6.x-dev",
+        "amasty/product-attachment": "1.3.3.x-dev",
+        "amasty/promo": "2.2.9.x-dev",
+        "amasty/module-special-promo": "2.7.0.x-dev",
+        "amasty/module-special-promo-pro": "2.7.0.x-dev",
+        "amasty/module-store-locator": "1.12.3.x-dev",
+        "amasty/rgrid": "1.0.6.x-dev",
         "classyllama/module-owlcarousel":"dev-master",
         "firegento/fastsimpleimport": "dev-updated",
         
-        
-        "magemojo/m2-ce-cron": "^1.2",
         "magento/magento-cloud-metapackage": "2.3.0",
         "magento/module-bundle-sample-data": "100.3.*",
         "magento/module-widget-sample-data": "100.3.*",
@@ -134,7 +130,7 @@
         "magento/module-multiple-wishlist-sample-data": "100.3.*",
         "magento/module-swatches-sample-data": "100.3.*",
         "magento/module-offline-shipping-sample-data": "100.3.*",
-        "magento/page-builder-commerce": "100.0.0-beta101801",
+        "magento/page-builder-commerce": "100.0.0-beta1",
         "magento/sample-data-media": "100.3.*",
         
         "magentoese/dock-mage": "dev-master",
@@ -180,14 +176,15 @@
         "magentoese/module-vimeo": "2.2.x-dev",
         "magentoese/nfs4d4m": "dev-master",
         "magentoese/theme-frontend-venia": "2.3.x-dev",
-        "splendidinternet/mage2-locale-de-de": "dev-master"
+        
+        "splendidinternet/mage2-locale-de-de": "dev-master",
         
         
-        
-        
-        
-        
-        
+        "paradoxlabs/authnetcim": "4.1.3.x-dev",
+        "paradoxlabs/firstdata": "2.1.2.x-dev",
+        "paradoxlabs/stripe": "2.1.3.x-dev",
+        "paradoxlabs/subscriptions": "3.0.4.x-dev",
+        "paradoxlabs/tokenbase": "4.1.5.x-dev"
         
 
 
