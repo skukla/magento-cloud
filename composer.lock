@@ -38,7 +38,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-blog-pro.git",
-                "reference": "bef4a50f4b68124646a4f19cf8f12c76fb40ae4c"
+                "reference": "ab70f8d01f6aa2167ce05dfac6cc52a606a41018"
             },
             "require": {
                 "amasty/base": ">=1.4.9",
@@ -57,7 +57,7 @@
                 "Commercial"
             ],
             "description": "Amasty Blog Pro",
-            "time": "2018-12-03T21:22:04+00:00"
+            "time": "2018-12-05T19:46:32+00:00"
         },
         {
             "name": "amasty/duplicatecategories",
