@@ -14613,11 +14613,11 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/module-cms-media-sample-data-update.git",
-                "reference": "7a06dbe267eaa83bf0d410b5c00a2be954f48f14"
+                "reference": "c734fc04897bc7015174d17684ed8bd84a0d7230"
             },
             "type": "magento2-component",
             "description": "Sample Data media files",
-            "time": "2018-11-29T16:10:12+00:00"
+            "time": "2018-12-07T16:18:40+00:00"
         },
         {
             "name": "magentoese/module-cms-sample-data-update",
@@ -14625,7 +14625,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-cms-sample-data-update.git",
-                "reference": "37e5b3ef89aa4e2eaace66fc0cba74107826d95a"
+                "reference": "8e306e806cf5b48de757475b77bb639b1057821d"
             },
             "type": "magento2-module",
             "autoload": {
@@ -14636,7 +14636,7 @@
                     "MagentoEse\\CmsSampleDataUpdate\\": ""
                 }
             },
-            "time": "2018-11-29T16:07:31+00:00"
+            "time": "2018-12-07T16:20:08+00:00"
         },
         {
             "name": "magentoese/module-customer-sample-data",
@@ -20109,21 +20109,22 @@
         },
         {
             "name": "zendframework/zend-view",
-            "version": "2.10.0",
+            "version": "2.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-view.git",
-                "reference": "4478cc5dd960e2339d88b363ef99fa278700e80e"
+                "reference": "c1a3f2043fb75b5983ab9adfc369ae396601be7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-view/zipball/4478cc5dd960e2339d88b363ef99fa278700e80e",
-                "reference": "4478cc5dd960e2339d88b363ef99fa278700e80e",
+                "url": "https://api.github.com/repos/zendframework/zend-view/zipball/c1a3f2043fb75b5983ab9adfc369ae396601be7e",
+                "reference": "c1a3f2043fb75b5983ab9adfc369ae396601be7e",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.6 || ^7.0",
                 "zendframework/zend-eventmanager": "^2.6.2 || ^3.0",
+                "zendframework/zend-json": "^2.6.1",
                 "zendframework/zend-loader": "^2.5",
                 "zendframework/zend-stdlib": "^2.7 || ^3.0"
             },
@@ -20139,10 +20140,9 @@
                 "zendframework/zend-filter": "^2.6.1",
                 "zendframework/zend-http": "^2.5.4",
                 "zendframework/zend-i18n": "^2.6",
-                "zendframework/zend-json": "^2.6.1",
                 "zendframework/zend-log": "^2.7",
                 "zendframework/zend-modulemanager": "^2.7.1",
-                "zendframework/zend-mvc": "^2.7 || ^3.0",
+                "zendframework/zend-mvc": "^2.7.14 || ^3.0",
                 "zendframework/zend-navigation": "^2.5",
                 "zendframework/zend-paginator": "^2.5",
                 "zendframework/zend-permissions-acl": "^2.6",
@@ -20159,8 +20159,8 @@
                 "zendframework/zend-filter": "Zend\\Filter component",
                 "zendframework/zend-http": "Zend\\Http component",
                 "zendframework/zend-i18n": "Zend\\I18n component",
-                "zendframework/zend-json": "Zend\\Json component",
                 "zendframework/zend-mvc": "Zend\\Mvc component",
+                "zendframework/zend-mvc-plugin-flashmessenger": "zend-mvc-plugin-flashmessenger component, if you want to use the FlashMessenger view helper with zend-mvc versions 3 and up",
                 "zendframework/zend-navigation": "Zend\\Navigation component",
                 "zendframework/zend-paginator": "Zend\\Paginator component",
                 "zendframework/zend-permissions-acl": "Zend\\Permissions\\Acl component",
@@ -20192,7 +20192,7 @@
                 "view",
                 "zf2"
             ],
-            "time": "2018-01-17T22:21:50+00:00"
+            "time": "2018-12-06T21:20:01+00:00"
         }
     ],
     "packages-dev": [],
