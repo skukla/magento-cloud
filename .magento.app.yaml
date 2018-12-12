@@ -6,14 +6,13 @@
 name: mymagento
 
 # The toolstack used to build the application.
-type: php:7.1
+type: php:7.2
 build:
     flavor: composer
 
 # Enable extensions required by Magento 2
 runtime:
     extensions:
-        - mcrypt
         - redis
         - xsl
         - json
@@ -39,12 +38,13 @@ web:
             passthru: "/index.php"
             index:
                 - index.php
-            expires: -1
+            # expires: -1
             scripts: true
             allow: false
             rules:
                 \.(css|js|map|hbs|gif|jpe?g|png|tiff|wbmp|ico|jng|bmp|svgz|midi?|mp?ga|mp2|mp3|m4a|ra|weba|3gpp?|mp4|mpe?g|mpe|ogv|mov|webm|flv|mng|asx|asf|wmv|avi|ogx|swf|jar|ttf|eot|woff|otf|html?)$:
                     allow: true
+                    expires: 1y
                 /robots\.txt$:
                     passthru: "/media/robots.txt"
                 ^/sitemap(.*)\.xml$:
@@ -53,11 +53,13 @@ web:
             root: "pub/media"
             allow: true
             scripts: false
+            expires: 1y
             passthru: "/get.php"
         "/static":
             root: "pub/static"
             allow: true
             scripts: false
+            expires: 1y
             passthru: "/front-static.php"
             rules:
                 ^/static/version\d+/(?<resource>.*)$:
@@ -84,15 +86,17 @@ hooks:
     # We run deploy hook after your application has been deployed and started.
     deploy: |
         php ./vendor/bin/ece-tools deploy
+        sed -i.bak "\$i'cron' => array ( 'enabled' => 0, )," /app/app/etc/env.php
     # We run post deploy hook to clean and warm the cache. Available with ECE-Tools 2002.0.10.
     post_deploy: |
         php ./vendor/bin/ece-tools post-deploy
+        sed -i.bak '/cron.*enabled/d' /app/app/etc/env.php
 
 # Default Magento 2 cron jobs
 crons:
     cronrun:
         spec: "*/5 * * * *"
-        cmd: "php bin/magento cron:run"
+        cmd: "./vendor/magentoese/magento-scripts/cron.sh"
 
 # Environment variables
 variables:

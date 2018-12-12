@@ -1,5 +1,5 @@
 diff --git a/vendor/magento/framework/Module/ModuleList/Loader.php b/vendor/magento/framework/Module/ModuleList/Loader.php
-index d2a9e95..e50e52e 100644
+index bdfb7776..9a3f5d9e 100644
 --- a/vendor/magento/framework/Module/ModuleList/Loader.php
 +++ b/vendor/magento/framework/Module/ModuleList/Loader.php
 @@ -132,10 +132,12 @@ class Loader
@@ -16,7 +16,7 @@ index d2a9e95..e50e52e 100644
              ];
          }
  
-@@ -184,4 +186,60 @@ class Loader
+@@ -184,4 +186,62 @@ class Loader
          }
          return $result;
      }
@@ -46,10 +46,12 @@ index d2a9e95..e50e52e 100644
 +                    if (!in_array($requiredModuleName, $processedModuleNames)) {
 +                        // check that a required module exists
 +                        if (!isset($origList[$requiredModuleName])) {
++                            echo "Module '.$requiredModuleName.' required by '.$curModuleName.' (or one of its requirements) is not found.";
 +                            throw new \Exception("Module '{$requiredModuleName}' required by '{$curModuleName}' (or one of its requirements) is not found.");
 +                        }
 +                        // check that current required module isn't the original module
 +                        if ($requiredModuleName == $curModuleName) {
++                            echo "Module '.$requiredModuleName.' cannot be required by itself (or one of its requirements).";
 +                            throw new \Exception("Module '{$requiredModuleName}' cannot be required by itself (or one of its requirements).");
 +                        }
 +                        // track that required module is being processed so we will not search it again
