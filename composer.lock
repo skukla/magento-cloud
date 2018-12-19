@@ -5592,7 +5592,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-configurable-sample-data-venia.git",
-                "reference": "04f5a2a499998cd0391a0d5db6aeba1a0b9c1f49"
+                "reference": "1126eab4e022cc446e6efdf0925a5e614b31efa2"
             },
             "require": {
                 "magento/module-configurable-product": "*",
@@ -5613,7 +5613,7 @@
                 "AFL-3.0"
             ],
             "description": "N/A",
-            "time": "2018-11-08T20:08:54+00:00"
+            "time": "2018-12-19T20:44:05+00:00"
         },
         {
             "name": "magento/module-contact",
