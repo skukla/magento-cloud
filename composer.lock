@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f100da5bbde8d60a6b23990277e7acef",
+    "content-hash": "5eb111b76307148e8a3f03f295530688",
     "packages": [
         {
             "name": "amasty/base",
@@ -14977,11 +14977,11 @@
         },
         {
             "name": "magentoese/module-msi-inventory-sample-data-demo",
-            "version": "dev-reversedata",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-msi-inventory-sample-data-demo.git",
-                "reference": "eca16265458430e0a98ce35269a695969107b76a"
+                "reference": "a58905edabc69ca7cf3870360085c26b7a656bd6"
             },
             "require": {
                 "magento/framework": "*",
@@ -15003,7 +15003,7 @@
                 "AFL-3.0"
             ],
             "description": "N/A",
-            "time": "2018-12-18T18:48:31+00:00"
+            "time": "2018-10-26T14:29:26+00:00"
         },
         {
             "name": "magentoese/module-product-image-switcher",

@@ -160,7 +160,7 @@
         "magentoese/module-megamenu": "2.3.x-dev",
         "magento/module-msi-source-stock-sample-data": "dev-demo",
         "magento/module-msi-inventory-sample-data": "dev-master",
-        "magentoese/module-msi-inventory-sample-data-demo": "reversedata-dev",
+        "magentoese/module-msi-inventory-sample-data-demo": "dev-master",
         
         "magentoese/module-product-sample-data-update": "dev-master",
         "magentoese/module-product-image-switcher": "2.3.x-dev",
