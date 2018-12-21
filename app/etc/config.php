@@ -200,6 +200,7 @@ return [
         'Magento_InventoryConfigurableProductIndexer' => 1,
         'Magento_InventoryConfiguration' => 1,
         'Magento_InventoryConfigurationApi' => 1,
+        'Magento_InventoryElasticsearch' => 1,
         'Magento_InventoryGroupedProduct' => 1,
         'Magento_InventoryGroupedProductAdminUi' => 1,
         'Magento_InventoryGroupedProductIndexer' => 1,
