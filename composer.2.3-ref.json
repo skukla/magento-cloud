@@ -15,7 +15,9 @@
         {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
         {"type": "git", "url": "git@github.com:PMET-public/nfs4d4m.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/ece-tools.git"},
-        {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"}
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"},
+        //fix for MSI Elasticsearch. Can be removed in 2.3.1
+        {"type": "git", "url": "git@github.com:PMET-public/module-inventory-elasticsearch.git"}
     ],
     "scripts": {
         "pre-autoload-dump" : [
@@ -61,9 +63,11 @@
         "magentoese/ece-tools": "2002.0.14.x-dev",
         "magentoese/magento-scripts": "2.2.5.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
-        "magentoese/nfs4d4m": "dev-master"
+        "magentoese/nfs4d4m": "dev-master",
         //magerun not 2.3 compatible yet
-        //"n98/magerun2": "^2.2"
+        //"n98/magerun2": "^2.2",
+        //fix for MSI Elasticsearch. Can be removed in 2.3.1
+        "magento/module-inventory-elasticsearch": "dev-master"
     },
     "config": {
         "use-include-path": true
