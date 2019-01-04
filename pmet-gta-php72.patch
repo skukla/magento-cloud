@@ -1,0 +1,13 @@
+diff --git a/app/code/Magento/GoogleTagManager/view/frontend/templates/impression.phtml b/app/code/Magento/GoogleTagManager/view/frontend/templates/impression.phtml
+index 7ece3754bd..497f7913d4 100644
+--- a/app/code/Magento/GoogleTagManager/view/frontend/templates/impression.phtml
++++ b/app/code/Magento/GoogleTagManager/view/frontend/templates/impression.phtml
+@@ -12,7 +12,7 @@ $productCollection = $block->getLoadedProductCollection();
+ $block->checkCartItems();
+ ?>
+ 
+-<?php if (count($productCollection) > 0) { ?>
++<?php if ($productCollection && count($productCollection) > 0) { ?>
+     <?php
+     $listPosition = 0;
+     if (is_object($productCollection) && $productCollection->getCurPage() > 0) {
