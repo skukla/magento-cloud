@@ -14,8 +14,6 @@
         {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
         
-        {"type": "git", "url": "git@gitlab.the1umastory.com:md/Magento2_German_LocalePack_de_DE.git"},
-        
         {"type": "git", "url": "git@github.com:PMET-public/module-inventory-elasticsearch.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-m2epro.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-autofill-sample-data.git"},
@@ -178,8 +176,6 @@
         "magentoese/module-vimeo": "2.2.x-dev",
         "magentoese/nfs4d4m": "dev-master",
         "magentoese/theme-frontend-venia": "2.3.x-dev",
-        
-        "splendidinternet/mage2-locale-de-de": "dev-master",
         
         
         "paradoxlabs/authnetcim": "4.1.3.x-dev",

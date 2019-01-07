@@ -13,8 +13,6 @@
         {"type": "git", "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"},
         {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
-        //this can come out when package is updated for 2.3
-        {"type": "git", "url": "git@gitlab.the1umastory.com:md/Magento2_German_LocalePack_de_DE.git"},
         //fix for MSI Elasticsearch. Can be removed in 2.3.1
         {"type": "git", "url": "git@github.com:PMET-public/module-inventory-elasticsearch.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-m2epro.git"},
@@ -178,8 +176,6 @@
         "magentoese/module-vimeo": "2.2.x-dev",
         "magentoese/nfs4d4m": "dev-master",
         "magentoese/theme-frontend-venia": "2.3.x-dev",
-        //this can come out when package is updated for 2.3
-        "splendidinternet/mage2-locale-de-de": "dev-master",
         //magerun not 2.3 compatible yet
         //"n98/magerun2": "^2.2",
         "paradoxlabs/authnetcim": "4.1.3.x-dev",
