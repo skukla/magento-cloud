@@ -2,13 +2,14 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.2.6",
+    "version": "2.3.0",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
     ],
     "repositories": [
         {"type": "composer", "url": "https://repo.magento.com/"},
+        {"type": "composer", "url": "https://connect20-qa04.magedevteam.com/"},
         {"type": "git", "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"},
         {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
@@ -24,6 +25,9 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-b2b-shared-catalog-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-installation-overrides.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-my-account-widget.git"},
+        //{"type": "git", "url": "git@github.com:PMET-public/module-msi-source-stock-sample-data.git"},
+        //{"type": "git", "url": "git@github.com:PMET-public/module-msi-inventory-sample-data.git"},
+        //{"type": "git", "url": "git@github.com:PMET-public/module-msi-inventory-sample-data-b2b.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-post-install.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-productbadge.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-sales-sample-data.git"},
@@ -56,9 +60,9 @@
     },
     "require": {
         "firegento/fastsimpleimport": "dev-updated",
-        "gene/bluefoot": "dev-develop-no-branding",
-        "magento/magento-cloud-metapackage": "2.2.6",
-        "magento/extension-b2b": "*",
+        "magento/magento-cloud-metapackage": "2.3.0",
+        "magento/extension-b2b": "^1.1",
+        "magento/page-builder-commerce": "100.0.0-beta101801",
         "magentoese/dock-mage": "dev-master",
         "magentoese/ece-tools": "2002.0.14.x-dev",
         "magentoese/magento-scripts": "2.2.5.x-dev",
@@ -81,6 +85,9 @@
         "magentoese/module-b2b-pricing-sample-data": "dev-master",
         "magentoese/module-b2b-shared-catalog-sample-data": "dev-master",
         "magentoese/module-installation-overrides": "dev-master",
+        //"magento/module-msi-source-stock-sample-data": "dev-b2b",
+        //"magento/module-msi-inventory-sample-data": "dev-master",
+        //"magentoese/module-msi-inventory-sample-data-b2b": "dev-master",
         "magentoese/module-my-account-widget": "dev-master",
         // "magentoese/module-post-install": "dev-master",
         "magentoese/module-productbadge": "dev-master",
@@ -88,8 +95,8 @@
         "magentoese/module-sctools": "dev-master",
         "magentoese/module-themecustomizer": "dev-master",
         "magentoese/nfs4d4m": "dev-master",
-        "magentoese/theme-brentmill": "dev-master",
-        "n98/magerun2": "^2.2"
+        "magentoese/theme-brentmill": "dev-master"
+        //"n98/magerun2": "^2.2"
     },
     "config": {
         "use-include-path": true
@@ -98,7 +105,8 @@
         "psr-4": {
             "Magento\\Framework\\": "lib/internal/Magento/Framework/",
             "Magento\\Setup\\": "setup/src/Magento/Setup/",
-            "Magento\\": "app/code/Magento/"
+            "Magento\\": "app/code/Magento/",
+            "Zend\\Mvc\\Controller\\": "setup/src/Zend/Mvc/Controller/"
         },
         "psr-0": {
             "": "app/code/"
@@ -121,5 +129,47 @@
     "extra": {
         "magento-force": true,
         "magento-deploystrategy": "copy"
+    },
+    //suppress msi modules until b2b compatibility is released
+    "replace": {
+        "magento/module-inventory":"*",
+        "magento/module-inventory-admin-ui":"*",
+        "magento/module-inventory-api":"*",
+        "magento/module-inventory-bundle-product":"*",
+        "magento/module-inventory-bundle-product-admin-ui":"*",
+        "magento/module-inventory-cache":"*",
+        "magento/module-inventory-catalog":"*",
+        "magento/module-inventory-catalog-admin-ui":"*",
+        "magento/module-inventory-catalog-api":"*",
+        "magento/module-inventory-catalog-search":"*",
+        "magento/module-inventory-configurable-product":"*",
+        "magento/module-inventory-configurable-product-admin-ui":"*",
+        "magento/module-inventory-configurable-product-indexer":"*",
+        "magento/module-inventory-configuration":"*",
+        "magento/module-inventory-configuration-api":"*",
+        "magento/module-inventory-grouped-product":"*",
+        "magento/module-inventory-grouped-product-indexer":"*",
+        "magento/module-inventory-grouped-product-admin-ui":"*",
+        "magento/module-inventory-import-export":"*",
+        "magento/module-inventory-indexer":"*",
+        "magento/module-inventory-low-quantity-notification":"*",
+        "magento/module-inventory-low-quantity-notification-admin-api":"*",
+        "magento/module-inventory-low-quantity-notification-admin-ui":"*",
+        "magento/module-inventory-low-quantity-notification-api":"*",
+        "magento/module-inventory-multi-dimensional-indexer-api":"*",
+        "magento/module-inventory-product-alert":"*",
+        "magento/module-inventory-reservations":"*",
+        "magento/module-inventory-reservations-api":"*",
+        "magento/module-inventory-sales":"*",
+        "magento/module-inventory-sales-admin-ui":"*",
+        "magento/module-inventory-sales-api":"*",
+        "magento/module-inventory-sales-frontend-ui":"*",
+        "magento/module-inventory-shipping":"*",
+        "magento/module-inventory-shipping-admin-ui":"*",
+        "magento/module-inventory-source-selection":"*",
+        "magento/module-inventory-source-selection-api":"*",
+        "magento/module-inventory-source-selection-ui":"*",
+        "magento/module-inventory-source-deduction":"*",
+        "magento/module-inventory-source-deduction-api":"*"
     }
 }
