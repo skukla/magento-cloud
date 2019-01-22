@@ -15727,7 +15727,7 @@
                 "type": "zip",
                 "url": "https://repo.magento.com/archives/vertex/module-tax/vertex-module-tax-3.0.0.0.zip",
                 "reference": null,
-                "shasum": "6c7ed091879e66d75faf95fed7e48751693c68c7"
+                "shasum": "5138f65c4db9d3ad4f2f33558cb3cd80ac3e180f"
             },
             "require": {
                 "ext-simplexml": "*",
