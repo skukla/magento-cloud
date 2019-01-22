@@ -27,7 +27,7 @@
         ],
         "post-autoload-dump" : [
         ],
-
+        
         "post-install-cmd" : [
             "mv pub/errors/local.xml.sample pub/errors/local.xml || :"
         ]
