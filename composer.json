@@ -130,7 +130,7 @@
         "magento/module-multiple-wishlist-sample-data": "100.3.*",
         "magento/module-swatches-sample-data": "100.3.*",
         "magento/module-offline-shipping-sample-data": "100.3.*",
-        "magento/page-builder-commerce": "100.0.0-beta1",
+        "magento/page-builder-commerce": "1.0.*",
         "magento/sample-data-media": "100.3.*",
         
         "magentoese/dock-mage": "dev-master",
