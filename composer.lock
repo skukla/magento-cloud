@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f1477b2152a88140aec57856b57d462b",
+    "content-hash": "a5b3d74c645d82ee876aa7673b034565",
     "packages": [
         {
             "name": "amasty/base",
@@ -929,16 +929,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.1.3",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "8afa52cd417f4ec417b4bfe86b68106538a87660"
+                "reference": "558f321c52faeb4828c03e7dc0cfe39a09e09a2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/8afa52cd417f4ec417b4bfe86b68106538a87660",
-                "reference": "8afa52cd417f4ec417b4bfe86b68106538a87660",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/558f321c52faeb4828c03e7dc0cfe39a09e09a2d",
+                "reference": "558f321c52faeb4828c03e7dc0cfe39a09e09a2d",
                 "shasum": ""
             },
             "require": {
@@ -981,7 +981,7 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2018-10-18T06:09:13+00:00"
+            "time": "2019-01-28T09:30:10+00:00"
         },
         {
             "name": "composer/composer",
@@ -1613,16 +1613,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.80",
+            "version": "1.2.82",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "2fa926113d9060b2ff47bd9f97ea697b184246f4"
+                "reference": "aa199883e2c0610a54bc17d4a6c6060792d11aa7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/2fa926113d9060b2ff47bd9f97ea697b184246f4",
-                "reference": "2fa926113d9060b2ff47bd9f97ea697b184246f4",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/aa199883e2c0610a54bc17d4a6c6060792d11aa7",
+                "reference": "aa199883e2c0610a54bc17d4a6c6060792d11aa7",
                 "shasum": ""
             },
             "require": {
@@ -1647,7 +1647,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2019-01-11T14:30:14+00:00"
+            "time": "2019-01-25T16:27:39+00:00"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -2069,7 +2069,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v5.7.21",
+            "version": "v5.7.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -2113,7 +2113,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.7.21",
+            "version": "v5.7.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -2158,7 +2158,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.7.21",
+            "version": "v5.7.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -2202,7 +2202,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v5.7.20",
+            "version": "v5.7.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -10247,12 +10247,12 @@
         },
         {
             "name": "magento/module-page-builder",
-            "version": "1.0.0-beta14012019",
+            "version": "1.0.0-beta25012019",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa04.magedevteam.com/archives/magento/module-page-builder/magento-module-page-builder-1.0.0.0-beta14012019.zip",
+                "url": "https://connect20-qa04.magedevteam.com/archives/magento/module-page-builder/magento-module-page-builder-1.0.0.0-beta25012019.zip",
                 "reference": null,
-                "shasum": "ca7a1700250836987b07dbbe7602e5c4a171f376"
+                "shasum": "4cc7e98c4c088d6996a81bb4ad73d39064ab379c"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -14981,7 +14981,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-msi-inventory-sample-data-demo.git",
-                "reference": "a58905edabc69ca7cf3870360085c26b7a656bd6"
+                "reference": "2e8b8820306e4f8b387d999dab278a470a5b5794"
             },
             "require": {
                 "magento/framework": "*",
@@ -15003,7 +15003,7 @@
                 "AFL-3.0"
             ],
             "description": "N/A",
-            "time": "2018-10-26T14:29:26+00:00"
+            "time": "2019-01-15T21:31:54+00:00"
         },
         {
             "name": "magentoese/module-product-image-switcher",
@@ -16223,16 +16223,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.13",
+            "version": "2.0.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "42603ce3f42a27f7e14e54feab95db7b680ad473"
+                "reference": "8ebfcadbf30524aeb75b2c446bc2519d5b321478"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/42603ce3f42a27f7e14e54feab95db7b680ad473",
-                "reference": "42603ce3f42a27f7e14e54feab95db7b680ad473",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/8ebfcadbf30524aeb75b2c446bc2519d5b321478",
+                "reference": "8ebfcadbf30524aeb75b2c446bc2519d5b321478",
                 "shasum": ""
             },
             "require": {
@@ -16311,7 +16311,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2018-12-16T17:45:25+00:00"
+            "time": "2019-01-27T19:37:29+00:00"
         },
         {
             "name": "psr/container",
@@ -16864,16 +16864,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v6.28.0",
+            "version": "v6.29.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "e15127f0f56a0bf2d4ef454df75ea08265e9b2c7"
+                "reference": "fbbcc90cd3da9be5005650d56a1316ee00b79dc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/e15127f0f56a0bf2d4ef454df75ea08265e9b2c7",
-                "reference": "e15127f0f56a0bf2d4ef454df75ea08265e9b2c7",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/fbbcc90cd3da9be5005650d56a1316ee00b79dc1",
+                "reference": "fbbcc90cd3da9be5005650d56a1316ee00b79dc1",
                 "shasum": ""
             },
             "require": {
@@ -16885,7 +16885,8 @@
             "require-dev": {
                 "php-coveralls/php-coveralls": "1.*",
                 "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~2.0"
+                "squizlabs/php_codesniffer": "~2.0",
+                "symfony/process": "~2.8"
             },
             "type": "library",
             "extra": {
@@ -16915,7 +16916,7 @@
                 "payment processing",
                 "stripe"
             ],
-            "time": "2019-01-03T18:40:20+00:00"
+            "time": "2019-01-25T14:24:25+00:00"
         },
         {
             "name": "symfony/console",
@@ -17367,7 +17368,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
+                    "email": "backendtea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
