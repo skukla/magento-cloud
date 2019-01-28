@@ -62,7 +62,7 @@
         "firegento/fastsimpleimport": "dev-updated",
         "magento/magento-cloud-metapackage": "2.3.0",
         "magento/extension-b2b": "^1.1",
-        "magento/page-builder-commerce": "100.0.0-beta101801",
+        "magento/page-builder-commerce": "1.0.*",
         "magentoese/dock-mage": "dev-master",
         "magentoese/ece-tools": "2002.0.14.x-dev",
         "magentoese/magento-scripts": "2.2.5.x-dev",
