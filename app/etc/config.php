@@ -299,6 +299,7 @@ return [
         'Magento_MultipleWishlistSampleData' => 1,
         'Magento_Worldpay' => 1,
         'Temando_Shipping' => 1,
-        'Vertex_Tax' => 1
+        'Vertex_Tax' => 1,
+        'Magento_InventoryElasticsearch' => 0
     ]
 ];
