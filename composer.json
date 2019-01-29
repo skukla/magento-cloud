@@ -58,7 +58,7 @@
         "magento/module-swatches-sample-data": "100.3.*",
         "magento/sample-data-media": "100.3.*",
         "magento/module-offline-shipping-sample-data": "100.3.*",
-        "magento/page-builder-commerce": "100.0.0-beta101801",
+        "magento/page-builder-commerce": "1.0.*",
         "magentoese/dock-mage": "dev-master",
         "magentoese/ece-tools": "2002.0.14.x-dev",
         "magentoese/magento-scripts": "2.2.5.x-dev",
