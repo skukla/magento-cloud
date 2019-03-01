@@ -283,10 +283,10 @@ return [
         'Magento_Worldpay' => 1,
         'Temando_Shipping' => 1,
         'Vertex_Tax' => 1,
-        'Magento_InventorySetupFixtureGenerator' => 0,
-        'Magento_InventoryElasticsearch' => 0,
-        'Magento_InventoryDistanceBasedSourceSelectionApi' => 0,
-        'Magento_InventoryDistanceBasedSourceSelectionAdminUi' => 0,
-        'Magento_InventoryDistanceBasedSourceSelection' => 0
+        'Magento_InventorySetupFixtureGenerator' => 1,
+        'Magento_InventoryElasticsearch' => 1,
+        'Magento_InventoryDistanceBasedSourceSelectionApi' => 1,
+        'Magento_InventoryDistanceBasedSourceSelectionAdminUi' => 1,
+        'Magento_InventoryDistanceBasedSourceSelection' => 1
     ]
 ];
