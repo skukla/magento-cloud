@@ -7,6 +7,10 @@
         "OSL-3.0",
         "AFL-3.0"
     ],
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
     "repositories": [
         {"type": "composer", "url": "https://repo.magento.com/"},
         {"type": "composer", "url": "https://connect20-qa01.magedevteam.com/"},
@@ -34,7 +38,7 @@
     },
     "require": {
         "firegento/fastsimpleimport": "dev-updated",
-        "magento/magento-cloud-metapackage": "2.3.0",
+        "magento/magento-cloud-metapackage": ">=2.3.0 <2.3.1",
         "magento/module-bundle-sample-data": "100.3.*",
         "magento/module-widget-sample-data": "100.3.*",
         "magento/module-catalog-sample-data": "100.3.*",
@@ -74,21 +78,31 @@
         
         "magento/module-inventory-elasticsearch": "dev-master"
     },
-    "config": {
-        "use-include-path": true
+    "suggest": {
+        "ext-pcntl": "Need for run processes in parallel mode"
+    },
+    "conflict": {
+        "gene/bluefoot": "*"
     },
     "autoload": {
         "psr-4": {
-            "Magento\\Framework\\": "lib/internal/Magento/Framework/",
             "Magento\\Setup\\": "setup/src/Magento/Setup/",
             "Magento\\": "app/code/Magento/",
             "Zend\\Mvc\\Controller\\": "setup/src/Zend/Mvc/Controller/"
         },
         "psr-0": {
-            "": "app/code/"
+            "": [
+                "app/code/",
+                "generated/code/"
+            ]
         },
         "files": [
             "app/etc/NonComposerComponentRegistration.php"
+        ],
+        "exclude-from-classmap": [
+            "**/dev/**",
+            "**/update/**",
+            "**/Test/**"
         ]
     },
     "autoload-dev": {
@@ -103,6 +117,22 @@
     "minimum-stability": "alpha",
     "prefer-stable": true,
     "extra": {
+        "component_paths": {
+            "trentrichardson/jquery-timepicker-addon": "lib/web/jquery/jquery-ui-timepicker-addon.js",
+            "components/jquery": [
+                "lib/web/jquery.js",
+                "lib/web/jquery/jquery.min.js",
+                "lib/web/jquery/jquery-migrate.js"
+            ],
+            "blueimp/jquery-file-upload": "lib/web/jquery/fileUploader",
+            "components/jqueryui": [
+                "lib/web/jquery/jquery-ui.js"
+            ],
+            "twbs/bootstrap": [
+                "lib/web/jquery/jquery.tabs.js"
+            ],
+            "tinymce/tinymce": "lib/web/tiny_mce_4"
+        },
         "magento-force": true,
         "magento-deploystrategy": "copy"
     }
