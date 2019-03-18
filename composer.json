@@ -24,9 +24,11 @@
             "vendor/magentoese/magento-scripts/composer-setup.sh ref"
         ],
         "post-autoload-dump" : [
+            
+            "curl -sS -o vendor/bin/mr https://files.magerun.net/n98-magerun2-latest.phar && chmod +x vendor/bin/mr"
         ],
-        
         "post-install-cmd" : [
+            
             "mv pub/errors/local.xml.sample pub/errors/local.xml || :"
         ]
     },
@@ -69,8 +71,6 @@
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/nfs4d4m": "dev-master",
-        
-        
         
         "magento/module-inventory-elasticsearch": "dev-master"
     },

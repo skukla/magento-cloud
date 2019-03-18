@@ -24,9 +24,11 @@
             "vendor/magentoese/magento-scripts/composer-setup.sh ref"
         ],
         "post-autoload-dump" : [
+            // install magerun via curl; composer no longer recommended
+            "curl -sS -o vendor/bin/mr https://files.magerun.net/n98-magerun2-latest.phar && chmod +x vendor/bin/mr"
         ],
-        // enable error reporting
         "post-install-cmd" : [
+            // enable error reporting
             "mv pub/errors/local.xml.sample pub/errors/local.xml || :"
         ]
     },
@@ -69,8 +71,6 @@
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/nfs4d4m": "dev-master",
-        //magerun not 2.3 compatible yet
-        //"n98/magerun2": "^2.2",
         //fix for MSI Elasticsearch. Can be removed in 2.3.1
         "magento/module-inventory-elasticsearch": "dev-master"
     },
