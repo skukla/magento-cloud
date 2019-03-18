@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "257c30799a2eed2e4ad98aa9b9417929",
+    "content-hash": "626754e0625b7cdf808b1f11415cdb10",
     "packages": [
         {
             "name": "amasty/base",
@@ -4445,11 +4445,11 @@
         },
         {
             "name": "magento/module-banner-page-builder",
-            "version": "1.0.0-rc5",
+            "version": "1.0.0-beta3",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-banner-page-builder/magento-module-banner-page-builder-1.0.0.0-RC5.zip",
-                "shasum": "28907cf8a03d2fd0a141026feb2fc596988ee1fd"
+                "url": "https://repo.magento.com/archives/magento/module-banner-page-builder/magento-module-banner-page-builder-1.0.0.0-beta3.zip",
+                "shasum": "9bf2924bbc10a69539aa3035c1b7a538638695dc"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -4475,34 +4475,6 @@
                 "proprietary"
             ],
             "description": "Banner Page Builder module"
-        },
-        {
-            "name": "magento/module-banner-page-builder-analytics",
-            "version": "1.0.0-rc5",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-banner-page-builder-analytics/magento-module-banner-page-builder-analytics-1.0.0.0-RC5.zip",
-                "shasum": "356d3c5fe9285c29f8ead10f7024cb46676a7982"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-banner": "101.1.*",
-                "magento/module-page-builder-analytics": "1.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\BannerPageBuilderAnalytics\\": ""
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "description": "Banner Page Builder Analytics module"
         },
         {
             "name": "magento/module-braintree",
@@ -5138,62 +5110,6 @@
             "description": "N/A"
         },
         {
-            "name": "magento/module-catalog-page-builder-analytics",
-            "version": "1.0.0-rc5",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-catalog-page-builder-analytics/magento-module-catalog-page-builder-analytics-1.0.0.0-RC5.zip",
-                "shasum": "a498db1c81b4d82723e916126707e380ac3a9b2d"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-catalog": "103.0.*",
-                "magento/module-page-builder-analytics": "1.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\CatalogPageBuilderAnalytics\\": ""
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "description": "Catalog Page Builder Analytics module"
-        },
-        {
-            "name": "magento/module-catalog-page-builder-analytics-staging",
-            "version": "1.0.0-rc5",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-catalog-page-builder-analytics-staging/magento-module-catalog-page-builder-analytics-staging-1.0.0.0-RC5.zip",
-                "shasum": "459e7bca74224e2296630f06ca9f12e13f99a08a"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-catalog": "103.0.*",
-                "magento/module-page-builder-analytics": "1.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\BannerPageBuilderAnalytics\\": ""
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "description": "Catalog Staging Page Builder Analytics module"
-        },
-        {
             "name": "magento/module-catalog-permissions",
             "version": "100.3.0",
             "dist": {
@@ -5482,11 +5398,11 @@
         },
         {
             "name": "magento/module-catalog-staging-page-builder",
-            "version": "1.0.0-rc5",
+            "version": "1.0.0-beta3",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-catalog-staging-page-builder/magento-module-catalog-staging-page-builder-1.0.0.0-RC5.zip",
-                "shasum": "0334ee54f47ff93e049d14da9f8ea1f227e9429c"
+                "url": "https://repo.magento.com/archives/magento/module-catalog-staging-page-builder/magento-module-catalog-staging-page-builder-1.0.0.0-beta3.zip",
+                "shasum": "6eb9f910a134e036522148c59d0a146c04255874"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -5820,62 +5736,6 @@
                 "AFL-3.0"
             ],
             "description": "N/A"
-        },
-        {
-            "name": "magento/module-cms-page-builder-analytics",
-            "version": "1.0.0-rc5",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-cms-page-builder-analytics/magento-module-cms-page-builder-analytics-1.0.0.0-RC5.zip",
-                "shasum": "da3ebc1a45cf17abc2492f8bffaf5f770c3bd3d9"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-cms": "103.0.*",
-                "magento/module-page-builder-analytics": "1.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\CmsPageBuilderAnalytics\\": ""
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "description": "CMS Page Builder Analytics module"
-        },
-        {
-            "name": "magento/module-cms-page-builder-analytics-staging",
-            "version": "1.0.0-rc5",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-cms-page-builder-analytics-staging/magento-module-cms-page-builder-analytics-staging-1.0.0.0-RC5.zip",
-                "shasum": "b013b8a5d2ca5237523d2bc3df025c9d513574fc"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-cms": "103.0.*",
-                "magento/module-page-builder-analytics": "1.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\BannerPageBuilderAnalytics\\": ""
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "description": "CMS Staging Page Builder Analytics module"
         },
         {
             "name": "magento/module-cms-sample-data",
@@ -10188,30 +10048,33 @@
         },
         {
             "name": "magento/module-page-builder",
-            "version": "1.0.0",
+            "version": "1.0.0-beta190208",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa04.magedevteam.com/archives/magento/module-page-builder/magento-module-page-builder-1.0.0.0.zip",
-                "shasum": "c91bdfe0587899e095cc45c634dd1d7f14220e80"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-page-builder/magento-module-page-builder-1.0.0.0-beta190208.zip",
+                "shasum": "1610482a790c419ea061c90b2a70145ab8f74347"
             },
             "require": {
-                "magento/framework": "*",
-                "magento/module-backend": "*",
-                "magento/module-catalog": "*",
-                "magento/module-catalog-widget": "*",
-                "magento/module-cms": "*",
-                "magento/module-config": "*",
-                "magento/module-directory": "*",
-                "magento/module-eav": "*",
-                "magento/module-rule": "*",
-                "magento/module-search": "*",
-                "magento/module-store": "*",
-                "magento/module-ui": "*",
-                "magento/module-widget": "*",
+                "magento/framework": "102.0.*",
+                "magento/module-backend": "101.0.*",
+                "magento/module-catalog": "103.0.*",
+                "magento/module-catalog-widget": "100.3.*",
+                "magento/module-cms": "103.0.*",
+                "magento/module-config": "101.1.*",
+                "magento/module-directory": "100.3.*",
+                "magento/module-eav": "102.0.*",
+                "magento/module-rule": "100.3.*",
+                "magento/module-search": "101.0.*",
+                "magento/module-store": "101.0.*",
+                "magento/module-ui": "101.1.*",
+                "magento/module-widget": "101.1.*",
                 "php": "~7.1.3||~7.2.0"
             },
             "conflict": {
                 "gene/bluefoot": "*"
+            },
+            "suggest": {
+                "magento/module-page-builder-data-migration": "1.0.*"
             },
             "type": "magento2-module",
             "autoload": {
@@ -10229,17 +10092,19 @@
         },
         {
             "name": "magento/module-page-builder-analytics",
-            "version": "1.0.0-rc5",
+            "version": "1.0.0-beta3",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-page-builder-analytics/magento-module-page-builder-analytics-1.0.0.0-RC5.zip",
-                "shasum": "8f3f874c65e8c09111a7e6a04d96ce81bc010ce1"
+                "url": "https://repo.magento.com/archives/magento/module-page-builder-analytics/magento-module-page-builder-analytics-1.0.0.0-beta3.zip",
+                "shasum": "3e9f7343c550ee43562bddaecfc14e7af3ec85f3"
             },
             "require": {
                 "magento/framework": "102.0.*",
                 "magento/module-analytics": "100.3.*",
-                "magento/module-page-builder": "1.0.*",
                 "php": "~7.1.3||~7.2.0"
+            },
+            "suggest": {
+                "magento/module-page-builder": "1.0.*"
             },
             "type": "magento2-module",
             "autoload": {
@@ -12169,11 +12034,11 @@
         },
         {
             "name": "magento/module-staging-page-builder",
-            "version": "1.0.0-rc5",
+            "version": "1.0.0-beta3",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-staging-page-builder/magento-module-staging-page-builder-1.0.0.0-RC5.zip",
-                "shasum": "7295f8cb2d4d30e4e91f75f64061322a1fc39e82"
+                "url": "https://repo.magento.com/archives/magento/module-staging-page-builder/magento-module-staging-page-builder-1.0.0.0-beta3.zip",
+                "shasum": "9cb6f79fd75bcd97fcae5655b31aaeff69bb594c"
             },
             "require": {
                 "magento/framework": "102.0.*",
@@ -13692,22 +13557,17 @@
         },
         {
             "name": "magento/page-builder-commerce",
-            "version": "1.0.0-rc5",
+            "version": "1.0.0-beta3",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/page-builder-commerce/magento-page-builder-commerce-1.0.0.0-RC5.zip",
-                "shasum": "6ba75af8da4a089ce86cd74e78d5f24d1aff09a3"
+                "url": "https://repo.magento.com/archives/magento/page-builder-commerce/magento-page-builder-commerce-1.0.0.0-beta3.zip",
+                "shasum": "81bb95462c3f3b1ce4a09743689940c878b58e64"
             },
             "require": {
-                "magento/module-banner-page-builder": "1.0.0-rc5",
-                "magento/module-banner-page-builder-analytics": "1.0.0-rc5",
-                "magento/module-catalog-page-builder-analytics": "1.0.0-rc5",
-                "magento/module-catalog-page-builder-analytics-staging": "1.0.0-rc5",
-                "magento/module-catalog-staging-page-builder": "1.0.0-rc5",
-                "magento/module-cms-page-builder-analytics": "1.0.0-rc5",
-                "magento/module-cms-page-builder-analytics-staging": "1.0.0-rc5",
-                "magento/module-page-builder-analytics": "1.0.0-rc5",
-                "magento/module-staging-page-builder": "1.0.0-rc5"
+                "magento/module-banner-page-builder": "1.0.*",
+                "magento/module-catalog-staging-page-builder": "1.0.*",
+                "magento/module-page-builder-analytics": "1.0.*",
+                "magento/module-staging-page-builder": "1.0.*"
             },
             "type": "metapackage",
             "description": "Page Builder Commerce metapackage"
@@ -14294,16 +14154,17 @@
         },
         {
             "name": "magentoese/ece-tools",
-            "version": "2002.0.14.x-dev",
+            "version": "2002.0.16.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/ece-tools.git",
-                "reference": "f493671e42b2ef810cd8e678436851419f9eeff7"
+                "url": "git@github.com:PMET-public/ece-tools.git",
+                "reference": "2c4c3fdc6c8abb5a1e8aea275d3ed2104bb5169f"
             },
             "require": {
                 "composer/composer": "@stable",
                 "composer/semver": "^1.4",
                 "ext-json": "*",
+                "ext-pdo": "*",
                 "graylog2/gelf-php": "^1.4.2",
                 "guzzlehttp/guzzle": "^6.2",
                 "illuminate/config": "^5.5",
@@ -14314,7 +14175,8 @@
                 "psr/container": "^1.0",
                 "psr/log": "^1.0",
                 "symfony/console": "^2.6||^4.0",
-                "symfony/yaml": "^2.3||^3.3"
+                "symfony/yaml": "^3.3",
+                "twig/twig": "^1.0||^2.0"
             },
             "replace": {
                 "magento/ece-patches": "*",
@@ -14326,7 +14188,8 @@
                 "phpmd/phpmd": "@stable",
                 "phpunit/php-code-coverage": "^5.2",
                 "phpunit/phpunit": "^6.2",
-                "squizlabs/php_codesniffer": " ^3.0"
+                "squizlabs/php_codesniffer": " ^3.0",
+                "symfony/process": "^3.4"
             },
             "bin": [
                 "bin/ece-tools",
@@ -14342,12 +14205,28 @@
                         ".magento.env.yaml.dist"
                     ],
                     [
+                        "dist/Makefile",
+                        "Makefile"
+                    ],
+                    [
+                        "dist/docker/mnt",
+                        "docker/mnt"
+                    ],
+                    [
+                        "dist/docker/mysql",
+                        "docker/mysql"
+                    ],
+                    [
                         "dist/docker/config.php",
                         "docker/config.php.dist"
                     ],
                     [
                         "dist/docker/global.php",
                         "docker/global.php.dist"
+                    ],
+                    [
+                        "dist/docker/README.md",
+                        "docker/README.md"
                     ]
                 ]
             },
@@ -14359,7 +14238,8 @@
             "autoload-dev": {
                 "psr-4": {
                     "Magento\\MagentoCloud\\Test\\": "tests/static/",
-                    "Magento\\MagentoCloud\\Test\\Integration\\": "tests/integration/"
+                    "Magento\\MagentoCloud\\Test\\Integration\\": "tests/integration/",
+                    "Magento\\MagentoCloud\\Test\\DockerIntegration\\": "tests/docker-integration/"
                 }
             },
             "scripts": {
@@ -14374,18 +14254,18 @@
                 ]
             },
             "license": [
-                "proprietary"
+                "OSL-3.0"
             ],
             "description": "Provides tools to build and deploy Magento 2 Enterprise Edition",
-            "time": "2018-10-15T22:30:45+00:00"
+            "time": "2019-03-11T06:07:41+00:00"
         },
         {
             "name": "magentoese/magento-scripts",
-            "version": "2.2.5.x-dev",
+            "version": "2.3.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "a2f83ec12e9633817f0da84cb2ec6b31b27db6c7"
+                "reference": "2f2775a1aa83c08d6e920212bb0459f031ca6244"
             },
             "require": {
                 "magento/framework": "*"
@@ -14406,7 +14286,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2018-10-19T16:57:01+00:00"
+            "time": "2019-03-11T05:38:39+00:00"
         },
         {
             "name": "magentoese/module-admin-configurations",
@@ -17831,6 +17711,73 @@
                 "yui"
             ],
             "time": "2018-01-15T15:26:51+00:00"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v2.7.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "70c59531da43afe598c66135e39cac39475a2f51"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/70c59531da43afe598c66135e39cac39475a2f51",
+                "reference": "70c59531da43afe598c66135e39cac39475a2f51",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "symfony/polyfill-ctype": "^1.8",
+                "symfony/polyfill-mbstring": "^1.3"
+            },
+            "require-dev": {
+                "psr/container": "^1.0",
+                "symfony/debug": "^2.7",
+                "symfony/phpunit-bridge": "^3.4.19|^4.1.8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                },
+                "psr-4": {
+                    "Twig\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Twig Team",
+                    "homepage": "https://twig.symfony.com/contributors",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "https://twig.symfony.com",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2019-03-12T18:48:26+00:00"
         },
         {
             "name": "vertex/module-tax",
