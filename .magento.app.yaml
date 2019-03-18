@@ -104,5 +104,5 @@ variables:
         CONFIG__STORES__DEFAULT__PAYPAL__NOTATION_CODE: 'Magento_Enterprise_Cloud'
 
 dependencies:
-  ruby:
-    amqp-utils: "0.5.1"
+    ruby:
+        amqp-utils: "0.5.1"
