@@ -96,7 +96,7 @@ hooks:
 crons:
     cronrun:
         spec: "*/5 * * * *"
-        cmd: "./vendor/magentoese/magento-scripts/cron.sh"
+        cmd: "php bin/magento cron:run"
 
 # Environment variables
 variables:
