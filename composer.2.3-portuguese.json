@@ -7,15 +7,17 @@
         "OSL-3.0",
         "AFL-3.0"
     ],
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
     "repositories": [
         {"type": "composer", "url": "https://repo.magento.com/"},
-        {"type": "composer", "url": "https://connect20-qa04.magedevteam.com/"},
+        {"type": "composer", "url": "https://connect20-qa01.magedevteam.com/"},
         {"type": "git", "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"},
         {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/ece-tools.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
-        //this can come out when package is updated for 2.3
-        {"type": "git", "url": "git@gitlab.the1umastory.com:md/Magento2_German_LocalePack_de_DE.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-m2epro.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-autofill-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-autofill.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-cms-sample-data-update.git"},
@@ -26,16 +28,18 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-installation-overrides.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-instorepickup-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-instorepickup.git"},
+        //fix for MSI Elasticsearch. Can be removed in 2.3.1
+        {"type": "git", "url": "git@github.com:PMET-public/module-inventory-elasticsearch.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-luma-de-attributes.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-luma-de-categories.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-luma-de-cms.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-luma-de-products.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-luma-de-setup.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-luma-de-widget.git"},
-        {"type": "git","url": "git@github.com:PMET-public/module-msi-source-stock-sample-data.git"},
-        {"type": "git","url": "git@github.com:PMET-public/module-msi-inventory-sample-data.git"},
-        {"type": "git","url": "git@github.com:PMET-public/module-msi-inventory-sample-data-demo.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-post-install.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-m2epro.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-msi-inventory-sample-data-demo.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-msi-inventory-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-msi-source-stock-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-product-sample-data-update.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-productbadge-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-productbadge.git"},
@@ -63,7 +67,6 @@
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-special-promotions-pro.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-special-promotions.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-store-locator.git"},
-        {"type": "git", "url": "git@gitlab.the1umastory.com:md/ece-tools.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-cms-media-sample-data-update.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-lookbook.git"},
@@ -75,6 +78,7 @@
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/paradoxlabs-firstdata.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/paradoxlabs-stripe.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/paradoxlabs-subscriptions.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/paradoxlabs-tokenbase.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/paradoxlabs-tokenbase.git"}
     ],
     "scripts": {
@@ -82,69 +86,77 @@
             "vendor/magentoese/magento-scripts/composer-setup.sh demo"
         ],
         "post-autoload-dump" : [
+            // install magerun via curl; composer no longer recommended
+            "curl -sS -o vendor/bin/mr https://files.magerun.net/n98-magerun2-latest.phar && chmod +x vendor/bin/mr"
         ],
-        // enable error reporting
         "post-install-cmd" : [
+            // enable error reporting
             "mv pub/errors/local.xml.sample pub/errors/local.xml || :"
         ]
     },
     "require": {
-        "amasty/module-advanced-conditions":"dev-master",
         "amasty/base": "1.4.10.x-dev",
-        "amasty/module-banners-lite":"dev-master",
         "amasty/blog": "1.3.4.x-dev",
         "amasty/duplicatecategories": "1.0.3.x-dev",
         "amasty/geoip": "1.3.7.x-dev",
         "amasty/groupcat": "1.5.6.x-dev",
-        "amasty/product-attachment": "1.3.3.x-dev",
-        "amasty/promo": "2.2.9.x-dev",
+        "amasty/module-advanced-conditions":"dev-master",
+        "amasty/module-banners-lite":"dev-master",
         "amasty/module-special-promo": "2.7.1.x-dev",
         "amasty/module-special-promo-pro": "2.7.2.x-dev",
         "amasty/module-store-locator": "1.12.3.x-dev",
+        "amasty/product-attachment": "1.3.3.x-dev",
+        "amasty/promo": "2.2.9.x-dev",
         "amasty/rgrid": "1.0.7.x-dev",
         "classyllama/module-owlcarousel":"dev-master",
         "firegento/fastsimpleimport": "dev-updated",
-        //"magemojo/m2-ce-cron": "^1.2",
-        "magento/magento-cloud-metapackage": "2.3.0",
+        "magento/magento-cloud-metapackage": ">=2.3.0 <2.3.1",
+        "magento/module-banner-page-builder": "1.0.0-beta3",
         "magento/module-bundle-sample-data": "100.3.*",
-        "magento/module-widget-sample-data": "100.3.*",
-        "magento/module-catalog-sample-data": "100.3.*",
-        "magento/module-customer-sample-data": "100.3.*",
-        "magento/module-theme-sample-data": "100.3.*",
-        "magento/module-cms-sample-data": "100.3.*",
-        "magento/module-review-sample-data": "100.3.*",
         "magento/module-catalog-rule-sample-data": "100.3.*",
-        "magento/module-sales-rule-sample-data": "100.3.*",
-        "magento/module-sales-sample-data": "100.3.*",
-        "magento/module-tax-sample-data": "100.3.*",
-        "magento/module-downloadable-sample-data": "100.3.*",
-        "magento/module-grouped-product-sample-data": "100.3.*",
-        "magento/module-msrp-sample-data": "100.3.*",
-        "magento/module-gift-card-sample-data": "100.3.*",
-        "magento/module-product-links-sample-data": "100.3.*",
-        "magento/module-wishlist-sample-data": "100.3.*",
+        "magento/module-catalog-sample-data": "100.3.*",
+        "magento/module-catalog-staging-page-builder": "1.0.0-beta3",
+        "magento/module-cms-sample-data": "100.3.*",
         "magento/module-configurable-sample-data": "100.3.*",
         "magento/module-customer-balance-sample-data": "100.3.*",
-        "magento/module-target-rule-sample-data": "100.3.*",
+        "magento/module-customer-sample-data": "100.3.*",
+        "magento/module-downloadable-sample-data": "100.3.*",
+        "magento/module-gift-card-sample-data": "100.3.*",
         "magento/module-gift-registry-sample-data": "100.3.*",
+        "magento/module-grouped-product-sample-data": "100.3.*",
+        //fix for MSI Elasticsearch. Can be removed in 2.3.1
+        "magento/module-inventory-elasticsearch": "dev-master",
+        "magento/module-msi-inventory-sample-data": "dev-master",
+        "magento/module-msi-source-stock-sample-data": "dev-demo",
+        "magento/module-msrp-sample-data": "100.3.*",
         "magento/module-multiple-wishlist-sample-data": "100.3.*",
-        "magento/module-swatches-sample-data": "100.3.*",
         "magento/module-offline-shipping-sample-data": "100.3.*",
-        "magento/page-builder-commerce": "100.0.0-beta1",
+        "magento/module-page-builder": "1.0.0-beta190208",
+        "magento/module-page-builder-analytics": "1.0.0-beta3",
+        "magento/module-product-links-sample-data": "100.3.*",
+        "magento/module-review-sample-data": "100.3.*",
+        "magento/module-sales-rule-sample-data": "100.3.*",
+        "magento/module-sales-sample-data": "100.3.*",
+        "magento/module-staging-page-builder": "1.0.0-beta3",
+        "magento/module-swatches-sample-data": "100.3.*",
+        "magento/module-target-rule-sample-data": "100.3.*",
+        "magento/module-tax-sample-data": "100.3.*",
+        "magento/module-theme-sample-data": "100.3.*",
+        "magento/module-widget-sample-data": "100.3.*",
+        "magento/module-wishlist-sample-data": "100.3.*",
+        "magento/page-builder-commerce": "1.0.0-beta3",
         "magento/sample-data-media": "100.3.*",
-        // "magento/mcom-connector" : "*",
         "magentoese/dock-mage": "dev-master",
-        "magentoese/ece-tools": "2002.0.14.x-dev",
-        "magentoese/magento-scripts": "2.2.5.x-dev",
+        "magentoese/ece-tools": "2002.0.16.x-dev",
+        "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
-        "magentoese/module-cms-sample-data-update": "2.3.x-dev",
-        "magentoese/module-cms-media-sample-data-update": "2.3.x-dev",
         "magentoese/module-autofill": "dev-master",
         "magentoese/module-autofill-sample-data": "dev-demo",
+        "magentoese/module-cms-media-sample-data-update": "dev-master",
+        "magentoese/module-cms-sample-data-update": "dev-master",
         "magentoese/module-customer-sample-data": "dev-master",
         "magentoese/module-demo-admin-configurations": "dev-master",
         "magentoese/module-demo-order-data": "dev-master",
-        // "magentoese/module-elasticsearch-config": "dev-master",
         "magentoese/module-installation-overrides": "dev-master",
         "magentoese/module-instorepickup": "dev-master",
         "magentoese/module-instorepickup-sample-data": "dev-master",
@@ -155,55 +167,57 @@
         "magentoese/module-luma-de-products": "dev-master",
         "magentoese/module-luma-de-setup": "dev-master",
         "magentoese/module-luma-de-widget": "dev-master",
-        "magentoese/module-megamenu": "2.3.x-dev",
-        "magento/module-msi-source-stock-sample-data": "dev-demo",
-        "magento/module-msi-inventory-sample-data": "dev-master",
-        "magentoese/module-msi-inventory-sample-data-demo": "reversedata-dev",
-        //"magentoese/module-post-install": "dev-master",
+        "magentoese/module-megamenu": "dev-master",
+        "magentoese/module-msi-inventory-sample-data-demo": "dev-master",
+        "magentoese/module-product-image-switcher": "dev-master",
         "magentoese/module-product-sample-data-update": "dev-master",
-        "magentoese/module-product-image-switcher": "2.3.x-dev",
         "magentoese/module-productbadge": "dev-master",
-        "magentoese/module-productbadge-sample-data": "2.3.x-dev",
+        "magentoese/module-productbadge-sample-data": "dev-master",
         "magentoese/module-sales-sample-data": "dev-master",
         "magentoese/module-sctools": "dev-master",
         "magentoese/module-switcherlogos": "dev-master",
         "magentoese/module-themecustomizer": "dev-master",
-        "magentoese/module-venia-setup": "dev-master",
         "magentoese/module-venia-catalog-sample-data": "dev-master",
-        "magentoese/module-venia-cms-sample-data": "2.3.x-dev",
-        "magentoese/module-venia-media-sample-data": "2.3.x-dev",
+        "magentoese/module-venia-cms-sample-data": "dev-master",
+        "magentoese/module-venia-media-sample-data": "dev-master",
+        "magentoese/module-venia-setup": "dev-master",
         "magentoese/module-venia-video-sample-data": "dev-master",
-        "magentoese/module-vimeo": "2.2.x-dev",
+        "magentoese/module-vimeo": "dev-master",
         "magentoese/nfs4d4m": "dev-master",
-        "magentoese/theme-frontend-venia": "2.3.x-dev",
-        //this can come out when package is updated for 2.3
-        "splendidinternet/mage2-locale-de-de": "dev-master",
-        //magerun not 2.3 compatible yet
-        //"n98/magerun2": "^2.2",
+        "magentoese/theme-frontend-venia": "dev-master",
+        "mageplaza/magento-2-portuguese-language-pack": "dev-master",
         "paradoxlabs/authnetcim": "4.1.3.x-dev",
         "paradoxlabs/firstdata": "2.1.2.x-dev",
         "paradoxlabs/stripe": "2.1.3.x-dev",
         "paradoxlabs/subscriptions": "3.0.4.x-dev",
-        "paradoxlabs/tokenbase": "4.1.5.x-dev"
-        //"smile/elasticsuite": "~2.3.6",
-
-
+        "paradoxlabs/tokenbase": "4.1.5.x-dev",
+        "splendidinternet/mage2-locale-de-de": "dev-master"
     },
-    "config": {
-        "use-include-path": true
+    "suggest": {
+        "ext-pcntl": "Need for run processes in parallel mode"
+    },
+    "conflict": {
+        "gene/bluefoot": "*"
     },
     "autoload": {
         "psr-4": {
-            "Magento\\Framework\\": "lib/internal/Magento/Framework/",
             "Magento\\Setup\\": "setup/src/Magento/Setup/",
             "Magento\\": "app/code/Magento/",
             "Zend\\Mvc\\Controller\\": "setup/src/Zend/Mvc/Controller/"
         },
         "psr-0": {
-            "": "app/code/"
+            "": [
+                "app/code/",
+                "generated/code/"
+            ]
         },
         "files": [
             "app/etc/NonComposerComponentRegistration.php"
+        ],
+        "exclude-from-classmap": [
+            "**/dev/**",
+            "**/update/**",
+            "**/Test/**"
         ]
     },
     "autoload-dev": {
@@ -218,6 +232,22 @@
     "minimum-stability": "alpha",
     "prefer-stable": true,
     "extra": {
+        "component_paths": {
+            "trentrichardson/jquery-timepicker-addon": "lib/web/jquery/jquery-ui-timepicker-addon.js",
+            "components/jquery": [
+                "lib/web/jquery.js",
+                "lib/web/jquery/jquery.min.js",
+                "lib/web/jquery/jquery-migrate.js"
+            ],
+            "blueimp/jquery-file-upload": "lib/web/jquery/fileUploader",
+            "components/jqueryui": [
+                "lib/web/jquery/jquery-ui.js"
+            ],
+            "twbs/bootstrap": [
+                "lib/web/jquery/jquery.tabs.js"
+            ],
+            "tinymce/tinymce": "lib/web/tiny_mce_4"
+        },
         "magento-force": true,
         "magento-deploystrategy": "copy"
     }

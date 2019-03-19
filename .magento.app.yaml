@@ -67,7 +67,7 @@ web:
 
 
 # The size of the persistent disk of the application (in MB).
-disk: 2048
+disk: 3072
 
 # The mounts that will be performed when the package is deployed.
 mounts:
@@ -86,7 +86,7 @@ hooks:
     # We run deploy hook after your application has been deployed and started.
     deploy: |
         php ./vendor/bin/ece-tools deploy
-        sed -i.bak "\$i'cron' => array ( 'enabled' => 0, )," /app/app/etc/env.php
+        sed -i.bak "/cron.*enabled/d; \$i'cron' => array ( 'enabled' => 0, )," /app/app/etc/env.php
     # We run post deploy hook to clean and warm the cache. Available with ECE-Tools 2002.0.10.
     post_deploy: |
         php ./vendor/bin/ece-tools post-deploy
@@ -96,7 +96,7 @@ hooks:
 crons:
     cronrun:
         spec: "*/5 * * * *"
-        cmd: "./vendor/magentoese/magento-scripts/cron.sh"
+        cmd: "php bin/magento cron:run"
 
 # Environment variables
 variables:
@@ -106,5 +106,5 @@ variables:
         CONFIG__STORES__DEFAULT__PAYPAL__NOTATION_CODE: 'Magento_Enterprise_Cloud'
 
 dependencies:
-  ruby:
-    amqp-utils: "0.5.1"
+    ruby:
+        amqp-utils: "0.5.1"
