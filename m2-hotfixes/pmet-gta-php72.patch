@@ -1,7 +1,7 @@
-diff --git a/app/code/Magento/GoogleTagManager/view/frontend/templates/impression.phtml b/app/code/Magento/GoogleTagManager/view/frontend/templates/impression.phtml
+diff --git a/vendor/magento/module-google-tag-manager/view/frontend/templates/impression.phtml b/vendor/magento/module-google-tag-manager/view/frontend/templates/impression.phtml
 index 7ece3754bd..497f7913d4 100644
---- a/app/code/Magento/GoogleTagManager/view/frontend/templates/impression.phtml
-+++ b/app/code/Magento/GoogleTagManager/view/frontend/templates/impression.phtml
+--- a/vendor/magento/module-google-tag-manager/view/frontend/templates/impression.phtml
++++ b/vendor/magento/module-google-tag-manager/view/frontend/templates/impression.phtml
 @@ -12,7 +12,7 @@ $productCollection = $block->getLoadedProductCollection();
  $block->checkCartItems();
  ?>
