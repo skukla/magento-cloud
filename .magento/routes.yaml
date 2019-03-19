@@ -4,4 +4,4 @@
 
 "https://{default}/":
     type: upstream
-    upstream: "mymagento:http"
+    upstream: "mymagento:php"
