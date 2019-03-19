@@ -504,21 +504,21 @@
         },
         {
             "name": "colinmollenhour/php-redis-session-abstract",
-            "version": "v1.4.0",
+            "version": "v1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/colinmollenhour/php-redis-session-abstract.git",
-                "reference": "4cb15d557f58f45ad257cbcce3c12511e6deb5bc"
+                "reference": "4949ca28b86037abb44984c77bab9d0a4e075643"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/colinmollenhour/php-redis-session-abstract/zipball/4cb15d557f58f45ad257cbcce3c12511e6deb5bc",
-                "reference": "4cb15d557f58f45ad257cbcce3c12511e6deb5bc",
+                "url": "https://api.github.com/repos/colinmollenhour/php-redis-session-abstract/zipball/4949ca28b86037abb44984c77bab9d0a4e075643",
+                "reference": "4949ca28b86037abb44984c77bab9d0a4e075643",
                 "shasum": ""
             },
             "require": {
                 "colinmollenhour/credis": "~1.6",
-                "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0"
+                "php": "^5.5 || ^7.0"
             },
             "type": "library",
             "autoload": {
@@ -537,7 +537,7 @@
             ],
             "description": "A Redis-based session handler with optimistic locking",
             "homepage": "https://github.com/colinmollenhour/php-redis-session-abstract",
-            "time": "2018-03-29T15:54:15+00:00"
+            "time": "2019-03-18T14:43:14+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -12790,7 +12790,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "2f2775a1aa83c08d6e920212bb0459f031ca6244"
+                "reference": "919877bce8c48f76485cbbd1c48cd64cad279fe0"
             },
             "require": {
                 "magento/framework": "*"
@@ -12811,7 +12811,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2019-03-11T05:38:39+00:00"
+            "time": "2019-03-19T17:04:53+00:00"
         },
         {
             "name": "magentoese/module-admin-configurations",
