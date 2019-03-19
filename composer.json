@@ -33,7 +33,6 @@
         
         
         {"type": "git", "url": "git@github.com:PMET-public/module-my-account-widget.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-post-install.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-productbadge.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-sales-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-sctools.git"},
@@ -67,7 +66,7 @@
     "require": {
         "firegento/fastsimpleimport": "dev-updated",
         "magento/extension-b2b": "^1.1",
-        "magento/magento-cloud-metapackage": "2.3.0",
+        "magento/magento-cloud-metapackage": ">=2.3.0 <2.3.1",
         "magento/module-banner-page-builder": "1.0.0-beta3",
         "magento/module-catalog-staging-page-builder": "1.0.0-beta3",
         "magento/module-page-builder": "1.0.0-beta190208",
@@ -179,6 +178,10 @@
         "magento/module-inventory-configurable-product-indexer":"*",
         "magento/module-inventory-configuration":"*",
         "magento/module-inventory-configuration-api":"*",
+        "magento/module-inventory-distance-based-source-selection": "*",
+        "magento/module-inventory-distance-based-source-selection-admin-ui": "*",
+        "magento/module-inventory-distance-based-source-selection-api": "*",
+        "magento/module-inventory-elasticsearch": "*",
         "magento/module-inventory-grouped-product":"*",
         "magento/module-inventory-grouped-product-admin-ui":"*",
         "magento/module-inventory-grouped-product-indexer":"*",
@@ -203,6 +206,5 @@
         "magento/module-inventory-source-selection":"*",
         "magento/module-inventory-source-selection-api":"*",
         "magento/module-inventory-source-selection-ui":"*"
-        
     }
 }
