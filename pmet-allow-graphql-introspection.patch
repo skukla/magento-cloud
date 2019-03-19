@@ -1,0 +1,13 @@
+diff --git a/vendor/magento/framework/GraphQl/Query/QueryProcessor.php b/vendor/magento/framework/GraphQl/Query/QueryProcessor.php
+index 94a0e5a1c1a..514ed6ee496 100644
+--- a/vendor/magento/framework/GraphQl/Query/QueryProcessor.php
++++ b/vendor/magento/framework/GraphQl/Query/QueryProcessor.php
+@@ -51,7 +51,7 @@ class QueryProcessor
+     ) : array {
+         if (!$this->exceptionFormatter->shouldShowDetail()) {
+             DocumentValidator::addRule(new QueryDepth(10));
+-            DocumentValidator::addRule(new DisableIntrospection());
++            DocumentValidator::addRule(new DisableIntrospection(DisableIntrospection::DISABLED));
+         }
+         $rootValue = null;
+         return \GraphQL\GraphQL::executeQuery(
