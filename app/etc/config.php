@@ -282,6 +282,11 @@ return [
         'Magento_WishlistAnalytics' => 1,
         'Magento_Worldpay' => 1,
         'Temando_Shipping' => 1,
-        'Vertex_Tax' => 1
+        'Vertex_Tax' => 1,
+        'Magento_InventorySetupFixtureGenerator' => 0,
+        'Magento_InventoryElasticsearch' => 0,
+        'Magento_InventoryDistanceBasedSourceSelectionApi' => 0,
+        'Magento_InventoryDistanceBasedSourceSelectionAdminUi' => 0,
+        'Magento_InventoryDistanceBasedSourceSelection' => 0
     ]
 ];
