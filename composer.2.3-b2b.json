@@ -2,7 +2,7 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.3.0",
+    "version": "2.3.1",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -66,13 +66,7 @@
     "require": {
         "firegento/fastsimpleimport": "dev-updated",
         "magento/extension-b2b": "^1.1",
-        "magento/magento-cloud-metapackage": ">=2.3.0 <2.3.1",
-        "magento/module-banner-page-builder": "1.0.0-beta3",
-        "magento/module-catalog-staging-page-builder": "1.0.0-beta3",
-        "magento/module-page-builder": "1.0.0-beta190208",
-        "magento/module-page-builder-analytics": "1.0.0-beta3",
-        "magento/module-staging-page-builder": "1.0.0-beta3",
-        "magento/page-builder-commerce": "1.0.0-beta3",
+        "magento/magento-cloud-metapackage": "2.3.1",
         "magentoese/dock-mage": "dev-master",
         "magentoese/ece-tools": "2002.0.16.x-dev",
         "magentoese/magento-scripts": "2.3.0.x-dev",
