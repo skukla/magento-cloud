@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f02e38252ee1ae5710fb68613e24c2e",
+    "content-hash": "336480352dd9b3ddfaddac63e3608f62",
     "packages": [
         {
             "name": "amasty/base",
@@ -17743,7 +17743,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
+                    "email": "backendtea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",

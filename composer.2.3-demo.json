@@ -62,6 +62,7 @@
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-groupcat.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-product-attachments.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-rules-grid.git"},
+        {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-salesrulewizard.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-special-promotions-pro.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-special-promotions.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-store-locator.git"},
