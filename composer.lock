@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e998c7a4a13f03f689723c6a49b92032",
+    "content-hash": "40fda6d9f3156d52f5396bbc8f2ddcb4",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -14320,7 +14320,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/dock-mage.git",
-                "reference": "ab31e8eada29c14aba6aae3453a753ee9190da6c"
+                "reference": "0c191c96e03bf34a42f86b570f90b3ef1f87dfea"
             },
             "bin": [
                 "scripts/dock-mage.sh"
@@ -14333,7 +14333,7 @@
                 }
             ],
             "description": "Launch Magento infrastructure using docker-compose",
-            "time": "2019-03-22T19:53:07+00:00"
+            "time": "2019-03-25T19:26:37+00:00"
         },
         {
             "name": "magentoese/ece-tools",
@@ -14470,59 +14470,6 @@
             ],
             "description": "Scripts to start and manage our M2 installations",
             "time": "2019-03-25T18:09:59+00:00"
-        },
-        {
-            "name": "magentoese/magento2-gmailsmtpapp",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:PMET-public/magento2-gmail-smtp-app.git",
-                "reference": "ab08d99c9dae3e75d8796a4a227722248681adba"
-            },
-            "require": {
-                "magento/framework": "100.0.*|100.1.*|101.0.*|102.0.*",
-                "magento/module-backend": "100.0.*|100.1.*|100.2.*|101.0.*",
-                "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0|~7.1.3|~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MagePal\\GmailSmtpApp\\": ""
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Renon Stewart",
-                    "email": "renon@magepal.com",
-                    "homepage": "http://www.magepal.com/",
-                    "role": "Leader"
-                }
-            ],
-            "description": "Magento 2 SMTP Extension - Configure Magento 2 to send all transactional email using Gmail, G Suite, Amazon SES, Office360, Mailgun, SendGrid, Mandrill or any other SMTP servers",
-            "homepage": "https://www.magepal.com/",
-            "keywords": [
-                "Amazon SES",
-                "Amazon Simple Email Service",
-                "g suite",
-                "gmail smtp",
-                "google app",
-                "magento 2",
-                "magento2 email",
-                "magento2 email setup",
-                "magento2 smtp",
-                "send email magento2"
-            ],
-            "support": {
-                "email": "support@magepal.com",
-                "issues": "https://github.com/magepal/magento2-gmail-smtp-app/issues/"
-            },
-            "time": "2019-03-25T17:31:51+00:00"
         },
         {
             "name": "magentoese/module-admin-configurations",
@@ -19400,7 +19347,6 @@
         "magentoese/dock-mage": 20,
         "magentoese/ece-tools": 20,
         "magentoese/magento-scripts": 20,
-        "magentoese/magento2-gmailsmtpapp": 20,
         "magentoese/module-admin-configurations": 20,
         "magentoese/nfs4d4m": 20
     },
