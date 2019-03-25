@@ -4,15 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "87ee2bb9e2a3d6535d7c661a076005c2",
+    "content-hash": "9f02e38252ee1ae5710fb68613e24c2e",
     "packages": [
         {
             "name": "amasty/base",
-            "version": "1.4.10.x-dev",
+            "version": "1.5.5.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-base.git",
-                "reference": "f620a13b93bda5ef5dcfd5c05ea0d2ef2de9cd73"
+                "reference": "be12d863990b3466cc82a43c1bb22c1446ffdfdf"
             },
             "require": {
                 "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0"
@@ -30,19 +30,22 @@
                 "Commercial"
             ],
             "description": "Amasty Base",
-            "time": "2018-12-11T16:33:18+00:00"
+            "time": "2019-03-22T15:01:13+00:00"
         },
         {
             "name": "amasty/blog",
-            "version": "1.3.4.x-dev",
+            "version": "1.6.3.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-blog-pro.git",
-                "reference": "0e28d6d9e210e18acddbed1245882c726a1afc85"
+                "reference": "b2e9a0d148f4a79a144a92f744b6d940d66c5ab7"
             },
             "require": {
-                "amasty/base": ">=1.4.10",
+                "amasty/base": ">=1.5.5",
                 "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0"
+            },
+            "suggest": {
+                "amasty/blog-page-builder": "Install blog-page-builder module to activate PageBuilder and Blog Pro integration."
             },
             "type": "magento2-module",
             "autoload": {
@@ -57,18 +60,18 @@
                 "Commercial"
             ],
             "description": "Amasty Blog Pro",
-            "time": "2018-12-11T16:55:19+00:00"
+            "time": "2019-03-19T13:28:06+00:00"
         },
         {
             "name": "amasty/duplicatecategories",
-            "version": "1.0.3.x-dev",
+            "version": "1.0.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-duplicate-categories.git",
-                "reference": "4b39e08949706444028e965a2bd85eb266f1659f"
+                "reference": "f94f3e4e886cec1ba70947b12fad5e939e5cbaf6"
             },
             "require": {
-                "amasty/base": ">=1.4.9",
+                "amasty/base": ">=1.5.5",
                 "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0"
             },
             "type": "magento2-module",
@@ -84,7 +87,7 @@
                 "Commercial"
             ],
             "description": "Duplicate Categories by Amasty",
-            "time": "2018-12-03T21:23:56+00:00"
+            "time": "2019-03-19T13:29:13+00:00"
         },
         {
             "name": "amasty/geoip",
@@ -115,14 +118,14 @@
         },
         {
             "name": "amasty/groupcat",
-            "version": "1.5.6.x-dev",
+            "version": "1.5.9.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-groupcat.git",
-                "reference": "9d13d77271ffdf957b5a77088375e6d81e66c02e"
+                "reference": "b1a2c7fd4af25542f9f99ac798201b3cd56d484f"
             },
             "require": {
-                "amasty/base": ">=1.4.9",
+                "amasty/base": ">=1.5.5",
                 "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0"
             },
             "type": "magento2-module",
@@ -138,15 +141,15 @@
                 "Commercial"
             ],
             "description": "Amasty Customer Group Catalog",
-            "time": "2018-12-04T13:13:34+00:00"
+            "time": "2019-03-19T13:31:29+00:00"
         },
         {
             "name": "amasty/module-advanced-conditions",
-            "version": "dev-master",
+            "version": "1.3.10.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-advanced-conditions.git",
-                "reference": "8801b1761da0cdd18c97cd21c44137c29e93696f"
+                "reference": "c75f91c8ea727bd9331552abb4944ff4a6d3740f"
             },
             "require": {
                 "amasty/base": ">=1.4.7",
@@ -165,15 +168,15 @@
                 "Commercial"
             ],
             "description": "Advanced Conditions by Amasty",
-            "time": "2018-12-03T21:20:22+00:00"
+            "time": "2019-03-19T13:15:47+00:00"
         },
         {
             "name": "amasty/module-banners-lite",
-            "version": "dev-master",
+            "version": "1.0.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-banners-lite.git",
-                "reference": "a614878076e0e89ce2659564c7ece76e6ba6aec8"
+                "reference": "dfdaf6de8f440e9ec2e0a7e37e7591f87ad72907"
             },
             "require": {
                 "amasty/base": ">=1.4.5",
@@ -192,19 +195,46 @@
                 "Commercial"
             ],
             "description": "Promo Banners Lite by Amasty",
-            "time": "2018-12-12T18:17:46+00:00"
+            "time": "2019-03-19T13:25:50+00:00"
+        },
+        {
+            "name": "amasty/module-salesrulewizard",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.the1umastory.com:md/amasty-module-salesrulewizard.git",
+                "reference": "eca15549e377bb16e7c3a888a8a3df95b5b7cfc3"
+            },
+            "require": {
+                "amasty/base": "*",
+                "amasty/promo": "*",
+                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\SalesRuleWizard\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "time": "2019-03-20T19:30:47+00:00"
         },
         {
             "name": "amasty/module-special-promo",
-            "version": "2.7.1.x-dev",
+            "version": "2.7.3.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-special-promotions.git",
-                "reference": "f30f892b60ba31cfe63e607b5411c662a8424eac"
+                "reference": "2799cfb69f40c11fd902f1198fd6adf99d8e1f93"
             },
             "require": {
-                "amasty/base": ">=1.4.10",
-                "amasty/module-banners-lite": ">=1.0.2",
+                "amasty/base": ">=1.5.5",
+                "amasty/module-banners-lite": ">=1.0.4",
                 "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0"
             },
             "type": "magento2-module",
@@ -220,19 +250,19 @@
                 "Commercial"
             ],
             "description": "Special Promotions by Amasty",
-            "time": "2018-12-11T16:37:06+00:00"
+            "time": "2019-03-19T14:17:50+00:00"
         },
         {
             "name": "amasty/module-special-promo-pro",
-            "version": "2.7.2.x-dev",
+            "version": "2.7.6.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-special-promotions-pro.git",
-                "reference": "700bbeee0249d08be1bfe10db3d836b1aa1d539e"
+                "reference": "bfceb8353be0db34e3244c0272e8830914afd78e"
             },
             "require": {
-                "amasty/base": ">=1.4.10",
-                "amasty/module-special-promo": ">=2.7.1",
+                "amasty/base": ">=1.5.5",
+                "amasty/module-special-promo": ">=2.7.3",
                 "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0"
             },
             "type": "magento2-module",
@@ -248,18 +278,18 @@
                 "Commercial"
             ],
             "description": "Special Promotions Pro by Amasty",
-            "time": "2018-12-11T16:36:03+00:00"
+            "time": "2019-03-19T14:24:29+00:00"
         },
         {
             "name": "amasty/module-store-locator",
-            "version": "1.12.3.x-dev",
+            "version": "1.12.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-store-locator.git",
-                "reference": "06a11f50d6e69c4bde39e2dafdc4ec072d937f27"
+                "reference": "26fcc8a73b651bdc8705a05ba9ee683b282f07aa"
             },
             "require": {
-                "amasty/base": ">=1.4.9",
+                "amasty/base": ">=1.5.5",
                 "amasty/geoip": ">=1.3.7",
                 "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0"
             },
@@ -276,7 +306,7 @@
                 "Commercial"
             ],
             "description": "Store Locator by Amasty",
-            "time": "2019-03-19T14:29:06+00:00"
+            "time": "2019-03-19T14:30:47+00:00"
         },
         {
             "name": "amasty/product-attachment",
@@ -307,15 +337,16 @@
         },
         {
             "name": "amasty/promo",
-            "version": "2.2.9.x-dev",
+            "version": "2.4.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-free-gift.git",
-                "reference": "ff653700dd648f7685d8feaeb1ef94d967230ad4"
+                "reference": "a8c6aff303675c7082c887c771275bb200371161"
             },
             "require": {
-                "amasty/base": ">=1.4.9",
-                "amasty/module-advanced-conditions": ">=1.3.5",
+                "amasty/base": ">=1.5.5",
+                "amasty/module-advanced-conditions": ">=1.3.9",
+                "amasty/module-salesrulewizard": ">=1.0.0",
                 "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0"
             },
             "type": "magento2-module",
@@ -331,7 +362,7 @@
                 "Commercial"
             ],
             "description": "Free Gift by Amasty",
-            "time": "2018-12-03T21:25:22+00:00"
+            "time": "2019-03-19T13:29:56+00:00"
         },
         {
             "name": "amasty/rgrid",
@@ -14764,8 +14795,11 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/dock-mage.git",
-                "reference": "2dbddd8981fbf406aae9f118c788dc6c09d02360"
+                "reference": "ab31e8eada29c14aba6aae3453a753ee9190da6c"
             },
+            "bin": [
+                "scripts/dock-mage.sh"
+            ],
             "type": "library",
             "authors": [
                 {
@@ -14774,7 +14808,7 @@
                 }
             ],
             "description": "Launch Magento infrastructure using docker-compose",
-            "time": "2018-08-28T14:55:56+00:00"
+            "time": "2019-03-22T19:53:07+00:00"
         },
         {
             "name": "magentoese/ece-tools",
@@ -14918,7 +14952,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git",
-                "reference": "fc7551c7a7d65d8c74e3e71d46af4b6e865b80eb"
+                "reference": "c6637bb949bf08f6b96491376df468ecc52e8f70"
             },
             "require": {
                 "magento/framework": "*"
@@ -14932,7 +14966,7 @@
                     "MagentoEse\\AdminConfigurations\\": ""
                 }
             },
-            "time": "2019-02-20T18:13:30+00:00"
+            "time": "2019-03-22T15:02:06+00:00"
         },
         {
             "name": "magentoese/module-autofill",
@@ -15879,16 +15913,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.16.0",
+            "version": "2.16.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "dd16fedc022180ea4292a03aabe95e9895677911"
+                "reference": "b509524136d579f6b15ad9af4e5bd4533d1ab6c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/dd16fedc022180ea4292a03aabe95e9895677911",
-                "reference": "dd16fedc022180ea4292a03aabe95e9895677911",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/b509524136d579f6b15ad9af4e5bd4533d1ab6c2",
+                "reference": "b509524136d579f6b15ad9af4e5bd4533d1ab6c2",
                 "shasum": ""
             },
             "require": {
@@ -15935,7 +15969,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2019-03-12T09:31:40+00:00"
+            "time": "2019-03-20T12:20:01+00:00"
         },
         {
             "name": "oyejorge/less.php",
@@ -17202,16 +17236,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v6.31.0",
+            "version": "v6.31.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "a44a095af88057922a08b03daaf79d6859e12e2d"
+                "reference": "dcdeb5f44890a146f572ecd33f73b144f902b82a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/a44a095af88057922a08b03daaf79d6859e12e2d",
-                "reference": "a44a095af88057922a08b03daaf79d6859e12e2d",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/dcdeb5f44890a146f572ecd33f73b144f902b82a",
+                "reference": "dcdeb5f44890a146f572ecd33f73b144f902b82a",
                 "shasum": ""
             },
             "require": {
@@ -17254,7 +17288,7 @@
                 "payment processing",
                 "stripe"
             ],
-            "time": "2019-03-18T23:36:33+00:00"
+            "time": "2019-03-22T17:12:41+00:00"
         },
         {
             "name": "symfony/console",
@@ -17666,16 +17700,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19"
+                "reference": "82ebae02209c21113908c229e9883c419720738a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e3d826245268269cd66f8326bd8bc066687b4a19",
-                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/82ebae02209c21113908c229e9883c419720738a",
+                "reference": "82ebae02209c21113908c229e9883c419720738a",
                 "shasum": ""
             },
             "require": {
@@ -17687,7 +17721,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.11-dev"
                 }
             },
             "autoload": {
@@ -17709,7 +17743,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -17720,20 +17754,20 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2018-08-06T14:22:27+00:00"
+            "time": "2019-02-06T07:57:58+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494"
+                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/c79c051f5b3a46be09205c73b80b346e4153e494",
-                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/fe5e94c604826c35a32fa832f35bd036b6799609",
+                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609",
                 "shasum": ""
             },
             "require": {
@@ -17745,7 +17779,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.11-dev"
                 }
             },
             "autoload": {
@@ -17779,20 +17813,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-09-21T13:07:52+00:00"
+            "time": "2019-02-06T07:57:58+00:00"
         },
         {
             "name": "symfony/polyfill-php56",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php56.git",
-                "reference": "ff208829fe1aa48ab9af356992bb7199fed551af"
+                "reference": "f4dddbc5c3471e1b700a147a20ae17cdb72dbe42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/ff208829fe1aa48ab9af356992bb7199fed551af",
-                "reference": "ff208829fe1aa48ab9af356992bb7199fed551af",
+                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/f4dddbc5c3471e1b700a147a20ae17cdb72dbe42",
+                "reference": "f4dddbc5c3471e1b700a147a20ae17cdb72dbe42",
                 "shasum": ""
             },
             "require": {
@@ -17802,7 +17836,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.11-dev"
                 }
             },
             "autoload": {
@@ -17835,20 +17869,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-09-21T06:26:08+00:00"
+            "time": "2019-02-06T07:57:58+00:00"
         },
         {
             "name": "symfony/polyfill-util",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-util.git",
-                "reference": "3b58903eae668d348a7126f999b0da0f2f93611c"
+                "reference": "b46c6cae28a3106735323f00a0c38eccf2328897"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/3b58903eae668d348a7126f999b0da0f2f93611c",
-                "reference": "3b58903eae668d348a7126f999b0da0f2f93611c",
+                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/b46c6cae28a3106735323f00a0c38eccf2328897",
+                "reference": "b46c6cae28a3106735323f00a0c38eccf2328897",
                 "shasum": ""
             },
             "require": {
@@ -17857,7 +17891,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.11-dev"
                 }
             },
             "autoload": {
@@ -17887,7 +17921,7 @@
                 "polyfill",
                 "shim"
             ],
-            "time": "2018-09-30T16:36:12+00:00"
+            "time": "2019-02-08T14:16:39+00:00"
         },
         {
             "name": "symfony/process",
@@ -18342,16 +18376,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.7.3",
+            "version": "v2.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "52b9a5bd41c8c53a1d784f90ca25e33bf558a6b3"
+                "reference": "ed9c49220e09bfaeb1ba4d48077c08a7b09908dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/52b9a5bd41c8c53a1d784f90ca25e33bf558a6b3",
-                "reference": "52b9a5bd41c8c53a1d784f90ca25e33bf558a6b3",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ed9c49220e09bfaeb1ba4d48077c08a7b09908dd",
+                "reference": "ed9c49220e09bfaeb1ba4d48077c08a7b09908dd",
                 "shasum": ""
             },
             "require": {
@@ -18405,7 +18439,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-03-21T14:53:02+00:00"
+            "time": "2019-03-23T14:28:58+00:00"
         },
         {
             "name": "vertex/module-tax",
@@ -20780,6 +20814,7 @@
         "amasty/groupcat": 20,
         "amasty/module-advanced-conditions": 20,
         "amasty/module-banners-lite": 20,
+        "amasty/module-salesrulewizard": 20,
         "amasty/module-special-promo": 20,
         "amasty/module-special-promo-pro": 20,
         "amasty/module-store-locator": 20,
