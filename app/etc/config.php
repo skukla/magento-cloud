@@ -142,6 +142,7 @@ return [
         'Magento_AdvancedSearch' => 1,
         'Magento_Elasticsearch' => 1,
         'Magento_Email' => 1,
+        'MagePal_GmailSmtpApp' => 1,
         'Magento_EncryptionKey' => 1,
         'Magento_Enterprise' => 1,
         'Magento_Eway' => 1,
