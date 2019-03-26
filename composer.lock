@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "336480352dd9b3ddfaddac63e3608f62",
+    "content-hash": "d53e8d0cf465f1bda2aaefcd33740750",
     "packages": [
         {
             "name": "amasty/base",
@@ -1154,24 +1154,23 @@
         },
         {
             "name": "composer/spdx-licenses",
-            "version": "1.5.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/spdx-licenses.git",
-                "reference": "7a9556b22bd9d4df7cad89876b00af58ef20d3a2"
+                "reference": "a1aa51cf3ab838b83b0867b14e56fc20fbd55b3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/7a9556b22bd9d4df7cad89876b00af58ef20d3a2",
-                "reference": "7a9556b22bd9d4df7cad89876b00af58ef20d3a2",
+                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/a1aa51cf3ab838b83b0867b14e56fc20fbd55b3d",
+                "reference": "a1aa51cf3ab838b83b0867b14e56fc20fbd55b3d",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3.2 || ^7.0"
+                "php": "^5.3.2 || ^7.0 || ^8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5",
-                "phpunit/phpunit-mock-objects": "2.3.0 || ^3.0"
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || 6.5 - 7"
             },
             "type": "library",
             "extra": {
@@ -1211,7 +1210,7 @@
                 "spdx",
                 "validator"
             ],
-            "time": "2018-11-01T09:45:54+00:00"
+            "time": "2019-03-26T10:23:26+00:00"
         },
         {
             "name": "composer/xdebug-handler",
@@ -14795,7 +14794,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/dock-mage.git",
-                "reference": "ab31e8eada29c14aba6aae3453a753ee9190da6c"
+                "reference": "0c191c96e03bf34a42f86b570f90b3ef1f87dfea"
             },
             "bin": [
                 "scripts/dock-mage.sh"
@@ -14808,7 +14807,7 @@
                 }
             ],
             "description": "Launch Magento infrastructure using docker-compose",
-            "time": "2019-03-22T19:53:07+00:00"
+            "time": "2019-03-25T19:26:37+00:00"
         },
         {
             "name": "magentoese/ece-tools",
@@ -14923,7 +14922,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-scripts.git",
-                "reference": "919877bce8c48f76485cbbd1c48cd64cad279fe0"
+                "reference": "2d83ee8e54704cdab8bd07b41459c09e97f1234d"
             },
             "require": {
                 "magento/framework": "*"
@@ -14944,7 +14943,60 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2019-03-19T17:04:53+00:00"
+            "time": "2019-03-25T18:09:59+00:00"
+        },
+        {
+            "name": "magentoese/magento2-gmailsmtpapp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/magento2-gmail-smtp-app.git",
+                "reference": "ab08d99c9dae3e75d8796a4a227722248681adba"
+            },
+            "require": {
+                "magento/framework": "100.0.*|100.1.*|101.0.*|102.0.*",
+                "magento/module-backend": "100.0.*|100.1.*|100.2.*|101.0.*",
+                "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0|~7.1.3|~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MagePal\\GmailSmtpApp\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Renon Stewart",
+                    "email": "renon@magepal.com",
+                    "homepage": "http://www.magepal.com/",
+                    "role": "Leader"
+                }
+            ],
+            "description": "Magento 2 SMTP Extension - Configure Magento 2 to send all transactional email using Gmail, G Suite, Amazon SES, Office360, Mailgun, SendGrid, Mandrill or any other SMTP servers",
+            "homepage": "https://www.magepal.com/",
+            "keywords": [
+                "Amazon SES",
+                "Amazon Simple Email Service",
+                "g suite",
+                "gmail smtp",
+                "google app",
+                "magento 2",
+                "magento2 email",
+                "magento2 email setup",
+                "magento2 smtp",
+                "send email magento2"
+            ],
+            "support": {
+                "email": "support@magepal.com",
+                "issues": "https://github.com/magepal/magento2-gmail-smtp-app/issues/"
+            },
+            "time": "2019-03-25T17:31:51+00:00"
         },
         {
             "name": "magentoese/module-admin-configurations",
@@ -14952,7 +15004,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git",
-                "reference": "c6637bb949bf08f6b96491376df468ecc52e8f70"
+                "reference": "4c4fe9bfc12c114c06975f958267033a6c117c9c"
             },
             "require": {
                 "magento/framework": "*"
@@ -14966,7 +15018,7 @@
                     "MagentoEse\\AdminConfigurations\\": ""
                 }
             },
-            "time": "2019-03-22T15:02:06+00:00"
+            "time": "2019-03-26T11:23:54+00:00"
         },
         {
             "name": "magentoese/module-autofill",
@@ -17236,16 +17288,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v6.31.1",
+            "version": "v6.31.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "dcdeb5f44890a146f572ecd33f73b144f902b82a"
+                "reference": "19456bcbdde319a4e936e042f65769f0993eb90b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/dcdeb5f44890a146f572ecd33f73b144f902b82a",
-                "reference": "dcdeb5f44890a146f572ecd33f73b144f902b82a",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/19456bcbdde319a4e936e042f65769f0993eb90b",
+                "reference": "19456bcbdde319a4e936e042f65769f0993eb90b",
                 "shasum": ""
             },
             "require": {
@@ -17288,7 +17340,7 @@
                 "payment processing",
                 "stripe"
             ],
-            "time": "2019-03-22T17:12:41+00:00"
+            "time": "2019-03-25T20:28:43+00:00"
         },
         {
             "name": "symfony/console",
@@ -20828,6 +20880,7 @@
         "magentoese/dock-mage": 20,
         "magentoese/ece-tools": 20,
         "magentoese/magento-scripts": 20,
+        "magentoese/magento2-gmailsmtpapp": 20,
         "magentoese/module-admin-configurations": 20,
         "magentoese/module-autofill": 20,
         "magentoese/module-autofill-sample-data": 20,
