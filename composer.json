@@ -13,7 +13,7 @@
     },
     "repositories": [
         {"type": "composer", "url": "https://repo.magento.com/"},
-        {"type": "composer", "url": "https://connect20-qa01.magedevteam.com/"},
+        
         {"type": "git", "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"},
         {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
         {"type": "git", "url": "git@github.com:PMET-public/ece-tools.git"},
@@ -36,7 +36,6 @@
     },
     "require": {
         "firegento/fastsimpleimport": "dev-updated",
-        "magento/inventory-composer-metapackage": "1.1.*",
         "magento/magento-cloud-metapackage": "2.3.1",
         "magento/module-bundle-sample-data": "100.3.*",
         "magento/module-catalog-rule-sample-data": "100.3.*",

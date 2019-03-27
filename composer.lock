@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "40fda6d9f3156d52f5396bbc8f2ddcb4",
+    "content-hash": "4fe0cb0376c5baf42b5dd72b42231608",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -16278,7 +16278,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
+                    "email": "backendtea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
