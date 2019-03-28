@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "93211887c6ec3ccd04c914efcc1b5fb9",
+    "content-hash": "d7eb1d226072d3467c9d925e1a04d752",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -1648,7 +1648,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v5.8.4",
+            "version": "v5.8.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -1692,7 +1692,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.8.4",
+            "version": "v5.8.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -1737,7 +1737,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.8.4",
+            "version": "v5.8.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -1781,16 +1781,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v5.8.4",
+            "version": "v5.8.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "07062f5750872a31e086ff37a7c50ac18b8c417c"
+                "reference": "5bce502f0bdb97ebbda0eb4f6cb75455d5a01529"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/07062f5750872a31e086ff37a7c50ac18b8c417c",
-                "reference": "07062f5750872a31e086ff37a7c50ac18b8c417c",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/5bce502f0bdb97ebbda0eb4f6cb75455d5a01529",
+                "reference": "5bce502f0bdb97ebbda0eb4f6cb75455d5a01529",
                 "shasum": ""
             },
             "require": {
@@ -1838,7 +1838,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2019-03-12T13:17:00+00:00"
+            "time": "2019-03-25T21:36:23+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -4953,7 +4953,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-catalog-sample-data-venia.git",
-                "reference": "f294079c9fb59c72c043599da8af9d95b89266ac"
+                "reference": "756d3d82ed90c2bf9e4514ccca3ba5fb6b98798d"
             },
             "require": {
                 "magento/module-sample-data": "*",
@@ -4973,7 +4973,7 @@
                 "AFL-3.0"
             ],
             "description": "N/A",
-            "time": "2018-11-08T20:09:31+00:00"
+            "time": "2019-03-28T18:15:48+00:00"
         },
         {
             "name": "magento/module-catalog-search",
@@ -5777,7 +5777,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-configurable-sample-data-venia.git",
-                "reference": "e7b931f7b313712e2eff7c69547b65855333ed34"
+                "reference": "e80b24e9647e3243ef7020d334bd4e347ada41ec"
             },
             "require": {
                 "magento/module-configurable-product": "*",
@@ -5798,7 +5798,7 @@
                 "AFL-3.0"
             ],
             "description": "N/A",
-            "time": "2019-03-15T18:08:16+00:00"
+            "time": "2019-03-28T18:16:55+00:00"
         },
         {
             "name": "magento/module-contact",
