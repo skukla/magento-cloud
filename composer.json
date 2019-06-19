@@ -2,7 +2,7 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.3.0",
+    "version": "2.3.2",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -13,7 +13,7 @@
     },
     "repositories": [
         {"type": "composer", "url": "https://repo.magento.com/"},
-        {"type": "composer", "url": "https://connect20-qa01.magedevteam.com/"},
+        
         {"type": "git", "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"},
         {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
         {"type": "git", "url": "git@github.com:PMET-public/ece-tools.git"},
@@ -96,18 +96,19 @@
     },
     "require": {
         "amasty/base": "1.7.0.x-dev",
-
+        "amasty/blog": "1.3.4.x-dev",
         "amasty/geoip": "1.5.0.x-dev",
-
+        
+        
         "amasty/module-advanced-conditions":"1.3.12.x-dev",
         "amasty/module-banners-lite":"1.0.7.x-dev",
         "amasty/module-salesrulewizard": "dev-master",
         "amasty/module-special-promo": "2.7.7.x-dev",
         "amasty/module-special-promo-pro": "2.7.11.x-dev",
         "amasty/module-store-locator": "2.1.0.x-dev",
-
-
-
+        
+        "amasty/product-attachment": "1.3.3.x-dev",
+        
         "amasty/promo": "2.5.0.x-dev",
         "amasty/rgrid": "1.0.7.x-dev",
         "classyllama/module-owlcarousel":"dev-master",
@@ -186,11 +187,11 @@
         "magentoese/module-vimeo": "dev-master",
         "magentoese/nfs4d4m": "dev-master",
         "magentoese/theme-frontend-venia": "dev-master",
-        "paradoxlabs/authnetcim": "4.1.3.x-dev",
-        "paradoxlabs/firstdata": "2.1.2.x-dev",
-        "paradoxlabs/stripe": "2.1.3.x-dev",
-        "paradoxlabs/subscriptions": "3.0.4.x-dev",
-        "paradoxlabs/tokenbase": "4.1.5.x-dev"
+        "paradoxlabs/authnetcim": "4.2.1.x-dev",
+        "paradoxlabs/firstdata": "2.2.0.x-dev",
+        "paradoxlabs/stripe": "2.2.0.x-dev",
+        "paradoxlabs/subscriptions": "3.1.0.x-dev",
+        "paradoxlabs/tokenbase": "4.2.1.x-dev"
     },
     "suggest": {
         "ext-pcntl": "Need for run processes in parallel mode"
@@ -250,4 +251,5 @@
         "magento-force": true,
         "magento-deploystrategy": "copy"
     }
+
 }
