@@ -16129,7 +16129,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-venia-catalog-sample-data.git",
-                "reference": "78486d9cf93f8c756c6ce839df86ed5d31d802cd"
+                "reference": "605a46202f7e8c6bb5004bb560114f481c2e0000"
             },
             "require": {
                 "firegento/fastsimpleimport": "dev-updated",
@@ -16144,7 +16144,7 @@
                     "MagentoEse\\VeniaCatalogSampleData\\": ""
                 }
             },
-            "time": "2019-03-18T17:11:34+00:00"
+            "time": "2019-06-20T19:41:03+00:00"
         },
         {
             "name": "magentoese/module-venia-cms-sample-data",
