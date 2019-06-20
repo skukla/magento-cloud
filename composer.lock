@@ -1231,16 +1231,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.103",
+            "version": "1.2.106",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "d08d2c3faf365a39d2c63ca1e7e601f75f4384ec"
+                "reference": "5c700b1de57d94d0a016ea65e819b8bf08fb9a22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/d08d2c3faf365a39d2c63ca1e7e601f75f4384ec",
-                "reference": "d08d2c3faf365a39d2c63ca1e7e601f75f4384ec",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/5c700b1de57d94d0a016ea65e819b8bf08fb9a22",
+                "reference": "5c700b1de57d94d0a016ea65e819b8bf08fb9a22",
                 "shasum": ""
             },
             "require": {
@@ -1265,7 +1265,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2019-05-21T16:16:34+00:00"
+            "time": "2019-06-19T02:31:23+00:00"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -1687,7 +1687,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v5.8.22",
+            "version": "v5.8.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -1731,7 +1731,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.8.22",
+            "version": "v5.8.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -1776,7 +1776,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.8.22",
+            "version": "v5.8.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -1820,16 +1820,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v5.8.22",
+            "version": "v5.8.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "0c3ef774fdfcb38dce7dc52967107423e86224c5"
+                "reference": "b05653f5ecce996734d3facd06a81aff504b6a2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/0c3ef774fdfcb38dce7dc52967107423e86224c5",
-                "reference": "0c3ef774fdfcb38dce7dc52967107423e86224c5",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/b05653f5ecce996734d3facd06a81aff504b6a2f",
+                "reference": "b05653f5ecce996734d3facd06a81aff504b6a2f",
                 "shasum": ""
             },
             "require": {
@@ -1877,7 +1877,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2019-06-12T08:34:45+00:00"
+            "time": "2019-06-19T14:12:17+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -17080,16 +17080,16 @@
         },
         {
             "name": "tedivm/jshrink",
-            "version": "v1.3.1",
+            "version": "v1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tedious/JShrink.git",
-                "reference": "21254058dc3ce6aba6bef458cff4bfa25cf8b198"
+                "reference": "d9b51729f3c6692c2da3e3fe6c5cd7c9d1d3fa8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tedious/JShrink/zipball/21254058dc3ce6aba6bef458cff4bfa25cf8b198",
-                "reference": "21254058dc3ce6aba6bef458cff4bfa25cf8b198",
+                "url": "https://api.github.com/repos/tedious/JShrink/zipball/d9b51729f3c6692c2da3e3fe6c5cd7c9d1d3fa8f",
+                "reference": "d9b51729f3c6692c2da3e3fe6c5cd7c9d1d3fa8f",
                 "shasum": ""
             },
             "require": {
@@ -17122,7 +17122,7 @@
                 "javascript",
                 "minifier"
             ],
-            "time": "2018-09-16T00:02:51+00:00"
+            "time": "2019-06-15T23:11:19+00:00"
         },
         {
             "name": "temando/module-shipping-m2",
@@ -17289,16 +17289,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.11.2",
+            "version": "v2.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "84a463403da1c81afbcedda8f0e788c78bd25a79"
+                "reference": "699ed2342557c88789a15402de5eb834dedd6792"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/84a463403da1c81afbcedda8f0e788c78bd25a79",
-                "reference": "84a463403da1c81afbcedda8f0e788c78bd25a79",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/699ed2342557c88789a15402de5eb834dedd6792",
+                "reference": "699ed2342557c88789a15402de5eb834dedd6792",
                 "shasum": ""
             },
             "require": {
@@ -17352,7 +17352,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-06-05T11:17:07+00:00"
+            "time": "2019-06-18T15:37:11+00:00"
         },
         {
             "name": "vertex/module-tax",
