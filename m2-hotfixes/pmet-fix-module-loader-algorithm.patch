@@ -1,29 +1,29 @@
 diff --git a/vendor/magento/framework/Module/ModuleList/Loader.php b/vendor/magento/framework/Module/ModuleList/Loader.php
-index bdfb7776..9a3f5d9e 100644
+index 72421f793f1..6e63d7a1c1d 100644
 --- a/vendor/magento/framework/Module/ModuleList/Loader.php
 +++ b/vendor/magento/framework/Module/ModuleList/Loader.php
-@@ -132,10 +132,12 @@ class Loader
+@@ -131,11 +131,12 @@ class Loader
+     private function sortBySequence(array $origList): array
      {
          ksort($origList);
-         $expanded = [];
 +        $this->revolveRequiredModules($origList);
-+
-         foreach ($origList as $moduleName => $value) {
-             $expanded[] = [
-                 'name' => $moduleName,
--                'sequence' => $this->expandSequence($origList, $moduleName),
-+                'sequence' => $this->revolvedRequiredModules[$moduleName],
-             ];
-         }
+         $modules = $this->prearrangeModules($origList);
  
-@@ -184,4 +186,62 @@ class Loader
+         $expanded = [];
+         foreach (array_keys($modules) as $moduleName) {
+-            $sequence = $this->expandSequence($origList, $moduleName);
++            $sequence = $this->revolvedRequiredModules[$moduleName];
+             asort($sequence);
+ 
+             $expanded[] = [
+@@ -210,4 +211,62 @@ class Loader
          }
          return $result;
      }
 +
 +    /*
-+     *  resolved and flattened requirements for modules
-+     */
++  *  resolved and flattened requirements for modules
++  */
 +
 +    private $revolvedRequiredModules;
 +
