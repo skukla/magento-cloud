@@ -92,7 +92,8 @@
         "magentoese/module-b2b-misc-sample-data": "dev-master",
         
         
-        
+        "magentoese/module-b2b-order-approval-process": "dev-master",
+        "magentoese/module-b2b-order-approval-sample-data": "dev-master",
         "magentoese/module-b2b-order-sample-data": "dev-master",
         "magentoese/module-b2b-philips-sample-data": "dev-master",
         "magentoese/module-b2b-pricing-sample-data": "dev-master",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5c6713a9249b566ab463ca26c64a2e1",
+    "content-hash": "9aac34bfe79a40ad4bac59dee253bccb",
     "packages": [
         {
             "name": "accorin/module-companyaddressbook",
@@ -13764,7 +13764,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-b2b-admin-configurations.git",
-                "reference": "25d884bab37b640a4535f8d033622bf1c4d1a33e"
+                "reference": "daa095ea50cc7a7bb33b564128109e6c31b3d811"
             },
             "require": {
                 "magento/framework": "*"
@@ -13778,7 +13778,7 @@
                     "MagentoEse\\B2bAdminConfigurations\\": ""
                 }
             },
-            "time": "2019-06-05T14:30:45+00:00"
+            "time": "2019-06-24T15:44:53+00:00"
         },
         {
             "name": "magentoese/module-b2b-b2c-sample-data",
@@ -13937,6 +13937,58 @@
                 }
             },
             "time": "2018-04-22T21:18:55+00:00"
+        },
+        {
+            "name": "magentoese/module-b2b-order-approval-process",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/module-b2b-order-approval-process.git",
+                "reference": "9f9e67ad425166c524e75e8f2cf9c1539cac839b"
+            },
+            "require": {
+                "accorin/module-orderapprovals": "*",
+                "php": "~7.1.0|~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MagentoEse\\B2bOrderApprovalProcess\\": ""
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "time": "2019-06-18T16:05:41+00:00"
+        },
+        {
+            "name": "magentoese/module-b2b-order-approval-sample-data",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/module-b2b-order-approval-sample-data.git",
+                "reference": "618048bb5c5506268be7f5ed85c378ec54669114"
+            },
+            "require": {
+                "accorin/module-orderapprovals": "*",
+                "php": "~7.1.0|~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MagentoEse\\B2bOrderApprovalSampleData\\": ""
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "time": "2019-06-24T15:44:09+00:00"
         },
         {
             "name": "magentoese/module-b2b-order-sample-data",
@@ -14911,16 +14963,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.19",
+            "version": "2.0.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "d2085db7b7394baa071a69c8f9159723c250f2ba"
+                "reference": "d6819a55b05e123db1e881d8b230d57f912126be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/d2085db7b7394baa071a69c8f9159723c250f2ba",
-                "reference": "d2085db7b7394baa071a69c8f9159723c250f2ba",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/d6819a55b05e123db1e881d8b230d57f912126be",
+                "reference": "d6819a55b05e123db1e881d8b230d57f912126be",
                 "shasum": ""
             },
             "require": {
@@ -14999,7 +15051,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2019-06-20T03:34:11+00:00"
+            "time": "2019-06-23T16:33:11+00:00"
         },
         {
             "name": "psr/container",
@@ -19048,6 +19100,8 @@
         "magentoese/module-b2b-media-sample-data": 20,
         "magentoese/module-b2b-milwaukee-sample-data": 20,
         "magentoese/module-b2b-misc-sample-data": 20,
+        "magentoese/module-b2b-order-approval-process": 20,
+        "magentoese/module-b2b-order-approval-sample-data": 20,
         "magentoese/module-b2b-order-sample-data": 20,
         "magentoese/module-b2b-philips-sample-data": 20,
         "magentoese/module-b2b-pricing-sample-data": 20,
