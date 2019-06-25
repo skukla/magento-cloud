@@ -81,7 +81,7 @@
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/module-autofill": "dev-master",
         "magentoese/module-autofill-sample-data": "dev-b2b",
-        "magentoese/module-b2b-admin-configurations": "2.3.2.x-dev",
+        "magentoese/module-b2b-admin-configurations": "dev-master",
         "magentoese/module-b2b-b2c-sample-data": "dev-master",
         "magentoese/module-b2b-catalog-sample-data": "dev-master",
         "magentoese/module-b2b-cms-sample-data": "dev-master",
