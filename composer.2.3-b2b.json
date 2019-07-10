@@ -69,7 +69,7 @@
         ]
     },
     "require": {
-        "accorin/module-companyaddressbook": "dev-master",
+        //"accorin/module-companyaddressbook": "dev-master",
         "accorin/module-orderapprovals": "dev-master",
         "firegento/fastsimpleimport": "dev-updated",
         "magento/extension-b2b": "^1.1",
