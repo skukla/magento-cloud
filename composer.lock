@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ace1dc1683a0a0323eb94f0cc12d1691",
+    "content-hash": "ccb9b1cd07a7eceeaa9352ce5dc481d8",
     "packages": [
         {
             "name": "amasty/base",
@@ -1421,6 +1421,44 @@
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
+            "name": "davemacaulay/module-page-builder-grid",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:davemacaulay/module-page-builder-grid.git",
+                "reference": "25fc121eeedd8baabb74e1600f05f023a0f149b6"
+            },
+            "require": {
+                "magento/framework": "*",
+                "magento/module-page-builder": "*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "DaveMacaulay\\PageBuilderGrid\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Macaulay",
+                    "email": "macaulay@adobe.com"
+                },
+                {
+                    "name": "Hwashiang Yu",
+                    "email": "hwyu@adobe.com"
+                }
+            ],
+            "description": "Example Page Builder Grid Module",
+            "time": "2019-06-06T19:47:53+00:00"
+        },
+        {
             "name": "doctrine/inflector",
             "version": "v1.3.0",
             "source": {
@@ -1773,6 +1811,177 @@
                 "symfony"
             ],
             "time": "2018-05-09T20:26:30+00:00"
+        },
+        {
+            "name": "example/module-page-builder-extension-banner",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PMET-public/module-page-builder-extension-banner.git",
+                "reference": "c728e162180b056c1b29b47c3bafdad68c8e34d4"
+            },
+            "require": {
+                "magento/framework": "102.0.*",
+                "magento/module-page-builder": "1.0.*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Example\\PageBuilderExtensionBanner\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "PageBuilder Extension Banner",
+            "time": "2019-07-10T15:09:38+00:00"
+        },
+        {
+            "name": "example/module-page-builder-extension-base-forms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PMET-public/module-page-builder-extension-base-forms.git",
+                "reference": "73df1279f7e85a2f3204de641b0bc26e32a4e1ec"
+            },
+            "require": {
+                "magento/framework": "102.0.*",
+                "magento/module-page-builder": "1.0.*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Example\\PageBuilderExtensionBaseForms\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "PageBuilder Extension Base Forms",
+            "time": "2019-07-10T15:03:54+00:00"
+        },
+        {
+            "name": "example/module-page-builder-extension-slider",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PMET-public/module-page-builder-extension-slider.git",
+                "reference": "d6e678657b6d8d0d1b690aaa92485f793e0d260b"
+            },
+            "require": {
+                "magento/framework": "102.0.*",
+                "magento/module-page-builder": "1.0.*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Example\\PageBuilderExtensionSlider\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "PageBuilder Extension Slider",
+            "time": "2019-07-10T15:08:25+00:00"
+        },
+        {
+            "name": "example/module-page-builder-extension-text",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PMET-public/module-page-builder-extension-text.git",
+                "reference": "d79e5b683484c04bb446d3337e4e11ff1532d026"
+            },
+            "require": {
+                "magento/framework": "102.0.*",
+                "magento/module-page-builder": "1.0.*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Example\\PageBuilderExtensionText\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "PageBuilder Extension Text",
+            "time": "2019-07-10T15:10:40+00:00"
+        },
+        {
+            "name": "example/module-page-builder-faq",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PMET-public/module-page-builder-faq.git",
+                "reference": "05373152110adfce5208c7d32c816d3ea6969089"
+            },
+            "require": {
+                "magento/framework": "102.0.*",
+                "magento/module-page-builder": "1.0.*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Example\\PageBuilderFaq\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "PageBuilder FAQ module",
+            "time": "2019-07-10T14:54:01+00:00"
+        },
+        {
+            "name": "example/module-page-builder-quote",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:bdenham/page-builder-quote.git",
+                "reference": "edc32bfdc448f22a663ca52f987ed57e2582aebb"
+            },
+            "require": {
+                "magento/framework": "*",
+                "magento/module-page-builder": "*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Bruce Denham",
+                    "email": "bdenham@adobe.com"
+                }
+            ],
+            "description": "PageBuilder Quote module for content type tutorial",
+            "time": "2019-02-27T13:26:24+00:00"
         },
         {
             "name": "fastly/magento2",
@@ -21386,6 +21595,13 @@
         "classyllama/module-owlcarousel": 20,
         "community-engineering/language-sr_sp": 20,
         "community-engineering/language-zh_cn": 20,
+        "davemacaulay/module-page-builder-grid": 20,
+        "example/module-page-builder-faq": 20,
+        "example/module-page-builder-quote": 20,
+        "example/module-page-builder-extension-banner": 20,
+        "example/module-page-builder-extension-base-forms": 20,
+        "example/module-page-builder-extension-slider": 20,
+        "example/module-page-builder-extension-text": 20,
         "firegento/fastsimpleimport": 20,
         "magento/module-msi-inventory-sample-data": 20,
         "magento/module-msi-source-stock-sample-data": 20,
