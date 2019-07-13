@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b5f06776b2e369495c8b2557562cbbc3",
+    "content-hash": "ff2f4836225036b5843027d5c9fc30dc",
     "packages": [
         {
             "name": "accorin/module-orderapprovals",
@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/module-accorin-orderapprovals",
-                "reference": "a70635d7ddf93ee9eb861750ce9d07fbb22722c0"
+                "reference": "c1da171450818187223dc03bd0adb21755567eaa"
             },
             "require": {
                 "php": "~7.1.3|~7.2.0"
@@ -30,7 +30,7 @@
                 "proprietary"
             ],
             "description": "Order Approval Magento 2 Extension By Accorin",
-            "time": "2019-07-10T23:55:54+00:00"
+            "time": "2019-07-13T00:07:44+00:00"
         },
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -13742,7 +13742,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-b2b-admin-configurations.git",
-                "reference": "daa095ea50cc7a7bb33b564128109e6c31b3d811"
+                "reference": "d90168989c3c6c833ce1818300490c51fd5668eb"
             },
             "require": {
                 "magento/framework": "*"
@@ -13756,7 +13756,7 @@
                     "MagentoEse\\B2bAdminConfigurations\\": ""
                 }
             },
-            "time": "2019-06-24T15:44:53+00:00"
+            "time": "2019-07-13T00:37:05+00:00"
         },
         {
             "name": "magentoese/module-b2b-b2c-sample-data",
@@ -14665,16 +14665,16 @@
         },
         {
             "name": "paragonie/sodium_compat",
-            "version": "v1.10.0",
+            "version": "v1.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/sodium_compat.git",
-                "reference": "228a9fc64cf4ba84c7967c1076d94209db03e0ee"
+                "reference": "5115fa44886d1c2785d2f135ef4626db868eac4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/228a9fc64cf4ba84c7967c1076d94209db03e0ee",
-                "reference": "228a9fc64cf4ba84c7967c1076d94209db03e0ee",
+                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/5115fa44886d1c2785d2f135ef4626db868eac4b",
+                "reference": "5115fa44886d1c2785d2f135ef4626db868eac4b",
                 "shasum": ""
             },
             "require": {
@@ -14743,7 +14743,7 @@
                 "secret-key cryptography",
                 "side-channel resistant"
             ],
-            "time": "2019-05-13T16:04:50+00:00"
+            "time": "2019-07-12T16:36:59+00:00"
         },
         {
             "name": "pelago/emogrifier",
