@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccb9b1cd07a7eceeaa9352ce5dc481d8",
+    "content-hash": "d634afff392d7bbe63dd05a7195acd49",
     "packages": [
         {
             "name": "amasty/base",
@@ -1839,34 +1839,6 @@
             ],
             "description": "PageBuilder Extension Banner",
             "time": "2019-07-10T15:09:38+00:00"
-        },
-        {
-            "name": "example/module-page-builder-extension-base-forms",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/PMET-public/module-page-builder-extension-base-forms.git",
-                "reference": "73df1279f7e85a2f3204de641b0bc26e32a4e1ec"
-            },
-            "require": {
-                "magento/framework": "102.0.*",
-                "magento/module-page-builder": "1.0.*",
-                "php": "~7.1.3||~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Example\\PageBuilderExtensionBaseForms\\": ""
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "description": "PageBuilder Extension Base Forms",
-            "time": "2019-07-10T15:03:54+00:00"
         },
         {
             "name": "example/module-page-builder-extension-slider",
@@ -21599,7 +21571,6 @@
         "example/module-page-builder-faq": 20,
         "example/module-page-builder-quote": 20,
         "example/module-page-builder-extension-banner": 20,
-        "example/module-page-builder-extension-base-forms": 20,
         "example/module-page-builder-extension-slider": 20,
         "example/module-page-builder-extension-text": 20,
         "firegento/fastsimpleimport": 20,
