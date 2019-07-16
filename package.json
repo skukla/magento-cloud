@@ -9,10 +9,6 @@
     },
     "homepage": "http://magento.com/",
     "devDependencies": {
-        "gulp": "^3.9.1",
-        "gulp-rename": "^1.2.3",
-        "gulp-replace": "^1.0.0",
-        "yargs": "^12.0.1",
         "glob": "~7.1.1",
         "grunt": "~1.0.1",
         "grunt-autoprefixer": "~3.0.4",
@@ -32,6 +28,9 @@
         "grunt-styledocco": "~0.3.0",
         "grunt-template-jasmine-requirejs": "~0.2.3",
         "grunt-text-replace": "~0.4.0",
+        "gulp": "^3.9.1",
+        "gulp-rename": "^1.2.3",
+        "gulp-replace": "^1.0.0",
         "imagemin-svgo": "~5.2.1",
         "load-grunt-config": "~0.19.2",
         "morgan": "~1.9.0",
@@ -41,6 +40,10 @@
         "squirejs": "~0.2.1",
         "strip-json-comments": "~2.0.1",
         "time-grunt": "~1.4.0",
-        "underscore": "~1.8.0"
+        "underscore": "~1.8.0",
+        "yargs": "^12.0.5"
+    },
+    "dependencies": {
+        "natives": "^1.1.6"
     }
 }
