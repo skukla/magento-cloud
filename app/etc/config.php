@@ -59,6 +59,7 @@ return [
         'Magento_CheckoutAddressSearch' => 1,
         'Magento_CheckoutAgreements' => 1,
         'Magento_Staging' => 1,
+        'Magento_CloudComponents' => 1,
         'Magento_AdvancedCheckout' => 1,
         'Magento_CmsGraphQl' => 1,
         'Magento_CmsPageBuilderAnalytics' => 1,
