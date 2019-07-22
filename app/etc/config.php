@@ -61,6 +61,7 @@ return [
         'Magento_ScalableOms' => 1,
         'Magento_CheckoutAgreements' => 1,
         'Magento_Staging' => 1,
+        'Magento_CloudComponents' => 1,
         'Magento_Company' => 1,
         'Magento_CmsGraphQl' => 1,
         'Magento_CmsPageBuilderAnalytics' => 1,
