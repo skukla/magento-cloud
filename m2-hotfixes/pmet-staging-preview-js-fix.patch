@@ -1,0 +1,13 @@
+diff --git a/vendor/magento/module-staging/view/adminhtml/web/js/preview/preview.js b/vendor/magento/module-staging/view/adminhtml/web/js/preview/preview.js
+index 11c0f3928d..ca7eb0d015 100644
+--- a/vendor/magento/module-staging/view/adminhtml/web/js/preview/preview.js
++++ b/vendor/magento/module-staging/view/adminhtml/web/js/preview/preview.js
+@@ -328,7 +328,7 @@ define([
+             var stores;
+ 
+             stores = _.sortBy(this.getStores(), function (store) {
+-                return -store.baseUrl.length;
++                return -store.baseUrl;
+             });
+ 
+             return _.find(stores, function (store) {
