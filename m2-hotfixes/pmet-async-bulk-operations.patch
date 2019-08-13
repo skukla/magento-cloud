@@ -1,0 +1,12 @@
+diff --git a/vendor/magento/module-asynchronous-operations/Model/BulkManagement.php b/vendor/magento/module-asynchronous-operations/Model/BulkManagement.php
+index faf01921..6b19a26e 100644
+--- a/vendor/magento/module-asynchronous-operations/Model/BulkManagement.php
++++ b/vendor/magento/module-asynchronous-operations/Model/BulkManagement.php
+@@ -198,6 +198,7 @@ class BulkManagement implements \Magento\Framework\Bulk\BulkManagementInterface
+     {
+         $operationsByTopics = [];
+         foreach ($operations as $operation) {
++            $this->entityManager->save($operation);
+             $operationsByTopics[$operation->getTopicName()][] = $operation;
+         }
+         foreach ($operationsByTopics as $topicName => $operations) {
