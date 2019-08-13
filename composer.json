@@ -101,12 +101,12 @@
         ]
     },
     "require": {
-        "amasty/base": "1.7.0.x-dev",
+        "amasty/base": "1.8.0.x-dev",
         "amasty/blog": "1.3.4.x-dev",
         "amasty/geoip": "1.5.0.x-dev",
         
         
-        "amasty/module-advanced-conditions":"1.3.12.x-dev",
+        "amasty/module-advanced-conditions":"1.3.13.x-dev",
         "amasty/module-banners-lite":"1.0.7.x-dev",
         "amasty/module-salesrulewizard": "dev-master",
         "amasty/module-special-promo": "2.7.7.x-dev",
@@ -115,7 +115,7 @@
         
         "amasty/product-attachment": "1.3.3.x-dev",
         
-        "amasty/promo": "2.5.0.x-dev",
+        "amasty/promo": "2.5.3.x-dev",
         "amasty/rgrid": "1.0.7.x-dev",
         "classyllama/module-owlcarousel":"dev-master",
         "community-engineering/language-hi_in": "*",
