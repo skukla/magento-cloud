@@ -10,13 +10,13 @@ redis:
     type: redis:5.0
 
 elasticsearch:
-   type: elasticsearch:6.5
-   disk: 1024
-   configuration:
-    plugins:
-      - analysis-icu
-      - analysis-phonetic
+    type: elasticsearch:6.5
+    disk: 1024
+    configuration:
+        plugins:
+            - analysis-icu
+            - analysis-phonetic
 
 rabbitmq:
-    type: rabbitmq
+    type: rabbitmq:3.5
     disk: 1024
