@@ -18,5 +18,5 @@ elasticsearch:
             - analysis-phonetic
 
 rabbitmq:
-    type: rabbitmq
+    type: rabbitmq:3.5
     disk: 1024
