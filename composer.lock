@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a3c76fa35dc72d0d4696f35bbabd9e7",
+    "content-hash": "1928b4f2f202b2ee5596901927de1a03",
     "packages": [
         {
             "name": "amasty/base",
@@ -34,15 +34,19 @@
         },
         {
             "name": "amasty/blog",
-            "version": "1.3.4.x-dev",
+            "version": "2.4.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-blog-pro.git",
-                "reference": "0e28d6d9e210e18acddbed1245882c726a1afc85"
+                "reference": "073d2562411d1402b9bd63d673fdca92d56f76b2"
             },
             "require": {
-                "amasty/base": ">=1.4.10",
+                "amasty/base": ">=1.8.0",
                 "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0"
+            },
+            "suggest": {
+                "amasty/blog-graphql": "Install blog-graphql module to activate Graphql and Blog Pro integration.",
+                "amasty/blog-page-builder": "Install blog-page-builder module to activate PageBuilder and Blog Pro integration."
             },
             "type": "magento2-module",
             "autoload": {
@@ -57,7 +61,7 @@
                 "Commercial"
             ],
             "description": "Amasty Blog Pro",
-            "time": "2018-12-11T16:55:19+00:00"
+            "time": "2019-08-19T20:22:11+00:00"
         },
         {
             "name": "amasty/geoip",
@@ -3433,10 +3437,12 @@
             },
             "require": {
                 "ext-json": "*",
+                "php": "^7.0"
+            },
+            "suggest": {
                 "magento/framework": "*",
                 "magento/module-store": "*",
-                "magento/module-url-rewrite": "*",
-                "php": "^7.0"
+                "magento/module-url-rewrite": "*"
             },
             "type": "magento2-module",
             "autoload": {
@@ -15698,7 +15704,7 @@
                 }
             ],
             "description": "Scripts to start and manage our M2 installations",
-            "time": "2019-03-25T18:09:59+00:00"
+            "time": "2019-08-21T01:01:45+00:00"
         },
         {
             "name": "magentoese/magento2-gmailsmtpapp",
