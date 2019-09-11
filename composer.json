@@ -161,7 +161,7 @@
         "magento/module-wishlist-sample-data": "100.3.*",
         "magento/sample-data-media": "100.3.*",
         "magentoese/dock-mage": "dev-master",
-        "magentoese/ece-tools": "2002.0.20.x-dev",
+        "magentoese/ece-tools": "2002.0.21.x-dev",
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/magento2-gmailsmtpapp": "dev-master",
         "magentoese/module-admin-configurations": "dev-master",
