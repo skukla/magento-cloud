@@ -75,7 +75,7 @@
         "magento/extension-b2b": "^1.1",
         "magento/magento-cloud-metapackage": "2.3.2",
         "magentoese/dock-mage": "dev-master",
-        "magentoese/ece-tools": "2002.0.20.x-dev",
+        "magentoese/ece-tools": "2002.0.21.x-dev",
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/magento2-gmailsmtpapp": "dev-master",
         "magentoese/module-admin-configurations": "dev-master",
