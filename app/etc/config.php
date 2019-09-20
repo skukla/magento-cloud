@@ -383,6 +383,7 @@ return [
         'MagentoEse_MsiInventorySampleDataDemo' => 1,
         'MagentoEse_DemoAdminConfigurations' => 1,
         'MagentoEse_CmsSampleDataUpdate' => 1,
+        'MagentoEse_VMContent' => 1,
         'MagentoEse_Vimeo' => 1,
         'ParadoxLabs_TokenBase' => 1,
         'ParadoxLabs_FirstData' => 1,
