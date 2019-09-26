@@ -2,7 +2,7 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.3.2",
+    "version": "2.3.3",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -73,7 +73,7 @@
         "accorin/module-orderapprovals": "dev-master",
         "firegento/fastsimpleimport": "dev-updated",
         "magento/extension-b2b": "^1.1",
-        "magento/magento-cloud-metapackage": "2.3.2",
+        "magento/magento-cloud-metapackage": "2.3.3",
         "magentoese/dock-mage": "dev-master",
         "magentoese/ece-tools": "2002.0.21.x-dev",
         "magentoese/magento-scripts": "2.3.0.x-dev",
@@ -215,6 +215,7 @@
         "magento/module-inventory-source-deduction-api":"*",
         "magento/module-inventory-source-selection":"*",
         "magento/module-inventory-source-selection-api":"*",
-        "magento/module-inventory-source-selection-ui":"*"
+        "magento/module-inventory-source-selection-ui":"*",
+        "temando/module-shipping-m2": "*"
     }
 }
