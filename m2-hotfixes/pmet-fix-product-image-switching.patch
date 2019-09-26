@@ -1,0 +1,16 @@
+Index: /vendor/magento/module-swatches/view/frontend/web/js/swatch-renderer.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- /vendor/magento/module-swatches/view/frontend/web/js/swatch-renderer.js	(date 1569504028978)
++++ /vendor/magento/module-swatches/view/frontend/web/js/swatch-renderer.js	(date 1569504028978)
+@@ -754,7 +754,7 @@
+                     $widget.options.jsonConfig.optionPrices
+                 ]);
+ 
+-            if (checkAdditionalData['update_product_preview_image'] === '1') {
++            if (parseInt(checkAdditionalData['update_product_preview_image'], 10) === 1) {
+                 $widget._loadMedia();
+             }
+ 
