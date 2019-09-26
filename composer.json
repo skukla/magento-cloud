@@ -2,7 +2,7 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.3.2",
+    "version": "2.3.3",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -128,13 +128,13 @@
         "community-engineering/language-sr_sp": "dev-master",
         "community-engineering/language-zh_cn":"dev-master",
         "davemacaulay/module-page-builder-grid": "dev-master",
-        "example/module-page-builder-faq": "dev-master",
-        "example/module-page-builder-quote": "dev-master",
-        "example/module-page-builder-extension-banner": "dev-master",
-        "example/module-page-builder-extension-slider": "dev-master",
-        "example/module-page-builder-extension-text": "dev-master",
+       
+        
+       
+       
+        
         "firegento/fastsimpleimport": "dev-updated",
-        "magento/magento-cloud-metapackage": "2.3.2",
+        "magento/magento-cloud-metapackage": "2.3.3",
         "magento/module-bundle-sample-data": "100.3.*",
         "magento/module-catalog-rule-sample-data": "100.3.*",
         "magento/module-catalog-sample-data": "100.3.*",
