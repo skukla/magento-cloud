@@ -1000,16 +1000,16 @@
         },
         {
             "name": "community-engineering/language-nl_nl",
-            "version": "0.0.13",
+            "version": "0.0.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-l10n/language-nl_NL.git",
-                "reference": "c0e6d3e43ef1e6102bbe50cdd6bcd5176216bf95"
+                "reference": "38e2de9ce75dcb10d5860a45168d22d1c685a249"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-l10n/language-nl_NL/zipball/c0e6d3e43ef1e6102bbe50cdd6bcd5176216bf95",
-                "reference": "c0e6d3e43ef1e6102bbe50cdd6bcd5176216bf95",
+                "url": "https://api.github.com/repos/magento-l10n/language-nl_NL/zipball/38e2de9ce75dcb10d5860a45168d22d1c685a249",
+                "reference": "38e2de9ce75dcb10d5860a45168d22d1c685a249",
                 "shasum": ""
             },
             "require": {
@@ -1027,7 +1027,7 @@
                 "AFL-3.0"
             ],
             "description": "nl_NL language package.",
-            "time": "2019-08-02T00:03:49+00:00"
+            "time": "2019-10-09T00:07:52+00:00"
         },
         {
             "name": "community-engineering/language-pt_br",
@@ -17134,7 +17134,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-vmcontent.git",
-                "reference": "ca98aad2f1f41ef15043566f95cad5a169e793b8"
+                "reference": "69664142d8a039fac8537d7821a50c15b6fed62f"
             },
             "require": {
                 "magentoese/module-customer-sample-data": "*",
@@ -17152,7 +17152,7 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "time": "2019-10-08T14:42:44+00:00"
+            "time": "2019-10-10T14:37:41+00:00"
         },
         {
             "name": "magentoese/nfs4d4m",
