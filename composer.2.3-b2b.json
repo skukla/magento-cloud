@@ -170,6 +170,7 @@
     "replace": {
         "magento/module-inventory":"*",
         "magento/module-inventory-admin-ui":"*",
+        "magento/module-inventory-advanced-checkout":"*",
         "magento/module-inventory-api":"*",
         "magento/module-inventory-bundle-product":"*",
         "magento/module-inventory-bundle-product-admin-ui":"*",
@@ -201,6 +202,7 @@
         "magento/module-inventory-low-quantity-notification-api":"*",
         "magento/module-inventory-multi-dimensional-indexer-api":"*",
         "magento/module-inventory-product-alert":"*",
+        "magento/module-inventory-requisition-list":"*",
         "magento/module-inventory-reservation-cli":"*",
         "magento/module-inventory-reservations":"*",
         "magento/module-inventory-reservations-api":"*",
@@ -215,7 +217,6 @@
         "magento/module-inventory-source-deduction-api":"*",
         "magento/module-inventory-source-selection":"*",
         "magento/module-inventory-source-selection-api":"*",
-        "magento/module-inventory-source-selection-ui":"*",
-        "temando/module-shipping-m2": "*"
+        "magento/module-inventory-source-selection-ui":"*"
     }
 }

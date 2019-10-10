@@ -156,8 +156,6 @@ return [
         'Magento_Paypal' => 1,
         'Magento_InstantPurchase' => 1,
         'Magento_CatalogAnalytics' => 1,
-        'Magento_InventoryAdvancedCheckout' => 1,
-        'Magento_InventoryRequisitionList' => 1,
         'Magento_Invitation' => 1,
         'Magento_LayeredNavigation' => 1,
         'Magento_LayeredNavigationStaging' => 1,
@@ -323,6 +321,7 @@ return [
         'MagentoEse_SCTools' => 1,
         'MagentoEse_B2BOrderSampleData' => 1,
         'MagentoEse_ThemeCustomizer' => 1,
+        'Temando_Shipping' => 1,
         'Vertex_Tax' => 1,
         'Yotpo_Yotpo' => 1
     ]
