@@ -1,12 +1,12 @@
 diff --git a/vendor/magento/module-message-queue/Model/Cron/ConsumersRunner.php b/vendor/magento/module-message-queue/Model/Cron/ConsumersRunner.php
-index 056cf4fc..2e29aaec 100644
+index 056cf4fc..a3238229 100644
 --- a/vendor/magento/module-message-queue/Model/Cron/ConsumersRunner.php
 +++ b/vendor/magento/module-message-queue/Model/Cron/ConsumersRunner.php
 @@ -110,6 +110,7 @@ class ConsumersRunner
          $allowedConsumers = $this->deploymentConfig->get('cron_consumers_runner/consumers', []);
          $php = $this->phpExecutableFinder->find() ?: 'php';
  
-+        $index = 0;
++        $index = 5;
          foreach ($this->consumerConfig->getConsumers() as $consumer) {
              if (!$this->canBeRun($consumer, $allowedConsumers)) {
                  continue;
@@ -14,8 +14,8 @@ index 056cf4fc..2e29aaec 100644
              $command = $php . ' ' . BP . '/bin/magento queue:consumers:start %s %s'
                  . ($maxMessages ? ' %s' : '');
  
-+            $index += 3;
-+            $command = "{ sleep $index; " . $command . ' ; } &';
++            $index += 2;
++            $command = "{ sleep $index && " . $command . ' ; }';
 +
              $this->shellBackground->execute($command, $arguments);
          }
