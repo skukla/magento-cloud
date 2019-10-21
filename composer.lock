@@ -17134,7 +17134,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-vmcontent.git",
-                "reference": "997aa409d871ede4ae579bb762ad20b5f59ccfc2"
+                "reference": "b8bead82552b3ee368e8f01577a9cd7e3ec8890e"
             },
             "require": {
                 "magentoese/module-customer-sample-data": "*",
@@ -17152,7 +17152,7 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "time": "2019-10-21T14:51:14+00:00"
+            "time": "2019-10-21T20:06:08+00:00"
         },
         {
             "name": "magentoese/nfs4d4m",
