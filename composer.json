@@ -70,7 +70,7 @@
     },
     "require": {
         
-        "accorin/module-orderapprovals": "1.4.x-dev",
+        "accorin/module-orderapprovals": "dev-master",
         "firegento/fastsimpleimport": "dev-updated",
         "magento/extension-b2b": "^1.1",
         "magento/magento-cloud-metapackage": "2.3.3",
