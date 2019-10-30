@@ -14252,7 +14252,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-autofill.git",
-                "reference": "0842c79c5ede3ac04b8b11c32f05ce7eb4827b53"
+                "reference": "daf20bc3e6e9ddafeec574132fefeaa7f502b788"
             },
             "require": {
                 "magento/framework": "*"
@@ -14266,7 +14266,7 @@
                     "MagentoEse\\AutoFill\\": ""
                 }
             },
-            "time": "2017-07-20T17:52:22+00:00"
+            "time": "2019-10-30T13:41:10+00:00"
         },
         {
             "name": "magentoese/module-autofill-sample-data",
