@@ -1,0 +1,12 @@
+diff --git a/vendor/magento/module-message-queue/etc/cron_groups.xml b/vendor/magento/module-message-queue/etc/cron_groups.xml
+index c3f23468..3a6598b7 100644
+--- a/vendor/magento/module-message-queue/etc/cron_groups.xml
++++ b/vendor/magento/module-message-queue/etc/cron_groups.xml
+@@ -13,6 +13,6 @@
+         <history_cleanup_every>10</history_cleanup_every>
+         <history_success_lifetime>60</history_success_lifetime>
+         <history_failure_lifetime>600</history_failure_lifetime>
+-        <use_separate_process>1</use_separate_process>
++        <use_separate_process>0</use_separate_process>
+     </group>
+ </config>
