@@ -17135,7 +17135,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-vmcontent.git",
-                "reference": "b8bead82552b3ee368e8f01577a9cd7e3ec8890e"
+                "reference": "cb7fdbee2de93196965e731388f16a8460610020"
             },
             "require": {
                 "magentoese/module-customer-sample-data": "*",
@@ -17153,7 +17153,7 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "time": "2019-10-21T20:06:08+00:00"
+            "time": "2019-11-12T20:28:08+00:00"
         },
         {
             "name": "magentoese/nfs4d4m",
@@ -18810,7 +18810,7 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v4.3.6",
+            "version": "v4.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
@@ -18863,16 +18863,16 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v4.3.6",
+            "version": "v4.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "6229f58993e5a157f6096fc7145c0717d0be8807"
+                "reference": "0df002fd4f500392eabd243c2947061a50937287"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/6229f58993e5a157f6096fc7145c0717d0be8807",
-                "reference": "6229f58993e5a157f6096fc7145c0717d0be8807",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/0df002fd4f500392eabd243c2947061a50937287",
+                "reference": "0df002fd4f500392eabd243c2947061a50937287",
                 "shasum": ""
             },
             "require": {
@@ -18929,7 +18929,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2019-10-01T16:40:32+00:00"
+            "time": "2019-11-03T09:04:05+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -18991,7 +18991,7 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.3.6",
+            "version": "v4.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -19041,7 +19041,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v4.3.6",
+            "version": "v4.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -19479,16 +19479,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v4.3.6",
+            "version": "v4.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "a3aa590ce944afb3434d7a55f81b00927144d5ec"
+                "reference": "bbce239b35b0cd47bd75848b23e969f17dd970e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/a3aa590ce944afb3434d7a55f81b00927144d5ec",
-                "reference": "a3aa590ce944afb3434d7a55f81b00927144d5ec",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/bbce239b35b0cd47bd75848b23e969f17dd970e7",
+                "reference": "bbce239b35b0cd47bd75848b23e969f17dd970e7",
                 "shasum": ""
             },
             "require": {
@@ -19551,7 +19551,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2019-10-30T12:53:54+00:00"
+            "time": "2019-11-06T23:21:49+00:00"
         },
         {
             "name": "symfony/translation-contracts",
@@ -19612,7 +19612,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.3.6",
+            "version": "v4.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
@@ -19897,16 +19897,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.12.1",
+            "version": "v2.12.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "ddd4134af9bfc6dba4eff7c8447444ecc45b9ee5"
+                "reference": "d761fd1f1c6b867ae09a7d8119a6d95d06dc44ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ddd4134af9bfc6dba4eff7c8447444ecc45b9ee5",
-                "reference": "ddd4134af9bfc6dba4eff7c8447444ecc45b9ee5",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/d761fd1f1c6b867ae09a7d8119a6d95d06dc44ed",
+                "reference": "d761fd1f1c6b867ae09a7d8119a6d95d06dc44ed",
                 "shasum": ""
             },
             "require": {
@@ -19960,7 +19960,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-10-17T07:34:53+00:00"
+            "time": "2019-11-11T16:52:09+00:00"
         },
         {
             "name": "vertex/module-tax",
@@ -20133,23 +20133,23 @@
         },
         {
             "name": "wikimedia/less.php",
-            "version": "1.8.1",
+            "version": "1.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/less.php.git",
-                "reference": "f0f7768f6fa8a9d2ac6a0274f6f477c72159bf9b"
+                "reference": "e238ad228d74b6ffd38209c799b34e9826909266"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/less.php/zipball/f0f7768f6fa8a9d2ac6a0274f6f477c72159bf9b",
-                "reference": "f0f7768f6fa8a9d2ac6a0274f6f477c72159bf9b",
+                "url": "https://api.github.com/repos/wikimedia/less.php/zipball/e238ad228d74b6ffd38209c799b34e9826909266",
+                "reference": "e238ad228d74b6ffd38209c799b34e9826909266",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3"
+                "php": ">=7.2.9"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.8.24"
+                "phpunit/phpunit": "7.5.14"
             },
             "bin": [
                 "bin/lessc"
@@ -20169,16 +20169,16 @@
             ],
             "authors": [
                 {
+                    "name": "Josh Schmidt",
+                    "homepage": "https://github.com/oyejorge"
+                },
+                {
                     "name": "Matt Agar",
                     "homepage": "https://github.com/agar"
                 },
                 {
                     "name": "Martin Jantošovič",
                     "homepage": "https://github.com/Mordred"
-                },
-                {
-                    "name": "Josh Schmidt",
-                    "homepage": "https://github.com/oyejorge"
                 }
             ],
             "description": "PHP port of the Javascript version of LESS http://lesscss.org (Originally maintained by Josh Schmidt)",
@@ -20190,7 +20190,7 @@
                 "php",
                 "stylesheet"
             ],
-            "time": "2019-01-19T01:01:33+00:00"
+            "time": "2019-11-06T18:30:11+00:00"
         },
         {
             "name": "yotpo/magento2-module-yotpo-reviews",
