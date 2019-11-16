@@ -2007,16 +2007,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.121",
+            "version": "1.2.122",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "b6166d5e1b4af0c1b939a62f689d0ebe6ceab6d4"
+                "reference": "eca2adf76593ddfa5eeeb6503369902257b94235"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/b6166d5e1b4af0c1b939a62f689d0ebe6ceab6d4",
-                "reference": "b6166d5e1b4af0c1b939a62f689d0ebe6ceab6d4",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/eca2adf76593ddfa5eeeb6503369902257b94235",
+                "reference": "eca2adf76593ddfa5eeeb6503369902257b94235",
                 "shasum": ""
             },
             "require": {
@@ -2041,7 +2041,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2019-10-30T20:15:14+00:00"
+            "time": "2019-11-14T16:10:41+00:00"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -17135,7 +17135,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-vmcontent.git",
-                "reference": "cb7fdbee2de93196965e731388f16a8460610020"
+                "reference": "2db9d3ff864c99c563e27ab7a6745bcd23bc552f"
             },
             "require": {
                 "magentoese/module-customer-sample-data": "*",
@@ -17153,7 +17153,7 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "time": "2019-11-12T20:28:08+00:00"
+            "time": "2019-11-14T20:11:25+00:00"
         },
         {
             "name": "magentoese/nfs4d4m",
@@ -17219,16 +17219,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.25.1",
+            "version": "1.25.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "70e65a5470a42cfec1a7da00d30edb6e617e8dcf"
+                "reference": "d5e2fb341cb44f7e2ab639d12a1e5901091ec287"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/70e65a5470a42cfec1a7da00d30edb6e617e8dcf",
-                "reference": "70e65a5470a42cfec1a7da00d30edb6e617e8dcf",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/d5e2fb341cb44f7e2ab639d12a1e5901091ec287",
+                "reference": "d5e2fb341cb44f7e2ab639d12a1e5901091ec287",
                 "shasum": ""
             },
             "require": {
@@ -17293,7 +17293,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2019-09-06T13:49:17+00:00"
+            "time": "2019-11-13T10:00:05+00:00"
         },
         {
             "name": "msp/recaptcha",
@@ -18810,7 +18810,7 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v4.3.7",
+            "version": "v4.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
@@ -18863,7 +18863,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v4.3.7",
+            "version": "v4.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -18991,7 +18991,7 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.3.7",
+            "version": "v4.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -19041,7 +19041,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v4.3.7",
+            "version": "v4.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -19090,7 +19090,7 @@
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v2.8.50",
+            "version": "v2.8.52",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
@@ -19418,7 +19418,7 @@
         },
         {
             "name": "symfony/property-access",
-            "version": "v2.8.50",
+            "version": "v2.8.52",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/property-access.git",
@@ -19479,7 +19479,7 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v4.3.7",
+            "version": "v4.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
@@ -19612,7 +19612,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.3.7",
+            "version": "v4.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
