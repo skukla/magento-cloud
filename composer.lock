@@ -17136,7 +17136,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-vmcontent.git",
-                "reference": "1c5709fe659bdb2ca87fb2de71674f87ec12059d"
+                "reference": "3a9bf25704009004e30f25fbb76c3f3397b81859"
             },
             "require": {
                 "magentoese/module-customer-sample-data": "*",
