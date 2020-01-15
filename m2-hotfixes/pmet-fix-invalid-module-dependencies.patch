@@ -29,6 +29,7 @@ Index: /vendor/magento/module-bundle-graph-ql/etc/module.xml
 @@ -9,7 +9,7 @@
      <module name="Magento_BundleGraphQl" >
          <sequence>
+             <module name="Magento_QuoteGraphQl"/>
              <module name="Magento_Catalog"/>
 -            <module name="Magento_BundleProduct"/>
 +            <module name="Magento_Bundle"/>

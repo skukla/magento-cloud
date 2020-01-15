@@ -2,7 +2,7 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.3.3",
+    "version": "2.3.4",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -53,6 +53,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-sales-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-sctools.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-themecustomizer.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-uninstall-cleanup.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-venia-catalog-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-venia-cms-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-venia-setup.git"},
@@ -64,11 +65,11 @@
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-advanced-conditions.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-banners-lite.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-base.git"},
-        {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-blog-pro.git"},
+        //{"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-blog-pro.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-duplicate-categories.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-free-gift.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-geoip.git"},
-        {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-groupcat.git"},
+        //{"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-groupcat.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-product-attachments.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-rules-grid.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-salesrulewizard.git"},
@@ -104,7 +105,7 @@
     },
     "require": {
         "amasty/base": "1.9.2.x-dev",
-        "amasty/blog": "2.4.0.x-dev",
+        //"amasty/blog": "2.4.0.x-dev",
         "amasty/geoip": "1.5.0.x-dev",
         //removed by SC request
         //"amasty/groupcat": "1.5.15.x-dev",
@@ -128,13 +129,13 @@
         "community-engineering/language-sr_sp": "dev-master",
         "community-engineering/language-zh_cn":"dev-master",
         "davemacaulay/module-page-builder-grid": "dev-master",
-        "example/module-page-builder-faq": "dev-master",
-        "example/module-page-builder-quote": "dev-master",
-        "example/module-page-builder-extension-banner": "dev-master",
-        "example/module-page-builder-extension-slider": "dev-master",
-        "example/module-page-builder-extension-text": "dev-master",
+       // "example/module-page-builder-faq": "dev-master",
+        //"example/module-page-builder-quote": "dev-master",
+        //"example/module-page-builder-extension-banner": "dev-master",
+        //"example/module-page-builder-extension-slider": "dev-master",
+        //"example/module-page-builder-extension-text": "dev-master",
         "firegento/fastsimpleimport": "dev-updated",
-        "magento/magento-cloud-metapackage": "2.3.3",
+        "magento/magento-cloud-metapackage": "2.3.4",
         "magento/module-bundle-sample-data": "100.3.*",
         "magento/module-catalog-rule-sample-data": "100.3.*",
         "magento/module-catalog-sample-data": "100.3.*",
@@ -146,8 +147,8 @@
         "magento/module-gift-card-sample-data": "100.3.*",
         "magento/module-gift-registry-sample-data": "100.3.*",
         "magento/module-grouped-product-sample-data": "100.3.*",
-        "magento/module-msi-inventory-sample-data": "dev-master",
-        "magento/module-msi-source-stock-sample-data": "dev-master",
+        //"magento/module-msi-inventory-sample-data": "dev-master",
+        //"magento/module-msi-source-stock-sample-data": "dev-master",
         "magento/module-msrp-sample-data": "100.3.*",
         "magento/module-multiple-wishlist-sample-data": "100.3.*",
         "magento/module-offline-shipping-sample-data": "100.3.*",
@@ -173,7 +174,7 @@
         "magentoese/module-cms-sample-data-update": "dev-master",
         "magentoese/module-customer-sample-data": "dev-master",
         "magentoese/module-demo-admin-configurations": "dev-master",
-        "magentoese/module-demo-order-data": "dev-master",
+        //"magentoese/module-demo-order-data": "dev-master",
         "magentoese/module-installation-overrides": "dev-master",
         "magentoese/module-instorepickup": "dev-master",
         "magentoese/module-instorepickup-sample-data": "dev-master",
@@ -185,7 +186,7 @@
         "magentoese/module-luma-de-setup": "dev-master",
         "magentoese/module-luma-de-widget": "dev-master",
         "magentoese/module-megamenu": "dev-master",
-        "magentoese/module-msi-inventory-sample-data-demo":  "dev-master",
+        //"magentoese/module-msi-inventory-sample-data-demo":  "dev-master",
         "magentoese/module-product-image-switcher": "dev-master",
         "magentoese/module-product-sample-data-update": "dev-master",
         "magentoese/module-productbadge": "dev-master",
@@ -194,13 +195,14 @@
         "magentoese/module-sctools": "dev-master",
         "magentoese/module-switcherlogos": "dev-master",
         "magentoese/module-themecustomizer": "dev-master",
+        "magentoese/module-uninstall-cleanup": "dev-master",
         "magentoese/module-venia-catalog-sample-data": "dev-master",
         "magentoese/module-venia-cms-sample-data": "dev-master",
         "magentoese/module-venia-media-sample-data": "dev-master",
         "magentoese/module-venia-setup": "dev-master",
         "magentoese/module-venia-video-sample-data": "dev-master",
         "magentoese/module-vimeo": "dev-master",
-        "magentoese/module-vmcontent": "dev-master",
+        //"magentoese/module-vmcontent": "dev-master",
         "magentoese/nfs4d4m": "dev-master",
         "magentoese/theme-frontend-venia": "dev-master",
         "magentoese/theme-frontend-custom": "dev-master",
@@ -209,6 +211,7 @@
         "paradoxlabs/stripe": "2.2.0.x-dev",
         "paradoxlabs/subscriptions": "3.1.0.x-dev",
         "paradoxlabs/tokenbase": "4.2.1.x-dev"
+
     },
     "suggest": {
         "ext-pcntl": "Need for run processes in parallel mode"
@@ -267,6 +270,9 @@
         },
         "magento-force": true,
         "magento-deploystrategy": "copy"
+    },
+    "replace": {
+        "temando/module-shipping-m2": "*"
     }
 
 }
