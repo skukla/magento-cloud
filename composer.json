@@ -129,11 +129,11 @@
         "community-engineering/language-sr_sp": "dev-master",
         "community-engineering/language-zh_cn":"dev-master",
         "davemacaulay/module-page-builder-grid": "dev-master",
-       
-        
-        
-        
-        
+        "example/module-page-builder-faq": "dev-master",
+        "example/module-page-builder-quote": "dev-master",
+        "example/module-page-builder-extension-banner": "dev-master",
+        "example/module-page-builder-extension-slider": "dev-master",
+        "example/module-page-builder-extension-text": "dev-master",
         "firegento/fastsimpleimport": "dev-updated",
         "magento/magento-cloud-metapackage": "2.3.4",
         "magento/module-bundle-sample-data": "100.3.*",
@@ -147,8 +147,8 @@
         "magento/module-gift-card-sample-data": "100.3.*",
         "magento/module-gift-registry-sample-data": "100.3.*",
         "magento/module-grouped-product-sample-data": "100.3.*",
-        
-        
+        "magento/module-msi-inventory-sample-data": "dev-master",
+        "magento/module-msi-source-stock-sample-data": "dev-master",
         "magento/module-msrp-sample-data": "100.3.*",
         "magento/module-multiple-wishlist-sample-data": "100.3.*",
         "magento/module-offline-shipping-sample-data": "100.3.*",
@@ -174,7 +174,7 @@
         "magentoese/module-cms-sample-data-update": "dev-master",
         "magentoese/module-customer-sample-data": "dev-master",
         "magentoese/module-demo-admin-configurations": "dev-master",
-        
+        "magentoese/module-demo-order-data": "dev-master",
         "magentoese/module-installation-overrides": "dev-master",
         "magentoese/module-instorepickup": "dev-master",
         "magentoese/module-instorepickup-sample-data": "dev-master",
@@ -186,7 +186,7 @@
         "magentoese/module-luma-de-setup": "dev-master",
         "magentoese/module-luma-de-widget": "dev-master",
         "magentoese/module-megamenu": "dev-master",
-        
+        "magentoese/module-msi-inventory-sample-data-demo":  "dev-master",
         "magentoese/module-product-image-switcher": "dev-master",
         "magentoese/module-product-sample-data-update": "dev-master",
         "magentoese/module-productbadge": "dev-master",
@@ -202,7 +202,7 @@
         "magentoese/module-venia-setup": "dev-master",
         "magentoese/module-venia-video-sample-data": "dev-master",
         "magentoese/module-vimeo": "dev-master",
-        
+        "magentoese/module-vmcontent": "dev-master",
         "magentoese/nfs4d4m": "dev-master",
         "magentoese/theme-frontend-venia": "dev-master",
         "magentoese/theme-frontend-custom": "dev-master",

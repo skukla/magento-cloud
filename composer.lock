@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "95d3ad6b1005cca99cc5b0d2f52eb0dd",
+    "content-hash": "8a9e26b25571178f5d5cb000ef1a97b3",
     "packages": [
         {
             "name": "amasty/base",
@@ -1035,16 +1035,16 @@
         },
         {
             "name": "community-engineering/language-pt_br",
-            "version": "0.0.30",
+            "version": "0.0.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-l10n/language-pt_BR.git",
-                "reference": "b8fe0835a08830817e4ced5d565f8f5405a71497"
+                "reference": "96d901f8ddb02c81116b50c82452e4209e167baf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-l10n/language-pt_BR/zipball/b8fe0835a08830817e4ced5d565f8f5405a71497",
-                "reference": "b8fe0835a08830817e4ced5d565f8f5405a71497",
+                "url": "https://api.github.com/repos/magento-l10n/language-pt_BR/zipball/96d901f8ddb02c81116b50c82452e4209e167baf",
+                "reference": "96d901f8ddb02c81116b50c82452e4209e167baf",
                 "shasum": ""
             },
             "require": {
@@ -1062,7 +1062,7 @@
                 "AFL-3.0"
             ],
             "description": "pt_BR language package.",
-            "time": "2020-01-09T00:09:04+00:00"
+            "time": "2020-01-16T00:08:26+00:00"
         },
         {
             "name": "community-engineering/language-sr_sp",
@@ -1908,6 +1908,149 @@
                 "symfony"
             ],
             "time": "2018-05-09T20:26:30+00:00"
+        },
+        {
+            "name": "example/module-page-builder-extension-banner",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PMET-public/module-page-builder-extension-banner.git",
+                "reference": "656e5ca0037bd25f010ea5b95e392d68e1c9b5ca"
+            },
+            "require": {
+                "magento/framework": "*",
+                "magento/module-page-builder": "*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Example\\PageBuilderExtensionBanner\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "PageBuilder Extension Banner",
+            "time": "2020-01-16T14:23:50+00:00"
+        },
+        {
+            "name": "example/module-page-builder-extension-slider",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PMET-public/module-page-builder-extension-slider.git",
+                "reference": "6a58807a746c6926d18f321fd972ab3895c40e3e"
+            },
+            "require": {
+                "magento/framework": "*",
+                "magento/module-page-builder": "*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Example\\PageBuilderExtensionSlider\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "PageBuilder Extension Slider",
+            "time": "2020-01-16T14:24:19+00:00"
+        },
+        {
+            "name": "example/module-page-builder-extension-text",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PMET-public/module-page-builder-extension-text.git",
+                "reference": "37c94c36a513bd6846af729d421eb96887042454"
+            },
+            "require": {
+                "magento/framework": "*",
+                "magento/module-page-builder": "*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Example\\PageBuilderExtensionText\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "PageBuilder Extension Text",
+            "time": "2020-01-16T14:24:46+00:00"
+        },
+        {
+            "name": "example/module-page-builder-faq",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PMET-public/module-page-builder-faq.git",
+                "reference": "537439bc10dc0f21cecc52386aaf403c4020f71b"
+            },
+            "require": {
+                "magento/framework": "*",
+                "magento/module-page-builder": "*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Example\\PageBuilderFaq\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "PageBuilder FAQ module",
+            "time": "2020-01-16T14:25:08+00:00"
+        },
+        {
+            "name": "example/module-page-builder-quote",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:bdenham/page-builder-quote.git",
+                "reference": "edc32bfdc448f22a663ca52f987ed57e2582aebb"
+            },
+            "require": {
+                "magento/framework": "*",
+                "magento/module-page-builder": "*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Bruce Denham",
+                    "email": "bdenham@adobe.com"
+                }
+            ],
+            "description": "PageBuilder Quote module for content type tutorial",
+            "time": "2019-02-27T13:26:24+00:00"
         },
         {
             "name": "fastly/magento2",
@@ -11590,6 +11733,66 @@
             "description": "N/A"
         },
         {
+            "name": "magento/module-msi-inventory-sample-data",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/module-msi-inventory-sample-data.git",
+                "reference": "7261779393b4674fc0a61225ebc3b54d5653aa19"
+            },
+            "require": {
+                "magento/framework": "*",
+                "magento/module-inventory-api": "*",
+                "magento/module-msi-source-stock-sample-data": "*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\MsiInventorySampleData\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A",
+            "time": "2018-10-19T15:13:16+00:00"
+        },
+        {
+            "name": "magento/module-msi-source-stock-sample-data",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/module-msi-source-stock-sample-data.git",
+                "reference": "8ad5de02d687594223ffb4088a3a2ea978bc43a9"
+            },
+            "require": {
+                "magento/framework": "*",
+                "magento/module-inventory-api": "*",
+                "magento/module-inventory-sales-api": "*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\MsiSourceStockSampleData\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A",
+            "time": "2019-03-20T19:02:26+00:00"
+        },
+        {
             "name": "magento/module-msrp",
             "version": "100.3.4",
             "dist": {
@@ -16915,6 +17118,28 @@
             "time": "2019-06-03T14:23:37+00:00"
         },
         {
+            "name": "magentoese/module-demo-order-data",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/module-demo-sample-order-data.git",
+                "reference": "f8b3490eb2a8d4ad4ab04128cd1ab38d357e6ca7"
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MagentoEse\\DemoSampleOrderData\\": ""
+                }
+            },
+            "time": "2020-01-16T20:42:22+00:00"
+        },
+        {
             "name": "magentoese/module-installation-overrides",
             "version": "dev-master",
             "source": {
@@ -17151,6 +17376,36 @@
             "time": "2018-09-10T17:20:23+00:00"
         },
         {
+            "name": "magentoese/module-msi-inventory-sample-data-demo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/module-msi-inventory-sample-data-demo.git",
+                "reference": "5c464f6c0220d739320b7377eb60ccf86c230ac4"
+            },
+            "require": {
+                "magento/framework": "*",
+                "magento/module-msi-inventory-sample-data": "*",
+                "magento/module-msi-source-stock-sample-data": "*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MagentoEse\\MsiInventorySampleDataDemo\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A",
+            "time": "2020-01-16T20:43:22+00:00"
+        },
+        {
             "name": "magentoese/module-product-image-switcher",
             "version": "dev-master",
             "source": {
@@ -17332,7 +17587,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-uninstall-cleanup.git",
-                "reference": "8cb70de295dbcb77fd689094a2459710a5d0d9dd"
+                "reference": "74da80f9f25b4d607a8465a863d311c1507077a9"
             },
             "require": {
                 "php": "~7.1.0|~7.2.0|~7.3.0"
@@ -17349,7 +17604,7 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "time": "2020-01-14T17:41:38+00:00"
+            "time": "2020-01-16T20:43:48+00:00"
         },
         {
             "name": "magentoese/module-venia-catalog-sample-data",
@@ -17470,6 +17725,32 @@
                 }
             },
             "time": "2019-01-15T15:38:13+00:00"
+        },
+        {
+            "name": "magentoese/module-vmcontent",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/module-vmcontent.git",
+                "reference": "3a9bf25704009004e30f25fbb76c3f3397b81859"
+            },
+            "require": {
+                "magentoese/module-customer-sample-data": "*",
+                "php": "~7.1.0|~7.2.0|~7.3.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MagentoEse\\VMContent\\": ""
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "time": "2020-01-02T16:07:34+00:00"
         },
         {
             "name": "magentoese/nfs4d4m",
@@ -22748,7 +23029,14 @@
         "community-engineering/language-sr_sp": 20,
         "community-engineering/language-zh_cn": 20,
         "davemacaulay/module-page-builder-grid": 20,
+        "example/module-page-builder-faq": 20,
+        "example/module-page-builder-quote": 20,
+        "example/module-page-builder-extension-banner": 20,
+        "example/module-page-builder-extension-slider": 20,
+        "example/module-page-builder-extension-text": 20,
         "firegento/fastsimpleimport": 20,
+        "magento/module-msi-inventory-sample-data": 20,
+        "magento/module-msi-source-stock-sample-data": 20,
         "magentoese/dock-mage": 20,
         "magentoese/ece-tools": 20,
         "magentoese/magento-scripts": 20,
@@ -22760,6 +23048,7 @@
         "magentoese/module-cms-sample-data-update": 20,
         "magentoese/module-customer-sample-data": 20,
         "magentoese/module-demo-admin-configurations": 20,
+        "magentoese/module-demo-order-data": 20,
         "magentoese/module-installation-overrides": 20,
         "magentoese/module-instorepickup": 20,
         "magentoese/module-instorepickup-sample-data": 20,
@@ -22771,6 +23060,7 @@
         "magentoese/module-luma-de-setup": 20,
         "magentoese/module-luma-de-widget": 20,
         "magentoese/module-megamenu": 20,
+        "magentoese/module-msi-inventory-sample-data-demo": 20,
         "magentoese/module-product-image-switcher": 20,
         "magentoese/module-product-sample-data-update": 20,
         "magentoese/module-productbadge": 20,
@@ -22786,6 +23076,7 @@
         "magentoese/module-venia-setup": 20,
         "magentoese/module-venia-video-sample-data": 20,
         "magentoese/module-vimeo": 20,
+        "magentoese/module-vmcontent": 20,
         "magentoese/nfs4d4m": 20,
         "magentoese/theme-frontend-venia": 20,
         "magentoese/theme-frontend-custom": 20,
