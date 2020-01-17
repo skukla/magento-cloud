@@ -2,7 +2,7 @@ diff --git a/vendor/magento/framework/Setup/SampleData/Executor.php b/vendor/mag
 index de60f03..2bb70bb 100644
 --- a/vendor/magento/framework/Setup/SampleData/Executor.php
 +++ b/vendor/magento/framework/Setup/SampleData/Executor.php
-@@ -46,12 +46,12 @@ class Executor
+@@ -50,12 +50,13 @@
       */
      public function exec(InstallerInterface $installer)
      {
@@ -10,13 +10,14 @@ index de60f03..2bb70bb 100644
 +//        try {
              $this->appState->emulateAreaCode(\Magento\Framework\App\Area::AREA_GLOBAL, [$installer, 'install']);
              $this->state->setInstalled();
--        } catch (\Exception $e) {
+-        } catch (\Throwable $e) {
 -            $this->state->setError();
 -            $this->logger->error('Sample Data error: ' . $e->getMessage());
 -        }
-+//        } catch (\Exception $e) {
++//        } catch (\Throwable $e) {
 +//            $this->state->setError();
 +//            $this->logger->error('Sample Data error: ' . $e->getMessage());
++//
 +//        }
      }
  }
