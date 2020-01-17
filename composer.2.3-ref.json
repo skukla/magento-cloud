@@ -36,7 +36,7 @@
     },
     "require": {
         "firegento/fastsimpleimport": "dev-updated",
-        "magento/magento-cloud-metapackage": "2.3.3",
+        "magento/magento-cloud-metapackage": "2.3.4",
         "magento/module-bundle-sample-data": "100.3.*",
         "magento/module-catalog-rule-sample-data": "100.3.*",
         "magento/module-catalog-sample-data": "100.3.*",
@@ -125,5 +125,8 @@
         },
         "magento-force": true,
         "magento-deploystrategy": "copy"
+    },
+    "replace": {
+        "temando/module-shipping-m2": "*"
     }
 }
