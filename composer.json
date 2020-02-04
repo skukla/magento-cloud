@@ -19,6 +19,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/ece-tools.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
         {"type": "git", "url": "git@github.com:PMET-public/nfs4d4m.git"},
+        {"type": "git", "url": "git@github.com:magento/magento-cloud-docker.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"}
     ],
     "scripts": {
@@ -37,6 +38,7 @@
     "require": {
         "firegento/fastsimpleimport": "dev-updated",
         "magento/magento-cloud-metapackage": "2.3.4",
+        "magento/magento-cloud-docker": "dev-develop",
         "magento/module-bundle-sample-data": "100.3.*",
         "magento/module-catalog-rule-sample-data": "100.3.*",
         "magento/module-catalog-sample-data": "100.3.*",
@@ -63,7 +65,7 @@
         "magento/module-wishlist-sample-data": "100.3.*",
         "magento/sample-data-media": "100.3.*",
         "magentoese/dock-mage": "dev-master",
-        "magentoese/ece-tools": "2002.0.21.x-dev",
+        "magentoese/ece-tools": "dev-develop",
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/nfs4d4m": "dev-master"
