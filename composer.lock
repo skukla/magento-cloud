@@ -2186,38 +2186,6 @@
             "license": [
                 "Apache-2.0"
             ],
-            "authors": [
-                {
-                    "name": "Joe Constant",
-                    "email": "joe.constant@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Fei Chen",
-                    "email": "fei.chen@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Dario Kassler",
-                    "email": "dario.kassler@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Jason Grim",
-                    "email": "jason.grim@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Kenny Gilles",
-                    "email": "kenny.gilles@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Markus Simon",
-                    "email": "markus.simon2@klarna.com",
-                    "role": "Developer"
-                }
-            ],
             "description": "Klarna Core Magento 2 Extension"
         },
         {
@@ -2272,38 +2240,6 @@
             },
             "license": [
                 "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Joe Constant",
-                    "email": "joe.constant@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Fei Chen",
-                    "email": "fei.chen@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Dario Kassler",
-                    "email": "dario.kassler@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Jason Grim",
-                    "email": "jason.grim@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Kenny Gilles",
-                    "email": "kenny.gilles@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Markus Simon",
-                    "email": "markus.simon2@klarna.com",
-                    "role": "Developer"
-                }
             ],
             "description": "Klarna Payments Magento 2 Extension"
         },
@@ -16281,12 +16217,6 @@
             "license": [
                 "OSL-3.0"
             ],
-            "authors": [
-                {
-                    "name": "Riccardo Tempesta",
-                    "email": "riccardo.tempesta@magespecialist.it"
-                }
-            ],
             "description": "Google reCaptcha integration for Magento2"
         },
         {
@@ -17510,7 +17440,7 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
@@ -17563,7 +17493,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v4.3.10",
+            "version": "v4.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -17691,7 +17621,7 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -17741,7 +17671,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -18179,7 +18109,7 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v5.0.3",
+            "version": "v5.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
@@ -18313,7 +18243,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
@@ -18717,14 +18647,6 @@
             "type": "metapackage",
             "license": [
                 "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Mediotype",
-                    "email": "diveinto@mediotype.com",
-                    "homepage": "http://www.mediotype.com/",
-                    "role": "Development Company"
-                }
             ],
             "description": "Vertex Tax Links for Magento 2",
             "homepage": "http://go.vertexsmb.com/magento_cbe",
