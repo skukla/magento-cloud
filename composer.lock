@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a9e26b25571178f5d5cb000ef1a97b3",
+    "content-hash": "a7113a82a57c6dfa0094aa351e774479",
     "packages": [
         {
             "name": "amasty/base",
@@ -1035,16 +1035,16 @@
         },
         {
             "name": "community-engineering/language-pt_br",
-            "version": "0.0.31",
+            "version": "0.0.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-l10n/language-pt_BR.git",
-                "reference": "96d901f8ddb02c81116b50c82452e4209e167baf"
+                "reference": "b00b49adddf8367e1df47771537e9f0a5748041c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-l10n/language-pt_BR/zipball/96d901f8ddb02c81116b50c82452e4209e167baf",
-                "reference": "96d901f8ddb02c81116b50c82452e4209e167baf",
+                "url": "https://api.github.com/repos/magento-l10n/language-pt_BR/zipball/b00b49adddf8367e1df47771537e9f0a5748041c",
+                "reference": "b00b49adddf8367e1df47771537e9f0a5748041c",
                 "shasum": ""
             },
             "require": {
@@ -1062,7 +1062,7 @@
                 "AFL-3.0"
             ],
             "description": "pt_BR language package.",
-            "time": "2020-01-16T00:08:26+00:00"
+            "time": "2020-01-18T00:08:11+00:00"
         },
         {
             "name": "community-engineering/language-sr_sp",
@@ -1464,13 +1464,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:davemacaulay/module-page-builder-grid.git",
-                "reference": "25fc121eeedd8baabb74e1600f05f023a0f149b6"
+                "url": "git@github.com:PMET-public/module-page-builder-grid.git",
+                "reference": "5fa783d14cf7faa9aeeb06ff3d816db6a5051e02"
             },
             "require": {
                 "magento/framework": "*",
                 "magento/module-page-builder": "*",
-                "php": "~7.1.3||~7.2.0"
+                "php": "~7.1.3||~7.2.0||~7.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -1495,7 +1495,7 @@
                 }
             ],
             "description": "Example Page Builder Grid Module",
-            "time": "2019-06-06T19:47:53+00:00"
+            "time": "2020-02-04T04:30:28+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -1566,16 +1566,16 @@
         },
         {
             "name": "donatj/phpuseragentparser",
-            "version": "v0.14.0",
+            "version": "v0.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/donatj/PhpUserAgent.git",
-                "reference": "199f22df0c3fd0fb7de024dedbd052064bfb34fb"
+                "reference": "283e5812d3a3f2deb62377c14b0d24191aba1595"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/donatj/PhpUserAgent/zipball/199f22df0c3fd0fb7de024dedbd052064bfb34fb",
-                "reference": "199f22df0c3fd0fb7de024dedbd052064bfb34fb",
+                "url": "https://api.github.com/repos/donatj/PhpUserAgent/zipball/283e5812d3a3f2deb62377c14b0d24191aba1595",
+                "reference": "283e5812d3a3f2deb62377c14b0d24191aba1595",
                 "shasum": ""
             },
             "require": {
@@ -1613,7 +1613,7 @@
                 "user agent",
                 "useragent"
             ],
-            "time": "2019-09-30T16:32:02+00:00"
+            "time": "2020-01-21T17:51:39+00:00"
         },
         {
             "name": "dotmailer/dotmailer-magento2-extension",
@@ -1915,12 +1915,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PMET-public/module-page-builder-extension-banner.git",
-                "reference": "656e5ca0037bd25f010ea5b95e392d68e1c9b5ca"
+                "reference": "713c7d0a23dcfdd66a41c6a42da93c7fc84fb306"
             },
             "require": {
                 "magento/framework": "*",
                 "magento/module-page-builder": "*",
-                "php": "~7.1.3||~7.2.0"
+                "php": "~7.1.3||~7.2.0||~7.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -1935,7 +1935,7 @@
                 "proprietary"
             ],
             "description": "PageBuilder Extension Banner",
-            "time": "2020-01-16T14:23:50+00:00"
+            "time": "2020-02-04T04:43:54+00:00"
         },
         {
             "name": "example/module-page-builder-extension-slider",
@@ -1943,12 +1943,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PMET-public/module-page-builder-extension-slider.git",
-                "reference": "6a58807a746c6926d18f321fd972ab3895c40e3e"
+                "reference": "88dfeeeca94b711c66b1379b63222f1e5516c44b"
             },
             "require": {
                 "magento/framework": "*",
                 "magento/module-page-builder": "*",
-                "php": "~7.1.3||~7.2.0"
+                "php": "~7.1.3||~7.2.0||~7.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -1963,7 +1963,7 @@
                 "proprietary"
             ],
             "description": "PageBuilder Extension Slider",
-            "time": "2020-01-16T14:24:19+00:00"
+            "time": "2020-02-04T04:44:54+00:00"
         },
         {
             "name": "example/module-page-builder-extension-text",
@@ -1971,12 +1971,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PMET-public/module-page-builder-extension-text.git",
-                "reference": "37c94c36a513bd6846af729d421eb96887042454"
+                "reference": "5fd8c3c43d6403ece42beae142dab07f9dc2d7c0"
             },
             "require": {
                 "magento/framework": "*",
                 "magento/module-page-builder": "*",
-                "php": "~7.1.3||~7.2.0"
+                "php": "~7.1.3||~7.2.0||~7.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -1991,7 +1991,7 @@
                 "proprietary"
             ],
             "description": "PageBuilder Extension Text",
-            "time": "2020-01-16T14:24:46+00:00"
+            "time": "2020-02-04T04:45:30+00:00"
         },
         {
             "name": "example/module-page-builder-faq",
@@ -1999,12 +1999,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PMET-public/module-page-builder-faq.git",
-                "reference": "537439bc10dc0f21cecc52386aaf403c4020f71b"
+                "reference": "aa50a832516d4bcc9d03b15ada81d9dc999b7746"
             },
             "require": {
                 "magento/framework": "*",
                 "magento/module-page-builder": "*",
-                "php": "~7.1.3||~7.2.0"
+                "php": "~7.1.3||~7.2.0||~7.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -2019,20 +2019,20 @@
                 "proprietary"
             ],
             "description": "PageBuilder FAQ module",
-            "time": "2020-01-16T14:25:08+00:00"
+            "time": "2020-02-04T04:46:01+00:00"
         },
         {
             "name": "example/module-page-builder-quote",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:bdenham/page-builder-quote.git",
-                "reference": "edc32bfdc448f22a663ca52f987ed57e2582aebb"
+                "url": "git@github.com:PMET-public/page-builder-quote.git",
+                "reference": "783e500965f5cfd9073b9e03686907769d80983e"
             },
             "require": {
                 "magento/framework": "*",
                 "magento/module-page-builder": "*",
-                "php": "~7.1.3||~7.2.0"
+                "php": "~7.1.3||~7.2.0||~7.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -2050,20 +2050,20 @@
                 }
             ],
             "description": "PageBuilder Quote module for content type tutorial",
-            "time": "2019-02-27T13:26:24+00:00"
+            "time": "2020-02-04T04:52:02+00:00"
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.125",
+            "version": "1.2.126",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "4bf59bfe990746a8399b92130618e178386574f3"
+                "reference": "226d19be8f64f6af4d1155ba72308adeacf78e24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/4bf59bfe990746a8399b92130618e178386574f3",
-                "reference": "4bf59bfe990746a8399b92130618e178386574f3",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/226d19be8f64f6af4d1155ba72308adeacf78e24",
+                "reference": "226d19be8f64f6af4d1155ba72308adeacf78e24",
                 "shasum": ""
             },
             "require": {
@@ -2088,7 +2088,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2020-01-07T15:51:04+00:00"
+            "time": "2020-01-22T19:52:11+00:00"
         },
         {
             "name": "firegento/fastsimpleimport",
@@ -2462,6 +2462,7 @@
                 }
             ],
             "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
+            "abandoned": true,
             "time": "2018-07-31T13:22:33+00:00"
         },
         {
@@ -2512,6 +2513,7 @@
                 "Guzzle",
                 "stream"
             ],
+            "abandoned": true,
             "time": "2014-10-12T19:18:40+00:00"
         },
         {
@@ -2913,38 +2915,6 @@
             "license": [
                 "Apache-2.0"
             ],
-            "authors": [
-                {
-                    "name": "Joe Constant",
-                    "email": "joe.constant@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Fei Chen",
-                    "email": "fei.chen@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Dario Kassler",
-                    "email": "dario.kassler@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Jason Grim",
-                    "email": "jason.grim@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Kenny Gilles",
-                    "email": "kenny.gilles@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Markus Simon",
-                    "email": "markus.simon2@klarna.com",
-                    "role": "Developer"
-                }
-            ],
             "description": "Klarna Core Magento 2 Extension"
         },
         {
@@ -2999,38 +2969,6 @@
             },
             "license": [
                 "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Joe Constant",
-                    "email": "joe.constant@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Fei Chen",
-                    "email": "fei.chen@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Dario Kassler",
-                    "email": "dario.kassler@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Jason Grim",
-                    "email": "jason.grim@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Kenny Gilles",
-                    "email": "kenny.gilles@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Markus Simon",
-                    "email": "markus.simon2@klarna.com",
-                    "role": "Developer"
-                }
             ],
             "description": "Klarna Payments Magento 2 Extension"
         },
@@ -11738,13 +11676,13 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-msi-inventory-sample-data.git",
-                "reference": "7261779393b4674fc0a61225ebc3b54d5653aa19"
+                "reference": "fa168a917e9bddd73b0e703f9dae5b4a07ba4c7e"
             },
             "require": {
                 "magento/framework": "*",
                 "magento/module-inventory-api": "*",
                 "magento/module-msi-source-stock-sample-data": "*",
-                "php": "~7.1.3||~7.2.0"
+                "php": "~7.1.3||~7.2.0||~7.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -11760,7 +11698,7 @@
                 "AFL-3.0"
             ],
             "description": "N/A",
-            "time": "2018-10-19T15:13:16+00:00"
+            "time": "2020-02-04T04:56:05+00:00"
         },
         {
             "name": "magento/module-msi-source-stock-sample-data",
@@ -11768,13 +11706,13 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-msi-source-stock-sample-data.git",
-                "reference": "8ad5de02d687594223ffb4088a3a2ea978bc43a9"
+                "reference": "97786cd3d8bbcd3f25e5e71b91e54576d503358b"
             },
             "require": {
                 "magento/framework": "*",
                 "magento/module-inventory-api": "*",
                 "magento/module-inventory-sales-api": "*",
-                "php": "~7.1.3||~7.2.0"
+                "php": "~7.1.3||~7.2.0||~7.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -11790,7 +11728,7 @@
                 "AFL-3.0"
             ],
             "description": "N/A",
-            "time": "2019-03-20T19:02:26+00:00"
+            "time": "2020-02-04T04:58:44+00:00"
         },
         {
             "name": "magento/module-msrp",
@@ -16928,12 +16866,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento2-gmail-smtp-app.git",
-                "reference": "ab08d99c9dae3e75d8796a4a227722248681adba"
+                "reference": "16ad0f710cade92dd3402a6bf37b092ed9358428"
             },
             "require": {
                 "magento/framework": "100.0.*|100.1.*|101.0.*|102.0.*",
                 "magento/module-backend": "100.0.*|100.1.*|100.2.*|101.0.*",
-                "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0|~7.1.3|~7.2.0"
+                "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0|~7.1.3|~7.2.0|~7.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -16973,7 +16911,7 @@
                 "email": "support@magepal.com",
                 "issues": "https://github.com/magepal/magento2-gmail-smtp-app/issues/"
             },
-            "time": "2019-03-25T17:31:51+00:00"
+            "time": "2020-01-31T15:41:18+00:00"
         },
         {
             "name": "magentoese/module-admin-configurations",
@@ -17381,13 +17319,13 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-msi-inventory-sample-data-demo.git",
-                "reference": "5c464f6c0220d739320b7377eb60ccf86c230ac4"
+                "reference": "60ddd58a7188841961674feff35c609c4f56f51a"
             },
             "require": {
                 "magento/framework": "*",
                 "magento/module-msi-inventory-sample-data": "*",
                 "magento/module-msi-source-stock-sample-data": "*",
-                "php": "~7.1.3||~7.2.0"
+                "php": "~7.1.3||~7.2.0||~7.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -17403,7 +17341,7 @@
                 "AFL-3.0"
             ],
             "description": "N/A",
-            "time": "2020-01-16T20:43:22+00:00"
+            "time": "2020-02-04T05:00:03+00:00"
         },
         {
             "name": "magentoese/module-product-image-switcher",
@@ -17920,12 +17858,6 @@
             "license": [
                 "OSL-3.0"
             ],
-            "authors": [
-                {
-                    "name": "Riccardo Tempesta",
-                    "email": "riccardo.tempesta@magespecialist.it"
-                }
-            ],
             "description": "Google reCaptcha integration for Magento2"
         },
         {
@@ -18012,16 +17944,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.28.0",
+            "version": "2.29.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "e2bcbcd43e67ee6101d321d5de916251d2870ca8"
+                "reference": "e509be5bf2d703390e69e14496d9a1168452b0a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/e2bcbcd43e67ee6101d321d5de916251d2870ca8",
-                "reference": "e2bcbcd43e67ee6101d321d5de916251d2870ca8",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/e509be5bf2d703390e69e14496d9a1168452b0a2",
+                "reference": "e509be5bf2d703390e69e14496d9a1168452b0a2",
                 "shasum": ""
             },
             "require": {
@@ -18032,7 +17964,7 @@
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.14 || ^3.0",
                 "kylekatarnls/multi-tester": "^1.1",
-                "phpmd/phpmd": "dev-php-7.1-compatibility",
+                "phpmd/phpmd": "^2.8",
                 "phpstan/phpstan": "^0.11",
                 "phpunit/phpunit": "^7.5 || ^8.0",
                 "squizlabs/php_codesniffer": "^3.4"
@@ -18078,7 +18010,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2019-12-16T16:30:25+00:00"
+            "time": "2020-01-21T09:36:43+00:00"
         },
         {
             "name": "paradoxlabs/authnetcim",
@@ -19191,16 +19123,16 @@
         },
         {
             "name": "splendidinternet/mage2-locale-de-de",
-            "version": "1.55.1",
+            "version": "1.56.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/splendidinternet/Magento2_German_LocalePack_de_DE.git",
-                "reference": "7ca6dbfd1a1252c0653758621d6ec9f1a87c1085"
+                "reference": "7dbddad270d9cc9bd1f5ef6d493135834ed9b8d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/splendidinternet/Magento2_German_LocalePack_de_DE/zipball/7ca6dbfd1a1252c0653758621d6ec9f1a87c1085",
-                "reference": "7ca6dbfd1a1252c0653758621d6ec9f1a87c1085",
+                "url": "https://api.github.com/repos/splendidinternet/Magento2_German_LocalePack_de_DE/zipball/7dbddad270d9cc9bd1f5ef6d493135834ed9b8d4",
+                "reference": "7dbddad270d9cc9bd1f5ef6d493135834ed9b8d4",
                 "shasum": ""
             },
             "require": {
@@ -19217,7 +19149,7 @@
                 "OSL-3.0"
             ],
             "description": "German (Germany) language",
-            "time": "2019-10-28T08:58:44+00:00"
+            "time": "2020-01-22T08:27:19+00:00"
         },
         {
             "name": "spomky-labs/otphp",
@@ -19412,16 +19344,16 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v4.4.2",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "64acec7e0d67125e9f4656c68d4a38a42ab5a0b7"
+                "reference": "a167b1860995b926d279f9bb538f873e3bfa3465"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/64acec7e0d67125e9f4656c68d4a38a42ab5a0b7",
-                "reference": "64acec7e0d67125e9f4656c68d4a38a42ab5a0b7",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/a167b1860995b926d279f9bb538f873e3bfa3465",
+                "reference": "a167b1860995b926d279f9bb538f873e3bfa3465",
                 "shasum": ""
             },
             "require": {
@@ -19461,20 +19393,20 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2019-10-12T00:35:04+00:00"
+            "time": "2020-01-04T13:00:46+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v4.3.9",
+            "version": "v4.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "87a1ae7480f2020818013605a65776b9033bcc4f"
+                "reference": "75f99d7489409207d09c6cd75a6c773ccbb516d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/87a1ae7480f2020818013605a65776b9033bcc4f",
-                "reference": "87a1ae7480f2020818013605a65776b9033bcc4f",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/75f99d7489409207d09c6cd75a6c773ccbb516d5",
+                "reference": "75f99d7489409207d09c6cd75a6c773ccbb516d5",
                 "shasum": ""
             },
             "require": {
@@ -19531,7 +19463,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2019-11-28T13:25:45+00:00"
+            "time": "2020-01-09T13:17:05+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -19593,16 +19525,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.4.2",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "40c2606131d56eff6f193b6e2ceb92414653b591"
+                "reference": "266c9540b475f26122b61ef8b23dd9198f5d1cfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/40c2606131d56eff6f193b6e2ceb92414653b591",
-                "reference": "40c2606131d56eff6f193b6e2ceb92414653b591",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/266c9540b475f26122b61ef8b23dd9198f5d1cfd",
+                "reference": "266c9540b475f26122b61ef8b23dd9198f5d1cfd",
                 "shasum": ""
             },
             "require": {
@@ -19639,20 +19571,20 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2019-11-26T23:16:41+00:00"
+            "time": "2020-01-21T08:20:44+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v4.4.2",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "ce8743441da64c41e2a667b8eb66070444ed911e"
+                "reference": "3a50be43515590faf812fbd7708200aabc327ec3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/ce8743441da64c41e2a667b8eb66070444ed911e",
-                "reference": "ce8743441da64c41e2a667b8eb66070444ed911e",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/3a50be43515590faf812fbd7708200aabc327ec3",
+                "reference": "3a50be43515590faf812fbd7708200aabc327ec3",
                 "shasum": ""
             },
             "require": {
@@ -19688,7 +19620,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2019-11-17T21:56:56+00:00"
+            "time": "2020-01-04T13:00:46+00:00"
         },
         {
             "name": "symfony/options-resolver",
@@ -20081,16 +20013,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v5.0.2",
+            "version": "v5.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "3ae6fad7a3dc2d99a023f9360184628fc44acbb3"
+                "reference": "28e1054f1ea26c63762d9260c37cb1056ea62dbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/3ae6fad7a3dc2d99a023f9360184628fc44acbb3",
-                "reference": "3ae6fad7a3dc2d99a023f9360184628fc44acbb3",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/28e1054f1ea26c63762d9260c37cb1056ea62dbb",
+                "reference": "28e1054f1ea26c63762d9260c37cb1056ea62dbb",
                 "shasum": ""
             },
             "require": {
@@ -20154,7 +20086,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2019-12-12T13:03:32+00:00"
+            "time": "2020-01-21T08:40:24+00:00"
         },
         {
             "name": "symfony/translation-contracts",
@@ -20215,16 +20147,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.4.2",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "a08832b974dd5fafe3085a66d41fe4c84bb2628c"
+                "reference": "cd014e425b3668220adb865f53bff64b3ad21767"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/a08832b974dd5fafe3085a66d41fe4c84bb2628c",
-                "reference": "a08832b974dd5fafe3085a66d41fe4c84bb2628c",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/cd014e425b3668220adb865f53bff64b3ad21767",
+                "reference": "cd014e425b3668220adb865f53bff64b3ad21767",
                 "shasum": ""
             },
             "require": {
@@ -20270,7 +20202,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2019-12-10T10:33:21+00:00"
+            "time": "2020-01-21T11:12:16+00:00"
         },
         {
             "name": "tedivm/jshrink",
@@ -20619,14 +20551,6 @@
             "type": "metapackage",
             "license": [
                 "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Mediotype",
-                    "email": "diveinto@mediotype.com",
-                    "homepage": "http://www.mediotype.com/",
-                    "role": "Development Company"
-                }
             ],
             "description": "Vertex Tax Links for Magento 2",
             "homepage": "http://go.vertexsmb.com/magento_cbe",
