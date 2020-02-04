@@ -1184,16 +1184,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "1.9.2",
+            "version": "1.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "7a04aa0201ddaa0b3cf64d41022bd8cdcd7fafeb"
+                "reference": "1291a16ce3f48bfdeca39d64fca4875098af4d7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/7a04aa0201ddaa0b3cf64d41022bd8cdcd7fafeb",
-                "reference": "7a04aa0201ddaa0b3cf64d41022bd8cdcd7fafeb",
+                "url": "https://api.github.com/repos/composer/composer/zipball/1291a16ce3f48bfdeca39d64fca4875098af4d7b",
+                "reference": "1291a16ce3f48bfdeca39d64fca4875098af4d7b",
                 "shasum": ""
             },
             "require": {
@@ -1260,7 +1260,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2020-01-14T15:30:32+00:00"
+            "time": "2020-02-04T11:58:49+00:00"
         },
         {
             "name": "composer/semver",
@@ -2915,6 +2915,38 @@
             "license": [
                 "Apache-2.0"
             ],
+            "authors": [
+                {
+                    "name": "Joe Constant",
+                    "email": "joe.constant@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Fei Chen",
+                    "email": "fei.chen@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Dario Kassler",
+                    "email": "dario.kassler@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Jason Grim",
+                    "email": "jason.grim@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Kenny Gilles",
+                    "email": "kenny.gilles@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Markus Simon",
+                    "email": "markus.simon2@klarna.com",
+                    "role": "Developer"
+                }
+            ],
             "description": "Klarna Core Magento 2 Extension"
         },
         {
@@ -2969,6 +3001,38 @@
             },
             "license": [
                 "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Constant",
+                    "email": "joe.constant@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Fei Chen",
+                    "email": "fei.chen@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Dario Kassler",
+                    "email": "dario.kassler@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Jason Grim",
+                    "email": "jason.grim@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Kenny Gilles",
+                    "email": "kenny.gilles@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Markus Simon",
+                    "email": "markus.simon2@klarna.com",
+                    "role": "Developer"
+                }
             ],
             "description": "Klarna Payments Magento 2 Extension"
         },
@@ -17550,7 +17614,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-venia-catalog-sample-data.git",
-                "reference": "605a46202f7e8c6bb5004bb560114f481c2e0000"
+                "reference": "41c08f0825a6edd8bf88e7e6e860d78e6ab0d7e2"
             },
             "require": {
                 "firegento/fastsimpleimport": "dev-updated",
@@ -17565,7 +17629,7 @@
                     "MagentoEse\\VeniaCatalogSampleData\\": ""
                 }
             },
-            "time": "2019-06-20T19:41:03+00:00"
+            "time": "2020-02-04T14:23:09+00:00"
         },
         {
             "name": "magentoese/module-venia-cms-sample-data",
@@ -17736,7 +17800,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/theme-frontend-venia.git",
-                "reference": "805c18ce9844808e6abf2cdde1f8317e8e5a6aa1"
+                "reference": "f5e62b01a62c3f38d8ba2aaccac04b28927a3d63"
             },
             "require": {
                 "magento/framework": "*",
@@ -17750,7 +17814,7 @@
                     "registration.php"
                 ]
             },
-            "time": "2019-09-25T16:43:23+00:00"
+            "time": "2020-02-04T14:28:46+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -17857,6 +17921,12 @@
             },
             "license": [
                 "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Riccardo Tempesta",
+                    "email": "riccardo.tempesta@magespecialist.it"
+                }
             ],
             "description": "Google reCaptcha integration for Magento2"
         },
@@ -20551,6 +20621,14 @@
             "type": "metapackage",
             "license": [
                 "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mediotype",
+                    "email": "diveinto@mediotype.com",
+                    "homepage": "http://www.mediotype.com/",
+                    "role": "Development Company"
+                }
             ],
             "description": "Vertex Tax Links for Magento 2",
             "homepage": "http://go.vertexsmb.com/magento_cbe",
