@@ -4,18 +4,18 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2cae0fbc94ecd725f8c4e2cc34338d81",
+    "content-hash": "8d17227cf15d2435c0e33e7a41dba0c8",
     "packages": [
         {
             "name": "amasty/base",
-            "version": "1.9.2.x-dev",
+            "version": "1.9.10.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-base.git",
-                "reference": "5b6a307fd494e74cbded006f99fbf7c5a9297135"
+                "reference": "ccfe44467ed079c7db853fc864e7dee9f7e98e5f"
             },
             "require": {
-                "php": "7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0"
+                "php": "7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0|^7.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -30,19 +30,19 @@
                 "Commercial"
             ],
             "description": "Amasty Base",
-            "time": "2019-10-03T20:08:47+00:00"
+            "time": "2020-02-04T21:04:25+00:00"
         },
         {
             "name": "amasty/geoip",
-            "version": "1.5.0.x-dev",
+            "version": "1.5.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-geoip.git",
-                "reference": "2021b897cac5186d0908c17bd912e7abab2de98e"
+                "reference": "ad562ecdc6170c57339c0d07f0b9a6eb960f6d74"
             },
             "require": {
-                "amasty/base": ">=1.7.0",
-                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|^7.1.0"
+                "amasty/base": "*",
+                "php": "7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0|^7.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -57,19 +57,19 @@
                 "Commercial"
             ],
             "description": "Amasty Geoip Data",
-            "time": "2019-06-14T13:37:39+00:00"
+            "time": "2020-02-04T17:38:56+00:00"
         },
         {
             "name": "amasty/module-advanced-conditions",
-            "version": "1.3.14.x-dev",
+            "version": "1.4.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-advanced-conditions.git",
-                "reference": "5b8103b697c724037af4d44ee445c9e9ac50daf9"
+                "reference": "eaf28bd5f3b4a0eff91f8d73629cc23f23323087"
             },
             "require": {
                 "amasty/base": ">=1.4.7",
-                "php": "7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0"
+                "php": "7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0|^7.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -84,19 +84,19 @@
                 "Commercial"
             ],
             "description": "Advanced Conditions by Amasty",
-            "time": "2019-10-04T13:20:47+00:00"
+            "time": "2020-02-04T16:17:28+00:00"
         },
         {
             "name": "amasty/module-banners-lite",
-            "version": "1.0.8.x-dev",
+            "version": "1.0.10.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-banners-lite.git",
-                "reference": "2a101d71e13d54c9e189cbf489422c4ebfd15f9b"
+                "reference": "b32795e9e19b037d44f57877da51fd25b5084eac"
             },
             "require": {
                 "amasty/base": ">=1.4.5",
-                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0"
+                "php": "7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0|^7.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -111,19 +111,20 @@
                 "Commercial"
             ],
             "description": "Promo Banners Lite by Amasty",
-            "time": "2019-10-04T12:42:42+00:00"
+            "time": "2020-02-04T18:13:52+00:00"
         },
         {
             "name": "amasty/module-salesrulewizard",
-            "version": "dev-master",
+            "version": "1.0.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-salesrulewizard.git",
-                "reference": "841c1542307299ede43418ad791452082d31693f"
+                "reference": "6cbc824959ad035580e93db4a4c2319b006fe93b"
             },
             "require": {
                 "amasty/base": "*",
-                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0"
+                "amasty/promo": "*",
+                "php": "7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0|^7.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -137,21 +138,22 @@
             "license": [
                 "Commercial"
             ],
-            "time": "2020-01-14T01:52:34+00:00"
+            "description": "Sales Rule Wizard by Amasty",
+            "time": "2020-02-04T16:54:57+00:00"
         },
         {
             "name": "amasty/module-special-promo",
-            "version": "2.7.7.x-dev",
+            "version": "2.7.13.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-special-promotions.git",
-                "reference": "b809d35e1deb039be7c29d5167cf9b317aa7ab73"
+                "reference": "0e7676990dae40e450ef3b9710ce842875fb9f71"
             },
             "require": {
-                "amasty/base": ">=1.4.7",
-                "amasty/module-banners-lite": ">=1.0.2",
-                "amasty/rgrid": "*",
-                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|^7.1.0|^7.1.0|^7.2.0"
+                "amasty/base": ">=1.9.7",
+                "amasty/module-banners-lite": ">=1.0.9",
+                "amasty/rgrid": ">=1.0.7",
+                "php": "7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0|^7.3.0"
             },
             "suggest": {
                 "amasty/module-common-tests": "Install module-common-tests module to be able to run Special Promotions MFTF tests."
@@ -169,20 +171,20 @@
                 "Commercial"
             ],
             "description": "Special Promotions by Amasty",
-            "time": "2019-06-20T16:48:03+00:00"
+            "time": "2020-02-04T21:05:18+00:00"
         },
         {
             "name": "amasty/module-special-promo-pro",
-            "version": "2.7.11.x-dev",
+            "version": "2.7.10.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-special-promotions-pro.git",
-                "reference": "5e035ec0dc2a4ff15ce2f5fbe38c5bd44aed11d1"
+                "reference": "b99ba6b7ef893419fa01f1dc7c9c0bf61d8ea714"
             },
             "require": {
-                "amasty/base": ">=1.7.0",
-                "amasty/module-special-promo": ">=2.7.7",
-                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0"
+                "amasty/base": ">=1.9.7",
+                "amasty/module-special-promo": ">=2.7.13",
+                "php": "7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0|^7.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -197,20 +199,20 @@
                 "Commercial"
             ],
             "description": "Special Promotions Pro by Amasty",
-            "time": "2019-06-14T12:57:20+00:00"
+            "time": "2020-02-04T17:18:28+00:00"
         },
         {
             "name": "amasty/module-store-locator",
-            "version": "2.3.0.x-dev",
+            "version": "2.3.6.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-store-locator.git",
-                "reference": "dec63ec5a5bce2deb3681283568c79e9a5c67ddb"
+                "reference": "ed46c2e90fd36ae9fb1a98737088e36582dc56cd"
             },
             "require": {
-                "amasty/base": ">=1.9.2",
-                "amasty/geoip": ">=1.5.0",
-                "php": "7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0"
+                "amasty/base": ">=1.9.7",
+                "amasty/geoip": ">=1.5.1",
+                "php": "7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0|^7.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -225,7 +227,7 @@
                 "Commercial"
             ],
             "description": "Store Locator by Amasty",
-            "time": "2019-10-03T20:18:15+00:00"
+            "time": "2020-02-04T17:41:31+00:00"
         },
         {
             "name": "amasty/product-attachment",
@@ -256,19 +258,19 @@
         },
         {
             "name": "amasty/promo",
-            "version": "2.6.1.x-dev",
+            "version": "2.8.3.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-free-gift.git",
-                "reference": "62e1e385dd10eb5d94eca7e49e36ae088cbce85c"
+                "reference": "0610861aa5588652f6b886613d229fd95a5b19e1"
             },
             "require": {
-                "amasty/base": ">=1.9.2",
-                "amasty/module-advanced-conditions": ">=1.3.14",
-                "amasty/module-banners-lite": ">=1.0.8",
-                "amasty/module-salesrulewizard": ">=1.0.0",
+                "amasty/base": ">=1.9.10",
+                "amasty/module-advanced-conditions": ">=1.4.0",
+                "amasty/module-banners-lite": ">=1.0.10",
+                "amasty/module-salesrulewizard": ">=1.0.1",
                 "amasty/rgrid": ">=1.0.7",
-                "php": "7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0"
+                "php": "7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0|^7.3.0"
             },
             "suggest": {
                 "amasty/module-common-tests": "Install module-common-tests module to be able to run Free Gift MFTF tests."
@@ -286,7 +288,7 @@
                 "Commercial"
             ],
             "description": "Free Gift by Amasty",
-            "time": "2019-10-04T14:28:45+00:00"
+            "time": "2020-02-04T18:14:50+00:00"
         },
         {
             "name": "amasty/rgrid",
@@ -294,11 +296,11 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.the1umastory.com:md/amasty-module-rules-grid.git",
-                "reference": "ec7aa308a25b2fe016d9707fb8d58fc02874c4d1"
+                "reference": "06266c10ff99004a4d88936178bcd3be6222c33d"
             },
             "require": {
                 "amasty/base": ">=1.4.7",
-                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0"
+                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|^7.1.0|^7.2.0|^7.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -313,7 +315,7 @@
                 "Commercial"
             ],
             "description": "Extended Rules Grid by Amasty",
-            "time": "2018-12-11T16:38:21+00:00"
+            "time": "2020-02-04T16:38:41+00:00"
         },
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -2870,6 +2872,38 @@
             "license": [
                 "Apache-2.0"
             ],
+            "authors": [
+                {
+                    "name": "Joe Constant",
+                    "email": "joe.constant@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Fei Chen",
+                    "email": "fei.chen@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Dario Kassler",
+                    "email": "dario.kassler@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Jason Grim",
+                    "email": "jason.grim@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Kenny Gilles",
+                    "email": "kenny.gilles@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Markus Simon",
+                    "email": "markus.simon2@klarna.com",
+                    "role": "Developer"
+                }
+            ],
             "description": "Klarna Core Magento 2 Extension"
         },
         {
@@ -2924,6 +2958,38 @@
             },
             "license": [
                 "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Constant",
+                    "email": "joe.constant@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Fei Chen",
+                    "email": "fei.chen@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Dario Kassler",
+                    "email": "dario.kassler@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Jason Grim",
+                    "email": "jason.grim@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Kenny Gilles",
+                    "email": "kenny.gilles@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Markus Simon",
+                    "email": "markus.simon2@klarna.com",
+                    "role": "Developer"
+                }
             ],
             "description": "Klarna Payments Magento 2 Extension"
         },
@@ -17913,6 +17979,12 @@
             "license": [
                 "OSL-3.0"
             ],
+            "authors": [
+                {
+                    "name": "Riccardo Tempesta",
+                    "email": "riccardo.tempesta@magespecialist.it"
+                }
+            ],
             "description": "Google reCaptcha integration for Magento2"
         },
         {
@@ -20883,6 +20955,14 @@
             "type": "metapackage",
             "license": [
                 "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mediotype",
+                    "email": "diveinto@mediotype.com",
+                    "homepage": "http://www.mediotype.com/",
+                    "role": "Development Company"
+                }
             ],
             "description": "Vertex Tax Links for Magento 2",
             "homepage": "http://go.vertexsmb.com/magento_cbe",
