@@ -40,6 +40,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-sales-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-sctools.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-themecustomizer.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-uninstall-cleanup.git"},
         {"type": "git", "url": "git@github.com:PMET-public/nfs4d4m.git"},
         {"type": "git", "url": "git@github.com:PMET-public/theme-brentmill.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/bluefoot.git"},
@@ -105,6 +106,7 @@
         "magentoese/module-sales-sample-data": "dev-master",
         "magentoese/module-sctools": "dev-master",
         "magentoese/module-themecustomizer": "dev-master",
+        "magentoese/module-uninstall-cleanup": "dev-master",
         "magentoese/nfs4d4m": "dev-master",
         "magentoese/theme-brentmill": "dev-master"
     },

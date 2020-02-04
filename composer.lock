@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f3c8b1396dc61dcc634b355043fc6e23",
+    "content-hash": "ae64f337c295c336075b323f09f850e2",
     "packages": [
         {
             "name": "accorin/module-orderapprovals",
@@ -15297,6 +15297,31 @@
             "time": "2019-01-30T18:39:51+00:00"
         },
         {
+            "name": "magentoese/module-uninstall-cleanup",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/module-uninstall-cleanup.git",
+                "reference": "74da80f9f25b4d607a8465a863d311c1507077a9"
+            },
+            "require": {
+                "php": "~7.1.0|~7.2.0|~7.3.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MagentoEse\\UninstallCleanup\\": ""
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "time": "2020-01-16T20:43:48+00:00"
+        },
+        {
             "name": "magentoese/nfs4d4m",
             "version": "dev-master",
             "source": {
@@ -20287,6 +20312,7 @@
         "magentoese/module-sales-sample-data": 20,
         "magentoese/module-sctools": 20,
         "magentoese/module-themecustomizer": 20,
+        "magentoese/module-uninstall-cleanup": 20,
         "magentoese/nfs4d4m": 20,
         "magentoese/theme-brentmill": 20
     },
