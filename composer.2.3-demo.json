@@ -208,11 +208,11 @@
         "magentoese/nfs4d4m": "dev-master",
         "magentoese/theme-frontend-venia": "dev-master",
         "magentoese/theme-frontend-custom": "dev-master",
-        "paradoxlabs/authnetcim": "4.2.1.x-dev",
-        "paradoxlabs/firstdata": "2.2.0.x-dev",
-        "paradoxlabs/stripe": "2.2.0.x-dev",
-        "paradoxlabs/subscriptions": "3.1.0.x-dev",
-        "paradoxlabs/tokenbase": "4.2.1.x-dev"
+        "paradoxlabs/authnetcim": "4.2.5.x-dev",
+        "paradoxlabs/firstdata": "2.3.0.x-dev",
+        "paradoxlabs/stripe": "2.3.4.x-dev",
+        "paradoxlabs/subscriptions": "3.1.5.x-dev",
+        "paradoxlabs/tokenbase": "4.2.5.x-dev"
 
     },
     "suggest": {
