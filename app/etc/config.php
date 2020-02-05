@@ -337,6 +337,7 @@ return [
         'MagentoEse_SCTools' => 1,
         'MagentoEse_B2BOrderSampleData' => 1,
         'MagentoEse_ThemeCustomizer' => 1,
+        'MagentoEse_UninstallCleanup' => 1,
         'Vertex_Tax' => 1,
         'Vertex_AddressValidation' => 1,
         'Yotpo_Yotpo' => 1
