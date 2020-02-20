@@ -24,11 +24,12 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-catalog-sample-data-venia.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-configurable-sample-data-venia.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-customer-sample-data-venia.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-gift-card-sample-data-venia.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-product-links-sample-data-venia.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-sales-sample-data-venia.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-sales-sample-data-venia.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-tax-sample-data-venia.git"},
         {"type": "git", "url": "git@github.com:PMET-public/sample-data-media-venia.git"}
+
     ],
     "scripts": {
         "pre-autoload-dump" : [
@@ -49,6 +50,7 @@
         "magento/module-catalog-sample-data-venia": "dev-master",
         "magento/module-configurable-sample-data-venia": "dev-master",
         "magento/module-customer-sample-data-venia": "dev-master",
+        "magento/module-gift-card-sample-data-venia": "dev-master",
         "magento/module-product-links-sample-data-venia": "dev-master",
         "magento/module-sales-sample-data-venia": "dev-master",
         "magento/module-tax-sample-data-venia": "dev-master",
