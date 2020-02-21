@@ -10,6 +10,13 @@
             "type": "php",
             "request": "launch",
             "port": 9000,
+            "stopOnEntry": true
+        },
+        {
+            "name": "Listen for XDebug using docker/cloud paths",
+            "type": "php",
+            "request": "launch",
+            "port": 9000,
             "stopOnEntry": true,
             "pathMappings": {
                 "/app": "${workspaceRoot}"
