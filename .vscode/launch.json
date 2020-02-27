@@ -30,6 +30,22 @@
             "cwd": "${fileDirname}",
         },
         {
+            "name": "ece-docker build:compose",
+            "type": "php",
+            "request": "launch",
+            "program": "${workspaceRoot}/vendor/bin/ece-docker",
+            "args": ["build:compose"],
+            "cwd": "${workspaceRoot}",
+        },
+        {
+            "name": "ece-docker build:dist",
+            "type": "php",
+            "request": "launch",
+            "program": "${workspaceRoot}/vendor/bin/ece-docker",
+            "args": ["build:compose"],
+            "cwd": "${workspaceRoot}",
+        },
+        {
             "name": "ece-tools list",
             "type": "php",
             "request": "launch",
