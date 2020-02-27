@@ -28,6 +28,7 @@
             "request": "launch",
             "program": "${file}",
             "cwd": "${fileDirname}",
+            "stopOnEntry": true
         },
         {
             "name": "ece-docker build:compose",
@@ -36,6 +37,7 @@
             "program": "${workspaceRoot}/vendor/bin/ece-docker",
             "args": ["build:compose"],
             "cwd": "${workspaceRoot}",
+            "stopOnEntry": true
         },
         {
             "name": "ece-docker build:dist",
@@ -44,6 +46,7 @@
             "program": "${workspaceRoot}/vendor/bin/ece-docker",
             "args": ["build:compose"],
             "cwd": "${workspaceRoot}",
+            "stopOnEntry": true
         },
         {
             "name": "ece-tools list",
@@ -52,6 +55,7 @@
             "program": "${workspaceRoot}/vendor/bin/ece-tools",
             "args": ["build:generate"],
             "cwd": "${workspaceRoot}",
+            "stopOnEntry": true
         },
         {
             "name": "ece-tools build:generate",
@@ -60,6 +64,7 @@
             "program": "${workspaceRoot}/vendor/bin/ece-tools",
             "args": ["build:generate"],
             "cwd": "${workspaceRoot}",
+            "stopOnEntry": true
 
         },
         {
@@ -69,6 +74,7 @@
             "program": "${workspaceRoot}/vendor/bin/ece-tools",
             "args": ["build:transfer"],
             "cwd": "${workspaceRoot}",
+            "stopOnEntry": true
         },
         {
             "name": "ece-tools deploy",
@@ -77,6 +83,7 @@
             "program": "${workspaceRoot}/vendor/bin/ece-tools",
             "args": ["deploy"],
             "cwd": "${workspaceRoot}",
+            "stopOnEntry": true,
             "env": {
                 "HOME": "${HOME}",
                 "COMPOSER_HOME": "${HOME}/.composer",
