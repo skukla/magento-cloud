@@ -1,0 +1,121 @@
+diff --git a/vendor/magento/module-banner/view/frontend/web/js/model/banner.js b/vendor/magento/module-banner/view/frontend/web/js/model/banner.js
+index 5dced94763..32cc02903f 100644
+--- a/vendor/magento/module-banner/view/frontend/web/js/model/banner.js
++++ b/vendor/magento/module-banner/view/frontend/web/js/model/banner.js
+@@ -26,16 +26,32 @@ define([
+         invalidateCacheBySessionTimeOut = function () {
+             var cacheEol = new Date($.localStorage.get('mage-banners-cache-timeout')),
+                 dateTo = new Date(Date.now() + options.cacheTtl),
++                cartDataId = 0,
+                 globalStoreId = $.cookieStorage.get('store') || 'default';
+
+             if ($.localStorage.get('mage-banners-storeId') === null) {
+                 $.localStorage.set('mage-banners-storeId', globalStoreId);
+             }
+
+-            if (cacheEol < new Date() || $.localStorage.get('mage-banners-storeId') !== globalStoreId) {
++            if ($.localStorage.get('mage-banners-cartDataId') === null && cartDataId > 0) {
++                $.localStorage.set('mage-banners-cartDataId', cartDataId);
++            }
++
++            if ($.localStorage.get('mage-cache-storage') !== null &&
++                $.localStorage.get('mage-cache-storage').hasOwnProperty('cart')) {
++                cartDataId = $.localStorage.get('mage-cache-storage').cart['data_id'];
++            }
++
++            if (cacheEol < new Date() ||
++                $.localStorage.get('mage-banners-storeId') !== globalStoreId ||
++                $.localStorage.get('mage-banners-cartDataId') !== cartDataId) {
+                 storage.removeAll();
+                 $.localStorage.set('mage-banners-cache-timeout', dateTo);
+                 $.localStorage.set('mage-banners-storeId', globalStoreId);
++
++                if (cartDataId > 0) {
++                    $.localStorage.set('mage-banners-cartDataId', cartDataId);
++                }
+             }
+         },
+         dataProvider = {
+diff --git a/vendor/magento/module-customer-segment/Model/Customer.php b/vendor/magento/module-customer-segment/Model/Customer.php
+index 9a336713c8..ad10ad9260 100644
+--- a/vendor/magento/module-customer-segment/Model/Customer.php
++++ b/vendor/magento/module-customer-segment/Model/Customer.php
+@@ -23,6 +23,7 @@ use Magento\CustomerSegment\Helper\Data;
+  * @method int getWebsiteId()
+  * @method Customer setWebsiteId(int $value)
+  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
++ * @SuppressWarnings(PHPMD.CookieAndSessionMisuse)
+  * @api
+  * @since 100.0.2
+  */
+@@ -411,6 +412,8 @@ class Customer extends \Magento\Framework\Model\AbstractModel
+         /** @var \Magento\Customer\Model\Session $customerSession */
+         $customerSession = $this->_customerSession;
+
++        $result = [];
++
+         /** @var \Magento\Customer\Model\Customer $customer */
+         $customer = $this->_registry->registry('segment_customer');
+         if (!$customer) {
+@@ -418,33 +421,16 @@ class Customer extends \Magento\Framework\Model\AbstractModel
+         }
+         $websiteId = $this->_storeManager->getWebsite()->getId();
+         if (!$customer->getId()) {
+-            $result = $this->getVisitorsSegmentsForWebsite($websiteId);
++            $allSegmentIds = $customerSession->getCustomerSegmentIds();
++            if (is_array($allSegmentIds) && isset($allSegmentIds[$websiteId])) {
++                $result = $allSegmentIds[$websiteId];
++            }
+         } else {
+             $result = $this->getCustomerSegmentIdsForWebsite(
+                 $customer->getId(),
+-                $this->_storeManager->getWebsite()->getId()
++                $websiteId
+             );
+         }
+         return $result;
+     }
+-
+-    /**
+-     * Return all segments applied for visitors
+-     *
+-     * @param int $websiteId
+-     * @return array
+-     */
+-    private function getVisitorsSegmentsForWebsite(int $websiteId): array
+-    {
+-        /** @var \Magento\CustomerSegment\Model\ResourceModel\Segment\Collection $collection */
+-        $collection = $this->_collectionFactory->create();
+-        $collection->addWebsiteFilter($websiteId);
+-        $collection->addFieldToFilter(
+-            'apply_to',
+-            [Segment::APPLY_TO_VISITORS, Segment::APPLY_TO_VISITORS_AND_REGISTERED]
+-        );
+-        $collection->addIsActiveFilter(1);
+-
+-        return $collection->getAllIds();
+-    }
+ }
+diff --git a/vendor/magento/module-customer-segment/Model/Segment/Condition/Shoppingcart/Amount.php b/vendor/magento/module-customer-segment/Model/Segment/Condition/Shoppingcart/Amount.php
+index 3d21fc555f..d8fec90cb8 100644
+--- a/vendor/magento/module-customer-segment/Model/Segment/Condition/Shoppingcart/Amount.php
++++ b/vendor/magento/module-customer-segment/Model/Segment/Condition/Shoppingcart/Amount.php
+@@ -229,11 +229,13 @@ class Amount extends AbstractCondition
+         } else {
+             $select->from(['quote' => $table], ['customer_id'])->where('quote.is_active=1');
+         }
+-        $select->joinInner(
+-            ['customer' => $customerTable],
+-            'quote.customer_id = customer.entity_id',
+-            []
+-        );
++        if ($customer) {
++            $select->joinInner(
++                ['customer' => $customerTable],
++                'quote.customer_id = customer.entity_id',
++                []
++            );
++        }
+
+         $select->where(
+             'quote.store_id IN(?)',
