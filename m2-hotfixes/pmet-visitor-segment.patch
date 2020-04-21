@@ -1,14 +1,5 @@
 --- /vendor/magento/module-customer/Model/Visitor.php	(date 1587498163913)
 +++ /vendor/magento/module-customer/Model/Visitor.php	(date 1587498163913)
-@@ -172,7 +172,7 @@
-         if ($this->requestSafety->isSafeMethod()) {
-             return $this;
-         }
--
-+
-         if (!$this->getId()) {
-             $this->setSessionId($this->session->getSessionId());
-             $this->save();
 @@ -193,11 +193,11 @@
      public function saveByRequest($observer)
      {
