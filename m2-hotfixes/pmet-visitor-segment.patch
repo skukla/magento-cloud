@@ -4,13 +4,13 @@ index 6935b9dca7f..fcdab497eaf 100644
 +++ b/vendor/magento/module-customer/Model/Visitor.php
 @@ -170,9 +170,9 @@ class Visitor extends \Magento\Framework\Model\AbstractModel
          $this->setLastVisitAt((new \DateTime())->format(\Magento\Framework\Stdlib\DateTime::DATETIME_PHP_FORMAT));
- 
+
          // prevent saving Visitor for safe methods, e.g. GET request
 -        if ($this->requestSafety->isSafeMethod()) {
 +        /*if ($this->requestSafety->isSafeMethod()) {
              return $this;
 -        }
 +        }*/
-         
+
          if (!$this->getId()) {
              $this->setSessionId($this->session->getSessionId());
