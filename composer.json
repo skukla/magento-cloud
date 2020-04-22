@@ -2,7 +2,7 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.3.4",
+    "version": "2.3.5",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -75,7 +75,7 @@
         "accorin/module-orderapprovals": "dev-master",
         "firegento/fastsimpleimport": "dev-updated",
         "magento/extension-b2b": "^1.1",
-        "magento/magento-cloud-metapackage": "2.3.4",
+        "magento/magento-cloud-metapackage": "2.3.5",
         "magento/magento-cloud-docker": "dev-develop",
         "magentoese/dock-mage": "dev-master",
         "magentoese/ece-tools": "dev-develop",
