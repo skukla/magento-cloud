@@ -1,16 +1,19 @@
---- /vendor/magento/module-customer/Model/Visitor.php	(date 1587498163913)
-+++ /vendor/magento/module-customer/Model/Visitor.php	(date 1587498163913)
-@@ -193,11 +193,11 @@
-     public function saveByRequest($observer)
-     {
+Index: /vendor/magento/module-customer/Model/Visitor.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- /vendor/magento/module-customer/Model/Visitor.php	(date 1587570929288)
++++ /vendor/magento/module-customer/Model/Visitor.php	(date 1587570929288)
+@@ -171,9 +171,9 @@
+         $this->setLastVisitAt((new \DateTime())->format(\Magento\Framework\Stdlib\DateTime::DATETIME_PHP_FORMAT));
+
          // prevent saving Visitor for safe methods, e.g. GET request
--        if (($this->skipRequestLogging || $this->requestSafety->isSafeMethod() || $this->isModuleIgnored($observer))
-+        /*if (($this->skipRequestLogging || $this->requestSafety->isSafeMethod() || $this->isModuleIgnored($observer))
-             && !$this->sessionIdHasChanged()
-         ) {
+-        if ($this->requestSafety->isSafeMethod()) {
++        /*if ($this->requestSafety->isSafeMethod()) {
              return $this;
 -        }
 +        }*/
 
-         try {
-             $this->save();
+         if (!$this->getId()) {
+             $this->setSessionId($this->session->getSessionId());
