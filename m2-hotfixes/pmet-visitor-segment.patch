@@ -1,16 +1,16 @@
-diff --git a/vendor/magento/module-customer/Model/Visitor.php b/vendor/magento/module-customer/Model/Visitor.php
-index 6935b9dca7f..fcdab497eaf 100644
---- a/vendor/magento/module-customer/Model/Visitor.php
-+++ b/vendor/magento/module-customer/Model/Visitor.php
-@@ -170,9 +170,9 @@ class Visitor extends \Magento\Framework\Model\AbstractModel
-         $this->setLastVisitAt((new \DateTime())->format(\Magento\Framework\Stdlib\DateTime::DATETIME_PHP_FORMAT));
-
+--- /vendor/magento/module-customer/Model/Visitor.php	(date 1587498163913)
++++ /vendor/magento/module-customer/Model/Visitor.php	(date 1587498163913)
+@@ -193,11 +193,11 @@
+     public function saveByRequest($observer)
+     {
          // prevent saving Visitor for safe methods, e.g. GET request
--        if ($this->requestSafety->isSafeMethod()) {
-+        /*if ($this->requestSafety->isSafeMethod()) {
+-        if (($this->skipRequestLogging || $this->requestSafety->isSafeMethod() || $this->isModuleIgnored($observer))
++        /*if (($this->skipRequestLogging || $this->requestSafety->isSafeMethod() || $this->isModuleIgnored($observer))
+             && !$this->sessionIdHasChanged()
+         ) {
              return $this;
 -        }
 +        }*/
 
-         if (!$this->getId()) {
-             $this->setSessionId($this->session->getSessionId());
+         try {
+             $this->save();
