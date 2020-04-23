@@ -272,7 +272,8 @@
         "magento-deploystrategy": "copy"
     },
     "replace": {
-        "temando/module-shipping-m2": "*"
+        "temando/module-shipping-m2": "*",
+        "magento/google-shopping-ads": "*"
     }
 
 }
