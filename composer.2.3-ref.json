@@ -40,6 +40,7 @@
         "firegento/fastsimpleimport": "dev-updated",
         "magento/magento-cloud-metapackage": "2.3.5",
         "magento/magento-cloud-docker": "dev-develop",
+        "magento/product-enterprise-edition": "2.3.5-p1",
         "magento/module-bundle-sample-data": "100.3.*",
         "magento/module-catalog-rule-sample-data": "100.3.*",
         "magento/module-catalog-sample-data": "100.3.*",
@@ -132,7 +133,6 @@
         "magento-deploystrategy": "copy"
     },
     "replace": {
-        "temando/module-shipping-m2": "*",
         "magento/google-shopping-ads": "*"
     }
 }
