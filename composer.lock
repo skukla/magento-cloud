@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eafd1b1f06268dd50b8aeb20f28eb693",
+    "content-hash": "e1ca4acec2c5080cd9e92577ad021274",
     "packages": [
         {
             "name": "amasty/base",
@@ -20853,11 +20853,11 @@
         },
         {
             "name": "magentoese/module-venia-video-sample-data",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-venia-video-sample-data.git",
-                "reference": "d8d2076d79c3dbbbfad900b053dff7aae2e98026"
+                "reference": "506af81a3af3910402c464c26d8891f3fbeaf825"
             },
             "require": {
                 "magento/framework": "*"
@@ -20871,7 +20871,7 @@
                     "MagentoEse\\VeniaVideoSampleData\\": ""
                 }
             },
-            "time": "2020-05-07T13:15:29+00:00"
+            "time": "2020-05-07T19:00:07+00:00"
         },
         {
             "name": "magentoese/module-vimeo",

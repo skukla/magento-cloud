@@ -13,7 +13,7 @@
     },
     "repositories": [
         {"type": "composer", "url": "https://repo.magento.com/"},
-        
+
         {"type": "git", "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"},
         {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
         {"type": "git", "url": "git@github.com:PMET-public/ece-tools.git"},
@@ -66,7 +66,7 @@
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-advanced-conditions.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-banners-lite.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-base.git"},
-        
+
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-free-gift.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-geoip.git"},
         {"type": "git", "url": "git@gitlab.the1umastory.com:md/amasty-module-product-attachments.git"},
@@ -94,29 +94,29 @@
             "vendor/magentoese/magento-scripts/composer-setup.sh demo"
         ],
         "post-autoload-dump" : [
-            
+
             "curl -sS -o vendor/bin/mr https://files.magerun.net/n98-magerun2-latest.phar && chmod +x vendor/bin/mr"
         ],
         "post-install-cmd" : [
-            
+
             "mv pub/errors/local.xml.sample pub/errors/local.xml || :"
         ]
     },
     "require": {
         "amasty/base": "1.10.0.x-dev",
-        
+
         "amasty/geoip": "1.5.1.x-dev",
-        
-        
+
+
         "amasty/module-advanced-conditions":"1.5.0.x-dev",
         "amasty/module-banners-lite":"1.0.13.x-dev",
         "amasty/module-salesrulewizard": "1.0.1.x-dev",
         "amasty/module-special-promo": "2.7.15.x-dev",
         "amasty/module-special-promo-pro": "2.8.4.x-dev",
         "amasty/module-store-locator": "2.4.0.x-dev",
-        
+
         "amasty/product-attachment": "1.3.3.x-dev",
-        
+
         "amasty/promo": "2.9.3.x-dev",
         "amasty/rgrid": "1.0.7.x-dev",
         "classyllama/module-owlcarousel":"dev-master",
@@ -202,7 +202,7 @@
         "magentoese/module-venia-cms-sample-data": "dev-master",
         "magentoese/module-venia-media-sample-data": "dev-master",
         "magentoese/module-venia-setup": "dev-master",
-        "magentoese/module-venia-video-sample-data": "dev-master",
+        "magentoese/module-venia-video-sample-data": "dev-develop",
         "magentoese/module-vimeo": "dev-master",
         "magentoese/module-vmcontent": "dev-master",
         "magentoese/nfs4d4m": "dev-master",
