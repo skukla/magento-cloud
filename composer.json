@@ -135,6 +135,7 @@
         "example/module-page-builder-extension-text": "dev-master",
         "firegento/fastsimpleimport": "dev-updated",
         "magento/magento-cloud-metapackage": "2.3.5",
+        "magento/product-enterprise-edition": "2.3.5-p1",
         "magento/magento-cloud-docker": "dev-develop",
         "magento/module-bundle-sample-data": "100.3.*",
         "magento/module-catalog-rule-sample-data": "100.3.*",
@@ -162,6 +163,7 @@
         "magento/module-theme-sample-data": "100.3.*",
         "magento/module-widget-sample-data": "100.3.*",
         "magento/module-wishlist-sample-data": "100.3.*",
+        "magento/product-recommendations": "^2.0",
         "magento/sample-data-media": "100.3.*",
         "magentoese/dock-mage": "dev-master",
         "magentoese/ece-tools": "dev-develop",
@@ -272,7 +274,6 @@
         "magento-deploystrategy": "copy"
     },
     "replace": {
-        "temando/module-shipping-m2": "*",
         "magento/google-shopping-ads": "*"
     }
 
