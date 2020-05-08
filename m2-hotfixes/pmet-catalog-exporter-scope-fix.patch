@@ -1,0 +1,25 @@
+Index: /vendor/magento/module-catalog-data-exporter/Model/Provider/Product/Formatter/ScopeFormatter.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- /vendor/magento/module-catalog-data-exporter/Model/Provider/Product/Formatter/ScopeFormatter.php	(date 1588954361203)
++++ /vendor/magento/module-catalog-data-exporter/Model/Provider/Product/Formatter/ScopeFormatter.php	(date 1588954361203)
+@@ -53,7 +53,7 @@
+      */
+     private function getScopes()
+     {
+-        if (!$this->scopes) {
++        //if (!$this->scopes) {
+             $connection = $this->resourceConnection->getConnection();
+             $select = $connection->select()
+                 ->from(['s' => $this->getTable('store')], [])
+@@ -77,7 +77,7 @@
+                 ->where('s.store_id != 0');
+
+             $this->scopes = $connection->fetchAssoc($select);
+-        }
++        //}
+         return $this->scopes;
+     }
+
