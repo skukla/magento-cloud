@@ -1,11 +1,8 @@
-Index: /vendor/magento/module-catalog-data-exporter/Model/Provider/Product/Formatter/ScopeFormatter.php
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
---- /vendor/magento/module-catalog-data-exporter/Model/Provider/Product/Formatter/ScopeFormatter.php	(date 1588954361203)
-+++ /vendor/magento/module-catalog-data-exporter/Model/Provider/Product/Formatter/ScopeFormatter.php	(date 1588954361203)
-@@ -53,7 +53,7 @@
+diff --git a/vendor/magento/module-catalog-data-exporter/Model/Provider/Product/Formatter/ScopeFormatter.php b/vendor/magento/module-catalog-data-exporter/Model/Provider/Product/Formatter/ScopeFormatter.php
+index 68fbe79..ef97927 100644
+--- a/vendor/magento/module-catalog-data-exporter/Model/Provider/Product/Formatter/ScopeFormatter.php
++++ b/vendor/magento/module-catalog-data-exporter/Model/Provider/Product/Formatter/ScopeFormatter.php
+@@ -53,7 +53,7 @@ class ScopeFormatter implements FormatterInterface
       */
      private function getScopes()
      {
@@ -14,7 +11,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
              $connection = $this->resourceConnection->getConnection();
              $select = $connection->select()
                  ->from(['s' => $this->getTable('store')], [])
-@@ -77,7 +77,7 @@
+@@ -77,7 +77,7 @@ class ScopeFormatter implements FormatterInterface
                  ->where('s.store_id != 0');
 
              $this->scopes = $connection->fetchAssoc($select);
