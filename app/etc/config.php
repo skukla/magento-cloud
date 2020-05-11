@@ -341,7 +341,6 @@ return [
         'Magento_WeeeStaging' => 1,
         'Magento_PageBuilderAnalytics' => 1,
         'Magento_WidgetSampleData' => 1,
-        'Magento_GoogleShoppingAds' => 1,
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistGraphQl' => 1,
         'Magento_MultipleWishlistSampleData' => 1,
