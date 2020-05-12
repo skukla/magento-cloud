@@ -1,0 +1,16 @@
+Index: vendor/magento/module-catalog/Model/Attribute/Backend/Customlayoutupdate.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- vendor/magento/module-catalog/Model/Attribute/Backend/Customlayoutupdate.php	(date 1589289536487)
++++ vendor/magento/module-catalog/Model/Attribute/Backend/Customlayoutupdate.php	(date 1589289536487)
+@@ -122,7 +122,7 @@
+     public function beforeSave($object)
+     {
+         //Validate first, validation might have been skipped.
+-        $this->validate($object);
++        //$this->validate($object);
+         $this->putValue($object, $this->extractValue($object));
+
+         return parent::beforeSave($object);
