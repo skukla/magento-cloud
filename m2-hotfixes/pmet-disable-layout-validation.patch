@@ -1,10 +1,10 @@
-Index: vendor/magento/module-catalog/Model/Attribute/Backend/Customlayoutupdate.php
+Index: /vendor/magento/module-catalog/Model/Attribute/Backend/Customlayoutupdate.php
 IDEA additional info:
 Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 <+>UTF-8
 ===================================================================
---- vendor/magento/module-catalog/Model/Attribute/Backend/Customlayoutupdate.php	(date 1589289536487)
-+++ vendor/magento/module-catalog/Model/Attribute/Backend/Customlayoutupdate.php	(date 1589289536487)
+--- /vendor/magento/module-catalog/Model/Attribute/Backend/Customlayoutupdate.php	(date 1589289536487)
++++ /vendor/magento/module-catalog/Model/Attribute/Backend/Customlayoutupdate.php	(date 1589289536487)
 @@ -122,7 +122,7 @@
      public function beforeSave($object)
      {
