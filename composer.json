@@ -75,8 +75,9 @@
         "accorin/module-orderapprovals": "dev-master",
         "firegento/fastsimpleimport": "dev-updated",
         "magento/extension-b2b": "^1.1",
-        "magento/magento-cloud-metapackage": "2.3.5",
+        "magento/magento-cloud-metapackage": ">=2.3.5 <2.3.6",
         "magento/magento-cloud-docker": "dev-develop",
+        "magento/product-enterprise-edition": "2.3.5-p1",
         "magentoese/dock-mage": "dev-master",
         "magentoese/ece-tools": "dev-develop",
         "magentoese/magento-scripts": "2.3.0.x-dev",
@@ -110,6 +111,7 @@
         "magentoese/module-themecustomizer": "dev-master",
         "magentoese/module-uninstall-cleanup": "dev-master",
         "magentoese/nfs4d4m": "dev-master",
+        "magento/product-recommendations": "^2.0",
         "magentoese/theme-brentmill": "dev-master"
     },
     "suggest": {
@@ -170,9 +172,7 @@
         "magento-force": true,
         "magento-deploystrategy": "copy"
     },
-    
     "replace": {
-        "temando/module-shipping-m2": "*",
         "magento/google-shopping-ads": "*"
     }
 }
