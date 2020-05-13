@@ -128,5 +128,8 @@
         },
         "magento-force": true,
         "magento-deploystrategy": "copy"
+    },
+    "replace": {
+        "magento/google-shopping-ads": "*"
     }
 }
