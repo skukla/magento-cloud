@@ -163,7 +163,7 @@
         "magento/product-recommendations": "^2.0",
         "magento/sample-data-media": "100.3.*",
         "magentoese/dock-mage": "dev-master",
-        "magentoese/ece-tools": "dev-develop",
+        "magentoese/ece-tools": "2002.1.x-dev",
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/magento2-gmailsmtpapp": "dev-master",
         "magentoese/module-admin-configurations": "dev-master",
