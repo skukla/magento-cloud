@@ -6,13 +6,13 @@ index 72421f793f1..6e63d7a1c1d 100644
      private function sortBySequence(array $origList): array
      {
          ksort($origList);
-+        $this->revolveRequiredModules($origList);
++        $this->resolveRequiredModules($origList);
          $modules = $this->prearrangeModules($origList);
 
          $expanded = [];
          foreach (array_keys($modules) as $moduleName) {
 -            $sequence = $this->expandSequence($origList, $moduleName);
-+            $sequence = $this->revolvedRequiredModules[$moduleName];
++            $sequence = $this->resolvedRequiredModules[$moduleName];
              asort($sequence);
 
              $expanded[] = [
@@ -26,7 +26,7 @@ index 72421f793f1..6e63d7a1c1d 100644
 +  *  resolved and flattened requirements for modules
 +  */
 +
-+    private $revolvedRequiredModules;
++    private $resolvedRequiredModules;
 +
 +    /**
 +     * Resolve all modules' immediate and descendant requirements into a flat list to help determine load order
@@ -35,7 +35,7 @@ index 72421f793f1..6e63d7a1c1d 100644
 +     * @throws \Exception
 +     */
 +
-+    private function revolveRequiredModules($origList)
++    private function resolveRequiredModules($origList)
 +    {
 +        foreach ($origList as $curModuleToResolve) {
 +            $curModuleName = $curModuleToResolve['name'];
@@ -58,8 +58,8 @@ index 72421f793f1..6e63d7a1c1d 100644
 +                        // track that required module is being processed so we will not search it again
 +                        array_push($processedModuleNames, $requiredModuleName);
 +                        // if required module has alread been processed, use previous results
-+                        if (isset($this->revolvedRequiredModules[$requiredModuleName])) {
-+                            $requiredRequirements = $this->revolvedRequiredModules[$requiredModuleName];
++                        if (isset($this->resolvedRequiredModules[$requiredModuleName])) {
++                            $requiredRequirements = $this->resolvedRequiredModules[$requiredModuleName];
 +                            // since previous results are already processed, add them to current processed list
 +                            array_merge($processedModuleNames, $requiredRequirements);
 +                        } else {
@@ -76,7 +76,7 @@ index 72421f793f1..6e63d7a1c1d 100644
 +                    }
 +                }
 +            }
-+            $this->revolvedRequiredModules[$curModuleName] = array_values(array_unique($combinedRequiredModuleNames));
++            $this->resolvedRequiredModules[$curModuleName] = array_values(array_unique($combinedRequiredModuleNames));
 +        }
 +    }
  }

@@ -7,9 +7,12 @@
         "type": "git",
         "url": "https://github.com/magento/magento2.git"
     },
+    "engines": {
+        "node": "10.x"
+    },
     "homepage": "http://magento.com/",
     "devDependencies": {
-        "glob": "~7.1.1",
+        "glob": "^7.1.6",
         "grunt": "~1.0.1",
         "grunt-autoprefixer": "~3.0.4",
         "grunt-banner": "~0.6.0",
