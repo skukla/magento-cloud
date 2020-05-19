@@ -1,7 +1,6 @@
 # This file describes an application. You can have multiple applications
 # in the same project.
 
-
 # The name of this app. Must be unique within a project.
 name: mymagento
 
@@ -16,7 +15,7 @@ runtime:
         - redis
         - xsl
         - json
-        - blackfire
+        - sodium
 
 # The relationships of the application with services or other applications.
 # The left-hand side is the name of the relationship as it will be exposed
@@ -24,8 +23,8 @@ runtime:
 # side is in the form `<service name>:<endpoint name>`.
 relationships:
     database: "mysql:mysql"
-    elasticsearch: "elasticsearch:elasticsearch"
     redis: "redis:redis"
+    elasticsearch: "elasticsearch:elasticsearch"
     mq: "rabbitmq:rabbitmq"
 
 # The configuration of app when it is exposed to the web.
@@ -65,7 +64,6 @@ web:
                 ^/static/version\d+/(?<resource>.*)$:
                     passthru: "/static/$resource"
 
-
 # The size of the persistent disk of the application (in MB).
 disk: 4096
 
@@ -80,16 +78,16 @@ hooks:
     # We run build hooks before your application has been packaged.
     build: |
         set -e
-        php ./vendor/bin/ece-tools build:generate
-        php ./vendor/bin/ece-tools build:transfer
+        php ./vendor/bin/ece-tools run scenario/build/generate.xml
+        php ./vendor/bin/ece-tools run scenario/build/transfer.xml
         # create consolidated crontab.xml & cron_groups.xml
         ./vendor/magentoese/magento-scripts/create-consolidated-cron-xmls.sh
     # We run deploy hook after your application has been deployed and started.
     deploy: |
-        php ./vendor/bin/ece-tools deploy
+        php ./vendor/bin/ece-tools run scenario/deploy.xml
     # We run post deploy hook to clean and warm the cache. Available with ECE-Tools 2002.0.10.
     post_deploy: |
-        php ./vendor/bin/ece-tools post-deploy
+        php ./vendor/bin/ece-tools run scenario/post-deploy.xml
 
 # Default Magento 2 cron jobs
 crons:

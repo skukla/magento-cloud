@@ -1,9 +1,7 @@
 *
-!/.blackfire.yml
 !/.gitignore
 !/.magento.app.yaml
 !/.magento.env.yaml*
-.magento.env.yaml.dist
 !/.magento
 !/.magento/**
 /.magento/local
@@ -11,6 +9,7 @@
 !/app/*/
 !/app/code/**
 !/app/design/**
+!/app/etc/config.php
 !/app/i18n/**
 !/build_options.ini
 !/composer.json
@@ -19,10 +18,11 @@
 !/m2-hotfixes
 !/m2-hotfixes/**
 !/php.ini
-!/scenario.bkf
 !/update
 !/update/.htaccess
 !/README.md
+!/.github
+!/.github/*
 !/package-lock.json
 !/.vscode
 !/.vscode/launch.json
