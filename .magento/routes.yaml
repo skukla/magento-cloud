@@ -3,9 +3,17 @@
 # Each route describes how an incoming URL is going to be processed.
 
 "http://{default}/":
+    type: redirect
+    to: https://{default}/
+
+"http://{all}/":
+    type: redirect
+    to: https://{default}/
+
+"https://{default}/":
     type: upstream
     upstream: "mymagento:http"
 
-"http://{all}/":
+"https://{all}/":
     type: upstream
     upstream: "mymagento:http"
