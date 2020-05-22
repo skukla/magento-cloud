@@ -45,8 +45,9 @@
         ]
     },
     "require": {
-        "firegento/fastsimpleimport": "dev-updated",
-        "magento/magento-cloud-metapackage": "2.3.4",
+        
+        "magento/magento-cloud-metapackage": "2.3.5",
+        "magento/product-enterprise-edition": "2.3.5-p1",
         "magento/module-catalog-sample-data-venia": "dev-master",
         "magento/module-configurable-sample-data-venia": "dev-master",
         "magento/module-customer-sample-data-venia": "dev-master",
@@ -56,7 +57,7 @@
         "magento/module-tax-sample-data-venia": "dev-master",
         "magento/sample-data-media-venia": "dev-master",
         "magentoese/dock-mage": "dev-master",
-        "magentoese/ece-tools": "2002.0.21.x-dev",
+        "magentoese/ece-tools": "dev-develop",
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/nfs4d4m": "dev-master"
