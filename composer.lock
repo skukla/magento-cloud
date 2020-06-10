@@ -20755,6 +20755,28 @@
             "time": "2018-08-17T15:45:53+00:00"
         },
         {
+            "name": "magentoese/module-storystore",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/module-storystore.git",
+                "reference": "44e737663b886b8418e2182dd70d07382f52ae71"
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MagentoEse\\StoryStore\\": ""
+                }
+            },
+            "time": "2020-06-08T18:41:15+00:00"
+        },
+        {
             "name": "magentoese/module-switcherlogos",
             "version": "dev-master",
             "source": {
@@ -24901,6 +24923,7 @@
         "magentoese/module-productbadge-sample-data": 20,
         "magentoese/module-sales-sample-data": 20,
         "magentoese/module-sctools": 20,
+        "magentoese/module-storystore": 20,
         "magentoese/module-switcherlogos": 20,
         "magentoese/module-themecustomizer": 20,
         "magentoese/module-uninstall-cleanup": 20,
