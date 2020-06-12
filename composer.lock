@@ -19353,7 +19353,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git",
+                "url": "git@github.com:PMET-public/module-admin-configurations.git",
                 "reference": "9ab77d50956db4c6b315f0b4ed8030037128a5f6"
             },
             "require": {
