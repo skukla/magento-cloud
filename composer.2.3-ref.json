@@ -18,7 +18,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-uninstall-cleanup.git"},
         {"type": "git", "url": "git@github.com:PMET-public/nfs4d4m.git"},
         {"type": "git", "url": "git@github.com:magento/magento-cloud-docker.git"},
-        {"type": "git", "url": "git@gitlab.the1umastory.com:md/module-admin-configurations.git"}
+        {"type": "git", "url": "git@github.com:PMET-public/module-admin-configurations.git"}
     ],
     "scripts": {
         "pre-autoload-dump" : [
