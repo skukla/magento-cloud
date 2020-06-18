@@ -78,6 +78,7 @@ hooks:
     # We run build hooks before your application has been packaged.
     build: |
         set -e
+        env > env1
         php ./vendor/bin/ece-tools run scenario/build/generate.xml
         php ./vendor/bin/ece-tools run scenario/build/transfer.xml
         # create consolidated crontab.xml & cron_groups.xml
