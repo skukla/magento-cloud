@@ -11,7 +11,7 @@
             "version": "1.10.0.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/amasty-module-base.git",
+                "url": "git@github.com:PMET-public/amasty-module-base.git",
                 "reference": "4f75923ab103a09a28db1631de0813c74820fc7e"
             },
             "require": {
@@ -37,7 +37,7 @@
             "version": "1.5.1.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/amasty-module-geoip.git",
+                "url": "git@github.com:PMET-public/amasty-module-geoip.git",
                 "reference": "ad562ecdc6170c57339c0d07f0b9a6eb960f6d74"
             },
             "require": {
@@ -64,7 +64,7 @@
             "version": "1.5.0.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/amasty-module-advanced-conditions.git",
+                "url": "git@github.com:PMET-public/amasty-module-advanced-conditions.git",
                 "reference": "21b8a859747c82ba52cb6f85c1202089f4989078"
             },
             "require": {
@@ -91,7 +91,7 @@
             "version": "1.0.13.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/amasty-module-banners-lite.git",
+                "url": "git@github.com:PMET-public/amasty-module-banners-lite.git",
                 "reference": "7ee2497be02988b04e4e8c9822061df55a93d935"
             },
             "require": {
@@ -118,7 +118,7 @@
             "version": "1.0.1.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/amasty-module-salesrulewizard.git",
+                "url": "git@github.com:PMET-public/amasty-module-salesrulewizard.git",
                 "reference": "6cbc824959ad035580e93db4a4c2319b006fe93b"
             },
             "require": {
@@ -146,7 +146,7 @@
             "version": "2.7.15.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/amasty-module-special-promotions.git",
+                "url": "git@github.com:PMET-public/amasty-module-special-promotions.git",
                 "reference": "94a3d62b2623048ded8bccc187f64c3824f728b8"
             },
             "require": {
@@ -178,7 +178,7 @@
             "version": "2.8.4.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/amasty-module-special-promotions-pro.git",
+                "url": "git@github.com:PMET-public/amasty-module-special-promotions-pro.git",
                 "reference": "f8e2f65a0bbf6c84e119b519c865c7a7e48532cb"
             },
             "require": {
@@ -206,7 +206,7 @@
             "version": "2.4.0.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/amasty-module-store-locator.git",
+                "url": "git@github.com:PMET-public/amasty-module-store-locator.git",
                 "reference": "2c0d85f1fc323d7d1bc607962b267575dc65545b"
             },
             "require": {
@@ -234,7 +234,7 @@
             "version": "1.3.3.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/amasty-module-product-attachments.git",
+                "url": "git@github.com:PMET-public/amasty-module-product-attachments.git",
                 "reference": "dff7da528c857408c6bca5ce24c809bb9470c03e"
             },
             "require": {
@@ -261,7 +261,7 @@
             "version": "2.9.3.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/amasty-module-free-gift.git",
+                "url": "git@github.com:PMET-public/amasty-module-free-gift.git",
                 "reference": "cd2d28f0f0720fd2ab218e18f574e93a1f2bfa7c"
             },
             "require": {
@@ -295,7 +295,7 @@
             "version": "1.0.7.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/amasty-module-rules-grid.git",
+                "url": "git@github.com:PMET-public/amasty-module-rules-grid.git",
                 "reference": "06266c10ff99004a4d88936178bcd3be6222c33d"
             },
             "require": {
@@ -21281,7 +21281,7 @@
             "version": "4.2.5.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/paradoxlabs-authnetcim.git",
+                "url": "git@github.com:PMET-public/paradoxlabs-authnetcim.git",
                 "reference": "4286c7ad4bbbc36938d303603ecee6500234b2f6"
             },
             "require": {
@@ -21312,7 +21312,7 @@
             "version": "2.3.0.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/paradoxlabs-firstdata.git",
+                "url": "git@github.com:PMET-public/paradoxlabs-firstdata.git",
                 "reference": "ba2eac21145b1c1daa3a234919787de6d42681e8"
             },
             "require": {
@@ -21347,7 +21347,7 @@
             "version": "2.3.4.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/paradoxlabs-stripe.git",
+                "url": "git@github.com:PMET-public/paradoxlabs-stripe.git",
                 "reference": "e053f6c65a09e1a3991b5e8465a3b95f7b54aef0"
             },
             "require": {
@@ -21379,7 +21379,7 @@
             "version": "3.1.5.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/paradoxlabs-subscriptions.git",
+                "url": "git@github.com:PMET-public/paradoxlabs-subscriptions.git",
                 "reference": "9427b34f9167cbf1bb013c157f21225ad65e9e1d"
             },
             "require": {
@@ -21422,7 +21422,7 @@
             "version": "4.2.5.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.the1umastory.com:md/paradoxlabs-tokenbase.git",
+                "url": "git@github.com:PMET-public/paradoxlabs-tokenbase.git",
                 "reference": "1b7a344f64a0cb08ae8c88820594bc80e22dcb13"
             },
             "require": {
