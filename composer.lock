@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b5ddcf17851d7f688de782107b272b44",
+    "content-hash": "895e9a96d9d9c349b19a488da0e43239",
     "packages": [
         {
             "name": "amasty/base",
@@ -953,16 +953,10 @@
         {
             "name": "community-engineering/language-ja_jp",
             "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magento-l10n/language-ja_JP.git",
-                "reference": "1ceac2e0662033e1ca580bb6944750e308690e50"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-l10n/language-ja_JP/zipball/1ceac2e0662033e1ca580bb6944750e308690e50",
-                "reference": "1ceac2e0662033e1ca580bb6944750e308690e50",
-                "shasum": ""
+                "url": "https://repo.magento.com/archives/community-engineering/language-ja_jp/community-engineering-language-ja_jp-1.0.1.0.zip",
+                "shasum": "48ff0623835bb9b9ba440cd25a900f66c40c80ac"
             },
             "require": {
                 "magento/framework": "^102.0.0"
@@ -1466,44 +1460,6 @@
             "homepage": "https://github.com/container-interop/container-interop",
             "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
-        },
-        {
-            "name": "davemacaulay/module-page-builder-grid",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:PMET-public/module-page-builder-grid.git",
-                "reference": "5fa783d14cf7faa9aeeb06ff3d816db6a5051e02"
-            },
-            "require": {
-                "magento/framework": "*",
-                "magento/module-page-builder": "*",
-                "php": "~7.1.3||~7.2.0||~7.3.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "DaveMacaulay\\PageBuilderGrid\\": ""
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Dave Macaulay",
-                    "email": "macaulay@adobe.com"
-                },
-                {
-                    "name": "Hwashiang Yu",
-                    "email": "hwyu@adobe.com"
-                }
-            ],
-            "description": "Example Page Builder Grid Module",
-            "time": "2020-02-04T04:30:28+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -24252,14 +24208,6 @@
             "license": [
                 "proprietary"
             ],
-            "authors": [
-                {
-                    "name": "Mediotype",
-                    "email": "diveinto@mediotype.com",
-                    "homepage": "http://www.mediotype.com/",
-                    "role": "Development Company"
-                }
-            ],
             "description": "Vertex Tax Links for Magento 2",
             "homepage": "http://go.vertexsmb.com/magento_cbe",
             "keywords": [
@@ -24578,7 +24526,6 @@
         "classyllama/module-owlcarousel": 20,
         "community-engineering/language-sr_sp": 20,
         "community-engineering/language-zh_cn": 20,
-        "davemacaulay/module-page-builder-grid": 20,
         "example/module-page-builder-faq": 20,
         "example/module-page-builder-quote": 20,
         "example/module-page-builder-extension-text": 20,

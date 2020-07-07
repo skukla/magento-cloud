@@ -125,7 +125,6 @@
         "community-engineering/language-pt_br": "*",
         "community-engineering/language-sr_sp": "dev-master",
         "community-engineering/language-zh_cn":"dev-master",
-        "davemacaulay/module-page-builder-grid": "dev-master",
         "example/module-page-builder-faq": "dev-master",
         "example/module-page-builder-quote": "dev-master",
         "example/module-page-builder-extension-text": "dev-master",

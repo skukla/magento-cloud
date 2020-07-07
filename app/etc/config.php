@@ -380,7 +380,6 @@ return [
         'Amazon_Login' => 1,
         'Amazon_Payment' => 1,
         'FireGento_FastSimpleImport' => 1,
-        'DaveMacaulay_PageBuilderGrid' => 1,
         'Dotdigitalgroup_Email' => 1,
         'Dotdigitalgroup_Chat' => 1,
         'Dotdigitalgroup_Enterprise' => 1,
