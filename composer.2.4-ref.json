@@ -69,7 +69,7 @@
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/module-data-install": "dev-master",
-        "magentoese/module-demo-upgrades": "dev-master",
+        "magentoese/module-demo-upgrades-240": "dev-master",
         "magentoese/module-uninstall-cleanup": "dev-master",
         "magentoese/nfs4d4m": "dev-master"
     },

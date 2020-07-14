@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6458a0837d6ec5c69d6e8a624a7a737f",
+    "content-hash": "8eee71ecced986cb229694093b6dd1a6",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -20490,12 +20490,12 @@
             "time": "2020-06-23T19:53:33+00:00"
         },
         {
-            "name": "magentoese/module-demo-upgrades",
+            "name": "magentoese/module-demo-upgrades-240",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magentoese-module-demo-upgrades.git",
-                "reference": "5fdb736726770aa3385c1f4c813952dc58954913"
+                "reference": "a9d8b9604598cf2779c6b26970f26bbe8857f12c"
             },
             "require": {
                 "magento/framework": "*",
@@ -20514,7 +20514,7 @@
                 "GNU General Public License (GPL)"
             ],
             "description": "N/A",
-            "time": "2020-07-14T15:17:34+00:00"
+            "time": "2020-07-14T18:08:07+00:00"
         },
         {
             "name": "magentoese/module-uninstall-cleanup",
@@ -24925,7 +24925,7 @@
         "magentoese/magento-scripts": 20,
         "magentoese/module-admin-configurations": 20,
         "magentoese/module-data-install": 20,
-        "magentoese/module-demo-upgrades": 20,
+        "magentoese/module-demo-upgrades-240": 20,
         "magentoese/module-uninstall-cleanup": 20,
         "magentoese/nfs4d4m": 20
     },
