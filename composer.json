@@ -16,8 +16,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-admin-configurations.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-data-install.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-uninstall-cleanup.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/magentoese-module-demo-upgrades.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-demo-upgrades-240.git"},
         {"type": "git", "url": "git@github.com:PMET-public/nfs4d4m.git"}
     ],
     "scripts": {
