@@ -33,10 +33,10 @@
         ]
     },
     "require": {
-       
+       "magento/magento-cloud-metapackage": ">=2.4.0 <2.4.1",
         "magento/magento-cloud-docker": "dev-develop",
-        "magento/product-enterprise-edition": ">=2.4.0 <2.4.1",
         
+        "magento/product-recommendations": "^3.0",
         "magento/module-bundle-sample-data": "100.4.*",
         "magento/module-catalog-rule-sample-data": "100.4.*",
         "magento/module-catalog-sample-data": "100.4.*",
