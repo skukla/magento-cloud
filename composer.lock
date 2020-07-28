@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5649b84ebe20f70a0f2aca0c778726d0",
+    "content-hash": "2ab6a2afe7175934e568bd7ccaa15d88",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -15669,6 +15669,38 @@
             "description": "Page Builder Analytics module"
         },
         {
+            "name": "magento/module-page-builder-product-recommendations",
+            "version": "1.0.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-page-builder-product-recommendations/magento-module-page-builder-product-recommendations-1.0.6.0.zip",
+                "shasum": "c3265843041cbb4c2df68582b74943e48cc67a1b"
+            },
+            "require": {
+                "magento/framework": ">=102.0.0 <104.0.0",
+                "magento/module-catalog": ">=103.0.0 <105.0.0",
+                "magento/module-product-recommendations-admin": "~2.0",
+                "magento/module-product-recommendations-layout": "~3.0.3",
+                "magento/module-store": ">=101.0.0 <101.2.0",
+                "magento/page-builder-commerce": "~1.0",
+                "php": ">=7.1.3 <7.5.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\PageBuilderProductRecommendations\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "PageBuilder Product Recommendations module"
+        },
+        {
             "name": "magento/module-page-cache",
             "version": "100.4.0",
             "dist": {
@@ -21077,31 +21109,6 @@
             "time": "2020-07-14T18:08:07+00:00"
         },
         {
-            "name": "magentoese/module-uninstall-cleanup",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:PMET-public/module-uninstall-cleanup.git",
-                "reference": "74da80f9f25b4d607a8465a863d311c1507077a9"
-            },
-            "require": {
-                "php": "~7.1.0|~7.2.0|~7.3.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MagentoEse\\UninstallCleanup\\": ""
-                }
-            },
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "time": "2020-01-16T20:43:48+00:00"
-        },
-        {
             "name": "magentoese/nfs4d4m",
             "version": "dev-master",
             "source": {
@@ -25546,7 +25553,6 @@
         "magentoese/module-admin-configurations": 20,
         "magentoese/module-data-install": 20,
         "magentoese/module-demo-upgrades-240": 20,
-        "magentoese/module-uninstall-cleanup": 20,
         "magentoese/nfs4d4m": 20
     },
     "prefer-stable": true,
