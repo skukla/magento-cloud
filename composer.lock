@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2ab6a2afe7175934e568bd7ccaa15d88",
+    "content-hash": "4ee70780515ebc56e3654151477b5416",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -3841,16 +3841,16 @@
         },
         {
             "name": "laminas/laminas-mail",
-            "version": "2.11.0",
+            "version": "2.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-mail.git",
-                "reference": "4c5545637eea3dc745668ddff1028692ed004c4b"
+                "reference": "7f674afeb38100b1869ce8e56bf2ec3cba3c679c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-mail/zipball/4c5545637eea3dc745668ddff1028692ed004c4b",
-                "reference": "4c5545637eea3dc745668ddff1028692ed004c4b",
+                "url": "https://api.github.com/repos/laminas/laminas-mail/zipball/7f674afeb38100b1869ce8e56bf2ec3cba3c679c",
+                "reference": "7f674afeb38100b1869ce8e56bf2ec3cba3c679c",
                 "shasum": ""
             },
             "require": {
@@ -3909,7 +3909,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2020-06-30T20:17:23+00:00"
+            "time": "2020-07-28T21:17:48+00:00"
         },
         {
             "name": "laminas/laminas-math",
@@ -5216,34 +5216,6 @@
                 "AFL-3.0"
             ],
             "description": "N/A"
-        },
-        {
-            "name": "magento/google-shopping-ads",
-            "version": "4.0.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/google-shopping-ads/magento-google-shopping-ads-4.0.1.0.zip",
-                "shasum": "ba1efed03c142908f53a02cce6704672c379a60d"
-            },
-            "require": {
-                "magento/framework": ">=101.0.4",
-                "magento/module-eav": ">=101.0.3",
-                "php": "7.0.2||7.0.4||>=7.0.6"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\GoogleShoppingAds\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "Connect your Magento admin with Google Merchant Center and Google Ads. Leverage Google machine learning through Google Smart Shopping campaigns"
         },
         {
             "name": "magento/inventory-composer-installer",
