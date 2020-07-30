@@ -1016,16 +1016,16 @@
         },
         {
             "name": "dasprid/enum",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DASPRiD/Enum.git",
-                "reference": "631ef6e638e9494b0310837fa531bedd908fc22b"
+                "reference": "8f27bb474a23dfeb0665fef6ef061766614dc338"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DASPRiD/Enum/zipball/631ef6e638e9494b0310837fa531bedd908fc22b",
-                "reference": "631ef6e638e9494b0310837fa531bedd908fc22b",
+                "url": "https://api.github.com/repos/DASPRiD/Enum/zipball/8f27bb474a23dfeb0665fef6ef061766614dc338",
+                "reference": "8f27bb474a23dfeb0665fef6ef061766614dc338",
                 "shasum": ""
             },
             "require-dev": {
@@ -1054,7 +1054,7 @@
                 "enum",
                 "map"
             ],
-            "time": "2017-10-25T22:45:27+00:00"
+            "time": "2020-07-30T10:52:26+00:00"
         },
         {
             "name": "doctrine/inflector",
