@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d76700bcc29483b04e67a6acf8222eb8",
+    "content-hash": "9ce3743dbd71e1e7de3f537670fa9dd1",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -21800,7 +21800,7 @@
         },
         {
             "name": "magentoese/module-b2b-company-sample-data",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-b2b-company-sample-data.git",
@@ -21845,11 +21845,14 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-b2b-media-sample-data.git",
-                "reference": "be6bfb69d932800876b6ac65bd3b6e56c4089d1b"
+                "reference": "eb4b9880853a5cf51c53d2a665e43e4a870555c2"
             },
             "type": "magento2-component",
+            "license": [
+                "proprietary"
+            ],
             "description": "Sample Data media files",
-            "time": "2017-09-06T17:42:47+00:00"
+            "time": "2020-08-03T14:08:45+00:00"
         },
         {
             "name": "magentoese/module-b2b-milwaukee-sample-data",
