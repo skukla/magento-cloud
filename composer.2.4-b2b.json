@@ -2,8 +2,8 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.4.0",
-    "license": "proprietary",
+    "version": "2.3.5",
+    "license": "OSL-3.0",
     "config": {
         "preferred-install": "dist",
         "sort-packages": true
@@ -20,8 +20,6 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-b2b-b2c-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-b2b-cms-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-b2b-company-sample-data.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-order-approval-process.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-order-approval-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-b2b-order-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-b2b-pricing-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-b2b-shared-catalog-sample-data.git"},
@@ -67,16 +65,15 @@
         "community-engineering/language-pt_br": "*",
         "community-engineering/language-sr_sp": "dev-master",
         "community-engineering/language-zh_cn": "*",
-        "magento/extension-b2b": "1.2.0-beta1",
-        //"magento/magento-cloud-metapackage": ">=2.3.5 <2.3.6",
+        "magento/extension-b2b": "^1.2",
+        "magento/magento-cloud-metapackage": ">=2.4.0 <2.4.1",
         "magento/magento-cloud-docker": "dev-develop",
-        //"magento/module-page-builder-product-recommendations": "^1.0",
-        "magento/product-enterprise-edition": ">=2.4.0 <2.4.1",
-        //"magento/product-recommendations": "^3.0",
+        "magento/module-page-builder-product-recommendations": "^1.0",
+        "magento/product-recommendations": "^3.0",
         "magentoese/dock-mage": "dev-master",
         "magentoese/ece-tools": "2002.1.x-dev",
         "magentoese/magento-scripts": "2.3.0.x-dev",
-        //"magentoese/magento2-gmailsmtpapp": "dev-master",
+        "magentoese/magento2-gmailsmtpapp": "dev-master",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/module-autofill": "dev-master",
         "magentoese/module-autofill-sample-data": "dev-b2b",
@@ -84,14 +81,11 @@
         "magentoese/module-b2b-b2c-sample-data": "dev-master",
         "magentoese/module-b2b-catalog-sample-data": "dev-master",
         "magentoese/module-b2b-cms-sample-data": "dev-master",
-        "magentoese/module-b2b-company-sample-data": "dev-master",
+        "magentoese/module-b2b-company-sample-data": "dev-develop",
         "magentoese/module-b2b-legrand-sample-data": "dev-master",
         "magentoese/module-b2b-media-sample-data": "dev-master",
         "magentoese/module-b2b-milwaukee-sample-data": "dev-master",
         "magentoese/module-b2b-misc-sample-data": "dev-master",
-        //"magentoese/module-b2b-order-approval-process": "dev-master",
-        //"magentoese/module-b2b-order-approval-sample-data": "dev-develop",
-        //"magentoese/module-b2b-order-sample-data": "dev-master",
         "magentoese/module-b2b-philips-sample-data": "dev-master",
         "magentoese/module-b2b-pricing-sample-data": "dev-master",
         "magentoese/module-b2b-shared-catalog-sample-data": "dev-master",
@@ -114,40 +108,58 @@
         "gene/bluefoot": "*"
     },
     "autoload": {
-    "psr-4": {
-        "Magento\\Framework\\": "lib/internal/Magento/Framework/",
-        "Magento\\Setup\\": "setup/src/Magento/Setup/",
-        "Magento\\": "app/code/Magento/",
-        "Zend\\Mvc\\Controller\\": "setup/src/Zend/Mvc/Controller/"
-    },
-    "psr-0": {
-        "": [
-            "app/code/",
-            "generated/code/"
+        "psr-4": {
+            "Magento\\Setup\\": "setup/src/Magento/Setup/",
+            "Magento\\": "app/code/Magento/",
+            "Zend\\Mvc\\Controller\\": "setup/src/Zend/Mvc/Controller/"
+        },
+        "psr-0": {
+            "": [
+                "app/code/",
+                "generated/code/"
+            ]
+        },
+        "files": [
+            "app/etc/NonComposerComponentRegistration.php"
+        ],
+        "exclude-from-classmap": [
+            "**/dev/**",
+            "**/update/**",
+            "**/Test/**"
         ]
     },
-    "files": [
-        "app/etc/NonComposerComponentRegistration.php"
-    ],
-    "exclude-from-classmap": [
-        "**/dev/**",
-        "**/update/**",
-        "**/Test/**"
-    ]
-    },
     "autoload-dev": {
-    "psr-4": {
-        "Magento\\Sniffs\\": "dev/tests/static/framework/Magento/Sniffs/",
-        "Magento\\Tools\\": "dev/tools/Magento/Tools/",
-        "Magento\\Tools\\Sanity\\": "dev/build/publication/sanity/Magento/Tools/Sanity/",
-        "Magento\\TestFramework\\Inspection\\": "dev/tests/static/framework/Magento/TestFramework/Inspection/",
-        "Magento\\TestFramework\\Utility\\": "dev/tests/static/framework/Magento/TestFramework/Utility/",
-        "Magento\\PhpStan\\": "dev/tests/static/framework/Magento/PhpStan/"
+        "psr-4": {
+            "Magento\\Sniffs\\": "dev/tests/static/framework/Magento/Sniffs/",
+            "Magento\\Tools\\": "dev/tools/Magento/Tools/",
+            "Magento\\Tools\\Sanity\\": "dev/build/publication/sanity/Magento/Tools/Sanity/",
+            "Magento\\TestFramework\\Inspection\\": "dev/tests/static/framework/Magento/TestFramework/Inspection/",
+            "Magento\\TestFramework\\Utility\\": "dev/tests/static/framework/Magento/TestFramework/Utility/"
         }
     },
     "minimum-stability": "alpha",
     "prefer-stable": true,
     "extra": {
-        "magento-force": "override"
+        "component_paths": {
+            "trentrichardson/jquery-timepicker-addon": "lib/web/jquery/jquery-ui-timepicker-addon.js",
+            "components/jquery": [
+                "lib/web/jquery.js",
+                "lib/web/jquery/jquery.min.js",
+                "lib/web/jquery/jquery-migrate.js"
+            ],
+            "blueimp/jquery-file-upload": "lib/web/jquery/fileUploader",
+            "components/jqueryui": [
+                "lib/web/jquery/jquery-ui.js"
+            ],
+            "twbs/bootstrap": [
+                "lib/web/jquery/jquery.tabs.js"
+            ],
+            "tinymce/tinymce": "lib/web/tiny_mce_4"
+        },
+        "magento-force": true,
+        "magento-deploystrategy": "copy"
+    },
+    "replace": {
+        "magento/google-shopping-ads": "*"
     }
 }
