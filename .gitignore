@@ -23,6 +23,7 @@
 !/README.md
 !/.github
 !/.github/*
+!/.github/workflows/test-runner.yml
 !/package-lock.json
 !/.vscode
 !/.vscode/launch.json
