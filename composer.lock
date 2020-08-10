@@ -4207,16 +4207,16 @@
         },
         {
             "name": "laminas/laminas-mail",
-            "version": "2.12.2",
+            "version": "2.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-mail.git",
-                "reference": "a85bd6ec20ebc382498cc1d3086dfe3fa201849b"
+                "reference": "77b4ea7c3d58f5f8858e638a6f809cc6cfdd7f9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-mail/zipball/a85bd6ec20ebc382498cc1d3086dfe3fa201849b",
-                "reference": "a85bd6ec20ebc382498cc1d3086dfe3fa201849b",
+                "url": "https://api.github.com/repos/laminas/laminas-mail/zipball/77b4ea7c3d58f5f8858e638a6f809cc6cfdd7f9e",
+                "reference": "77b4ea7c3d58f5f8858e638a6f809cc6cfdd7f9e",
                 "shasum": ""
             },
             "require": {
@@ -4271,7 +4271,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2020-08-06T14:33:28+00:00"
+            "time": "2020-08-05T15:27:27+00:00"
         },
         {
             "name": "laminas/laminas-math",
@@ -21077,11 +21077,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.0.1",
+            "version": "1.0.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.0.1.0.zip",
-                "shasum": "6b4e81499a68d6ee484f20c31ac71b3bfcd93098"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.0.0.0.zip",
+                "shasum": "6d782477f3f5a681f6345ecd050c9b3178ec36e9"
             },
             "require": {
                 "ext-json": "*",
@@ -21798,7 +21798,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-instorepickup.git",
-                "reference": "40dd7c0f134c073c189bc4a9520fa74c7519da47"
+                "reference": "77780e958063cc3bf48a2841f7880747bc8803ee"
             },
             "require": {
                 "magento/framework": "*"
@@ -21812,7 +21812,7 @@
                     "MagentoEse\\InStorePickup\\": ""
                 }
             },
-            "time": "2020-08-06T19:47:36+00:00"
+            "time": "2019-08-30T14:01:21+00:00"
         },
         {
             "name": "magentoese/module-instorepickup-sample-data",
