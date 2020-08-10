@@ -36,8 +36,7 @@ jobs:
         if: ${{ success() }}
         run: |
           app_dir="$(find "$HOME/Downloads" -maxdepth 1 -type d -name "*.app" || :)"
-          "$app_dir/Contents/Resources/script" start_shell_in_app 'php bin/magento config:show "web/secure/base_url"'
-          start_shell_in_app 'cat app/etc/config.php' > app/etc/config.php
+          "$app_dir/Contents/Resources/script" start_shell_in_app 'cat app/etc/config.php' > app/etc/config.php
           git archive --format=tar HEAD > /tmp/${{ github.ref }}.tar
           tar -rf /tmp/${{ github.ref }}.tar app/etc/config.php
       - name: create release
