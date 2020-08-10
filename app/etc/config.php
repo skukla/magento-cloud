@@ -453,7 +453,7 @@ return [
         'MagentoEse_LumaDEWidget' => 1,
         'MagentoEse_DemoSampleOrderData' => 1,
         'MagentoEse_ProductBadgeSampleData' => 1,
-        'MagentoEse_ProductImageSwitcher' => 0,
+        'MagentoEse_ProductImageSwitcher' => 1,
         'MagentoEse_MagentoScripts' => 1,
         'MagentoEse_MegaMenu' => 1,
         'MagentoEse_VeniaSetup' => 1,
