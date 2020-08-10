@@ -2,14 +2,16 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.4.0",
-    "license": "proprietary",
+    "version": "2.3.5",
+    "license": "OSL-3.0",
     "config": {
         "preferred-install": "dist",
         "sort-packages": true
     },
     "repositories": [
         {"type": "composer", "url": "https://repo.magento.com/"},
+        
+        {"type": "git", "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"},
         {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
         {"type": "git", "url": "git@github.com:PMET-public/ece-tools.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
@@ -18,9 +20,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-autofill.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-cms-sample-data-update.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-customer-sample-data.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-data-install.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-demo-admin-configurations.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-demo-upgrades-240.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-demo-sample-order-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-elasticsearch-config.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-installation-overrides.git"},
@@ -32,6 +32,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-luma-de-products.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-luma-de-setup.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-luma-de-widget.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-m2epro.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-msi-inventory-sample-data-demo.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-msi-inventory-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-msi-source-stock-sample-data.git"},
@@ -50,6 +51,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-sctools.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-storystore.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-themecustomizer.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-uninstall-cleanup.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-venia-catalog-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-venia-cms-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-venia-setup.git"},
@@ -62,6 +64,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/amasty-module-advanced-conditions.git"},
         {"type": "git", "url": "git@github.com:PMET-public/amasty-module-banners-lite.git"},
         {"type": "git", "url": "git@github.com:PMET-public/amasty-module-base.git"},
+        
         {"type": "git", "url": "git@github.com:PMET-public/amasty-module-free-gift.git"},
         {"type": "git", "url": "git@github.com:PMET-public/amasty-module-geoip.git"},
         {"type": "git", "url": "git@github.com:PMET-public/amasty-module-product-attachments.git"},
@@ -74,6 +77,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-cms-media-sample-data-update.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-lookbook.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-megamenu.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-shipping-m2-eap.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-switcherlogos.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-venia-media-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-authnetcim.git"},
@@ -97,75 +101,77 @@
         ]
     },
     "require": {
+        "amasty/base": "1.10.0.x-dev",
+        
+        "amasty/geoip": "1.5.1.x-dev",
         
         
+        "amasty/module-advanced-conditions":"1.5.0.x-dev",
+        "amasty/module-banners-lite":"1.0.13.x-dev",
+        "amasty/module-salesrulewizard": "1.0.1.x-dev",
+        "amasty/module-special-promo": "2.7.15.x-dev",
+        "amasty/module-special-promo-pro": "2.8.4.x-dev",
+        "amasty/module-store-locator": "2.4.0.x-dev",
         
+        "amasty/product-attachment": "1.3.3.x-dev",
         
-        
-        
-        
-        
-        
-        
-        
-       
-        
+        "amasty/promo": "2.9.3.x-dev",
+        "amasty/rgrid": "1.0.7.x-dev",
         "classyllama/module-owlcarousel":"dev-master",
-        "community-engineering/language-ar_sa": "*",
         "community-engineering/language-hi_in": "*",
         "community-engineering/language-ja_jp": "*",
         "community-engineering/language-ko_kr": "*",
         "community-engineering/language-nl_nl": "*",
         "community-engineering/language-pt_br": "*",
         "community-engineering/language-sr_sp": "dev-master",
-        "community-engineering/language-zh_cn": "*",
+        "community-engineering/language-zh_cn":"dev-master",
         "example/module-page-builder-faq": "dev-master",
         "example/module-page-builder-quote": "dev-master",
         "example/module-page-builder-extension-text": "dev-master",
-        "magento/magento-cloud-metapackage": ">=2.4.0 <2.4.1",
+        "firegento/fastsimpleimport": "dev-updated",
+        "magento/magento-cloud-metapackage": ">=2.3.5 <2.3.6",
         "magento/magento-cloud-docker": "dev-develop",
-        "magento/module-bundle-sample-data": "100.4.*",
-        "magento/module-catalog-rule-sample-data": "100.4.*",
-        "magento/module-catalog-sample-data": "100.4.*",
-        "magento/module-cms-sample-data": "100.4.*",
-        "magento/module-configurable-sample-data": "100.4.*",
-        "magento/module-customer-balance-sample-data": "100.4.*",
-        "magento/module-customer-sample-data": "100.4.*",
-        "magento/module-downloadable-sample-data": "100.4.*",
-        "magento/module-gift-card-sample-data": "100.4.*",
-        "magento/module-gift-registry-sample-data": "100.4.*",
-        "magento/module-grouped-product-sample-data": "100.4.*",
+        "magento/product-enterprise-edition": "2.3.5-p1",
+        "magento/module-bundle-sample-data": "100.3.*",
+        "magento/module-catalog-rule-sample-data": "100.3.*",
+        "magento/module-catalog-sample-data": "100.3.*",
+        "magento/module-cms-sample-data": "100.3.*",
+        "magento/module-configurable-sample-data": "100.3.*",
+        "magento/module-customer-balance-sample-data": "100.3.*",
+        "magento/module-customer-sample-data": "100.3.*",
+        "magento/module-downloadable-sample-data": "100.3.*",
+        "magento/module-gift-card-sample-data": "100.3.*",
+        "magento/module-gift-registry-sample-data": "100.3.*",
+        "magento/module-grouped-product-sample-data": "100.3.*",
         "magento/module-msi-inventory-sample-data": "dev-master",
         "magento/module-msi-source-stock-sample-data": "dev-master",
-        "magento/module-msrp-sample-data": "100.4.*",
-        "magento/module-multiple-wishlist-sample-data": "100.4.*",
-        "magento/module-offline-shipping-sample-data": "100.4.*",
+        "magento/module-msrp-sample-data": "100.3.*",
+        "magento/module-multiple-wishlist-sample-data": "100.3.*",
+        "magento/module-offline-shipping-sample-data": "100.3.*",
         "magento/module-page-builder-product-recommendations": "^1.0",
-        "magento/module-product-links-sample-data": "100.4.*",
-        "magento/module-review-sample-data": "100.4.*",
-        "magento/module-sales-rule-sample-data": "100.4.*",
-        "magento/module-sales-sample-data": "100.4.*",
-        "magento/module-swatches-sample-data": "100.4.*",
-        "magento/module-target-rule-sample-data": "100.4.*",
-        "magento/module-tax-sample-data": "100.4.*",
-        "magento/module-theme-sample-data": "100.4.*",
-        "magento/module-widget-sample-data": "100.4.*",
-        "magento/module-wishlist-sample-data": "100.4.*",
+        "magento/module-product-links-sample-data": "100.3.*",
+        "magento/module-review-sample-data": "100.3.*",
+        "magento/module-sales-rule-sample-data": "100.3.*",
+        "magento/module-sales-sample-data": "100.3.*",
+        "magento/module-swatches-sample-data": "100.3.*",
+        "magento/module-target-rule-sample-data": "100.3.*",
+        "magento/module-tax-sample-data": "100.3.*",
+        "magento/module-theme-sample-data": "100.3.*",
+        "magento/module-widget-sample-data": "100.3.*",
+        "magento/module-wishlist-sample-data": "100.3.*",
         "magento/product-recommendations": "^3.0",
-        "magento/sample-data-media": "100.4.*",
+        "magento/sample-data-media": "100.3.*",
         "magentoese/dock-mage": "dev-master",
-        "magentoese/ece-tools": "2002.1.1.x-dev",
+        "magentoese/ece-tools": "2002.1.x-dev",
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/magento2-gmailsmtpapp": "dev-master",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/module-autofill": "dev-master",
         "magentoese/module-autofill-sample-data": "dev-demo",
         "magentoese/module-cms-media-sample-data-update": "dev-master",
-        "magentoese/module-cms-sample-data-update": "dev-master",
+        "magentoese/module-cms-sample-data-update": "2.3.4.x-dev",
         "magentoese/module-customer-sample-data": "dev-master",
-        "magentoese/module-data-install": "dev-master",
         "magentoese/module-demo-admin-configurations": "dev-master",
-        "magentoese/module-demo-upgrades-240": "dev-master",
         "magentoese/module-demo-order-data": "dev-master",
         "magentoese/module-installation-overrides": "dev-master",
         "magentoese/module-instorepickup": "dev-master",
@@ -179,7 +185,6 @@
         "magentoese/module-luma-de-widget": "dev-master",
         "magentoese/module-megamenu": "dev-master",
         "magentoese/module-msi-inventory-sample-data-demo":  "dev-master",
-        "magentoese/module-product-image-switcher": "dev-master",
         "magentoese/module-product-sample-data-update": "dev-master",
         "magentoese/module-productbadge": "dev-master",
         "magentoese/module-productbadge-sample-data": "dev-master",
@@ -188,7 +193,8 @@
         "magentoese/module-storystore": "dev-master",
         "magentoese/module-switcherlogos": "dev-master",
         "magentoese/module-themecustomizer": "dev-master",
-        "magentoese/module-venia-catalog-sample-data": "dev-master",
+        "magentoese/module-uninstall-cleanup": "dev-master",
+        "magentoese/module-venia-catalog-sample-data": "235-slider-dev",
         "magentoese/module-venia-cms-sample-data": "dev-master",
         "magentoese/module-venia-media-sample-data": "dev-master",
         "magentoese/module-venia-setup": "dev-master",
@@ -196,13 +202,13 @@
         "magentoese/module-vimeo": "dev-master",
         "magentoese/module-vmcontent": "dev-master",
         "magentoese/nfs4d4m": "dev-master",
-        "magentoese/theme-frontend-venia": "dev-master"
-        
-        
-        
-       
-        
-       
+        "magentoese/theme-frontend-venia": "dev-master",
+        "magentoese/theme-frontend-custom": "dev-master",
+        "paradoxlabs/authnetcim": "4.2.5.x-dev",
+        "paradoxlabs/firstdata": "2.3.0.x-dev",
+        "paradoxlabs/stripe": "2.3.4.x-dev",
+        "paradoxlabs/subscriptions": "3.1.5.x-dev",
+        "paradoxlabs/tokenbase": "4.2.5.x-dev"
 
     },
     "suggest": {
@@ -262,5 +268,8 @@
         },
         "magento-force": true,
         "magento-deploystrategy": "copy"
+    },
+    "replace": {
+        "magento/google-shopping-ads": "*"
     }
 }
