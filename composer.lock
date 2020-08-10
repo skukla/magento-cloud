@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "19661789cddf0cfd1ae43c2684de4b58",
+    "content-hash": "668bad9bd4856c4d6bf67245cdd799ab",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -5891,34 +5891,6 @@
             "description": "N/A"
         },
         {
-            "name": "magento/google-shopping-ads",
-            "version": "4.0.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/google-shopping-ads/magento-google-shopping-ads-4.0.1.0.zip",
-                "shasum": "ba1efed03c142908f53a02cce6704672c379a60d"
-            },
-            "require": {
-                "magento/framework": ">=101.0.4",
-                "magento/module-eav": ">=101.0.3",
-                "php": "7.0.2||7.0.4||>=7.0.6"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\GoogleShoppingAds\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "Connect your Magento admin with Google Merchant Center and Google Ads. Leverage Google machine learning through Google Smart Shopping campaigns"
-        },
-        {
             "name": "magento/inventory-composer-installer",
             "version": "1.1.0",
             "dist": {
@@ -6232,7 +6204,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:magento/magento-cloud-docker.git",
-                "reference": "1d47ddd2a5bc49204a2c0bc37a579bf56618d024"
+                "reference": "cf94e244fb93ecc56e5a9cf05ec763edcc79003b"
             },
             "require": {
                 "composer/composer": "^1.0",
@@ -6342,7 +6314,7 @@
                 "AFL-3.0"
             ],
             "description": "Magento Cloud Docker",
-            "time": "2020-07-31T17:07:30+00:00"
+            "time": "2020-08-10T19:30:18+00:00"
         },
         {
             "name": "magento/magento-cloud-metapackage",
@@ -15838,7 +15810,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-msi-source-stock-sample-data.git",
-                "reference": "97786cd3d8bbcd3f25e5e71b91e54576d503358b"
+                "reference": "5eb9dc9783fb083261bdcf24ad6942e1219405cf"
             },
             "require": {
                 "magento/framework": "*",
@@ -15860,7 +15832,7 @@
                 "AFL-3.0"
             ],
             "description": "N/A",
-            "time": "2020-02-04T04:58:44+00:00"
+            "time": "2020-08-10T20:03:41+00:00"
         },
         {
             "name": "magento/module-msrp",
@@ -22109,7 +22081,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-instorepickup.git",
-                "reference": "40dd7c0f134c073c189bc4a9520fa74c7519da47"
+                "reference": "e0f93a9d662a7ea63564cb1139a42faab373b240"
             },
             "require": {
                 "magento/framework": "*"
@@ -22123,7 +22095,7 @@
                     "MagentoEse\\InStorePickup\\": ""
                 }
             },
-            "time": "2020-08-06T19:47:36+00:00"
+            "time": "2020-08-10T20:04:21+00:00"
         },
         {
             "name": "magentoese/module-instorepickup-sample-data",
@@ -23205,6 +23177,11 @@
         {
             "name": "paradoxlabs/subscriptions",
             "version": "3.2.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/paradoxlabs/subscriptions/paradoxlabs-subscriptions-3.2.3.0.zip",
+                "shasum": "3caba3560d929b3ed61c783930be54a4d541d52f"
+            },
             "require": {
                 "ext-json": "*",
                 "magento/framework": "^100.0||^101.0||^102.0||^103.0",
@@ -23238,7 +23215,7 @@
                 "proprietary"
             ],
             "description": "Adaptive Subscriptions: Subscriptions, auto-shipments, and recurring payments by ParadoxLabs.",
-            "time": "2020-08-05T00:00:00+00:00"
+            "time": "2020-08-05T00:00:00-05:00"
         },
         {
             "name": "paradoxlabs/tokenbase",
@@ -24527,16 +24504,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v7.46.0",
+            "version": "v7.46.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "37e768aefc024a07b0965803d27a833196fedb9e"
+                "reference": "fd57205d3e3a1dccab80538654128d5c46a1f5ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/37e768aefc024a07b0965803d27a833196fedb9e",
-                "reference": "37e768aefc024a07b0965803d27a833196fedb9e",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/fd57205d3e3a1dccab80538654128d5c46a1f5ac",
+                "reference": "fd57205d3e3a1dccab80538654128d5c46a1f5ac",
                 "shasum": ""
             },
             "require": {
@@ -24580,7 +24557,7 @@
                 "payment processing",
                 "stripe"
             ],
-            "time": "2020-08-05T19:35:34+00:00"
+            "time": "2020-08-07T22:11:58+00:00"
         },
         {
             "name": "symfony/config",

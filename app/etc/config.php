@@ -153,7 +153,6 @@ return [
         'Magento_CatalogSampleData' => 1,
         'Magento_GoogleOptimizer' => 1,
         'Magento_GoogleOptimizerStaging' => 1,
-        'Magento_GoogleShoppingAds' => 1,
         'Magento_DownloadableSampleData' => 1,
         'Magento_BundleGraphQl' => 1,
         'Magento_GraphQlCache' => 1,
