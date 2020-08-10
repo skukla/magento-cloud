@@ -1,0 +1,35 @@
+name: test runner
+
+on:
+  push:
+
+env:
+  # set a default terminal for various cmds that expect it
+  TERM: xterm
+  COMPOSER_AUTH: ${{ secrets.COMPOSER_AUTH }}
+  SLACK_WEBHOOK_URL_FOR_TMATE_FROM_GITHUB_WORKFLOW: ${{ secrets.SLACK_WEBHOOK_URL_FOR_TMATE_FROM_GITHUB_WORKFLOW }}
+  TMATE_AUTHORIZED_KEYS_URL: ${{ secrets.TMATE_AUTHORIZED_KEYS_URL }}
+  MDM_REPO_DIR: ${{ github.workspace}}/mdm
+
+jobs:
+
+  dockerize-then-run-magento-app:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+        with:
+          repository: 'PMET-public/mdm'
+          submodules: 'true'
+          path: 'mdm'
+      - name: bats tests
+        run: |
+          cd mdm
+          ./tests/dockerize-then-run-magento-app/all/1-install-mdm-and-create-magento-app.bats
+      - name: keepalive to debug
+        if: ${{ failure() }}
+        uses: PMET-public/action-tmate@master
