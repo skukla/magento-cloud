@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "668bad9bd4856c4d6bf67245cdd799ab",
+    "content-hash": "c647e88beb513ca04cf9e3c755b33f6c",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -23074,38 +23074,6 @@
                 "tokenization"
             ],
             "time": "2020-08-05T00:00:00-05:00"
-        },
-        {
-            "name": "paradoxlabs/cybersource",
-            "version": "1.0.2",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:PMET-public/paradoxlabs-cybersource.git",
-                "reference": "a05f08598070fb3ef834ad7a0dafaf02e6049387"
-            },
-            "require": {
-                "ext-soap": "*",
-                "paradoxlabs/tokenbase": "~4.3.1"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "ParadoxLabs\\CyberSource\\": ""
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "description": "CyberSource payment method for Magento 2.x by ParadoxLabs",
-            "keywords": [
-                "cybersource",
-                "payment",
-                "tokenization"
-            ],
-            "time": "2020-08-05T00:00:00+00:00"
         },
         {
             "name": "paradoxlabs/firstdata",
