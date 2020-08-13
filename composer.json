@@ -10,7 +10,7 @@
     },
     "repositories": [
         {"type": "composer", "url": "https://repo.magento.com/"},
-        {"type": "git", "url": "git@github.com:magento/magento-cloud-docker.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/magento-cloud-docker.git"},
         {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
         {"type": "git", "url": "git@github.com:PMET-public/ece-tools.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
