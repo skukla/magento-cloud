@@ -37,8 +37,8 @@ jobs:
         run: |
           app_dir="$(find "$HOME/Downloads" -maxdepth 1 -type d -name "*.app" || :)"
           "$app_dir/Contents/Resources/script" start_shell_in_app 'cat app/etc/config.php' > app/etc/config.php
-          git archive --format=tar HEAD > /tmp/${{ github.ref }}.tar
-          tar -rf /tmp/${{ github.ref }}.tar app/etc/config.php
+          git archive --format=tar HEAD > /tmp/release.tar
+          tar -rf /tmp/release.tar app/etc/config.php
       - name: create release
         if: ${{ success() }}
         id: create_release
@@ -60,9 +60,9 @@ jobs:
           # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`.
           # See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: /tmp/${{ github.ref }}.tar
+          asset_path: /tmp/release.tar
           asset_name: ${{ github.ref }}.tar
           asset_content_type: application/tar
-      - name: keepalive to debug
+      - name: keep alive to debug
         if: ${{ failure() }}
         uses: PMET-public/action-tmate@master
