@@ -22081,7 +22081,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-instorepickup.git",
-                "reference": "e0f93a9d662a7ea63564cb1139a42faab373b240"
+                "reference": "3ab060b8e6398faedb765443d0f26d1c3f9746c2"
             },
             "require": {
                 "magento/framework": "*"
@@ -22095,7 +22095,7 @@
                     "MagentoEse\\InStorePickup\\": ""
                 }
             },
-            "time": "2020-08-10T20:04:21+00:00"
+            "time": "2020-08-13T19:07:52+00:00"
         },
         {
             "name": "magentoese/module-instorepickup-sample-data",
