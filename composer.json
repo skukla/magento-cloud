@@ -9,12 +9,16 @@
         "sort-packages": true
     },
     "repositories": {
+        "mcd": {"type": "git", "url": "git@github.com:PMET-public/magento-cloud-docker.git"},
+        "et": {"type": "git", "url": "git@github.com:PMET-public/ece-tools.git"},
         "repo": {
             "type": "composer",
             "url": "https://repo.magento.com"
         }
     },
     "require": {
+        "magento/magento-cloud-docker": "dev-develop",
+        "magentoese/ece-tools": "2002.1.1.x-dev",
         "magento/magento-cloud-metapackage": ">=2.4.0 <2.4.1"
     },
     "suggest": {
