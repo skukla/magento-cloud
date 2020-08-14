@@ -11,13 +11,11 @@
     "repositories": [
         {"type": "composer", "url": "https://repo.magento.com/"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-cloud-docker.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
         {"type": "git", "url": "git@github.com:PMET-public/ece-tools.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-admin-configurations.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-data-install.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-demo-upgrades-240.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/nfs4d4m.git"}
+        {"type": "git", "url": "git@github.com:PMET-public/module-demo-upgrades-240.git"}
     ],
     "require": {
         "magento/magento-cloud-metapackage": ">=2.4.0 <2.4.1",
@@ -49,13 +47,11 @@
         "magento/module-widget-sample-data": "100.4.*",
         "magento/module-wishlist-sample-data": "100.4.*",
         "magento/sample-data-media": "100.4.*",
-        "magentoese/dock-mage": "dev-master",
         "magentoese/ece-tools": "2002.1.1.x-dev",
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/module-data-install": "dev-master",
-        "magentoese/module-demo-upgrades-240": "dev-master",
-        "magentoese/nfs4d4m": "dev-master"
+        "magentoese/module-demo-upgrades-240": "dev-master"
     },
     "suggest": {
         "ext-pcntl": "Need for run processes in parallel mode"

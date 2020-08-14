@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "be071e49b20e55d1660bcf8576fe9f0a",
+    "content-hash": "838317c227b4d4bb8b6f84754da76c96",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -2320,38 +2320,6 @@
             "license": [
                 "Apache-2.0"
             ],
-            "authors": [
-                {
-                    "name": "Joe Constant",
-                    "email": "joe.constant@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Dario Kassler",
-                    "email": "dario.kassler@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Kenny Gilles",
-                    "email": "kenny.gilles@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Markus Simon",
-                    "email": "markus.simon2@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Fei Chen",
-                    "email": "fei.chen@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Jason Grim",
-                    "email": "jason.grim@klarna.com",
-                    "role": "Developer"
-                }
-            ],
             "description": "Klarna Core Magento 2 Extension"
         },
         {
@@ -2389,38 +2357,6 @@
             "license": [
                 "Apache-2.0"
             ],
-            "authors": [
-                {
-                    "name": "Joe Constant",
-                    "email": "joe.constant@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Dario Kassler",
-                    "email": "dario.kassler@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Kenny Gilles",
-                    "email": "kenny.gilles@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Markus Simon",
-                    "email": "markus.simon2@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Fei Chen",
-                    "email": "fei.chen@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Jason Grim",
-                    "email": "jason.grim@klarna.com",
-                    "role": "Developer"
-                }
-            ],
             "description": "Klarna Payments Magento 2 Extension"
         },
         {
@@ -2452,18 +2388,6 @@
             "license": [
                 "Apache-2.0"
             ],
-            "authors": [
-                {
-                    "name": "Joe Constant",
-                    "email": "joe.constant@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Markus Simon",
-                    "email": "markus.simon2@klarna.com",
-                    "role": "Developer"
-                }
-            ],
             "description": "Klarna OnSite Messaging Magento 2 Extension"
         },
         {
@@ -2494,38 +2418,6 @@
             },
             "license": [
                 "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Joe Constant",
-                    "email": "joe.constant@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Dario Kassler",
-                    "email": "dario.kassler@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Kenny Gilles",
-                    "email": "kenny.gilles@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Markus Simon",
-                    "email": "markus.simon2@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Fei Chen",
-                    "email": "fei.chen@klarna.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Jason Grim",
-                    "email": "jason.grim@klarna.com",
-                    "role": "Developer"
-                }
             ],
             "description": "Klarna Order Management Magento 2 Extension"
         },
@@ -20883,27 +20775,6 @@
             "time": "2020-05-19T23:25:07+00:00"
         },
         {
-            "name": "magentoese/dock-mage",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:PMET-public/dock-mage.git",
-                "reference": "a8e0ac91be5fc2f2f986139d266ea820e89ce262"
-            },
-            "bin": [
-                "scripts/dock-mage.sh"
-            ],
-            "type": "library",
-            "authors": [
-                {
-                    "name": "Keith Bentrup",
-                    "email": "kbentrup@magento.com"
-                }
-            ],
-            "description": "Launch Magento infrastructure using docker-compose",
-            "time": "2019-06-03T22:44:37+00:00"
-        },
-        {
             "name": "magentoese/ece-tools",
             "version": "2002.1.1.x-dev",
             "source": {
@@ -21121,24 +20992,6 @@
             ],
             "description": "N/A",
             "time": "2020-07-30T21:10:37+00:00"
-        },
-        {
-            "name": "magentoese/nfs4d4m",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:PMET-public/nfs4d4m.git",
-                "reference": "4d337cec922ccc376f8010f502bce4d39dc481cc"
-            },
-            "type": "library",
-            "authors": [
-                {
-                    "name": "Keith Bentrup",
-                    "email": "kbentrup@magento.com"
-                }
-            ],
-            "description": "Faster file sharing for Docker for Mac using NFS",
-            "time": "2019-04-19T16:26:05+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -25426,14 +25279,6 @@
             "license": [
                 "proprietary"
             ],
-            "authors": [
-                {
-                    "name": "Mediotype",
-                    "email": "diveinto@mediotype.com",
-                    "homepage": "http://www.mediotype.com/",
-                    "role": "Development Company"
-                }
-            ],
             "description": "Vertex Tax Links for Magento 2",
             "homepage": "http://go.vertexsmb.com/magento_cbe",
             "keywords": [
@@ -25443,11 +25288,11 @@
         },
         {
             "name": "vertex/sdk",
-            "version": "1.2.5",
+            "version": "1.2.6",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/vertex/sdk/vertex-sdk-1.2.5.0.zip",
-                "shasum": "1d2cab94f393be238516799fc7077c336829fae4"
+                "url": "https://repo.magento.com/archives/vertex/sdk/vertex-sdk-1.2.6.0.zip",
+                "shasum": "89c9d388a01e1386646968f4560b30069cabaa9d"
             },
             "require": {
                 "ext-mbstring": "*",
@@ -25708,13 +25553,11 @@
     "minimum-stability": "alpha",
     "stability-flags": {
         "magento/magento-cloud-docker": 20,
-        "magentoese/dock-mage": 20,
         "magentoese/ece-tools": 20,
         "magentoese/magento-scripts": 20,
         "magentoese/module-admin-configurations": 20,
         "magentoese/module-data-install": 20,
-        "magentoese/module-demo-upgrades-240": 20,
-        "magentoese/nfs4d4m": 20
+        "magentoese/module-demo-upgrades-240": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
