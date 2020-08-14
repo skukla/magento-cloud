@@ -44,7 +44,7 @@ jobs:
           echo ::set-env name=RELEASE_TAG::"${GITHUB_REF#refs/heads/}"
       - uses: PMET-public/github-release@master
         with:
-          tag: ${{ env.RELEASE_TAG }}
+          tag: ${{ env.RELEASE_TAG }}@HEAD
           token: ${{ secrets.GITHUB_TOKEN }}
           allow_override: true
           files: release.tar
