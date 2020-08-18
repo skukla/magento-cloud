@@ -22059,7 +22059,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-installation-overrides.git",
-                "reference": "6e8ea09614117b83389897d3c55735f40d6ed62c"
+                "reference": "19b839603c22b70a239827b593d2351b7b0c35b6"
             },
             "require": {
                 "magento/framework": "*"
@@ -22073,7 +22073,7 @@
                     "MagentoEse\\InstallationOverrides\\": ""
                 }
             },
-            "time": "2020-05-12T13:48:12+00:00"
+            "time": "2020-08-18T19:11:46+00:00"
         },
         {
             "name": "magentoese/module-instorepickup",
@@ -22294,7 +22294,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-msi-inventory-sample-data-demo.git",
-                "reference": "60ddd58a7188841961674feff35c609c4f56f51a"
+                "reference": "88fff501ff2ca32c4c6a27116a43401ea6e8c025"
             },
             "require": {
                 "magento/framework": "*",
@@ -22316,7 +22316,7 @@
                 "AFL-3.0"
             ],
             "description": "N/A",
-            "time": "2020-02-04T05:00:03+00:00"
+            "time": "2020-08-17T14:32:48+00:00"
         },
         {
             "name": "magentoese/module-product-sample-data-update",
