@@ -83,19 +83,6 @@
         {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-subscriptions.git"},
         {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-tokenbase.git"}
     ],
-    "scripts": {
-        "pre-autoload-dump" : [
-            "vendor/magentoese/magento-scripts/composer-setup.sh demo"
-        ],
-        "post-autoload-dump" : [
-            // install magerun via curl; composer no longer recommended
-            "curl -sS -o vendor/bin/mr https://files.magerun.net/n98-magerun2-latest.phar && chmod +x vendor/bin/mr"
-        ],
-        "post-install-cmd" : [
-            // enable error reporting
-            "mv pub/errors/local.xml.sample pub/errors/local.xml || :"
-        ]
-    },
     "require": {
         "amasty/base": "1.10.5.x-dev",
         "amasty/geoip": "1.5.3.x-dev",
@@ -262,6 +249,26 @@
         },
         "magento-force": true,
         "magento-deploystrategy": "copy"
+    },
+    "scripts": {
+        "generate-schema": [
+            "php ./vendor/bin/ece-tools schema:generate || true"
+        ],
+        "pre-autoload-dump" : [
+            "vendor/magentoese/magento-scripts/composer-setup.sh ref"
+        ],
+        "post-autoload-dump" : [
+            // install magerun via curl; composer no longer recommended
+            "curl -sS -o vendor/bin/mr https://files.magerun.net/n98-magerun2-latest.phar && chmod +x vendor/bin/mr"
+        ],
+        "post-install-cmd" : [
+            "@generate-schema",
+            // enable error reporting
+            "mv pub/errors/local.xml.sample pub/errors/local.xml || :"
+        ],
+        "post-update-cmd": [
+            "@generate-schema"
+        ]
     },
     "replace": {
         "magento/google-shopping-ads": "*"
