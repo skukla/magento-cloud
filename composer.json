@@ -86,18 +86,16 @@
     "require": {
         "amasty/base": "1.10.5.x-dev",
         "amasty/geoip": "1.5.3.x-dev",
-        "amasty/module-advanced-conditions":"1.5.0.x-dev",
-        "amasty/module-banners-lite":"1.0.16.x-dev",
+        "amasty/module-advanced-conditions": "1.5.0.x-dev",
+        "amasty/module-banners-lite": "1.0.16.x-dev",
         "amasty/module-salesrulewizard": "1.0.1.x-dev",
         "amasty/module-special-promo": "2.7.15.x-dev",
         "amasty/module-special-promo-pro": "2.8.4.x-dev",
         "amasty/module-store-locator": "2.4.0.x-dev",
-        
         "amasty/product-attachment": "1.3.3.x-dev",
-        
         "amasty/promo": "2.9.5.x-dev",
         "amasty/rgrid": "1.0.7.x-dev",
-        "classyllama/module-owlcarousel":"dev-master",
+        "classyllama/module-owlcarousel": "dev-master",
         "community-engineering/language-ar_sa": "*",
         "community-engineering/language-hi_in": "*",
         "community-engineering/language-ja_jp": "*",
@@ -106,11 +104,11 @@
         "community-engineering/language-pt_br": "*",
         "community-engineering/language-sr_sp": "dev-master",
         "community-engineering/language-zh_cn": "*",
+        "example/module-page-builder-extension-text": "dev-master",
         "example/module-page-builder-faq": "dev-master",
         "example/module-page-builder-quote": "dev-master",
-        "example/module-page-builder-extension-text": "dev-master",
-        "magento/magento-cloud-metapackage": "2.4.0",
         "magento/magento-cloud-docker": "dev-develop",
+        "magento/magento-cloud-metapackage": "2.4.0",
         "magento/module-bundle-sample-data": "100.4.*",
         "magento/module-catalog-rule-sample-data": "100.4.*",
         "magento/module-catalog-sample-data": "100.4.*",
@@ -152,8 +150,8 @@
         "magentoese/module-customer-sample-data": "dev-master",
         "magentoese/module-data-install": "dev-master",
         "magentoese/module-demo-admin-configurations": "dev-master",
-        "magentoese/module-demo-upgrades-240": "dev-master",
         "magentoese/module-demo-order-data": "dev-master",
+        "magentoese/module-demo-upgrades-240": "dev-master",
         "magentoese/module-installation-overrides": "dev-master",
         "magentoese/module-instorepickup": "dev-master",
         "magentoese/module-instorepickup-sample-data": "dev-master",
@@ -165,8 +163,7 @@
         "magentoese/module-luma-de-setup": "dev-master",
         "magentoese/module-luma-de-widget": "dev-master",
         "magentoese/module-megamenu": "dev-master",
-        "magentoese/module-msi-inventory-sample-data-demo":  "dev-master",
-        
+        "magentoese/module-msi-inventory-sample-data-demo": "dev-master",
         "magentoese/module-product-sample-data-update": "dev-master",
         "magentoese/module-productbadge": "dev-master",
         "magentoese/module-productbadge-sample-data": "dev-master",
@@ -183,10 +180,9 @@
         "magentoese/module-vimeo": "dev-master",
         "magentoese/module-vmcontent": "dev-master",
         "magentoese/nfs4d4m": "dev-master",
-        "magentoese/theme-frontend-venia": "dev-master",
         "magentoese/theme-frontend-custom": "dev-master",
+        "magentoese/theme-frontend-venia": "dev-master",
         "paradoxlabs/authnetcim": "~4.3",
-        
         "paradoxlabs/firstdata": "~2.3",
         "paradoxlabs/stripe": "~2.3",
         "paradoxlabs/subscriptions": "~3.2.3",
@@ -255,7 +251,7 @@
             "php ./vendor/bin/ece-tools schema:generate || true"
         ],
         "pre-autoload-dump" : [
-            "vendor/magentoese/magento-scripts/composer-setup.sh ref"
+            "vendor/magentoese/magento-scripts/composer-setup.sh demo"
         ],
         "post-autoload-dump" : [
             
