@@ -26,11 +26,31 @@ jobs:
           repository: 'PMET-public/mdm'
           submodules: 'true'
           path: 'mdm'
-          tag: '1.0.0'
+          # tag: '1.0.0'
       - name: bats tests
         run: |
           cd mdm
-          ./tests/dockerize-then-run-magento-app/all/1-install-mdm-and-create-magento-app.bats
-      - name: keepalive to debug
+          ./tests/libs/bats/bin/bats -T ./tests/dockerize-then-run-magento-app/all/1-install-mdm-and-create-magento-app.bats
+          cd ..
+      - name: get updated, generated config.php
+        if: ${{ success() }}
+        run: |
+          app_dir="$(find "$HOME/Downloads" -maxdepth 1 -type d -name "*.app" || :)"
+          "$app_dir/Contents/Resources/script" start_shell_in_app 'cat app/etc/config.php' > app/etc/config.php
+          git archive --format=tar HEAD > release.tar
+          tar -rf release.tar app/etc/config.php
+      # be sure to create release.tar in default path
+      - run: |
+          echo ::set-env name=RELEASE_TAG::"${GITHUB_REF#refs/heads/}"
+      - uses: PMET-public/github-release@master
+        with:
+          tag: ${{ env.RELEASE_TAG }}@HEAD
+          token: ${{ secrets.GITHUB_TOKEN }}
+          allow_override: true
+          files: release.tar
+          draft: false
+          gzip: false
+          prerelease: true
+      - name: keep alive to debug
         if: ${{ failure() }}
         uses: PMET-public/action-tmate@master
