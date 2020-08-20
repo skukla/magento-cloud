@@ -56,7 +56,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-vimeo.git"},
         {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-venia.git"},
         {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-custom.git"},
-        {"type": "git", "url": "git@github.com:magento/magento-cloud-docker.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/magento-cloud-docker.git"},
         {"type": "git", "url": "git@github.com:PMET-public/amasty-module-advanced-conditions.git"},
         {"type": "git", "url": "git@github.com:PMET-public/amasty-module-banners-lite.git"},
         {"type": "git", "url": "git@github.com:PMET-public/amasty-module-base.git"},
