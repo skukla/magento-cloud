@@ -3,26 +3,34 @@
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
     "version": "2.4.0",
-    "license": "OSL-3.0",
+    "license": "proprietary",
     "config": {
         "preferred-install": "dist",
         "sort-packages": true
     },
     "repositories": [
         {"type": "composer", "url": "https://repo.magento.com/"},
-        {"type": "git", "url": "git@github.com:PMET-public/dock-mage.git"},
         {"type": "git", "url": "git@github.com:PMET-public/ece-tools.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/magento-cloud-docker.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento2-gmail-smtp-app.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-admin-configurations.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-autofill-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-autofill.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-b2b-admin-configurations.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-b2b-b2c-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-catalog-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-b2b-cms-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-b2b-company-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-legrand-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-media-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-milwaukee-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-misc-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-b2b-order-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-philips-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-b2b-pricing-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-b2b-shared-catalog-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-siemens-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-data-install.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-demo-upgrades-240.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-installation-overrides.git"},
@@ -31,31 +39,8 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-sales-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-sctools.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-themecustomizer.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/nfs4d4m.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/theme-brentmill.git"},
-        {"type": "git", "url": "git@github.com:magento/magento-cloud-docker.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-admin-configurations.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-catalog-sample-data.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-legrand-sample-data.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-media-sample-data.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-milwaukee-sample-data.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-misc-sample-data.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-philips-sample-data.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-siemens-sample-data.git"}
+        {"type": "git", "url": "git@github.com:PMET-public/theme-brentmill.git"}
     ],
-    "scripts": {
-        "pre-autoload-dump" : [
-            "vendor/magentoese/magento-scripts/composer-setup.sh b2b"
-        ],
-        "post-autoload-dump" : [
-            // install magerun via curl; composer no longer recommended
-            "curl -sS -o vendor/bin/mr https://files.magerun.net/n98-magerun2-latest.phar && chmod +x vendor/bin/mr"
-        ],
-        "post-install-cmd" : [
-            // enable error reporting
-            "mv pub/errors/local.xml.sample pub/errors/local.xml || :"
-        ]
-    },
     "require": {
         "community-engineering/language-ar_sa": "*",
         "community-engineering/language-hi_in": "*",
@@ -66,11 +51,10 @@
         "community-engineering/language-sr_sp": "dev-master",
         "community-engineering/language-zh_cn": "*",
         "magento/extension-b2b": "^1.2",
-        "magento/magento-cloud-metapackage": ">=2.4.0 <2.4.1",
         "magento/magento-cloud-docker": "dev-develop",
+        "magento/magento-cloud-metapackage": ">=2.4.0 <2.4.1",
         "magento/module-page-builder-product-recommendations": "^1.0",
         "magento/product-recommendations": "^3.0",
-        "magentoese/dock-mage": "dev-master",
         "magentoese/ece-tools": "2002.1.1.x-dev",
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/magento2-gmailsmtpapp": "dev-master",
@@ -99,7 +83,6 @@
         "magentoese/module-sales-sample-data": "dev-master",
         "magentoese/module-sctools": "dev-master",
         "magentoese/module-themecustomizer": "dev-master",
-        "magentoese/nfs4d4m": "dev-master",
         "magentoese/theme-brentmill": "dev-master"
     },
     "suggest": {
@@ -159,6 +142,26 @@
         },
         "magento-force": true,
         "magento-deploystrategy": "copy"
+    },
+    "scripts": {
+        "generate-schema": [
+            "php ./vendor/bin/ece-tools schema:generate || true"
+        ],
+        "pre-autoload-dump" : [
+            "vendor/magentoese/magento-scripts/composer-setup.sh b2b"
+        ],
+        "post-autoload-dump" : [
+            // install magerun via curl; composer no longer recommended
+            "curl -sS -o vendor/bin/mr https://files.magerun.net/n98-magerun2-latest.phar && chmod +x vendor/bin/mr"
+        ],
+        "post-install-cmd" : [
+            "@generate-schema",
+            // enable error reporting
+            "mv pub/errors/local.xml.sample pub/errors/local.xml || :"
+        ],
+        "post-update-cmd": [
+            "@generate-schema"
+        ]
     },
     "replace": {
         "magento/google-shopping-ads": "*"
