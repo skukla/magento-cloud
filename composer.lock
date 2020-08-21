@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a819157febbc3f2777e7dc9715f65d88",
+    "content-hash": "5412decb1bc0c3ba21aedf18baa750b7",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -1127,16 +1127,16 @@
         },
         {
             "name": "community-engineering/language-pt_br",
-            "version": "0.0.39",
+            "version": "0.0.40",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-l10n/language-pt_BR.git",
-                "reference": "06af139b27ea29e2d0874192ffd54277e2786515"
+                "reference": "87014b4c720c71b7f8e312641c86c9743df4dfbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-l10n/language-pt_BR/zipball/06af139b27ea29e2d0874192ffd54277e2786515",
-                "reference": "06af139b27ea29e2d0874192ffd54277e2786515",
+                "url": "https://api.github.com/repos/magento-l10n/language-pt_BR/zipball/87014b4c720c71b7f8e312641c86c9743df4dfbb",
+                "reference": "87014b4c720c71b7f8e312641c86c9743df4dfbb",
                 "shasum": ""
             },
             "require": {
@@ -1154,7 +1154,7 @@
                 "AFL-3.0"
             ],
             "description": "pt_BR language package.",
-            "time": "2020-06-26T00:09:34+00:00"
+            "time": "2020-08-21T15:48:23+00:00"
         },
         {
             "name": "community-engineering/language-sr_sp",
@@ -2279,16 +2279,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.145",
+            "version": "1.2.146",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "18fd033e7d4097e4c126ab132340aac87a875afd"
+                "reference": "ab772aaf24f4bc313d97963205c2582e9998b0b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/18fd033e7d4097e4c126ab132340aac87a875afd",
-                "reference": "18fd033e7d4097e4c126ab132340aac87a875afd",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/ab772aaf24f4bc313d97963205c2582e9998b0b9",
+                "reference": "ab772aaf24f4bc313d97963205c2582e9998b0b9",
                 "shasum": ""
             },
             "require": {
@@ -2314,7 +2314,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Fastly CDN Module for Magento 2.x",
-            "time": "2020-08-12T14:17:40+00:00"
+            "time": "2020-08-20T18:11:49+00:00"
         },
         {
             "name": "firebase/php-jwt",

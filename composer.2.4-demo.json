@@ -35,7 +35,6 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-demo-admin-configurations.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-demo-sample-order-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-demo-upgrades-240.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-elasticsearch-config.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-installation-overrides.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-instorepickup-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-instorepickup.git"},
