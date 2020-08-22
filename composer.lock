@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5412decb1bc0c3ba21aedf18baa750b7",
+    "content-hash": "c61b39ba4c052b8df037723f49d3c12b",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -49,11 +49,11 @@
         },
         {
             "name": "amasty/base",
-            "version": "1.10.5.x-dev",
+            "version": "1.10.6.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/amasty-module-base.git",
-                "reference": "f0d5295bba2cf508097464bd990cd733b47aa24f"
+                "reference": "578b9e769f3cf7a2996f56cf514a6dda45400a22"
             },
             "require": {
                 "php": "^7.1.0"
@@ -71,7 +71,7 @@
                 "Commercial"
             ],
             "description": "Amasty Base",
-            "time": "2020-08-07T21:21:35+00:00"
+            "time": "2020-08-22T03:15:22+00:00"
         },
         {
             "name": "amasty/geoip",

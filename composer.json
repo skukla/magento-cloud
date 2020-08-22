@@ -81,7 +81,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-venia.git"}
     ],
     "require": {
-        "amasty/base": "1.10.5.x-dev",
+        "amasty/base": "1.10.6.x-dev",
         "amasty/geoip": "1.5.3.x-dev",
         "amasty/module-advanced-conditions":"1.5.0.x-dev",
         "amasty/module-banners-lite":"1.0.16.x-dev",
