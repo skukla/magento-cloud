@@ -133,7 +133,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/amasty-module-banners-lite.git",
-                "reference": "489839029baec26901e9cd5798f5d20edd24b5ad"
+                "reference": "28a89934806776cdd21f33fd0523d0f6195addd1"
             },
             "require": {
                 "amasty/base": ">=1.4.5",
@@ -152,7 +152,7 @@
                 "Commercial"
             ],
             "description": "Promo Banners Lite by Amasty",
-            "time": "2020-08-07T16:47:15+00:00"
+            "time": "2020-08-22T02:32:01+00:00"
         },
         {
             "name": "amasty/module-salesrulewizard",
@@ -21302,11 +21302,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.0.1.0.zip",
-                "shasum": "6b4e81499a68d6ee484f20c31ac71b3bfcd93098"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.0.2.0.zip",
+                "shasum": "9fa2e2bea01c2b79aa69bb7708c98d49bdf277c4"
             },
             "require": {
                 "ext-json": "*",
