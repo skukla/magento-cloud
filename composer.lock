@@ -1220,16 +1220,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.2.7",
+            "version": "1.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "95c63ab2117a72f48f5a55da9740a3273d45b7fd"
+                "reference": "8a7ecad675253e4654ea05505233285377405215"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/95c63ab2117a72f48f5a55da9740a3273d45b7fd",
-                "reference": "95c63ab2117a72f48f5a55da9740a3273d45b7fd",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/8a7ecad675253e4654ea05505233285377405215",
+                "reference": "8a7ecad675253e4654ea05505233285377405215",
                 "shasum": ""
             },
             "require": {
@@ -1278,11 +1278,15 @@
                     "type": "custom"
                 },
                 {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/composer/composer",
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-04-08T08:27:21+00:00"
+            "time": "2020-08-23T12:54:47+00:00"
         },
         {
             "name": "composer/composer",
@@ -3046,6 +3050,38 @@
             "license": [
                 "Apache-2.0"
             ],
+            "authors": [
+                {
+                    "name": "Joe Constant",
+                    "email": "joe.constant@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Dario Kassler",
+                    "email": "dario.kassler@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Kenny Gilles",
+                    "email": "kenny.gilles@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Markus Simon",
+                    "email": "markus.simon2@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Fei Chen",
+                    "email": "fei.chen@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Jason Grim",
+                    "email": "jason.grim@klarna.com",
+                    "role": "Developer"
+                }
+            ],
             "description": "Klarna Core Magento 2 Extension"
         },
         {
@@ -3083,6 +3119,38 @@
             "license": [
                 "Apache-2.0"
             ],
+            "authors": [
+                {
+                    "name": "Joe Constant",
+                    "email": "joe.constant@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Dario Kassler",
+                    "email": "dario.kassler@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Kenny Gilles",
+                    "email": "kenny.gilles@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Markus Simon",
+                    "email": "markus.simon2@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Fei Chen",
+                    "email": "fei.chen@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Jason Grim",
+                    "email": "jason.grim@klarna.com",
+                    "role": "Developer"
+                }
+            ],
             "description": "Klarna Payments Magento 2 Extension"
         },
         {
@@ -3114,6 +3182,18 @@
             "license": [
                 "Apache-2.0"
             ],
+            "authors": [
+                {
+                    "name": "Joe Constant",
+                    "email": "joe.constant@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Markus Simon",
+                    "email": "markus.simon2@klarna.com",
+                    "role": "Developer"
+                }
+            ],
             "description": "Klarna OnSite Messaging Magento 2 Extension"
         },
         {
@@ -3144,6 +3224,38 @@
             },
             "license": [
                 "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Constant",
+                    "email": "joe.constant@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Dario Kassler",
+                    "email": "dario.kassler@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Kenny Gilles",
+                    "email": "kenny.gilles@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Markus Simon",
+                    "email": "markus.simon2@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Fei Chen",
+                    "email": "fei.chen@klarna.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Jason Grim",
+                    "email": "jason.grim@klarna.com",
+                    "role": "Developer"
+                }
             ],
             "description": "Klarna Order Management Magento 2 Extension"
         },
@@ -21981,7 +22093,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-installation-overrides.git",
-                "reference": "19b839603c22b70a239827b593d2351b7b0c35b6"
+                "reference": "0f94eec7e330cae2fe9363065c498af1311b9206"
             },
             "require": {
                 "magento/framework": "*"
@@ -21995,7 +22107,7 @@
                     "MagentoEse\\InstallationOverrides\\": ""
                 }
             },
-            "time": "2020-08-18T19:11:46+00:00"
+            "time": "2020-08-23T15:42:07+00:00"
         },
         {
             "name": "magentoese/module-instorepickup",
@@ -22134,7 +22246,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-luma-de-products.git",
-                "reference": "4f50b9031d106bdfa6fda010fc8fef9ca3929132"
+                "reference": "835253548be90fd9940fb3c6effe7c6988d92962"
             },
             "type": "magento2-module",
             "autoload": {
@@ -22145,7 +22257,7 @@
                     "MagentoEse\\LumaDEProducts\\": ""
                 }
             },
-            "time": "2020-05-08T16:50:25+00:00"
+            "time": "2020-08-21T21:30:17+00:00"
         },
         {
             "name": "magentoese/module-luma-de-setup",
@@ -22422,7 +22534,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-venia-catalog-sample-data.git",
-                "reference": "8f2814d8c5a08f6c22c24e2b88f04b0e1b2937e1"
+                "reference": "60c7d437eed213c148dd7f19c2e4d8613278fab2"
             },
             "require": {
                 "firegento/fastsimpleimport": "*",
@@ -22437,7 +22549,7 @@
                     "MagentoEse\\VeniaCatalogSampleData\\": ""
                 }
             },
-            "time": "2020-08-07T21:22:09+00:00"
+            "time": "2020-08-23T12:58:13+00:00"
         },
         {
             "name": "magentoese/module-venia-cms-sample-data",
@@ -22498,7 +22610,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-venia-video-sample-data.git",
-                "reference": "394b486e95bd3cb2c4500436de4d9bcd7703e381"
+                "reference": "7e41ba28fe325626fb6731824085821b1a93ff63"
             },
             "require": {
                 "magento/framework": "*"
@@ -22512,7 +22624,7 @@
                     "MagentoEse\\VeniaVideoSampleData\\": ""
                 }
             },
-            "time": "2020-05-12T16:56:20+00:00"
+            "time": "2020-08-21T21:35:55+00:00"
         },
         {
             "name": "magentoese/module-vimeo",
@@ -27126,6 +27238,14 @@
             "type": "metapackage",
             "license": [
                 "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mediotype",
+                    "email": "diveinto@mediotype.com",
+                    "homepage": "http://www.mediotype.com/",
+                    "role": "Development Company"
+                }
             ],
             "description": "Vertex Tax Links for Magento 2",
             "homepage": "http://go.vertexsmb.com/magento_cbe",
