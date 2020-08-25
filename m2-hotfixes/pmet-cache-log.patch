@@ -56,8 +56,8 @@ diff --git a/vendor/magento/magento-cloud-components/Model/Cache/InvalidateLogge
 -                'main' => $invalidateInfo,
 -                'trace' => debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS)
 -            ];
-+        if (false && is_array($invalidateInfo) && isset($invalidateInfo['tags'])) {
-+            /* foreach ($invalidateInfo['tags'] as $tag) {
++        if (is_array($invalidateInfo) && isset($invalidateInfo['tags'])) {
++            foreach ($invalidateInfo['tags'] as $tag) {
 +                if (in_array(strtolower($tag), $this->tagsToLog)) {
 +                    if (function_exists('gzcompress')) {
 +                        $invalidateInfo['trace'] =  bin2hex(
@@ -72,7 +72,7 @@ diff --git a/vendor/magento/magento-cloud-components/Model/Cache/InvalidateLogge
 +                        $invalidateInfo['trace'] = debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS);
 +                    }
 +                }
-+            } */
++            }
          }
+ 
          parent::execute($invalidateInfo);
-
