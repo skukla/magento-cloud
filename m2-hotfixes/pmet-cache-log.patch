@@ -75,3 +75,4 @@ diff --git a/vendor/magento/magento-cloud-components/Model/Cache/InvalidateLogge
 +            } */
          }
          parent::execute($invalidateInfo);
+
