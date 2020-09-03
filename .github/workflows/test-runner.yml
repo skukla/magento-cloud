@@ -26,11 +26,11 @@ jobs:
           repository: 'PMET-public/mdm'
           submodules: 'true'
           path: 'mdm'
-          # tag: '1.0.0'
+          tag: '1.0.0'
       - name: bats tests
         run: |
           cd mdm
-          ./tests/libs/bats/bin/bats -T ./tests/dockerize-then-run-magento-app/all/1-install-mdm-and-create-magento-app.bats
+          ./tests/libs/bats/bin/bats -T ./tests/3-dockerize-then-run-magento-app/all/1-install-mdm-and-create-magento-app.bats
           cd ..
       - name: get updated, generated config.php
         if: ${{ success() }}
