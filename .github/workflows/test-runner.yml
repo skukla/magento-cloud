@@ -45,13 +45,13 @@ jobs:
           echo ::set-env name=RELEASE_TAG::"${GITHUB_REF#refs/heads/}"
       - uses: PMET-public/github-release@master
         with:
-          tag: ${{ env.RELEASE_TAG }}@HEAD
+          tag: ${{ env.RELEASE_TAG }}
           token: ${{ secrets.GITHUB_TOKEN }}
           allow_override: true
           files: release.tar
           draft: false
           gzip: false
-          prerelease: true
+          prerelease: false
       - name: keep alive to debug
         if: ${{ failure() }}
         uses: PMET-public/action-tmate@master
