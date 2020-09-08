@@ -2,6 +2,10 @@ name: test runner
 
 on:
   push:
+  pull_request:
+    branches:
+      - master
+      - pmet-2.4.*
 
 env:
   # set a default terminal for various cmds that expect it
