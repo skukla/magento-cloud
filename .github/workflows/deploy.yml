@@ -1,0 +1,39 @@
+name: deploy
+
+on:
+  tag:
+    - release-ref-2.4*
+    - release-demo-2.4*
+    - release-b2b-2.4*
+
+env:
+  # set a default terminal for various cmds that expect it
+  TERM: xterm
+  COMPOSER_AUTH: ${{ secrets.COMPOSER_AUTH }}
+  SLACK_WEBHOOK_URL_FOR_TMATE_FROM_GITHUB_WORKFLOW: ${{ secrets.SLACK_WEBHOOK_URL_FOR_TMATE_FROM_GITHUB_WORKFLOW }}
+  TMATE_AUTHORIZED_KEYS_URL: ${{ secrets.TMATE_AUTHORIZED_KEYS_URL }}
+  MAGENTO_CLOUD_CLI_TOKEN: ${{ secrets.MAGENTO_CLOUD_CLI_TOKEN }}
+
+jobs:
+
+  dockerize-then-run-magento-app:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+        with:
+          repository: PMET-public/magento-cloud-manager
+          submodules: true
+          path: magento-cloud-manager
+          ref: master
+      - name: install magento-cloud cli
+        run: |
+          curl -sS https://accounts.magento.cloud/cli/installer | php
+          export project_to_deploy=($(
+            ~/.magento-cloud/bin/magento-cloud projects --format csv 2> /dev/null | perl -ne '/^(\w+),(b2b\-[^ ]+)/ and print "$1 "'
+          ))
+          exit 1
+          ./magento-cloud-manager/cli/bin/mcm env:deploy -h "${project_to_deploy[@]}"
+      - name: keep alive to debug
+        if: ${{ failure() }}
+        uses: PMET-public/action-tmate@master

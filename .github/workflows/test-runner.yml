@@ -27,7 +27,7 @@ jobs:
           submodules: true
           path: mdm
           # tag: '1.0.0'
-          ref: new-features
+          ref: develop
       - name: bats tests
         run: |
           cd mdm
