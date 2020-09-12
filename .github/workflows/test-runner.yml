@@ -2,6 +2,9 @@ name: run tests & relase
 
 on:
   push:
+    branches:
+      - master
+      - pmet-2.4*
 
 env:
   # set a default terminal for various cmds that expect it
@@ -26,25 +29,25 @@ jobs:
           repository: PMET-public/mdm
           submodules: true
           path: mdm
-          # tag: '1.0.0'
           ref: develop
       - name: bats tests
         run: |
           cd mdm
-          exit 1
-          ./tests/libs/bats/bin/bats -T ./tests/3-dockerize-then-run-magento-app/**/*.bats
+          ./tests/libs/bats/bin/bats -T ./tests/3-dockerize-then-run-magento-app/**/1-install-mdm-and-create-magento-app.bats
           cd ..
       - name: get updated, generated config.php
         if: ${{ success() }}
         run: |
+          # be sure to create release.tar in default path
           app_dir="$(find "$HOME/Downloads" -maxdepth 1 -type d -name "*.app" || :)"
           "$app_dir/Contents/Resources/script" start_shell_in_app 'cat app/etc/config.php' > app/etc/config.php
           git archive --format=tar HEAD > release.tar
           tar -rf release.tar app/etc/config.php
-      # be sure to create release.tar in default path
-      - run: |
+      - if: ${{ success() }}
+        run: |
           echo ::set-env name=RELEASE_TAG::"${GITHUB_REF#refs/heads/}-$(git rev-parse --short HEAD)"
-      - uses: PMET-public/github-release@master
+      - if: ${{ success() }}
+        uses: PMET-public/github-release@master
         with:
           tag: ${{ env.RELEASE_TAG }}
           token: ${{ secrets.GITHUB_TOKEN }}
