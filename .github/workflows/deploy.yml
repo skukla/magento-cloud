@@ -2,6 +2,8 @@ name: deploy
 
 on:
   push:
+    branches:
+      - testing-deploy
     tags:
       - release-ref-2.4*
       - release-demo-2.4*
