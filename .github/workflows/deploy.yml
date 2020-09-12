@@ -1,10 +1,11 @@
 name: deploy
 
 on:
-  tag:
-    - release-ref-2.4*
-    - release-demo-2.4*
-    - release-b2b-2.4*
+  push:
+    tags:
+      - release-ref-2.4*
+      - release-demo-2.4*
+      - release-b2b-2.4*
 
 env:
   # set a default terminal for various cmds that expect it
