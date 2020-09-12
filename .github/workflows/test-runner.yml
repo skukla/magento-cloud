@@ -1,4 +1,4 @@
-name: test runner
+name: run tests & relase
 
 on:
   push:
@@ -43,7 +43,7 @@ jobs:
           tar -rf release.tar app/etc/config.php
       # be sure to create release.tar in default path
       - run: |
-          echo ::set-env name=RELEASE_TAG::"${GITHUB_REF#refs/heads/}"
+          echo ::set-env name=RELEASE_TAG::"${GITHUB_REF#refs/heads/}-$(git rev-parse --short HEAD)"
       - uses: PMET-public/github-release@master
         with:
           tag: ${{ env.RELEASE_TAG }}
