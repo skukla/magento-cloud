@@ -29,7 +29,7 @@ jobs:
           ref: master
       - name: install magento-cloud cli
         run: |
-          # install mcm
+          # install & configure mcm reqs
           pushd magento-cloud-manager/cli || exit
           npm install
           mv .secrets.tmpl.json .secrets.json
@@ -42,7 +42,11 @@ jobs:
           
           # install mc cli
           curl -sS https://accounts.magento.cloud/cli/installer | php
-          
+
+          # for connecting to cloud envs without interaction
+          mkdir ~/.ssh && chmod 700 ~/.ssh
+          echo "StrictHostKeyChecking no" >> ~/.ssh/config
+
           projects_to_deploy=($(
             ~/.magento-cloud/bin/magento-cloud projects --format csv 2> /dev/null | perl -ne "/^(\w+),($flavor_of_tag\-[^ ]+)/ and print \"\$1 \""
           ))
