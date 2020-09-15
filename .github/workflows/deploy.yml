@@ -2,8 +2,6 @@ name: deploy
 
 on:
   push:
-    branches:
-      - testing-deploy
     tags:
       - "*release*-pmet-2.*-ref-*"
       - "*release*-pmet-2.*-demo-*"
@@ -31,22 +29,33 @@ jobs:
           ref: master
       - name: install magento-cloud cli
         run: |
+          # install mcm
+          pushd magento-cloud-manager/cli || exit
+          npm install
+          mv .secrets.tmpl.json .secrets.json
+          popd
+
+          # set & check some vars
           tag_to_deploy="$(echo "$GITHUB_REF" | perl -pe 's/.*(pmet.*-(ref|demo|b2b)-.*)/$1/')"
           flavor_of_tag="$(echo "$GITHUB_REF" | perl -pe 's/.*pmet.*-(ref|demo|b2b)-.*/$1/')"
           [[ "$flavor_of_tag" =~ ^(ref|demo|b2b)$ ]] || exit 1
+          
+          # install mc cli
           curl -sS https://accounts.magento.cloud/cli/installer | php
+          
           projects_to_deploy=($(
-            ~/.magento-cloud/bin/magento-cloud projects --format csv 2> /dev/null | perl -ne "/^(\w+),($flavor_of_tag\-[^ ]+)/ and print '\$1 '"
+            ~/.magento-cloud/bin/magento-cloud projects --format csv 2> /dev/null | perl -ne "/^(\w+),($flavor_of_tag\-[^ ]+)/ and print \"\$1 \""
           ))
 
           echo "tag_to_deploy=$tag_to_deploy" >> tmp.txt
           echo "flavor_of_tag=$flavor_of_tag" >> tmp.txt
           echo "projects_to_deploy=${projects_to_deploy[@]}" >> tmp.txt
 
+          # verify all vars; then download specified release and deploy to projects matching flavor
           [[ "$tag_to_deploy" && "$flavor_of_tag" && "${projects_to_deploy[@]}" ]] || exit 1
-          curl --fail -O "https://github.com/PMET-public/magento-cloud/releases/download/$tag_to_deploy/release.tar" && {
+          curl --fail -OL "https://github.com/PMET-public/magento-cloud/releases/download/$tag_to_deploy/release.tar" && {
             exit 1
-            ./magento-cloud-manager/cli/bin/mcm env:deploy release.tar "${projects_to_deploy[@]}"
+            ./magento-cloud-manager/cli/bin/mcm env:deploy --yes release.tar "${projects_to_deploy[@]}"
           }
       - name: keep alive to debug
         if: ${{ failure() }}
