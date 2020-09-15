@@ -7,7 +7,7 @@ on:
     tags:
       - "*release*-pmet-2.*-ref-*"
       - "*release*-pmet-2.*-demo-*"
-      - "*release*-pmet-2.*-b2b-*
+      - "*release*-pmet-2.*-b2b-*"
 
 env:
   # set a default terminal for various cmds that expect it
