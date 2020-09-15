@@ -5,9 +5,9 @@ on:
     branches:
       - testing-deploy
     tags:
-      - release-pmet-ref-2.4*
-      - release-pmet-demo-2.4*
-      - release-pmet-b2b-2.4*
+      - "*release*-pmet-ref-2.4*"
+      - "*release*-pmet-demo-2.4*"
+      - "*release*-pmet-b2b-2.4*"
 
 env:
   # set a default terminal for various cmds that expect it
@@ -31,12 +31,22 @@ jobs:
           ref: master
       - name: install magento-cloud cli
         run: |
+          tag_to_deploy="$(echo "$GITHUB_REF" | perl -pe 's/.*(pmet.*-(ref|demo|b2b)-.*)/$1/')"
+          flavor_of_tag="$(echo "$GITHUB_REF" | perl -pe 's/.*pmet.*-(ref|demo|b2b)-.*/$1/')"
           curl -sS https://accounts.magento.cloud/cli/installer | php
-          export project_to_deploy=($(
-            ~/.magento-cloud/bin/magento-cloud projects --format csv 2> /dev/null | perl -ne '/^(\w+),(b2b\-[^ ]+)/ and print "$1 "'
+          projects_to_deploy=($(
+            ~/.magento-cloud/bin/magento-cloud projects --format csv 2> /dev/null | perl -ne "/^(\w+),($flavor_of_tag\-[^ ]+)/ and print '\$1 '"
           ))
-          exit 1
-          ./magento-cloud-manager/cli/bin/mcm env:deploy -h "${project_to_deploy[@]}"
+
+          echo "tag_to_deploy=$tag_to_deploy" >> tmp.txt
+          echo "flavor_of_tag=$flavor_of_tag" >> tmp.txt
+          echo "projects_to_deploy=${projects_to_deploy[@]}" >> tmp.txt
+
+          [[ "$tag_to_deploy" && "$flavor_of_tag" && "${projects_to_deploy[@]}" ]] || exit 1
+          curl --fail -O "https://github.com/PMET-public/magento-cloud/releases/download/$tag_to_deploy/release.tar" && {
+            exit 1
+            ./magento-cloud-manager/cli/bin/mcm env:deploy release.tar "${projects_to_deploy[@]}"
+          }
       - name: keep alive to debug
         if: ${{ failure() }}
         uses: PMET-public/action-tmate@master
