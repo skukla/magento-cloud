@@ -33,6 +33,7 @@ jobs:
         run: |
           tag_to_deploy="$(echo "$GITHUB_REF" | perl -pe 's/.*(pmet.*-(ref|demo|b2b)-.*)/$1/')"
           flavor_of_tag="$(echo "$GITHUB_REF" | perl -pe 's/.*pmet.*-(ref|demo|b2b)-.*/$1/')"
+          [[ "$flavor_of_tag" =~ ^(ref|demo|b2b)$ ]] || exit 1
           curl -sS https://accounts.magento.cloud/cli/installer | php
           projects_to_deploy=($(
             ~/.magento-cloud/bin/magento-cloud projects --format csv 2> /dev/null | perl -ne "/^(\w+),($flavor_of_tag\-[^ ]+)/ and print '\$1 '"
