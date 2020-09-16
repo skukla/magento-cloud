@@ -21,6 +21,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: delete this tag
+        run: |
+          # this tag is functionally a workflow trigger, not a git tag
+          git push --delete origin "${GITHUB_REF#refs/tags/}"
       - uses: actions/checkout@v2
         with:
           repository: PMET-public/magento-cloud-manager
