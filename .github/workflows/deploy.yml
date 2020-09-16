@@ -58,14 +58,9 @@ jobs:
             ~/.magento-cloud/bin/magento-cloud projects --format csv 2> /dev/null | perl -ne "/^(\w+),($flavor_of_tag\-[^ ]+)/ and print \"\$1 \""
           ))
 
-          echo "tag_to_deploy=$tag_to_deploy" >> tmp.txt
-          echo "flavor_of_tag=$flavor_of_tag" >> tmp.txt
-          echo "projects_to_deploy=${projects_to_deploy[@]}" >> tmp.txt
-
           # verify all vars; then download specified release and deploy to projects matching flavor
           [[ "$tag_to_deploy" && "$flavor_of_tag" && "${projects_to_deploy[@]}" ]] || exit 1
           curl --fail -OL "https://github.com/PMET-public/magento-cloud/releases/download/$tag_to_deploy/release.tar" && {
-            exit 1
             ./magento-cloud-manager/cli/bin/mcm env:deploy --yes release.tar "${projects_to_deploy[@]}"
           }
       - name: keep alive to debug
