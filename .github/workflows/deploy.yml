@@ -31,8 +31,11 @@ jobs:
           submodules: true
           path: magento-cloud-manager
           ref: master
-      - name: install magento-cloud cli
+      - name: install reqs & deploy
         run: |
+          git config --global user.email "github-workflow@magento.com"
+          git config --global user.name "Workflow user"
+
           # install & configure mcm reqs
           pushd magento-cloud-manager/cli || exit
           npm install
