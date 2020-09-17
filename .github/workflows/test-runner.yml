@@ -1,4 +1,4 @@
-name: run tests & relase
+name: run tests & release
 
 on:
   push:
@@ -40,6 +40,7 @@ jobs:
         run: |
           # be sure to create release.tar in default path
           app_dir="$(find "$HOME/Downloads" -maxdepth 1 -type d -name "*.app" || :)"
+          mkdir -p app/etc
           "$app_dir/Contents/Resources/script" start_shell_in_app 'cat app/etc/config.php' > app/etc/config.php
           git archive --format=tar HEAD > release.tar
           tar -rf release.tar app/etc/config.php
