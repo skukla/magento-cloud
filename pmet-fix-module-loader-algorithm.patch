@@ -46,10 +46,10 @@ index 72421f793f1..6e63d7a1c1d 100644
 +                foreach ($requiredModuleNamesToResolve as $requiredModuleName) {
 +                    if (!in_array($requiredModuleName, $processedModuleNames)) {
 +                        // check that a required module exists
-+                        if (!isset($origList[$requiredModuleName])) {
-+                            echo "Module '.$requiredModuleName.' required by '.$curModuleName.' (or one of its requirements) is not found.";
-+                            throw new \Exception("Module '{$requiredModuleName}' required by '{$curModuleName}' (or one of its requirements) is not found.");
-+                        }
++                        //if (!isset($origList[$requiredModuleName])) {
++                        //    echo "Module '.$requiredModuleName.' required by '.$curModuleName.' (or one of its requirements) is not found.";
++                        //    throw new \Exception("Module '{$requiredModuleName}' required by '{$curModuleName}' (or one of its requirements) is not found.");
++                        //}
 +                        // check that current required module isn't the original module
 +                        if ($requiredModuleName == $curModuleName) {
 +                            echo "Module '.$requiredModuleName.' cannot be required by itself (or one of its requirements).";
