@@ -698,16 +698,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "1.10.13",
+            "version": "1.10.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "47c841ba3b2d3fc0b4b13282cf029ea18b66d78b"
+                "reference": "547c9ee73fe26c77af09a0ea16419176b1cdbd12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/47c841ba3b2d3fc0b4b13282cf029ea18b66d78b",
-                "reference": "47c841ba3b2d3fc0b4b13282cf029ea18b66d78b",
+                "url": "https://api.github.com/repos/composer/composer/zipball/547c9ee73fe26c77af09a0ea16419176b1cdbd12",
+                "reference": "547c9ee73fe26c77af09a0ea16419176b1cdbd12",
                 "shasum": ""
             },
             "require": {
@@ -788,7 +788,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-09T09:46:34+00:00"
+            "time": "2020-10-13T13:59:09+00:00"
         },
         {
             "name": "composer/semver",
@@ -1449,7 +1449,7 @@
         },
         {
             "name": "endroid/qr-code",
-            "version": "3.9.2",
+            "version": "3.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/endroid/qr-code.git",
@@ -5794,25 +5794,25 @@
         },
         {
             "name": "magento/magento-cloud-patches",
-            "version": "1.0.6",
+            "version": "1.0.8",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/magento-cloud-patches/magento-magento-cloud-patches-1.0.6.0.zip",
-                "shasum": "7e98bf341fb4b80df0231930cd659e972dd06b0c"
+                "url": "https://repo.magento.com/archives/magento/magento-cloud-patches/magento-magento-cloud-patches-1.0.8.0.zip",
+                "shasum": "16b1d026dc273c01aad76fe9e01c777f208f967f"
             },
             "require": {
                 "composer/composer": "@stable",
                 "composer/semver": "^1.5",
                 "ext-json": "*",
-                "magento/quality-patches": "^1.0.0",
+                "magento/quality-patches": "^1.0.7",
                 "monolog/monolog": "^1.16",
                 "php": "^7.0",
-                "symfony/config": "^3.3||^4.4",
-                "symfony/console": "^2.6||^4.0",
-                "symfony/dependency-injection": "^3.3||^4.3",
-                "symfony/process": "^2.1||^4.1",
-                "symfony/proxy-manager-bridge": "^3.3||^4.3",
-                "symfony/yaml": "^3.3||^4.0"
+                "symfony/config": "^3.3||^4.4||^5.1",
+                "symfony/console": "^2.6||^4.0||^5.1",
+                "symfony/dependency-injection": "^3.3||^4.3||^5.1",
+                "symfony/process": "^2.1||^4.1||^5.1",
+                "symfony/proxy-manager-bridge": "^3.3||^4.3||^5.1",
+                "symfony/yaml": "^3.3||^4.0||^5.1"
             },
             "require-dev": {
                 "codeception/codeception": "^2.5.3",
@@ -21456,11 +21456,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.0.6.0.zip",
-                "shasum": "2c4872bd01675162d6cdae7dba4c1e9a02264609"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.0.7.0.zip",
+                "shasum": "cc23243da343d5b84acb8d221f2e8337640805b1"
             },
             "require": {
                 "ext-json": "*",
@@ -21870,7 +21870,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-admin-configurations.git",
-                "reference": "9ab77d50956db4c6b315f0b4ed8030037128a5f6"
+                "reference": "6b84068c40561ad45660d6f5c8bc66971793eb25"
             },
             "require": {
                 "magento/framework": "*"
@@ -21884,7 +21884,7 @@
                     "MagentoEse\\AdminConfigurations\\": ""
                 }
             },
-            "time": "2020-02-13T16:16:59+00:00"
+            "time": "2020-10-15T21:40:52+00:00"
         },
         {
             "name": "magentoese/module-data-install",
@@ -21892,7 +21892,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-data-install.git",
-                "reference": "a88c9afd2e60deab67f90358b37c48c305b5374d"
+                "reference": "dab4263d57d6f79b94152157ad26318792ecfa5e"
             },
             "require": {
                 "firegento/fastsimpleimport": "*"
@@ -21906,7 +21906,7 @@
                     "MagentoEse\\DataInstall\\": ""
                 }
             },
-            "time": "2020-10-05T21:10:12+00:00"
+            "time": "2020-10-15T16:32:45+00:00"
         },
         {
             "name": "magentoese/module-demo-upgrades-240",
@@ -22070,16 +22070,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.41.0",
+            "version": "2.41.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "8690b13ad4da6d54d692afea15aab30b36fee52e"
+                "reference": "e148788eeae9b9b7b87996520358b86faad37b52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/8690b13ad4da6d54d692afea15aab30b36fee52e",
-                "reference": "8690b13ad4da6d54d692afea15aab30b36fee52e",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/e148788eeae9b9b7b87996520358b86faad37b52",
+                "reference": "e148788eeae9b9b7b87996520358b86faad37b52",
                 "shasum": ""
             },
             "require": {
@@ -22155,7 +22155,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-04T09:11:05+00:00"
+            "time": "2020-10-12T20:36:09+00:00"
         },
         {
             "name": "ocramius/package-versions",
@@ -25869,16 +25869,16 @@
         },
         {
             "name": "thecodingmachine/safe",
-            "version": "v1.3",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thecodingmachine/safe.git",
-                "reference": "1114828fe60dcfdf8bb936f45ceca3f5e805708c"
+                "reference": "a6b795aeb367c90cc6ed88dadb4cdcac436377c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/1114828fe60dcfdf8bb936f45ceca3f5e805708c",
-                "reference": "1114828fe60dcfdf8bb936f45ceca3f5e805708c",
+                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/a6b795aeb367c90cc6ed88dadb4cdcac436377c2",
+                "reference": "a6b795aeb367c90cc6ed88dadb4cdcac436377c2",
                 "shasum": ""
             },
             "require": {
@@ -25913,6 +25913,7 @@
                     "generated/apcu.php",
                     "generated/array.php",
                     "generated/bzip2.php",
+                    "generated/calendar.php",
                     "generated/classobj.php",
                     "generated/com.php",
                     "generated/cubrid.php",
@@ -25999,7 +26000,7 @@
                 "MIT"
             ],
             "description": "PHP core functions that throw exceptions instead of returning FALSE on error",
-            "time": "2020-10-06T15:28:54+00:00"
+            "time": "2020-10-08T08:40:29+00:00"
         },
         {
             "name": "true/punycode",
