@@ -10,18 +10,6 @@ index 3bb1862..cd027cf 100644
          </sequence>
      </module>
  </config>
-diff --git a/vendor/magento/module-support/etc/module.xml b/vendor/magento/module-support/etc/module.xml
-index 7c25a2c..d4b7cd5 100644
---- a/vendor/magento/module-support/etc/module.xml
-+++ b/vendor/magento/module-support/etc/module.xml
-@@ -9,7 +9,6 @@
-         xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-     <module name="Magento_Support" >
-         <sequence>
--            <module name="Magento_Adminhtml"/>
-         </sequence>
-     </module>
- </config>
 diff --git a/vendor/magento/module-bundle-graph-ql/etc/module.xml b/vendor/magento/module-bundle-graph-ql/etc/module.xml
 Index: /vendor/magento/module-bundle-graph-ql/etc/module.xml
 --- a/vendor/magento/module-bundle-graph-ql/etc/module.xml	(date 1536685359000)

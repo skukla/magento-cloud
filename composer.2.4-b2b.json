@@ -2,7 +2,7 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.4.0",
+    "version": "2.4.1",
     "license": "proprietary",
     "config": {
         "preferred-install": "dist",
@@ -10,6 +10,7 @@
     },
     "repositories": [
         {"type": "composer", "url": "https://repo.magento.com/"},
+        {"type": "git", "url": "git@github.com:magento-l10n/language-es_MX.git"},
         {"type": "git", "url": "git@github.com:PMET-public/ece-tools.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-cloud-docker.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
@@ -39,11 +40,22 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-sales-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-sctools.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-themecustomizer.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-authnetcim.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-cybersource.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-firstdata.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-stripe.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-subscriptions.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-tokenbase.git"},
         {"type": "git", "url": "git@github.com:PMET-public/theme-brentmill.git"}
     ],
     "require": {
         "community-engineering/language-ar_sa": "*",
+        "community-engineering/language-de_de": "*",
+        "community-engineering/language-es_es": "*",
+        "community-engineering/language-es_mx": "dev-master",
+        "community-engineering/language-fr_fr": "*",
         "community-engineering/language-hi_in": "*",
+        "community-engineering/language-it_it": "*",
         "community-engineering/language-ja_jp": "*",
         "community-engineering/language-ko_kr": "*",
         "community-engineering/language-nl_nl": "*",
@@ -52,7 +64,7 @@
         "community-engineering/language-zh_cn": "*",
         "magento/extension-b2b": "^1.2",
         "magento/magento-cloud-docker": "dev-develop",
-        "magento/magento-cloud-metapackage": ">=2.4.0 <2.4.1",
+        "magento/magento-cloud-metapackage": ">=2.4.1 <2.4.2",
         "magento/module-page-builder-product-recommendations": "^1.0",
         "magento/product-recommendations": "^3.0",
         "magentoese/ece-tools": "2002.1.1.x-dev",
@@ -83,7 +95,13 @@
         "magentoese/module-sales-sample-data": "dev-master",
         "magentoese/module-sctools": "dev-master",
         "magentoese/module-themecustomizer": "dev-master",
-        "magentoese/theme-brentmill": "dev-master"
+        "magentoese/theme-brentmill": "dev-master",
+        "paradoxlabs/authnetcim": "~4.3",
+        //"paradoxlabs/cybersource": "~1.0",
+        "paradoxlabs/firstdata": "~2.3",
+        "paradoxlabs/stripe": "~2.3",
+        "paradoxlabs/subscriptions": "~3.2.3",
+        "paradoxlabs/tokenbase": "~4.3"
     },
     "suggest": {
         "ext-pcntl": "Need for run processes in parallel mode"
