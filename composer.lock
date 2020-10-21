@@ -23157,7 +23157,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-my-account-widget.git",
-                "reference": "4e2cc73ca690a674621a57a9ccefc57ad0f8d3ac"
+                "reference": "44a1c96ac66e6f41f9c98e04e8ddda3b61c87590"
             },
             "type": "magento2-module",
             "autoload": {
@@ -23168,7 +23168,7 @@
                     "MagentoEse\\MyAccountWidget\\": ""
                 }
             },
-            "time": "2017-09-19T13:20:03+00:00"
+            "time": "2020-10-21T13:28:38+00:00"
         },
         {
             "name": "magentoese/module-productbadge",
