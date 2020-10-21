@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f289773e050c1f254051ab1723a57ab0",
+    "content-hash": "c8de03c1e5c870b378ed8ee02e81289a",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -23647,6 +23647,185 @@
             "time": "2020-07-13T19:23:57+00:00"
         },
         {
+            "name": "paradoxlabs/authnetcim",
+            "version": "4.3.2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/paradoxlabs-authnetcim.git",
+                "reference": "f5181f94c0d87a6843cf39daff1873a363cc5f2e"
+            },
+            "require": {
+                "paradoxlabs/tokenbase": "~4.3.2"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "ParadoxLabs\\Authnetcim\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Authorize.Net CIM payment method for Magento 2.x by Paradox Labs",
+            "keywords": [
+                "authorize.net",
+                "payment",
+                "tokenization"
+            ],
+            "time": "2020-10-21T12:44:22+00:00"
+        },
+        {
+            "name": "paradoxlabs/firstdata",
+            "version": "2.3.4.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/paradoxlabs-firstdata.git",
+                "reference": "e1ffbf2394f997893ddda1c576d1823ceabb1cda"
+            },
+            "require": {
+                "ext-openssl": "*",
+                "paradoxlabs/tokenbase": "~4.3.2"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "ParadoxLabs\\FirstData\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "First Data payment method for Magento 2.x by Paradox Labs",
+            "keywords": [
+                "data",
+                "first",
+                "firstdata",
+                "payeezy",
+                "payment",
+                "tokenization"
+            ],
+            "time": "2020-10-21T12:52:21+00:00"
+        },
+        {
+            "name": "paradoxlabs/stripe",
+            "version": "2.3.7.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/paradoxlabs-stripe.git",
+                "reference": "22a5b4d960e2d60f7ebef33bedb5ffee1a6c037b"
+            },
+            "require": {
+                "paradoxlabs/tokenbase": "~4.3.2",
+                "stripe/stripe-php": "^4.8||^5.0||^6.0||^7.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "ParadoxLabs\\Stripe\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Stripe payment method for Magento 2.x by ParadoxLabs",
+            "keywords": [
+                "payment",
+                "stripe",
+                "tokenization"
+            ],
+            "time": "2020-10-21T12:53:36+00:00"
+        },
+        {
+            "name": "paradoxlabs/subscriptions",
+            "version": "3.2.4.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/paradoxlabs-subscriptions.git",
+                "reference": "95defaaac0012e9f8be36f92200e84c1e571b1d8"
+            },
+            "require": {
+                "ext-json": "*",
+                "magento/framework": "^100.0||^101.0||^102.0||^103.0",
+                "magento/module-admin-notification": "^100.0",
+                "magento/module-backend": "^100.0||^101.0||^102.0",
+                "magento/module-catalog": "^100.0||^101.0||^102.0||^103.0||^104.0",
+                "magento/module-checkout": "^100.0",
+                "magento/module-customer": "^100.0||^101.0||^102.0||^103.0",
+                "magento/module-directory": "^100.0",
+                "magento/module-eav": "^100.0||^101.0||^102.0",
+                "magento/module-payment": "^100.0",
+                "magento/module-quote": "^100.0||^101.0",
+                "magento/module-sales": "^100.0||^101.0||^102.0||^103.0",
+                "magento/module-store": "^100.0||^101.0",
+                "magento/module-theme": "^100.0||^101.0",
+                "magento/module-ui": "^100.0||^101.0",
+                "magento/module-user": "^100.0||^101.0",
+                "monolog/monolog": "^1.11",
+                "paradoxlabs/tokenbase": "~4.3.2"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "ParadoxLabs\\Subscriptions\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Adaptive Subscriptions: Subscriptions, auto-shipments, and recurring payments by ParadoxLabs.",
+            "time": "2020-10-21T12:54:46+00:00"
+        },
+        {
+            "name": "paradoxlabs/tokenbase",
+            "version": "4.3.2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/paradoxlabs-tokenbase.git",
+                "reference": "9431b7d96bd06131e940c9de30475345b8c9dd71"
+            },
+            "require": {
+                "ext-json": "*",
+                "magento/framework": "^100.0||^101.0||^102.0||^103.0",
+                "magento/module-admin-notification": "^100.0",
+                "magento/module-backend": "^100.0||^101.0||^102.0",
+                "magento/module-checkout": "^100.0",
+                "magento/module-config": "^100.0||^101.0",
+                "magento/module-customer": "^100.0||^101.0||^102.0||^103.0",
+                "magento/module-directory": "^100.0",
+                "magento/module-payment": "^100.0",
+                "magento/module-quote": "^100.0||^101.0",
+                "magento/module-sales": "^100.0||^101.0||^102.0||^103.0",
+                "magento/module-store": "^100.0||^101.0",
+                "monolog/monolog": "^1.11"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "ParadoxLabs\\TokenBase\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Base module for ParadoxLabs tokenization payment methods.",
+            "time": "2020-10-21T12:55:59+00:00"
+        },
+        {
             "name": "paragonie/constant_time_encoding",
             "version": "v2.3.0",
             "source": {
@@ -24891,6 +25070,63 @@
                 "totp"
             ],
             "time": "2020-01-28T09:24:19+00:00"
+        },
+        {
+            "name": "stripe/stripe-php",
+            "version": "v7.61.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stripe/stripe-php.git",
+                "reference": "51c6cd18cb51740101c940a3fefc876ef7cd8cae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/51c6cd18cb51740101c940a3fefc876ef7cd8cae",
+                "reference": "51c6cd18cb51740101c940a3fefc876ef7cd8cae",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "2.16.1",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^5.7",
+                "squizlabs/php_codesniffer": "^3.3",
+                "symfony/process": "~3.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Stripe\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stripe and contributors",
+                    "homepage": "https://github.com/stripe/stripe-php/contributors"
+                }
+            ],
+            "description": "Stripe PHP Library",
+            "homepage": "https://stripe.com/",
+            "keywords": [
+                "api",
+                "payment processing",
+                "stripe"
+            ],
+            "time": "2020-10-20T20:01:45+00:00"
         },
         {
             "name": "symfony/config",
@@ -27997,6 +28233,11 @@
         "magentoese/module-sales-sample-data": 20,
         "magentoese/module-sctools": 20,
         "magentoese/module-themecustomizer": 20,
+        "paradoxlabs/authnetcim": 20,
+        "paradoxlabs/firstdata": 20,
+        "paradoxlabs/stripe": 20,
+        "paradoxlabs/subscriptions": 20,
+        "paradoxlabs/tokenbase": 20,
         "magentoese/theme-brentmill": 20
     },
     "prefer-stable": true,

@@ -40,6 +40,12 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-sales-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-sctools.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-themecustomizer.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-authnetcim.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-cybersource.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-firstdata.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-stripe.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-subscriptions.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-tokenbase.git"},
         {"type": "git", "url": "git@github.com:PMET-public/theme-brentmill.git"}
     ],
     "require": {
@@ -89,6 +95,12 @@
         "magentoese/module-sales-sample-data": "dev-master",
         "magentoese/module-sctools": "dev-master",
         "magentoese/module-themecustomizer": "dev-master",
+        "paradoxlabs/authnetcim": "4.3.2.x-dev",
+        
+        "paradoxlabs/firstdata": "2.3.4.x-dev",
+        "paradoxlabs/stripe": "2.3.7.x-dev",
+        "paradoxlabs/subscriptions": "3.2.4.x-dev",
+        "paradoxlabs/tokenbase": "4.3.2.x-dev",
         "magentoese/theme-brentmill": "dev-master"
     },
     "suggest": {
