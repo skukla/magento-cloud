@@ -8,164 +8,46 @@
         "preferred-install": "dist",
         "sort-packages": true
     },
-    "repositories": {
-        "0": {
-            "type": "composer",
-            "url": "https://repo.magento.com/"
-        },
-        "1": {
-            "type": "git",
-            "url": "git@github.com:magento-l10n/language-es_MX.git"
-        },
-        "2": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/ece-tools.git"
-        },
-        "3": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/magento-cloud-docker.git"
-        },
-        "4": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/magento-scripts.git"
-        },
-        "5": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/magento2-gmail-smtp-app.git"
-        },
-        "6": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-admin-configurations.git"
-        },
-        "7": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-autofill-sample-data.git"
-        },
-        "8": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-autofill.git"
-        },
-        "9": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-admin-configurations.git"
-        },
-        "10": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-b2c-sample-data.git"
-        },
-        "11": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-catalog-sample-data.git"
-        },
-        "12": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-cms-sample-data.git"
-        },
-        "13": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-company-sample-data.git"
-        },
-        "14": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-legrand-sample-data.git"
-        },
-        "15": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-media-sample-data.git"
-        },
-        "16": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-milwaukee-sample-data.git"
-        },
-        "17": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-misc-sample-data.git"
-        },
-        "18": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-order-sample-data.git"
-        },
-        "19": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-philips-sample-data.git"
-        },
-        "20": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-pricing-sample-data.git"
-        },
-        "21": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-shared-catalog-sample-data.git"
-        },
-        "22": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-b2b-siemens-sample-data.git"
-        },
-        "23": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-data-install.git"
-        },
-        "24": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-demo-upgrades-240.git"
-        },
-        "25": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-installation-overrides.git"
-        },
-        "26": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-my-account-widget.git"
-        },
-        "27": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-productbadge.git"
-        },
-        "28": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-sales-sample-data.git"
-        },
-        "29": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-sctools.git"
-        },
-        "30": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/module-themecustomizer.git"
-        },
-        "31": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/paradoxlabs-authnetcim.git"
-        },
-        "32": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/paradoxlabs-cybersource.git"
-        },
-        "33": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/paradoxlabs-firstdata.git"
-        },
-        "34": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/paradoxlabs-stripe.git"
-        },
-        "35": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/paradoxlabs-subscriptions.git"
-        },
-        "36": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/paradoxlabs-tokenbase.git"
-        },
-        "37": {
-            "type": "git",
-            "url": "git@github.com:PMET-public/theme-brentmill.git"
-        },
-        "grocery": {
-            "type": "git",
-            "url": "https://github.com/PMET-public/module-storystore-grocery.git"
-        }
-    },
+    "repositories": [
+        {"type": "composer", "url": "https://repo.magento.com/"},
+        {"type": "git", "url": "git@github.com:magento-l10n/language-es_MX.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/ece-tools.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/magento-cloud-docker.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/magento2-gmail-smtp-app.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-admin-configurations.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-autofill-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-autofill.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-admin-configurations.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-b2c-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-catalog-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-cms-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-company-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-legrand-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-media-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-milwaukee-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-misc-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-order-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-philips-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-pricing-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-shared-catalog-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-b2b-siemens-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-data-install.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-demo-upgrades-240.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-installation-overrides.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-my-account-widget.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-productbadge.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-sales-sample-data.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-sctools.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-themecustomizer.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-authnetcim.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-cybersource.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-firstdata.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-stripe.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-subscriptions.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-tokenbase.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/theme-brentmill.git"}
+    ],
     "require": {
         "community-engineering/language-ar_sa": "*",
         "community-engineering/language-de_de": "*",
@@ -213,13 +95,13 @@
         "magentoese/module-sales-sample-data": "dev-master",
         "magentoese/module-sctools": "dev-master",
         "magentoese/module-themecustomizer": "dev-master",
-        "magentoese/theme-brentmill": "dev-master",
         "paradoxlabs/authnetcim": "4.3.2.x-dev",
+        
         "paradoxlabs/firstdata": "2.3.4.x-dev",
         "paradoxlabs/stripe": "2.3.7.x-dev",
         "paradoxlabs/subscriptions": "3.2.4.x-dev",
         "paradoxlabs/tokenbase": "4.3.2.x-dev",
-        "story-store/grocery": "dev-demo"
+        "magentoese/theme-brentmill": "dev-master"
     },
     "suggest": {
         "ext-pcntl": "Need for run processes in parallel mode"
@@ -283,14 +165,16 @@
         "generate-schema": [
             "php ./vendor/bin/ece-tools schema:generate || true"
         ],
-        "pre-autoload-dump": [
+        "pre-autoload-dump" : [
             "vendor/magentoese/magento-scripts/composer-setup.sh b2b"
         ],
-        "post-autoload-dump": [
+        "post-autoload-dump" : [
+            
             "curl -sS -o vendor/bin/mr https://files.magerun.net/n98-magerun2-latest.phar && chmod +x vendor/bin/mr"
         ],
-        "post-install-cmd": [
+        "post-install-cmd" : [
             "@generate-schema",
+            
             "mv pub/errors/local.xml.sample pub/errors/local.xml || :"
         ],
         "post-update-cmd": [
