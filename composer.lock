@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c8de03c1e5c870b378ed8ee02e81289a",
+    "content-hash": "ac97ead19cafdc5e852c18514d185d24",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -25072,6 +25072,41 @@
             "time": "2020-01-28T09:24:19+00:00"
         },
         {
+            "name": "story-store/grocery",
+            "version": "dev-demo",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PMET-public/module-storystore-grocery.git",
+                "reference": "b7698fb605efc5809333fdd104e118a261bda359"
+            },
+            "require": {
+                "magento/framework": "*",
+                "magentoese/module-data-install": "*"
+            },
+            "type": "magento2-module",
+            "extra": {
+                "map": [
+                    [
+                        "media/theme/*",
+                        "../../app/design/frontend"
+                    ]
+                ]
+            },
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "StoryStore\\Grocery\\": ""
+                }
+            },
+            "license": [
+                "GNU General Public License (GPL)"
+            ],
+            "description": "N/A",
+            "time": "2020-10-15T16:37:15+00:00"
+        },
+        {
             "name": "stripe/stripe-php",
             "version": "v7.61.0",
             "source": {
@@ -28233,12 +28268,13 @@
         "magentoese/module-sales-sample-data": 20,
         "magentoese/module-sctools": 20,
         "magentoese/module-themecustomizer": 20,
+        "magentoese/theme-brentmill": 20,
         "paradoxlabs/authnetcim": 20,
         "paradoxlabs/firstdata": 20,
         "paradoxlabs/stripe": 20,
         "paradoxlabs/subscriptions": 20,
         "paradoxlabs/tokenbase": 20,
-        "magentoese/theme-brentmill": 20
+        "story-store/grocery": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
