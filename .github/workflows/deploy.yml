@@ -53,6 +53,7 @@ jobs:
           # for connecting to cloud envs without interaction
           mkdir ~/.ssh && chmod 700 ~/.ssh
           echo "StrictHostKeyChecking no" >> ~/.ssh/config
+          ~/.magento-cloud/bin/magento-cloud ssh-cert:load
 
           projects_to_deploy=($(
             ~/.magento-cloud/bin/magento-cloud projects --format csv 2> /dev/null | perl -ne "/^(\w+),($flavor_of_tag\-[^ ]+)/ and print \"\$1 \""
