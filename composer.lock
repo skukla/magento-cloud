@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b9d5495a8b11ccc2793346c500fa89e6",
+    "content-hash": "62c1a67c80cc314ae7f379dd84cff645",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -291,16 +291,22 @@
         },
         {
             "name": "amasty/promo",
-            "version": "2.2.9",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/amasty/promo/amasty-promo-2.2.9.0.zip",
-                "shasum": "61d9f29d9d14feb937412e6d7f60de99c879f287"
+            "version": "2.9.6.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-free-gift.git",
+                "reference": "2ad9d56803534722cfd016546bef433097852932"
             },
             "require": {
-                "amasty/base": ">=1.4.5",
-                "amasty/module-advanced-conditions": ">=1.3.3",
-                "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0"
+                "amasty/base": ">=1.10.10",
+                "amasty/module-advanced-conditions": ">=1.5.1",
+                "amasty/module-banners-lite": ">=1.0.18",
+                "amasty/module-salesrulewizard": ">=1.0.1",
+                "amasty/rgrid": ">=1.0.7"
+            },
+            "suggest": {
+                "amasty/module-promo-mftf-2": "Install module-promo-mftf-2 module to be able to run Free Gift MFTF tests for Magento 2.3.5+ version.",
+                "amasty/module-promo-mftf-3": "Install module-promo-mftf-3 module to be able to run Free Gift MFTF tests for Magento 2.4.0+ version."
             },
             "type": "magento2-module",
             "autoload": {
@@ -314,7 +320,8 @@
             "license": [
                 "Commercial"
             ],
-            "description": "Free Gift by Amasty"
+            "description": "Free Gift by Amasty",
+            "time": "2020-10-26T15:12:49+00:00"
         },
         {
             "name": "amasty/rgrid",
@@ -22321,11 +22328,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.0.7",
+            "version": "1.0.8",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.0.7.0.zip",
-                "shasum": "cc23243da343d5b84acb8d221f2e8337640805b1"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.0.8.0.zip",
+                "shasum": "58924daad75343b3757f1ac114531644c94296a7"
             },
             "require": {
                 "ext-json": "*",
@@ -23846,22 +23853,83 @@
             "time": "2020-10-23T06:02:30+00:00"
         },
         {
-            "name": "ocramius/proxy-manager",
-            "version": "2.9.1",
+            "name": "ocramius/package-versions",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Ocramius/ProxyManager.git",
-                "reference": "7452942d38ae36223b0f8408619181f69799eb5c"
+                "url": "https://github.com/Ocramius/PackageVersions.git",
+                "reference": "94c9d42a466c57f91390cdd49c81313264f49d85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ocramius/ProxyManager/zipball/7452942d38ae36223b0f8408619181f69799eb5c",
-                "reference": "7452942d38ae36223b0f8408619181f69799eb5c",
+                "url": "https://api.github.com/repos/Ocramius/PackageVersions/zipball/94c9d42a466c57f91390cdd49c81313264f49d85",
+                "reference": "94c9d42a466c57f91390cdd49c81313264f49d85",
                 "shasum": ""
             },
             "require": {
-                "composer-runtime-api": "^2.0.0",
+                "composer-plugin-api": "^1.1.0 || ^2.0",
+                "php": "^7.4.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.9.3 || ^2.0@dev",
+                "doctrine/coding-standard": "^7.0.2",
+                "ext-zip": "^1.15.0",
+                "infection/infection": "^0.15.3",
+                "phpunit/phpunit": "^9.1.1",
+                "vimeo/psalm": "^3.9.3"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "PackageVersions\\Installer",
+                "branch-alias": {
+                    "dev-master": "1.99.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PackageVersions\\": "src/PackageVersions"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Pivetta",
+                    "email": "ocramius@gmail.com"
+                }
+            ],
+            "description": "Composer plugin that provides efficient querying for installed package versions (no runtime IO)",
+            "funding": [
+                {
+                    "url": "https://github.com/Ocramius",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/ocramius/package-versions",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-06-22T14:15:44+00:00"
+        },
+        {
+            "name": "ocramius/proxy-manager",
+            "version": "2.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ocramius/ProxyManager.git",
+                "reference": "371c8f2d9d1e888ce1f8f2137d9187252b07ee94"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ocramius/ProxyManager/zipball/371c8f2d9d1e888ce1f8f2137d9187252b07ee94",
+                "reference": "371c8f2d9d1e888ce1f8f2137d9187252b07ee94",
+                "shasum": ""
+            },
+            "require": {
                 "laminas/laminas-code": "^3.4.1",
+                "ocramius/package-versions": "^1.8.0,<1.10.0",
                 "php": "~7.4.1",
                 "webimpress/safe-writer": "^2.0.1"
             },
@@ -23871,16 +23939,15 @@
                 "zendframework/zend-stdlib": "<3.2.1"
             },
             "require-dev": {
-                "codelicia/xulieta": "^0.1.2",
-                "doctrine/coding-standard": "^8.1.0",
+                "doctrine/coding-standard": "^6.0.0",
                 "ext-phar": "*",
-                "infection/infection": "^0.16.4",
-                "nikic/php-parser": "^4.6.0",
-                "phpbench/phpbench": "^0.17.1",
-                "phpunit/phpunit": "^9.2.5",
-                "slevomat/coding-standard": "^6.3.10",
-                "squizlabs/php_codesniffer": "^3.5.5",
-                "vimeo/psalm": "^3.12.2"
+                "infection/infection": "^0.16.2",
+                "nikic/php-parser": "^4.4.0",
+                "phpbench/phpbench": "^0.17.0",
+                "phpunit/phpunit": "^9.1.1",
+                "slevomat/coding-standard": "^5.0.4",
+                "squizlabs/php_codesniffer": "^3.5.4",
+                "vimeo/psalm": "^3.11.1"
             },
             "suggest": {
                 "laminas/laminas-json": "To have the JsonRpc adapter (Remote Object feature)",
@@ -23929,7 +23996,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-08-26T16:19:12+00:00"
+            "time": "2020-07-13T19:23:57+00:00"
         },
         {
             "name": "paradoxlabs/authnetcim",
@@ -28418,6 +28485,7 @@
         "amasty/module-special-promo-pro": 20,
         "amasty/module-store-locator": 20,
         "amasty/product-attachment": 20,
+        "amasty/promo": 20,
         "amasty/rgrid": 20,
         "classyllama/module-owlcarousel": 20,
         "community-engineering/language-es_mx": 20,
