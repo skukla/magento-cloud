@@ -23415,7 +23415,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-switcherlogos.git",
-                "reference": "ee33c2d7a6d94bea7c557434815d4241fb31cc01"
+                "reference": "22c8cd74ec1cbe4eb54e31c7175755aff3e6b644"
             },
             "require": {
                 "magento/framework": "*"
@@ -23429,7 +23429,7 @@
                     "MagentoEse\\SwitcherLogos\\": ""
                 }
             },
-            "time": "2017-08-23T19:53:33+00:00"
+            "time": "2020-10-28T22:04:55+00:00"
         },
         {
             "name": "magentoese/module-themecustomizer",
